@@ -412,6 +412,32 @@
 ]
 },
 {
+"id": "crusader",
+"year": 1941,
+"side": "allied",
+"label": "Operation Crusader: Tobruk undsættes, Rommel tilbage til El Agheila (nov.–dec.)",
+"paths": [
+[
+[
+25.8,
+30.8
+],
+[
+23.5,
+31.0
+],
+[
+21.0,
+30.9
+],
+[
+19.2,
+30.3
+]
+]
+]
+},
+{
 "id": "compass-41",
 "year": 1941,
 "side": "allied",
