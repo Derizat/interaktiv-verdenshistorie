@@ -1,0 +1,3574 @@
+{
+ "_doc": "Year ranges are inclusive and describe the situation at the END of each year. Names match the 'n' property in borders_*.json.",
+ "snapshots": [
+  [
+   1939,
+   1944,
+   "1938"
+  ],
+  [
+   1945,
+   1959,
+   "1945"
+  ],
+  [
+   1960,
+   1990,
+   "1960"
+  ],
+  [
+   1991,
+   1999,
+   "1994"
+  ],
+  [
+   2000,
+   2000,
+   "2000"
+  ]
+ ],
+ "ww2": {
+  "Germany": [
+   [
+    1939,
+    1944,
+    "axis"
+   ]
+  ],
+  "Italy": [
+   [
+    1939,
+    1939,
+    "neutral",
+    "Ikke-krigsførende allieret af Tyskland"
+   ],
+   [
+    1940,
+    1942,
+    "axis"
+   ],
+   [
+    1943,
+    1944,
+    "occupied",
+    "Delt: Norditalien besat af Tyskland, Syditalien på de allieredes side"
+   ]
+  ],
+  "Empire of Japan": [
+   [
+    1939,
+    1944,
+    "axis",
+    "I krig med Kina siden 1937"
+   ]
+  ],
+  "Siam": [
+   [
+    1939,
+    1940,
+    "neutral"
+   ],
+   [
+    1941,
+    1944,
+    "axis",
+    "Allieret med Japan fra december 1941"
+   ]
+  ],
+  "Hungary": [
+   [
+    1939,
+    1939,
+    "neutral"
+   ],
+   [
+    1940,
+    1944,
+    "axis"
+   ]
+  ],
+  "Romania": [
+   [
+    1939,
+    1939,
+    "neutral"
+   ],
+   [
+    1940,
+    1943,
+    "axis"
+   ],
+   [
+    1944,
+    1944,
+    "allied",
+    "Skiftede side i august 1944"
+   ]
+  ],
+  "Bulgaria": [
+   [
+    1939,
+    1940,
+    "neutral"
+   ],
+   [
+    1941,
+    1943,
+    "axis"
+   ],
+   [
+    1944,
+    1944,
+    "allied",
+    "Skiftede side i september 1944"
+   ]
+  ],
+  "Finland": [
+   [
+    1939,
+    1939,
+    "neutral",
+    "Angrebet af Sovjetunionen 30. november 1939"
+   ],
+   [
+    1940,
+    1940,
+    "neutral"
+   ],
+   [
+    1941,
+    1943,
+    "axis",
+    "Kæmpede sammen med Tyskland mod Sovjetunionen (fortsættelseskrigen)"
+   ],
+   [
+    1944,
+    1944,
+    "neutral",
+    "Våbenstilstand med Sovjetunionen i september 1944; kæmpede derefter mod Tyskland i Laplandskrigen"
+   ]
+  ],
+  "USSR": [
+   [
+    1939,
+    1940,
+    "soviet",
+    "Ikke-angrebspagt med Tyskland. Besatte Østpolen og annekterede de baltiske lande"
+   ],
+   [
+    1941,
+    1944,
+    "allied"
+   ]
+  ],
+  "Mongolia": [
+   [
+    1939,
+    1944,
+    "neutral",
+    "Sovjetisk satellitstat; gik først i krig (mod Japan) i august 1945"
+   ]
+  ],
+  "Estonia": [
+   [
+    1939,
+    1939,
+    "neutral"
+   ],
+   [
+    1940,
+    1940,
+    "soviet",
+    "Annekteret af Sovjetunionen"
+   ],
+   [
+    1941,
+    1943,
+    "occupied"
+   ],
+   [
+    1944,
+    1944,
+    "allied",
+    "Generobret af Den Røde Hær"
+   ]
+  ],
+  "Latvia": [
+   [
+    1939,
+    1939,
+    "neutral"
+   ],
+   [
+    1940,
+    1940,
+    "soviet",
+    "Annekteret af Sovjetunionen"
+   ],
+   [
+    1941,
+    1943,
+    "occupied"
+   ],
+   [
+    1944,
+    1944,
+    "allied",
+    "Generobret af Den Røde Hær (Kurland stadig tysk)"
+   ]
+  ],
+  "Lithuania": [
+   [
+    1939,
+    1939,
+    "neutral"
+   ],
+   [
+    1940,
+    1940,
+    "soviet",
+    "Annekteret af Sovjetunionen"
+   ],
+   [
+    1941,
+    1943,
+    "occupied"
+   ],
+   [
+    1944,
+    1944,
+    "allied",
+    "Generobret af Den Røde Hær"
+   ]
+  ],
+  "Poland": [
+   [
+    1939,
+    1944,
+    "occupied",
+    "Delt mellem Tyskland og Sovjetunionen 1939–41, derefter tysk besat"
+   ]
+  ],
+  "Czechoslovakia": [
+   [
+    1939,
+    1944,
+    "occupied",
+    "Tyskland besatte Tjekkiet i marts 1939; Slovakiet blev tysk lydstat"
+   ]
+  ],
+  "Albania": [
+   [
+    1939,
+    1943,
+    "occupied",
+    "Besat af Italien i april 1939, af Tyskland fra 1943"
+   ],
+   [
+    1944,
+    1944,
+    "allied",
+    "Befriet af partisaner i november 1944"
+   ]
+  ],
+  "Denmark": [
+   [
+    1939,
+    1939,
+    "neutral"
+   ],
+   [
+    1940,
+    1944,
+    "occupied"
+   ]
+  ],
+  "Norway": [
+   [
+    1939,
+    1939,
+    "neutral"
+   ],
+   [
+    1940,
+    1944,
+    "occupied"
+   ]
+  ],
+  "Netherlands": [
+   [
+    1939,
+    1939,
+    "neutral"
+   ],
+   [
+    1940,
+    1944,
+    "occupied"
+   ]
+  ],
+  "Belgium": [
+   [
+    1939,
+    1939,
+    "neutral"
+   ],
+   [
+    1940,
+    1943,
+    "occupied"
+   ],
+   [
+    1944,
+    1944,
+    "allied",
+    "Befriet i september 1944; Ardennerne blev delvist generobret af Tyskland i december"
+   ]
+  ],
+  "Luxembourg": [
+   [
+    1939,
+    1939,
+    "neutral"
+   ],
+   [
+    1940,
+    1943,
+    "occupied"
+   ],
+   [
+    1944,
+    1944,
+    "allied",
+    "Befriet i september 1944; nord blev generobret af Tyskland i december"
+   ]
+  ],
+  "France": [
+   [
+    1939,
+    1939,
+    "allied"
+   ],
+   [
+    1940,
+    1943,
+    "occupied",
+    "Nord besat af Tyskland, syd styret af Vichy-regimet; hele landet besat fra november 1942"
+   ],
+   [
+    1944,
+    1944,
+    "allied",
+    "Befriet i august–september 1944"
+   ]
+  ],
+  "Yugoslavia": [
+   [
+    1939,
+    1940,
+    "neutral"
+   ],
+   [
+    1941,
+    1943,
+    "occupied"
+   ],
+   [
+    1944,
+    1944,
+    "allied",
+    "Beograd befriet i oktober 1944; Kroatien og Bosnien stadig under aksemagterne"
+   ]
+  ],
+  "Greece": [
+   [
+    1939,
+    1939,
+    "neutral"
+   ],
+   [
+    1940,
+    1940,
+    "allied",
+    "Angrebet af Italien i oktober 1940"
+   ],
+   [
+    1941,
+    1943,
+    "occupied"
+   ],
+   [
+    1944,
+    1944,
+    "allied",
+    "Befriet i oktober 1944"
+   ]
+  ],
+  "United Kingdom": [
+   [
+    1939,
+    1944,
+    "allied"
+   ]
+  ],
+  "Canada": [
+   [
+    1939,
+    1944,
+    "allied"
+   ]
+  ],
+  "Australia": [
+   [
+    1939,
+    1944,
+    "allied"
+   ]
+  ],
+  "New Zealand": [
+   [
+    1939,
+    1944,
+    "allied"
+   ]
+  ],
+  "Union of South Africa": [
+   [
+    1939,
+    1944,
+    "allied"
+   ]
+  ],
+  "Dominion of Newfoundland": [
+   [
+    1939,
+    1944,
+    "allied"
+   ]
+  ],
+  "Nepal": [
+   [
+    1939,
+    1944,
+    "allied"
+   ]
+  ],
+  "United States": [
+   [
+    1939,
+    1940,
+    "neutral"
+   ],
+   [
+    1941,
+    1944,
+    "allied"
+   ]
+  ],
+  "Chinese warlords": [
+   [
+    1939,
+    1944,
+    "allied",
+    "I krig med Japan siden 1937; store dele besat af Japan"
+   ]
+  ],
+  "Greenland": [
+   [
+    1939,
+    1940,
+    "neutral"
+   ],
+   [
+    1941,
+    1944,
+    "allied",
+    "Under amerikansk beskyttelse fra april 1941"
+   ]
+  ],
+  "Iceland": [
+   [
+    1939,
+    1939,
+    "neutral"
+   ],
+   [
+    1940,
+    1944,
+    "allied",
+    "Besat af Storbritannien i 1940, senere af USA"
+   ]
+  ],
+  "Iran": [
+   [
+    1939,
+    1940,
+    "neutral"
+   ],
+   [
+    1941,
+    1944,
+    "allied",
+    "Besat af Storbritannien og Sovjetunionen i 1941"
+   ]
+  ],
+  "Mesopotamia (GB)": [
+   [
+    1939,
+    1940,
+    "neutral",
+    "Selvstændigt siden 1932, men tæt knyttet til Storbritannien"
+   ],
+   [
+    1941,
+    1944,
+    "allied",
+    "Britisk besat efter et tyskvenligt kup i 1941; erklærede Tyskland krig i 1943"
+   ]
+  ],
+  "Egypt": [
+   [
+    1939,
+    1944,
+    "neutral",
+    "Formelt neutral, men britisk militærbase og slagmark"
+   ]
+  ],
+  "Ethiopia (Italy)": [
+   [
+    1939,
+    1939,
+    "neutral",
+    "Besat af Italien siden 1936"
+   ],
+   [
+    1940,
+    1940,
+    "axis",
+    "Besat af Italien"
+   ],
+   [
+    1941,
+    1944,
+    "allied",
+    "Befriet i 1941"
+   ]
+  ],
+  "Eritrea (Italy)": [
+   [
+    1939,
+    1939,
+    "neutral",
+    "Italiensk koloni"
+   ],
+   [
+    1940,
+    1940,
+    "axis"
+   ],
+   [
+    1941,
+    1944,
+    "allied",
+    "Britisk besat fra 1941"
+   ]
+  ],
+  "Italian Somaliland": [
+   [
+    1939,
+    1939,
+    "neutral",
+    "Italiensk koloni"
+   ],
+   [
+    1940,
+    1940,
+    "axis"
+   ],
+   [
+    1941,
+    1944,
+    "allied",
+    "Britisk besat fra 1941"
+   ]
+  ],
+  "Libya": [
+   [
+    1939,
+    1939,
+    "neutral",
+    "Italiensk koloni; Italien gik først i krig i juni 1940"
+   ],
+   [
+    1940,
+    1942,
+    "axis"
+   ],
+   [
+    1943,
+    1944,
+    "allied",
+    "Britisk og fransk besat fra 1943"
+   ]
+  ],
+  "Dutch East Indies": [
+   [
+    1939,
+    1939,
+    "neutral"
+   ],
+   [
+    1940,
+    1941,
+    "allied"
+   ],
+   [
+    1942,
+    1944,
+    "occupied",
+    "Besat af Japan"
+   ]
+  ],
+  "Malaysia": [
+   [
+    1939,
+    1941,
+    "allied"
+   ],
+   [
+    1942,
+    1944,
+    "occupied",
+    "Besat af Japan"
+   ]
+  ],
+  "Hong Kong": [
+   [
+    1939,
+    1940,
+    "allied"
+   ],
+   [
+    1941,
+    1944,
+    "occupied",
+    "Besat af Japan"
+   ]
+  ],
+  "Philippines": [
+   [
+    1939,
+    1940,
+    "neutral"
+   ],
+   [
+    1941,
+    1941,
+    "allied"
+   ],
+   [
+    1942,
+    1944,
+    "occupied",
+    "Besat af Japan"
+   ]
+  ],
+  "French Indo-China": [
+   [
+    1939,
+    1939,
+    "allied"
+   ],
+   [
+    1940,
+    1944,
+    "occupied",
+    "Japanske tropper; fransk Vichy-administration"
+   ]
+  ],
+  "Cochin China": [
+   [
+    1939,
+    1939,
+    "allied"
+   ],
+   [
+    1940,
+    1940,
+    "neutral",
+    "Styret af Vichy-Frankrig"
+   ],
+   [
+    1941,
+    1944,
+    "occupied",
+    "Japanske tropper fra juli 1941; fransk Vichy-administration"
+   ]
+  ],
+  "Cambodia": [
+   [
+    1939,
+    1939,
+    "allied"
+   ],
+   [
+    1940,
+    1940,
+    "neutral",
+    "Styret af Vichy-Frankrig"
+   ],
+   [
+    1941,
+    1944,
+    "occupied",
+    "Japanske tropper fra juli 1941; fransk Vichy-administration"
+   ]
+  ],
+  "Laos": [
+   [
+    1939,
+    1939,
+    "allied"
+   ],
+   [
+    1940,
+    1940,
+    "neutral",
+    "Styret af Vichy-Frankrig"
+   ],
+   [
+    1941,
+    1944,
+    "occupied",
+    "Japanske tropper fra juli 1941; fransk Vichy-administration"
+   ]
+  ],
+  "French Equatorial Africa": [
+   [
+    1939,
+    1944,
+    "allied",
+    "Tilsluttede sig De Frie Franske i 1940"
+   ]
+  ],
+  "French Cameroons": [
+   [
+    1939,
+    1944,
+    "allied",
+    "Tilsluttede sig De Frie Franske i 1940"
+   ]
+  ],
+  "Congo (France)": [
+   [
+    1939,
+    1944,
+    "allied",
+    "Tilsluttede sig De Frie Franske i 1940"
+   ]
+  ],
+  "Syria (France)": [
+   [
+    1939,
+    1939,
+    "allied"
+   ],
+   [
+    1940,
+    1940,
+    "neutral",
+    "Styret af Vichy-Frankrig"
+   ],
+   [
+    1941,
+    1944,
+    "allied",
+    "Erobret af de allierede i 1941"
+   ]
+  ],
+  "Madagascar (France)": [
+   [
+    1939,
+    1939,
+    "allied"
+   ],
+   [
+    1940,
+    1941,
+    "neutral",
+    "Styret af Vichy-Frankrig"
+   ],
+   [
+    1942,
+    1944,
+    "allied",
+    "Erobret af briterne i 1942"
+   ]
+  ],
+  "Brazil": [
+   [
+    1939,
+    1941,
+    "neutral"
+   ],
+   [
+    1942,
+    1944,
+    "allied"
+   ]
+  ],
+  "Mexico": [
+   [
+    1939,
+    1941,
+    "neutral"
+   ],
+   [
+    1942,
+    1944,
+    "allied"
+   ]
+  ],
+  "Cuba": [
+   [
+    1939,
+    1940,
+    "neutral"
+   ],
+   [
+    1941,
+    1944,
+    "allied"
+   ]
+  ],
+  "Dominican Republic": [
+   [
+    1939,
+    1940,
+    "neutral"
+   ],
+   [
+    1941,
+    1944,
+    "allied"
+   ]
+  ],
+  "Haiti": [
+   [
+    1939,
+    1940,
+    "neutral"
+   ],
+   [
+    1941,
+    1944,
+    "allied"
+   ]
+  ],
+  "Guatemala": [
+   [
+    1939,
+    1940,
+    "neutral"
+   ],
+   [
+    1941,
+    1944,
+    "allied"
+   ]
+  ],
+  "Honduras": [
+   [
+    1939,
+    1940,
+    "neutral"
+   ],
+   [
+    1941,
+    1944,
+    "allied"
+   ]
+  ],
+  "Nicaragua": [
+   [
+    1939,
+    1940,
+    "neutral"
+   ],
+   [
+    1941,
+    1944,
+    "allied"
+   ]
+  ],
+  "El Salvador": [
+   [
+    1939,
+    1940,
+    "neutral"
+   ],
+   [
+    1941,
+    1944,
+    "allied"
+   ]
+  ],
+  "Costa Rica": [
+   [
+    1939,
+    1940,
+    "neutral"
+   ],
+   [
+    1941,
+    1944,
+    "allied"
+   ]
+  ],
+  "Panama": [
+   [
+    1939,
+    1940,
+    "neutral"
+   ],
+   [
+    1941,
+    1944,
+    "allied"
+   ]
+  ],
+  "Colombia": [
+   [
+    1939,
+    1942,
+    "neutral"
+   ],
+   [
+    1943,
+    1944,
+    "allied"
+   ]
+  ],
+  "Bolivia": [
+   [
+    1939,
+    1942,
+    "neutral"
+   ],
+   [
+    1943,
+    1944,
+    "allied"
+   ]
+  ],
+  "Liberia": [
+   [
+    1939,
+    1943,
+    "neutral"
+   ],
+   [
+    1944,
+    1944,
+    "allied"
+   ]
+  ],
+  "Spain": [
+   [
+    1939,
+    1944,
+    "neutral",
+    "Neutral, men sympatiserede med aksemagterne"
+   ]
+  ],
+  "Brunei": [
+   [
+    1939,
+    1940,
+    "allied"
+   ],
+   [
+    1941,
+    1944,
+    "occupied",
+    "Besat af Japan"
+   ]
+  ],
+  "British Somaliland": [
+   [
+    1939,
+    1939,
+    "allied"
+   ],
+   [
+    1940,
+    1940,
+    "occupied",
+    "Erobret af Italien i august 1940, generobret i marts 1941"
+   ],
+   [
+    1941,
+    1944,
+    "allied"
+   ]
+  ],
+  "Tunisia": [
+   [
+    1939,
+    1939,
+    "allied"
+   ],
+   [
+    1940,
+    1941,
+    "neutral",
+    "Styret af Vichy-Frankrig"
+   ],
+   [
+    1942,
+    1942,
+    "occupied",
+    "Besat af Tyskland og Italien november 1942 – maj 1943"
+   ],
+   [
+    1943,
+    1944,
+    "allied"
+   ]
+  ],
+  "Guadeloupe": [
+   [
+    1939,
+    1939,
+    "allied"
+   ],
+   [
+    1940,
+    1942,
+    "neutral",
+    "Loyal over for Vichy-Frankrig indtil juli 1943"
+   ],
+   [
+    1943,
+    1944,
+    "allied"
+   ]
+  ],
+  "Martinique": [
+   [
+    1939,
+    1939,
+    "allied"
+   ],
+   [
+    1940,
+    1942,
+    "neutral",
+    "Loyal over for Vichy-Frankrig indtil juli 1943"
+   ],
+   [
+    1943,
+    1944,
+    "allied"
+   ]
+  ],
+  "French Guiana": [
+   [
+    1939,
+    1939,
+    "allied"
+   ],
+   [
+    1940,
+    1942,
+    "neutral",
+    "Styret af Vichy-Frankrig; tilsluttede sig De Frie Franske i marts 1943"
+   ],
+   [
+    1943,
+    1944,
+    "allied"
+   ]
+  ],
+  "Guam": [
+   [
+    1939,
+    1940,
+    "neutral"
+   ],
+   [
+    1941,
+    1943,
+    "occupied",
+    "Besat af Japan"
+   ],
+   [
+    1944,
+    1944,
+    "allied",
+    "Generobret af USA i 1944"
+   ]
+  ],
+  "Saipan": [
+   [
+    1939,
+    1943,
+    "axis",
+    "Japansk mandatområde"
+   ],
+   [
+    1944,
+    1944,
+    "allied",
+    "Erobret af USA i juli 1944"
+   ]
+  ],
+  "New Caledonia": [
+   [
+    1939,
+    1944,
+    "allied",
+    "Tilsluttede sig De Frie Franske i 1940"
+   ]
+  ]
+ },
+ "ww2RulerAlign": {
+  "France": [
+   [
+    1939,
+    1939,
+    "allied"
+   ],
+   [
+    1940,
+    1941,
+    "neutral",
+    "Fransk koloni styret af Vichy-regimet"
+   ],
+   [
+    1942,
+    1944,
+    "allied"
+   ]
+  ],
+  "Belgium": [
+   [
+    1939,
+    1939,
+    "neutral"
+   ],
+   [
+    1940,
+    1944,
+    "allied",
+    "Belgisk koloni, loyal over for eksilregeringen"
+   ]
+  ],
+  "Netherlands": [
+   [
+    1939,
+    1939,
+    "neutral"
+   ],
+   [
+    1940,
+    1944,
+    "allied",
+    "Hollandsk koloni, loyal over for eksilregeringen"
+   ]
+  ],
+  "Italy": [
+   [
+    1939,
+    1939,
+    "neutral"
+   ],
+   [
+    1940,
+    1942,
+    "axis"
+   ]
+  ],
+  "Portugal": [
+   [
+    1939,
+    1944,
+    "neutral"
+   ]
+  ],
+  "Spain": [
+   [
+    1939,
+    1944,
+    "neutral"
+   ]
+  ],
+  "UK": [
+   [
+    1939,
+    1944,
+    "allied"
+   ]
+  ],
+  "USA": [
+   [
+    1939,
+    1940,
+    "neutral"
+   ],
+   [
+    1941,
+    1944,
+    "allied"
+   ]
+  ]
+ },
+ "cold": {
+  "USSR": [
+   [
+    1945,
+    1990,
+    "east"
+   ]
+  ],
+  "Poland": [
+   [
+    1945,
+    1989,
+    "east"
+   ],
+   [
+    1999,
+    2000,
+    "nato"
+   ]
+  ],
+  "Germany (Soviet)": [
+   [
+    1945,
+    1959,
+    "east"
+   ]
+  ],
+  "East Germany": [
+   [
+    1960,
+    1989,
+    "east"
+   ],
+   [
+    1990,
+    1990,
+    "nato",
+    "Genforenet med Vesttyskland 3. oktober 1990"
+   ]
+  ],
+  "Czechoslovakia": [
+   [
+    1948,
+    1989,
+    "east"
+   ]
+  ],
+  "Hungary": [
+   [
+    1947,
+    1989,
+    "east"
+   ],
+   [
+    1999,
+    2000,
+    "nato"
+   ]
+  ],
+  "Romania": [
+   [
+    1947,
+    1989,
+    "east"
+   ]
+  ],
+  "Bulgaria": [
+   [
+    1946,
+    1989,
+    "east"
+   ]
+  ],
+  "Albania": [
+   [
+    1945,
+    1960,
+    "east"
+   ],
+   [
+    1961,
+    1990,
+    "communist",
+    "Brød med Sovjetunionen i 1961"
+   ]
+  ],
+  "Yugoslavia": [
+   [
+    1945,
+    1989,
+    "communist",
+    "Kommunistisk, men brød med Stalin i 1948 og blev alliancefri"
+   ]
+  ],
+  "Mongolia": [
+   [
+    1945,
+    1989,
+    "east",
+    "Sovjetisk satellitstat"
+   ]
+  ],
+  "China": [
+   [
+    1949,
+    2000,
+    "communist"
+   ]
+  ],
+  "Manchuria": [
+   [
+    1948,
+    1959,
+    "communist"
+   ]
+  ],
+  "Xinjiang": [
+   [
+    1949,
+    1959,
+    "communist"
+   ]
+  ],
+  "Tibet": [
+   [
+    1951,
+    2000,
+    "communist",
+    "Under kinesisk styre fra 1950–51"
+   ]
+  ],
+  "Korea (USSR)": [
+   [
+    1945,
+    1947,
+    "east",
+    "Sovjetisk besættelseszone"
+   ],
+   [
+    1948,
+    1959,
+    "communist"
+   ]
+  ],
+  "Korea, Democratic People's Republic of": [
+   [
+    1960,
+    2000,
+    "communist"
+   ]
+  ],
+  "Korea (USA)": [
+   [
+    1945,
+    1947,
+    "occupied",
+    "Amerikansk besættelseszone"
+   ]
+  ],
+  "Tonkin": [
+   [
+    1954,
+    1959,
+    "communist",
+    "Nordvietnam"
+   ]
+  ],
+  "Vietnam": [
+   [
+    1960,
+    1974,
+    "split",
+    "Delt: kommunistisk Nordvietnam og vestligt støttet Sydvietnam. Kortet kan ikke vise delingen"
+   ],
+   [
+    1975,
+    2000,
+    "communist"
+   ]
+  ],
+  "Laos": [
+   [
+    1975,
+    2000,
+    "communist"
+   ]
+  ],
+  "Cambodia": [
+   [
+    1975,
+    1990,
+    "communist"
+   ]
+  ],
+  "Cuba": [
+   [
+    1961,
+    2000,
+    "communist",
+    "Castro tog magten i 1959 og erklærede revolutionen socialistisk i 1961"
+   ]
+  ],
+  "Afghanistan": [
+   [
+    1978,
+    1989,
+    "communist"
+   ]
+  ],
+  "Ethiopia": [
+   [
+    1974,
+    1990,
+    "communist"
+   ]
+  ],
+  "Eritrea": [
+   [
+    1974,
+    1990,
+    "communist",
+    "Del af Etiopien"
+   ]
+  ],
+  "Angola": [
+   [
+    1975,
+    1990,
+    "communist"
+   ]
+  ],
+  "Mozambique": [
+   [
+    1975,
+    1989,
+    "communist"
+   ]
+  ],
+  "Germany (UK)": [
+   [
+    1945,
+    1954,
+    "occupied",
+    "Vestallieret besættelse; Vesttyskland fra 1949"
+   ],
+   [
+    1955,
+    1959,
+    "nato"
+   ]
+  ],
+  "Germany (USA)": [
+   [
+    1945,
+    1954,
+    "occupied",
+    "Vestallieret besættelse; Vesttyskland fra 1949"
+   ],
+   [
+    1955,
+    1959,
+    "nato"
+   ]
+  ],
+  "Germany (France)": [
+   [
+    1945,
+    1954,
+    "occupied",
+    "Vestallieret besættelse; Vesttyskland fra 1949"
+   ],
+   [
+    1955,
+    1959,
+    "nato"
+   ]
+  ],
+  "Saar Protectorate": [
+   [
+    1945,
+    1956,
+    "occupied",
+    "Fransk protektorat"
+   ],
+   [
+    1957,
+    1959,
+    "nato",
+    "En del af Vesttyskland fra 1957"
+   ]
+  ],
+  "West Germany": [
+   [
+    1960,
+    1990,
+    "nato"
+   ]
+  ],
+  "Germany": [
+   [
+    1991,
+    2000,
+    "nato"
+   ]
+  ],
+  "Austria": [
+   [
+    1945,
+    1954,
+    "occupied",
+    "Delt i fire zoner: amerikansk, britisk, fransk og sovjetisk"
+   ]
+  ],
+  "Japan (USA)": [
+   [
+    1945,
+    1951,
+    "occupied",
+    "Amerikansk besættelse indtil 1952"
+   ]
+  ],
+  "United States": [
+   [
+    1949,
+    2000,
+    "nato"
+   ]
+  ],
+  "Canada": [
+   [
+    1949,
+    2000,
+    "nato"
+   ]
+  ],
+  "United Kingdom": [
+   [
+    1949,
+    2000,
+    "nato"
+   ]
+  ],
+  "France": [
+   [
+    1949,
+    2000,
+    "nato"
+   ]
+  ],
+  "Belgium": [
+   [
+    1949,
+    2000,
+    "nato"
+   ]
+  ],
+  "Netherlands": [
+   [
+    1949,
+    2000,
+    "nato"
+   ]
+  ],
+  "Luxembourg": [
+   [
+    1949,
+    2000,
+    "nato"
+   ]
+  ],
+  "Denmark": [
+   [
+    1949,
+    2000,
+    "nato"
+   ]
+  ],
+  "Greenland": [
+   [
+    1949,
+    2000,
+    "nato"
+   ]
+  ],
+  "Norway": [
+   [
+    1949,
+    2000,
+    "nato"
+   ]
+  ],
+  "Iceland": [
+   [
+    1949,
+    2000,
+    "nato"
+   ]
+  ],
+  "Italy": [
+   [
+    1949,
+    2000,
+    "nato"
+   ]
+  ],
+  "Portugal": [
+   [
+    1949,
+    2000,
+    "nato"
+   ]
+  ],
+  "Greece": [
+   [
+    1952,
+    2000,
+    "nato"
+   ]
+  ],
+  "Turkey": [
+   [
+    1952,
+    2000,
+    "nato"
+   ]
+  ],
+  "Spain": [
+   [
+    1982,
+    2000,
+    "nato"
+   ]
+  ],
+  "Czech Republic": [
+   [
+    1999,
+    2000,
+    "nato"
+   ]
+  ],
+  "Benin": [
+   [
+    1975,
+    1989,
+    "communist"
+   ]
+  ],
+  "Congo": [
+   [
+    1970,
+    1990,
+    "communist"
+   ]
+  ],
+  "Somalia": [
+   [
+    1970,
+    1990,
+    "communist",
+    "Siad Barres styre erklærede 'videnskabelig socialisme' i 1970"
+   ]
+  ]
+ },
+ "colonies": {
+  "British Raj": [
+   [
+    1939,
+    1944,
+    "UK"
+   ]
+  ],
+  "India": [
+   [
+    1939,
+    1946,
+    "UK"
+   ]
+  ],
+  "Pakistan": [
+   [
+    1945,
+    1946,
+    "UK"
+   ]
+  ],
+  "Bangladesh": [
+   [
+    1945,
+    1946,
+    "UK"
+   ]
+  ],
+  "Burma": [
+   [
+    1945,
+    1947,
+    "UK"
+   ]
+  ],
+  "Ceylon": [
+   [
+    1939,
+    1944,
+    "UK"
+   ]
+  ],
+  "Sri Lanka": [
+   [
+    1945,
+    1947,
+    "UK"
+   ]
+  ],
+  "Malaysia": [
+   [
+    1939,
+    1941,
+    "UK"
+   ],
+   [
+    1942,
+    1944,
+    "Japan"
+   ],
+   [
+    1945,
+    1956,
+    "UK"
+   ]
+  ],
+  "Brunei": [
+   [
+    1939,
+    1940,
+    "UK"
+   ],
+   [
+    1941,
+    1944,
+    "Japan"
+   ],
+   [
+    1945,
+    1983,
+    "UK"
+   ]
+  ],
+  "Hong Kong": [
+   [
+    1939,
+    1940,
+    "UK"
+   ],
+   [
+    1941,
+    1944,
+    "Japan"
+   ],
+   [
+    1945,
+    1996,
+    "UK"
+   ]
+  ],
+  "Gold Coast": [
+   [
+    1939,
+    1956,
+    "UK"
+   ]
+  ],
+  "Nigeria": [
+   [
+    1939,
+    1959,
+    "UK"
+   ]
+  ],
+  "Southern Cameroon": [
+   [
+    1945,
+    1960,
+    "UK"
+   ]
+  ],
+  "Sierra Leone": [
+   [
+    1939,
+    1960,
+    "UK"
+   ]
+  ],
+  "Gambia, The": [
+   [
+    1939,
+    1964,
+    "UK"
+   ]
+  ],
+  "Kenya": [
+   [
+    1939,
+    1962,
+    "UK"
+   ]
+  ],
+  "Uganda": [
+   [
+    1939,
+    1961,
+    "UK"
+   ]
+  ],
+  "Tanzania, United Republic of": [
+   [
+    1939,
+    1960,
+    "UK"
+   ]
+  ],
+  "Northern Rhodesia": [
+   [
+    1939,
+    1959,
+    "UK"
+   ]
+  ],
+  "Zambia": [
+   [
+    1960,
+    1963,
+    "UK"
+   ]
+  ],
+  "Nyasaland": [
+   [
+    1945,
+    1959,
+    "UK"
+   ]
+  ],
+  "Malawi": [
+   [
+    1939,
+    1944,
+    "UK"
+   ],
+   [
+    1960,
+    1963,
+    "UK"
+   ]
+  ],
+  "Southern Rhodesia": [
+   [
+    1939,
+    1944,
+    "UK"
+   ]
+  ],
+  "Rhodesia": [
+   [
+    1945,
+    1959,
+    "UK"
+   ]
+  ],
+  "Zimbabwe": [
+   [
+    1960,
+    1979,
+    "UK",
+    "Erklærede ensidig selvstændighed i 1965 under et hvidt mindretalsstyre, som ikke blev anerkendt internationalt"
+   ]
+  ],
+  "Botswana": [
+   [
+    1939,
+    1965,
+    "UK"
+   ]
+  ],
+  "Lesotho": [
+   [
+    1939,
+    1965,
+    "UK"
+   ]
+  ],
+  "Swaziland": [
+   [
+    1939,
+    1967,
+    "UK"
+   ]
+  ],
+  "Sudan": [
+   [
+    1939,
+    1955,
+    "UK"
+   ]
+  ],
+  "British Somaliland": [
+   [
+    1939,
+    1959,
+    "UK"
+   ]
+  ],
+  "Somalia": [
+   [
+    1945,
+    1949,
+    "UK"
+   ],
+   [
+    1950,
+    1959,
+    "Italy"
+   ]
+  ],
+  "Eritrea": [
+   [
+    1945,
+    1951,
+    "UK"
+   ]
+  ],
+  "Cyraneica (UK Lybia)": [
+   [
+    1945,
+    1950,
+    "UK"
+   ]
+  ],
+  "Tripolitana (UK Lybia)": [
+   [
+    1945,
+    1950,
+    "UK"
+   ]
+  ],
+  "Mandatory Palestine (GB)": [
+   [
+    1939,
+    1944,
+    "UK"
+   ]
+  ],
+  "Israel": [
+   [
+    1939,
+    1947,
+    "UK"
+   ]
+  ],
+  "Jordan": [
+   [
+    1939,
+    1945,
+    "UK"
+   ]
+  ],
+  "Kuwait": [
+   [
+    1939,
+    1960,
+    "UK"
+   ]
+  ],
+  "Qatar": [
+   [
+    1939,
+    1970,
+    "UK"
+   ]
+  ],
+  "Trucial Oman": [
+   [
+    1939,
+    1944,
+    "UK"
+   ]
+  ],
+  "United Arab Emirates": [
+   [
+    1945,
+    1970,
+    "UK"
+   ]
+  ],
+  "Yemen (UK)": [
+   [
+    1939,
+    1944,
+    "UK"
+   ]
+  ],
+  "Jamaica": [
+   [
+    1939,
+    1961,
+    "UK"
+   ]
+  ],
+  "Jamaica (UK)": [
+   [
+    1945,
+    1959,
+    "UK"
+   ]
+  ],
+  "Trinidad": [
+   [
+    1939,
+    1961,
+    "UK"
+   ]
+  ],
+  "Guyana": [
+   [
+    1939,
+    1965,
+    "UK"
+   ]
+  ],
+  "Belize": [
+   [
+    1939,
+    1980,
+    "UK"
+   ]
+  ],
+  "Bahamas": [
+   [
+    1939,
+    1972,
+    "UK"
+   ]
+  ],
+  "Barbados": [
+   [
+    1939,
+    1965,
+    "UK"
+   ]
+  ],
+  "Fiji": [
+   [
+    1939,
+    1969,
+    "UK"
+   ]
+  ],
+  "French West Africa": [
+   [
+    1939,
+    1944,
+    "France"
+   ]
+  ],
+  "French Equatorial Africa": [
+   [
+    1939,
+    1944,
+    "France"
+   ]
+  ],
+  "French Cameroons": [
+   [
+    1939,
+    1944,
+    "France"
+   ]
+  ],
+  "Congo (France)": [
+   [
+    1939,
+    1944,
+    "France"
+   ]
+  ],
+  "Senegal": [
+   [
+    1945,
+    1959,
+    "France"
+   ]
+  ],
+  "Mali": [
+   [
+    1945,
+    1959,
+    "France"
+   ]
+  ],
+  "Mauritania": [
+   [
+    1945,
+    1959,
+    "France"
+   ]
+  ],
+  "Niger": [
+   [
+    1945,
+    1959,
+    "France"
+   ]
+  ],
+  "Guinea": [
+   [
+    1945,
+    1957,
+    "France"
+   ]
+  ],
+  "Ivory Coast": [
+   [
+    1945,
+    1959,
+    "France"
+   ]
+  ],
+  "Burkina Faso": [
+   [
+    1945,
+    1959,
+    "France"
+   ]
+  ],
+  "Benin": [
+   [
+    1945,
+    1959,
+    "France"
+   ]
+  ],
+  "Togo": [
+   [
+    1939,
+    1959,
+    "France"
+   ]
+  ],
+  "Chad": [
+   [
+    1945,
+    1959,
+    "France"
+   ]
+  ],
+  "Central African Republic": [
+   [
+    1945,
+    1959,
+    "France"
+   ]
+  ],
+  "Congo": [
+   [
+    1945,
+    1959,
+    "France"
+   ]
+  ],
+  "Gabon": [
+   [
+    1945,
+    1959,
+    "France"
+   ]
+  ],
+  "Cameroon": [
+   [
+    1945,
+    1959,
+    "France"
+   ]
+  ],
+  "Madagascar (France)": [
+   [
+    1939,
+    1959,
+    "France"
+   ]
+  ],
+  "Algeria (France)": [
+   [
+    1939,
+    1944,
+    "France"
+   ]
+  ],
+  "Algeria": [
+   [
+    1945,
+    1961,
+    "France"
+   ]
+  ],
+  "Morocco (France)": [
+   [
+    1939,
+    1944,
+    "France"
+   ]
+  ],
+  "Morocco": [
+   [
+    1945,
+    1955,
+    "France"
+   ]
+  ],
+  "Tunisia": [
+   [
+    1939,
+    1955,
+    "France"
+   ]
+  ],
+  "Syria (France)": [
+   [
+    1939,
+    1944,
+    "France"
+   ]
+  ],
+  "Syria": [
+   [
+    1945,
+    1945,
+    "France"
+   ]
+  ],
+  "French Indo-China": [
+   [
+    1939,
+    1944,
+    "France"
+   ]
+  ],
+  "Cochin China": [
+   [
+    1939,
+    1953,
+    "France"
+   ]
+  ],
+  "Tonkin": [
+   [
+    1945,
+    1945,
+    "France",
+    "Viet Minh udråbte selvstændighed i september 1945; Frankrig vendte tilbage i 1946"
+   ],
+   [
+    1946,
+    1953,
+    "France"
+   ]
+  ],
+  "Annam": [
+   [
+    1945,
+    1945,
+    "France",
+    "Viet Minh udråbte selvstændighed i september 1945; Frankrig vendte tilbage i 1946"
+   ],
+   [
+    1946,
+    1953,
+    "France"
+   ]
+  ],
+  "Laos": [
+   [
+    1939,
+    1952,
+    "France"
+   ]
+  ],
+  "Cambodia": [
+   [
+    1939,
+    1952,
+    "France"
+   ]
+  ],
+  "French Somaliland": [
+   [
+    1939,
+    1944,
+    "France"
+   ]
+  ],
+  "Djibouti": [
+   [
+    1945,
+    1976,
+    "France"
+   ]
+  ],
+  "Fezzan (Frech Lybia)": [
+   [
+    1945,
+    1950,
+    "France"
+   ]
+  ],
+  "French Guiana": [
+   [
+    1939,
+    1945,
+    "France"
+   ]
+  ],
+  "Guadeloupe": [
+   [
+    1939,
+    1945,
+    "France"
+   ]
+  ],
+  "Martinique": [
+   [
+    1939,
+    1945,
+    "France"
+   ]
+  ],
+  "Martinique (France)": [
+   [
+    1945,
+    1945,
+    "France"
+   ]
+  ],
+  "Angola (Portugal)": [
+   [
+    1939,
+    1959,
+    "Portugal"
+   ]
+  ],
+  "Angola": [
+   [
+    1960,
+    1974,
+    "Portugal"
+   ]
+  ],
+  "Mozambique (Portugal)": [
+   [
+    1939,
+    1959,
+    "Portugal"
+   ]
+  ],
+  "Mozambique": [
+   [
+    1960,
+    1974,
+    "Portugal"
+   ]
+  ],
+  "Guinea-Bissau (Portugal)": [
+   [
+    1945,
+    1959,
+    "Portugal"
+   ]
+  ],
+  "Guinea-Bissau": [
+   [
+    1939,
+    1944,
+    "Portugal"
+   ],
+   [
+    1960,
+    1973,
+    "Portugal"
+   ]
+  ],
+  "Belgian Congo": [
+   [
+    1939,
+    1944,
+    "Belgium"
+   ]
+  ],
+  "Zaire": [
+   [
+    1945,
+    1959,
+    "Belgium"
+   ]
+  ],
+  "Rwanda (Belgium)": [
+   [
+    1939,
+    1944,
+    "Belgium"
+   ]
+  ],
+  "Rwanda": [
+   [
+    1945,
+    1961,
+    "Belgium"
+   ]
+  ],
+  "Burundi": [
+   [
+    1939,
+    1961,
+    "Belgium"
+   ]
+  ],
+  "Dutch East Indies": [
+   [
+    1939,
+    1941,
+    "Netherlands"
+   ],
+   [
+    1942,
+    1944,
+    "Japan"
+   ]
+  ],
+  "Indonesia": [
+   [
+    1945,
+    1948,
+    "Netherlands",
+    "Republikken Indonesien blev udråbt i august 1945 og kontrollerede store dele af Java og Sumatra"
+   ]
+  ],
+  "Suriname": [
+   [
+    1939,
+    1974,
+    "Netherlands"
+   ]
+  ],
+  "Dutch Guinea": [
+   [
+    1945,
+    1959,
+    "Netherlands"
+   ]
+  ],
+  "Spanish Sahara": [
+   [
+    1939,
+    1944,
+    "Spain"
+   ]
+  ],
+  "Rio De Oro": [
+   [
+    1939,
+    1944,
+    "Spain"
+   ]
+  ],
+  "Western Sahara": [
+   [
+    1945,
+    1975,
+    "Spain"
+   ],
+   [
+    1976,
+    2000,
+    "Morocco",
+    "Mauretanien holdt den sydlige del indtil 1979. Områdets status er stadig omstridt"
+   ]
+  ],
+  "Equatorial Guinea": [
+   [
+    1939,
+    1967,
+    "Spain"
+   ]
+  ],
+  "Libya": [
+   [
+    1939,
+    1942,
+    "Italy"
+   ],
+   [
+    1943,
+    1944,
+    "UK"
+   ]
+  ],
+  "Eritrea (Italy)": [
+   [
+    1939,
+    1940,
+    "Italy"
+   ],
+   [
+    1941,
+    1944,
+    "UK"
+   ]
+  ],
+  "Ethiopia (Italy)": [
+   [
+    1939,
+    1940,
+    "Italy"
+   ]
+  ],
+  "Italian Somaliland": [
+   [
+    1939,
+    1940,
+    "Italy"
+   ],
+   [
+    1941,
+    1944,
+    "UK"
+   ]
+  ],
+  "Philippines": [
+   [
+    1939,
+    1941,
+    "USA"
+   ],
+   [
+    1942,
+    1944,
+    "Japan"
+   ],
+   [
+    1945,
+    1945,
+    "USA"
+   ]
+  ],
+  "Greenland": [
+   [
+    1939,
+    1952,
+    "Denmark"
+   ]
+  ],
+  "Papua New Guinea": [
+   [
+    1945,
+    1974,
+    "Australia"
+   ]
+  ],
+  "Namibia": [
+   [
+    1945,
+    1989,
+    "South Africa"
+   ]
+  ],
+  "Antigua and Barbuda": [
+   [
+    1939,
+    1980,
+    "UK"
+   ]
+  ],
+  "Dominica": [
+   [
+    1939,
+    1977,
+    "UK"
+   ]
+  ],
+  "Grenada": [
+   [
+    1939,
+    1973,
+    "UK"
+   ]
+  ],
+  "Saint Kitts and Nevis": [
+   [
+    1939,
+    1982,
+    "UK"
+   ]
+  ],
+  "Saint Lucia": [
+   [
+    1939,
+    1978,
+    "UK"
+   ]
+  ],
+  "Saint Vincent and the Grenadines": [
+   [
+    1939,
+    1978,
+    "UK"
+   ]
+  ],
+  "Montserrat": [
+   [
+    1939,
+    2000,
+    "UK"
+   ]
+  ],
+  "Anguilla": [
+   [
+    1939,
+    2000,
+    "UK"
+   ]
+  ],
+  "Turks and Caicos Islands": [
+   [
+    1939,
+    2000,
+    "UK"
+   ]
+  ],
+  "Gilbert and Ellice Islands": [
+   [
+    1939,
+    1944,
+    "UK"
+   ]
+  ],
+  "New Caledonia": [
+   [
+    1939,
+    1944,
+    "France"
+   ]
+  ],
+  "Netherlands Antilles": [
+   [
+    1939,
+    1953,
+    "Netherlands"
+   ]
+  ]
+ },
+ "rulers": {
+  "UK": "Britisk",
+  "France": "Fransk",
+  "Portugal": "Portugisisk",
+  "Belgium": "Belgisk",
+  "Netherlands": "Hollandsk",
+  "Spain": "Spansk",
+  "Italy": "Italiensk",
+  "Japan": "Japansk besat",
+  "USA": "Amerikansk",
+  "Denmark": "Dansk",
+  "Australia": "Australsk",
+  "South Africa": "Sydafrikansk",
+  "Morocco": "Besat af Marokko"
+ },
+ "names": {
+  "Germany": [
+   [
+    1939,
+    1944,
+    "Tyskland (inkl. Østrig)"
+   ],
+   [
+    1991,
+    2000,
+    "Tyskland"
+   ]
+  ],
+  "Chinese warlords": [
+   [
+    1939,
+    1944,
+    "Kina"
+   ]
+  ],
+  "Hail": [
+   [
+    1939,
+    1944,
+    "Saudi-Arabien"
+   ]
+  ],
+  "Hejaz": [
+   [
+    1939,
+    1944,
+    "Saudi-Arabien"
+   ]
+  ],
+  "Emirate of Bin Shal'an": [
+   [
+    1939,
+    1944,
+    "Saudi-Arabien"
+   ]
+  ],
+  "Mesopotamia (GB)": [
+   [
+    1939,
+    1944,
+    "Irak"
+   ]
+  ],
+  "Israel": [
+   [
+    1939,
+    1947,
+    "Palæstina (britisk mandat)"
+   ],
+   [
+    1948,
+    2000,
+    "Israel"
+   ]
+  ],
+  "Mandatory Palestine (GB)": [
+   [
+    1939,
+    1944,
+    "Palæstina (britisk mandat)"
+   ]
+  ],
+  "British Raj": [
+   [
+    1939,
+    1944,
+    "Britisk Indien"
+   ]
+  ],
+  "India": [
+   [
+    1939,
+    1946,
+    "Britisk Indien"
+   ],
+   [
+    1947,
+    2000,
+    "Indien"
+   ]
+  ],
+  "Pakistan": [
+   [
+    1945,
+    1946,
+    "Britisk Indien"
+   ],
+   [
+    1947,
+    1970,
+    "Vestpakistan"
+   ],
+   [
+    1971,
+    2000,
+    "Pakistan"
+   ]
+  ],
+  "Bangladesh": [
+   [
+    1945,
+    1946,
+    "Britisk Indien"
+   ],
+   [
+    1947,
+    1959,
+    "Østpakistan"
+   ],
+   [
+    1960,
+    2000,
+    "Bangladesh"
+   ]
+  ],
+  "East Pakistan": [
+   [
+    1960,
+    1970,
+    "Østpakistan"
+   ],
+   [
+    1971,
+    1990,
+    "Bangladesh"
+   ]
+  ],
+  "Empire of Japan": [
+   [
+    1939,
+    1944,
+    "Japan (inkl. Korea og Taiwan)"
+   ]
+  ],
+  "Japan (USA)": [
+   [
+    1945,
+    1951,
+    "Japan (amerikansk besat)"
+   ],
+   [
+    1952,
+    1959,
+    "Japan"
+   ]
+  ],
+  "Korea (USA)": [
+   [
+    1945,
+    1947,
+    "Korea (amerikansk zone)"
+   ],
+   [
+    1948,
+    1959,
+    "Sydkorea"
+   ]
+  ],
+  "Korea (USSR)": [
+   [
+    1945,
+    1947,
+    "Korea (sovjetisk zone)"
+   ],
+   [
+    1948,
+    1959,
+    "Nordkorea"
+   ]
+  ],
+  "Germany (Soviet)": [
+   [
+    1945,
+    1948,
+    "Tyskland (sovjetisk zone)"
+   ],
+   [
+    1949,
+    1959,
+    "Østtyskland (DDR)"
+   ]
+  ],
+  "Germany (UK)": [
+   [
+    1945,
+    1948,
+    "Tyskland (britisk zone)"
+   ],
+   [
+    1949,
+    1959,
+    "Vesttyskland"
+   ]
+  ],
+  "Germany (USA)": [
+   [
+    1945,
+    1948,
+    "Tyskland (amerikansk zone)"
+   ],
+   [
+    1949,
+    1959,
+    "Vesttyskland"
+   ]
+  ],
+  "Germany (France)": [
+   [
+    1945,
+    1948,
+    "Tyskland (fransk zone)"
+   ],
+   [
+    1949,
+    1959,
+    "Vesttyskland"
+   ]
+  ],
+  "East Germany": [
+   [
+    1960,
+    1989,
+    "Østtyskland (DDR)"
+   ],
+   [
+    1990,
+    1990,
+    "Tyskland (genforenet)"
+   ]
+  ],
+  "West Germany": [
+   [
+    1960,
+    1989,
+    "Vesttyskland"
+   ],
+   [
+    1990,
+    1990,
+    "Tyskland (genforenet)"
+   ]
+  ],
+  "Tonkin": [
+   [
+    1945,
+    1953,
+    "Fransk Indokina"
+   ],
+   [
+    1954,
+    1959,
+    "Nordvietnam"
+   ]
+  ],
+  "Annam": [
+   [
+    1945,
+    1953,
+    "Fransk Indokina"
+   ],
+   [
+    1954,
+    1959,
+    "Vietnam (delt ved 17. breddegrad)"
+   ]
+  ],
+  "Cochin China": [
+   [
+    1939,
+    1953,
+    "Fransk Indokina"
+   ],
+   [
+    1954,
+    1959,
+    "Sydvietnam"
+   ]
+  ],
+  "French Indo-China": [
+   [
+    1939,
+    1944,
+    "Fransk Indokina"
+   ]
+  ],
+  "Vietnam": [
+   [
+    1960,
+    1975,
+    "Vietnam (delt i Nord og Syd)"
+   ],
+   [
+    1976,
+    2000,
+    "Vietnam"
+   ]
+  ],
+  "Manchuria": [
+   [
+    1945,
+    1948,
+    "Manchuriet"
+   ],
+   [
+    1949,
+    1959,
+    "Kina"
+   ]
+  ],
+  "Xinjiang": [
+   [
+    1939,
+    1959,
+    "Xinjiang (Kina)"
+   ]
+  ],
+  "Tibet": [
+   [
+    1939,
+    1950,
+    "Tibet"
+   ],
+   [
+    1951,
+    2000,
+    "Tibet (Kina)"
+   ]
+  ],
+  "Jordan": [
+   [
+    1939,
+    1945,
+    "Transjordanien"
+   ],
+   [
+    1946,
+    2000,
+    "Jordan"
+   ]
+  ],
+  "Cyraneica (UK Lybia)": [
+   [
+    1945,
+    1950,
+    "Libyen (britisk administreret)"
+   ],
+   [
+    1951,
+    1959,
+    "Libyen"
+   ]
+  ],
+  "Tripolitana (UK Lybia)": [
+   [
+    1945,
+    1950,
+    "Libyen (britisk administreret)"
+   ],
+   [
+    1951,
+    1959,
+    "Libyen"
+   ]
+  ],
+  "Fezzan (Frech Lybia)": [
+   [
+    1945,
+    1950,
+    "Libyen (fransk administreret)"
+   ],
+   [
+    1951,
+    1959,
+    "Libyen"
+   ]
+  ],
+  "Somalia": [
+   [
+    1945,
+    1959,
+    "Italiensk Somaliland"
+   ],
+   [
+    1960,
+    2000,
+    "Somalia"
+   ]
+  ],
+  "Eritrea": [
+   [
+    1945,
+    1951,
+    "Eritrea"
+   ],
+   [
+    1952,
+    1990,
+    "Eritrea (del af Etiopien)"
+   ],
+   [
+    1991,
+    1992,
+    "Eritrea (de facto selvstændigt fra 1991)"
+   ],
+   [
+    1993,
+    2000,
+    "Eritrea"
+   ]
+  ],
+  "Zaire": [
+   [
+    1945,
+    1959,
+    "Belgisk Congo"
+   ],
+   [
+    1960,
+    1970,
+    "Congo (Léopoldville)"
+   ],
+   [
+    1971,
+    1996,
+    "Zaire"
+   ],
+   [
+    1997,
+    2000,
+    "DR Congo"
+   ]
+  ],
+  "Congo": [
+   [
+    1945,
+    2000,
+    "Congo (Brazzaville)"
+   ]
+  ],
+  "Burkina Faso": [
+   [
+    1945,
+    1983,
+    "Øvre Volta"
+   ],
+   [
+    1984,
+    2000,
+    "Burkina Faso"
+   ]
+  ],
+  "Benin": [
+   [
+    1945,
+    1974,
+    "Dahomey"
+   ],
+   [
+    1975,
+    2000,
+    "Benin"
+   ]
+  ],
+  "Sri Lanka": [
+   [
+    1945,
+    1971,
+    "Ceylon"
+   ],
+   [
+    1972,
+    2000,
+    "Sri Lanka"
+   ]
+  ],
+  "Zimbabwe": [
+   [
+    1960,
+    1979,
+    "Rhodesia"
+   ],
+   [
+    1980,
+    2000,
+    "Zimbabwe"
+   ]
+  ],
+  "Rhodesia": [
+   [
+    1945,
+    1959,
+    "Sydrhodesia"
+   ]
+  ],
+  "Zambia": [
+   [
+    1960,
+    1963,
+    "Nordrhodesia"
+   ],
+   [
+    1964,
+    2000,
+    "Zambia"
+   ]
+  ],
+  "Malawi": [
+   [
+    1939,
+    1944,
+    "Nyasaland"
+   ],
+   [
+    1960,
+    1963,
+    "Nyasaland"
+   ],
+   [
+    1964,
+    2000,
+    "Malawi"
+   ]
+  ],
+  "Tanzania, United Republic of": [
+   [
+    1939,
+    1963,
+    "Tanganyika"
+   ],
+   [
+    1964,
+    2000,
+    "Tanzania"
+   ]
+  ],
+  "Botswana": [
+   [
+    1939,
+    1965,
+    "Bechuanaland"
+   ],
+   [
+    1966,
+    2000,
+    "Botswana"
+   ]
+  ],
+  "Lesotho": [
+   [
+    1939,
+    1965,
+    "Basutoland"
+   ],
+   [
+    1966,
+    2000,
+    "Lesotho"
+   ]
+  ],
+  "Namibia": [
+   [
+    1945,
+    1989,
+    "Sydvestafrika"
+   ],
+   [
+    1990,
+    2000,
+    "Namibia"
+   ]
+  ],
+  "Guyana": [
+   [
+    1939,
+    1965,
+    "Britisk Guyana"
+   ],
+   [
+    1966,
+    2000,
+    "Guyana"
+   ]
+  ],
+  "Gold Coast": [
+   [
+    1939,
+    1956,
+    "Guldkysten"
+   ],
+   [
+    1957,
+    1959,
+    "Ghana"
+   ]
+  ],
+  "Ghana": [
+   [
+    1960,
+    2000,
+    "Ghana"
+   ]
+  ],
+  "Yemen": [
+   [
+    1945,
+    1989,
+    "Yemen (Nord og Syd)"
+   ],
+   [
+    1990,
+    2000,
+    "Yemen"
+   ]
+  ],
+  "Czech Republic": [
+   [
+    1991,
+    1992,
+    "Tjekkoslovakiet"
+   ],
+   [
+    1993,
+    2000,
+    "Tjekkiet"
+   ]
+  ],
+  "Slovakia": [
+   [
+    1991,
+    1992,
+    "Tjekkoslovakiet"
+   ],
+   [
+    1993,
+    2000,
+    "Slovakiet"
+   ]
+  ],
+  "Serbia": [
+   [
+    1991,
+    1991,
+    "Jugoslavien"
+   ],
+   [
+    1992,
+    2000,
+    "Jugoslavien (Serbien og Montenegro)"
+   ]
+  ],
+  "Montenegro": [
+   [
+    1991,
+    1991,
+    "Jugoslavien"
+   ],
+   [
+    1992,
+    2000,
+    "Jugoslavien (Serbien og Montenegro)"
+   ]
+  ],
+  "Union of South Africa": [
+   [
+    1939,
+    1944,
+    "Sydafrika (inkl. Sydvestafrika)"
+   ]
+  ],
+  "Iran": [
+   [
+    1939,
+    2000,
+    "Iran"
+   ]
+  ]
+ },
+ "da": {
+  "Afghanistan": "Afghanistan",
+  "Albania": "Albanien",
+  "Algeria": "Algeriet",
+  "Algeria (France)": "Algeriet",
+  "Angola": "Angola",
+  "Angola (Portugal)": "Angola",
+  "Argentina": "Argentina",
+  "Armenia": "Armenien",
+  "Australia": "Australien",
+  "Austria": "Østrig",
+  "Azerbaijan": "Aserbajdsjan",
+  "Bahamas": "Bahamas",
+  "Belgian Congo": "Belgisk Congo",
+  "Belgium": "Belgien",
+  "Belize": "Belize",
+  "Bhutan": "Bhutan",
+  "Bolivia": "Bolivia",
+  "Bosnia and Herzegovina": "Bosnien-Hercegovina",
+  "Brazil": "Brasilien",
+  "British Somaliland": "Britisk Somaliland",
+  "Brunei": "Brunei",
+  "Bulgaria": "Bulgarien",
+  "Burma": "Burma",
+  "Burundi": "Burundi",
+  "Byelarus": "Hviderusland",
+  "Cambodia": "Cambodja",
+  "Cameroon": "Cameroun",
+  "Canada": "Canada",
+  "Central African Republic": "Den Centralafrikanske Republik",
+  "Chad": "Tchad",
+  "Chile": "Chile",
+  "China": "Kina",
+  "Colombia": "Colombia",
+  "Costa Rica": "Costa Rica",
+  "Croatia": "Kroatien",
+  "Cuba": "Cuba",
+  "Cyprus": "Cypern",
+  "Czechoslovakia": "Tjekkoslovakiet",
+  "Denmark": "Danmark",
+  "Djibouti": "Djibouti",
+  "Dominican Republic": "Den Dominikanske Republik",
+  "Dominion of Newfoundland": "Newfoundland",
+  "Dutch East Indies": "Hollandsk Ostindien",
+  "Dutch Guinea": "Surinam",
+  "Ecuador": "Ecuador",
+  "Egypt": "Egypten",
+  "El Salvador": "El Salvador",
+  "Equatorial Guinea": "Ækvatorialguinea",
+  "Eritrea (Italy)": "Eritrea",
+  "Estonia": "Estland",
+  "Ethiopia": "Etiopien",
+  "Ethiopia (Italy)": "Etiopien (italiensk besat)",
+  "Finland": "Finland",
+  "France": "Frankrig",
+  "French Cameroons": "Fransk Cameroun",
+  "French Equatorial Africa": "Fransk Ækvatorialafrika",
+  "French Guiana": "Fransk Guyana",
+  "French Somaliland": "Fransk Somaliland",
+  "French West Africa": "Fransk Vestafrika",
+  "Congo (France)": "Fransk Congo",
+  "Gabon": "Gabon",
+  "Gambia, The": "Gambia",
+  "Georgia": "Georgien",
+  "Greece": "Grækenland",
+  "Greenland": "Grønland",
+  "Guatemala": "Guatemala",
+  "Guinea": "Guinea",
+  "Guinea-Bissau": "Guinea-Bissau",
+  "Guinea-Bissau (Portugal)": "Portugisisk Guinea",
+  "Haiti": "Haiti",
+  "Honduras": "Honduras",
+  "Hong Kong": "Hongkong",
+  "Hungary": "Ungarn",
+  "Iceland": "Island",
+  "Indonesia": "Indonesien",
+  "Iraq": "Irak",
+  "Ireland": "Irland",
+  "Italian Somaliland": "Italiensk Somaliland",
+  "Italy": "Italien",
+  "Ivory Coast": "Elfenbenskysten",
+  "Jamaica": "Jamaica",
+  "Jamaica (UK)": "Jamaica",
+  "Japan": "Japan",
+  "Kazakhstan": "Kasakhstan",
+  "Kenya": "Kenya",
+  "Korea, Democratic People's Republic of": "Nordkorea",
+  "Korea, Republic of": "Sydkorea",
+  "Kuwait": "Kuwait",
+  "Kyrgyzstan": "Kirgisistan",
+  "Laos": "Laos",
+  "Latvia": "Letland",
+  "Lebanon": "Libanon",
+  "Liberia": "Liberia",
+  "Libya": "Libyen",
+  "Lithuania": "Litauen",
+  "Luxembourg": "Luxembourg",
+  "Macedonia": "Makedonien",
+  "Madagascar": "Madagaskar",
+  "Madagascar (France)": "Madagaskar",
+  "Malaysia": "Malaya",
+  "Mali": "Mali",
+  "Mauritania": "Mauretanien",
+  "Mexico": "Mexico",
+  "Moldova": "Moldova",
+  "Mongolia": "Mongoliet",
+  "Morocco": "Marokko",
+  "Morocco (France)": "Marokko",
+  "Mozambique": "Mozambique",
+  "Mozambique (Portugal)": "Mozambique",
+  "Nepal": "Nepal",
+  "Netherlands": "Holland",
+  "New Zealand": "New Zealand",
+  "Nicaragua": "Nicaragua",
+  "Niger": "Niger",
+  "Nigeria": "Nigeria",
+  "Northern Rhodesia": "Nordrhodesia",
+  "North Korea": "Nordkorea",
+  "Norway": "Norge",
+  "Nyasaland": "Nyasaland",
+  "Oman": "Oman",
+  "Muscat and Oman": "Muscat og Oman",
+  "Panama": "Panama",
+  "Papua New Guinea": "Papua Ny Guinea",
+  "Paraguay": "Paraguay",
+  "Peru": "Peru",
+  "Philippines": "Filippinerne",
+  "Poland": "Polen",
+  "Portugal": "Portugal",
+  "Qatar": "Qatar",
+  "Romania": "Rumænien",
+  "Russia": "Rusland",
+  "Rwanda": "Rwanda",
+  "Rwanda (Belgium)": "Ruanda-Urundi",
+  "Saar Protectorate": "Saarland",
+  "Saudi Arabia": "Saudi-Arabien",
+  "Senegal": "Senegal",
+  "Siam": "Siam (Thailand)",
+  "Sierra Leone": "Sierra Leone",
+  "Slovenia": "Slovenien",
+  "South Africa": "Sydafrika",
+  "Southern Cameroon": "Britisk Cameroun",
+  "Southern Rhodesia": "Sydrhodesia",
+  "Spain": "Spanien",
+  "Spanish Sahara": "Spansk Sahara",
+  "Rio De Oro": "Spansk Sahara",
+  "Sudan": "Sudan",
+  "Suriname": "Surinam",
+  "Swaziland": "Swaziland",
+  "Sweden": "Sverige",
+  "Switzerland": "Schweiz",
+  "Syria": "Syrien",
+  "Syria (France)": "Syrien og Libanon (fransk mandat)",
+  "Taiwan": "Taiwan",
+  "Tajikistan": "Tadsjikistan",
+  "Thailand": "Thailand",
+  "Togo": "Togo",
+  "Trinidad": "Trinidad",
+  "Trucial Oman": "Traktatkysten",
+  "Tunisia": "Tunesien",
+  "Turkey": "Tyrkiet",
+  "Turkmenistan": "Turkmenistan",
+  "Uganda": "Uganda",
+  "Ukraine": "Ukraine",
+  "United Arab Emirates": "De Forenede Arabiske Emirater",
+  "United Kingdom": "Storbritannien",
+  "United States": "USA",
+  "Uruguay": "Uruguay",
+  "USSR": "Sovjetunionen",
+  "Uzbekistan": "Usbekistan",
+  "Venezuela": "Venezuela",
+  "Western Sahara": "Vestsahara",
+  "Yemen (UK)": "Aden (britisk)",
+  "Yugoslavia": "Jugoslavien",
+  "Zambia": "Zambia",
+  "Cyraneica (UK Lybia)": "Libyen",
+  "Tripolitana (UK Lybia)": "Libyen",
+  "Iran": "Iran",
+  "Turkish Cypriot-administered area": "Nordcypern (tyrkisk administreret)",
+  "Malta": "Malta",
+  "Liechtenstein": "Liechtenstein",
+  "Andorra": "Andorra",
+  "Fiji": "Fiji",
+  "Barbados": "Barbados",
+  "Ceylon": "Ceylon",
+  "Burkina Faso": "Burkina Faso",
+  "Bangladesh": "Bangladesh",
+  "Pakistan": "Pakistan",
+  "India": "Indien",
+  "Israel": "Israel",
+  "Jordan": "Jordan",
+  "Kosovo": "Kosovo",
+  "Puerto Rico": "Puerto Rico",
+  "Tibet": "Tibet"
+ }
+}

@@ -1,0 +1,2137 @@
+[
+{
+"id": "mrpagt",
+"year": 1939,
+"date": "23. august 1939",
+"title": "Molotov-Ribbentrop-pagten",
+"text": "Tyskland og Sovjetunionen indgår en ikke-angrebspagt. En hemmelig tillægsprotokol deler Østeuropa op i en tysk og en sovjetisk interessesfære.",
+"lat": 55.75,
+"lon": 37.62,
+"cat": "aftale",
+"countries": [
+"Germany",
+"USSR"
+]
+},
+{
+"id": "ww2",
+"year": 1939,
+"until": 1945,
+"ongoing": "2. verdenskrig",
+"date": "1. september 1939",
+"title": "Tyskland invaderer Polen",
+"text": "Anden Verdenskrig begynder. Storbritannien og Frankrig erklærer Tyskland krig den 3. september. Den 17. september invaderer Sovjetunionen Polen fra øst.",
+"lat": 52.23,
+"lon": 21.01,
+"cat": "krig",
+"countries": [
+"Poland",
+"Germany"
+]
+},
+{
+"id": "vinterkrig",
+"year": 1939,
+"until": 1940,
+"ongoing": "Vinterkrigen",
+"date": "30. november 1939",
+"title": "Vinterkrigen",
+"text": "Sovjetunionen angriber Finland. Finnerne holder stand i over tre måneder, men må ved freden i marts 1940 afstå blandt andet store dele af Karelen.",
+"lat": 60.9,
+"lon": 29.4,
+"cat": "krig",
+"countries": [
+"Finland",
+"USSR"
+]
+},
+{
+"id": "9april",
+"year": 1940,
+"date": "9. april 1940",
+"title": "Tyskland besætter Danmark og Norge",
+"text": "Danmark overgiver sig efter få timer, og regeringen fortsætter under besættelsen (samarbejdspolitikken). Norge kæmper i omkring to måneder, og kongen og regeringen går i eksil i London.",
+"lat": 55.68,
+"lon": 12.57,
+"cat": "krig",
+"dk": true,
+"countries": [
+"Denmark",
+"Norway"
+]
+},
+{
+"id": "frankrig",
+"year": 1940,
+"date": "10. maj – 22. juni 1940",
+"title": "Frankrigs fald",
+"text": "Tyskland angriber Holland, Belgien, Luxembourg og Frankrig. Efter seks uger underskriver Frankrig en våbenstilstand. Nord- og Vestfrankrig, herunder hele Atlanterhavskysten, besættes, mens Vichy-regimet styrer den ubesatte zone i syd.",
+"lat": 48.86,
+"lon": 2.35,
+"cat": "krig",
+"countries": [
+"France",
+"Belgium",
+"Netherlands",
+"Luxembourg"
+]
+},
+{
+"id": "englandslag",
+"year": 1940,
+"date": "juli – oktober 1940",
+"title": "Slaget om England",
+"text": "Det tyske luftvåben forsøger at nedkæmpe Royal Air Force som forberedelse til en invasion. Det mislykkes, og Hitler udsætter invasionen på ubestemt tid.",
+"lat": 51.5,
+"lon": -0.12,
+"cat": "krig",
+"countries": [
+"United Kingdom"
+]
+},
+{
+"id": "barbarossa",
+"year": 1941,
+"date": "22. juni 1941",
+"title": "Operation Barbarossa",
+"text": "Tyskland og dets allierede invaderer Sovjetunionen med omkring 3,8 millioner soldater (heraf ca. 3 millioner tyske). Det er det største landangreb i historien, og østfronten bliver krigens blodigste.",
+"lat": 52.1,
+"lon": 23.7,
+"cat": "krig",
+"countries": [
+"USSR",
+"Germany"
+]
+},
+{
+"id": "pearlharbor",
+"year": 1941,
+"date": "7. december 1941",
+"title": "Angrebet på Pearl Harbor",
+"text": "Japan angriber den amerikanske flådebase på Hawaii. USA erklærer Japan krig dagen efter, og den 11. december erklærer Tyskland og Italien USA krig. Krigen er nu global.",
+"lat": 21.35,
+"lon": -157.95,
+"cat": "krig",
+"countries": [
+"United States",
+"Empire of Japan"
+]
+},
+{
+"id": "holocaust",
+"year": 1942,
+"until": 1945,
+"ongoing": "Holocaust",
+"date": "1941 – 1945 (Wannsee-konferencen 20. januar 1942)",
+"title": "Holocaust",
+"text": "På Wannsee-konferencen i Berlin koordinerer ledende nazister den 'endelige løsning': folkemordet på Europas jøder. Omkring seks millioner jøder blev myrdet under Holocaust – i udryddelseslejre som Auschwitz-Birkenau, ved massenedskydninger og i ghettoer.",
+"lat": 50.03,
+"lon": 19.18,
+"cat": "folkedrab",
+"countries": [
+"Germany",
+"Poland"
+]
+},
+{
+"id": "midway",
+"year": 1942,
+"date": "4. – 7. juni 1942",
+"title": "Slaget ved Midway",
+"text": "Den amerikanske flåde sænker fire japanske hangarskibe. Slaget er vendepunktet i krigen i Stillehavet.",
+"lat": 28.2,
+"lon": -177.4,
+"cat": "krig",
+"countries": [
+"United States",
+"Empire of Japan"
+]
+},
+{
+"id": "stalingrad",
+"year": 1942,
+"until": 1943,
+"ongoing": "Slaget om Stalingrad",
+"date": "august 1942 – 2. februar 1943",
+"title": "Slaget om Stalingrad",
+"text": "Efter måneders kampe i byen omringer Den Røde Hær den tyske 6. armé, som overgiver sig i februar 1943. Slaget er vendepunktet på østfronten.",
+"lat": 48.7,
+"lon": 44.5,
+"cat": "krig",
+"countries": [
+"USSR",
+"Germany"
+]
+},
+{
+"id": "alamein",
+"year": 1942,
+"date": "23. oktober – 11. november 1942",
+"title": "Andet slag ved El Alamein",
+"text": "Britiske styrker under Montgomery slår Rommels tysk-italienske hær i Egypten. Aksemagterne drives tilbage, og truslen mod Suezkanalen er endegyldigt afværget.",
+"lat": 30.83,
+"lon": 28.95,
+"cat": "krig",
+"countries": [
+"Egypt",
+"Libya"
+]
+},
+{
+"id": "kursk",
+"year": 1943,
+"date": "juli – august 1943",
+"title": "Slaget ved Kursk",
+"text": "Den sidste store strategiske tyske offensiv på østfronten slår fejl. Slaget regnes for et af historiens største kampvognsslag, og derefter er det Den Røde Hær, der rykker frem.",
+"lat": 51.73,
+"lon": 36.19,
+"cat": "krig",
+"countries": [
+"USSR"
+]
+},
+{
+"id": "29aug",
+"year": 1943,
+"date": "29. august 1943",
+"title": "Samarbejdspolitikken bryder sammen",
+"text": "Efter en sommer med strejker og sabotage stiller Tyskland krav, som den danske regering afviser. Tyskerne erklærer undtagelsestilstand, og regeringen indstiller sit arbejde.",
+"lat": 55.68,
+"lon": 12.58,
+"cat": "politik",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "joder",
+"year": 1943,
+"date": "oktober 1943",
+"title": "De danske jøder flygter til Sverige",
+"text": "Da nazisterne vil deportere de danske jøder, bliver de fleste advaret og hjulpet over Øresund. Omkring 7.000 når i sikkerhed i Sverige, mens omkring 470 deporteres til Theresienstadt.",
+"lat": 55.9,
+"lon": 12.7,
+"cat": "folkedrab",
+"dk": true,
+"countries": [
+"Denmark",
+"Sweden"
+]
+},
+{
+"id": "bretton",
+"year": 1944,
+"date": "juli 1944",
+"title": "Bretton Woods-konferencen",
+"text": "44 allierede lande aftaler et nyt økonomisk system efter krigen med faste valutakurser knyttet til dollaren. Konferencen beslutter at oprette Verdensbanken og Den Internationale Valutafond (IMF), som formelt oprettes i december 1945.",
+"lat": 44.26,
+"lon": -71.44,
+"cat": "okonomi",
+"countries": [
+"United States"
+]
+},
+{
+"id": "island",
+"year": 1944,
+"date": "17. juni 1944",
+"title": "Island bliver republik",
+"text": "Island ophæver unionen med Danmark og udråber sig som selvstændig republik på Þingvellir, mens Danmark er besat.",
+"lat": 64.26,
+"lon": -21.13,
+"cat": "selvstaendighed",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "dday",
+"year": 1944,
+"date": "6. juni 1944",
+"title": "D-dag: landgangen i Normandiet",
+"text": "Omkring 156.000 allierede soldater går i land i Normandiet på første dag. Det er den største landgangsoperation fra søen i historien og åbner en ny front mod Tyskland i vest.",
+"lat": 49.37,
+"lon": -0.87,
+"cat": "krig",
+"countries": [
+"France",
+"United Kingdom",
+"United States"
+]
+},
+{
+"id": "jalta",
+"year": 1945,
+"date": "4. – 11. februar 1945",
+"title": "Jalta-konferencen",
+"text": "Roosevelt, Churchill og Stalin mødes på Krim og planlægger efterkrigstiden: Tyskland skal deles i besættelseszoner, og Sovjetunionen skal gå ind i krigen mod Japan.",
+"lat": 44.47,
+"lon": 34.14,
+"cat": "aftale",
+"countries": [
+"USSR",
+"United States",
+"United Kingdom"
+]
+},
+{
+"id": "befrielsen",
+"year": 1945,
+"date": "4. – 5. maj 1945",
+"title": "Befrielsen af Danmark",
+"text": "Om aftenen den 4. maj meddeler BBC, at de tyske tropper i Danmark har overgivet sig, og kapitulationen træder i kraft den 5. maj. Bornholm bliver dog bombet og derefter besat af sovjetiske tropper frem til april 1946.",
+"lat": 55.68,
+"lon": 12.57,
+"cat": "fred",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "vedag",
+"year": 1945,
+"date": "8. maj 1945",
+"title": "Tyskland kapitulerer",
+"text": "Hitler har begået selvmord den 30. april. Tyskland overgiver sig betingelsesløst, og krigen i Europa er slut. Landet deles i fire besættelseszoner.",
+"lat": 52.52,
+"lon": 13.4,
+"cat": "fred",
+"countries": [
+"Germany (Soviet)",
+"Germany (UK)",
+"Germany (USA)",
+"Germany (France)"
+]
+},
+{
+"id": "hiroshima",
+"year": 1945,
+"date": "6. og 9. august 1945",
+"title": "Atombomberne over Hiroshima og Nagasaki",
+"text": "USA kaster to atombomber over japanske byer. Over 100.000 mennesker dræbes med det samme, og mange flere dør senere af skader og stråling. Japan meddeler sin kapitulation den 15. august og underskriver den formelt den 2. september 1945.",
+"lat": 34.39,
+"lon": 132.45,
+"cat": "atom",
+"countries": [
+"Japan (USA)"
+]
+},
+{
+"id": "fn",
+"year": 1945,
+"date": "26. juni 1945",
+"title": "FN grundlægges",
+"text": "50 lande underskriver FN-pagten i San Francisco, og den træder i kraft den 24. oktober 1945, FN's officielle stiftelsesdag. De Forenede Nationer skal bevare freden og fremme samarbejde mellem landene. Danmark er blandt de oprindelige medlemmer.",
+"lat": 37.78,
+"lon": -122.42,
+"cat": "aftale",
+"countries": [
+"United States"
+]
+},
+{
+"id": "jerntaeppe",
+"year": 1946,
+"date": "5. marts 1946",
+"title": "Churchills jerntæppetale",
+"text": "I Fulton i USA siger Churchill, at et jerntæppe er sænket ned over Europa fra Stettin til Trieste. Talen bliver et symbol på begyndelsen af Den Kolde Krig.",
+"lat": 38.85,
+"lon": -91.95,
+"cat": "politik",
+"countries": [
+"United States",
+"USSR"
+]
+},
+{
+"id": "nurnberg",
+"year": 1946,
+"date": "november 1945 – oktober 1946",
+"title": "Nürnbergprocessen",
+"text": "Ledende nazister stilles for en international domstol for blandt andet forbrydelser mod menneskeheden. 12 bliver dømt til døden. Retssagen danner grundlag for moderne international strafferet.",
+"lat": 49.45,
+"lon": 11.08,
+"cat": "politik",
+"countries": [
+"Germany (USA)"
+]
+},
+{
+"id": "indokina",
+"year": 1946,
+"until": 1954,
+"ongoing": "Indokinakrigen",
+"date": "december 1946",
+"title": "Indokinakrigen begynder",
+"text": "Viet Minh under Ho Chi Minh kæmper mod Frankrig for Vietnams selvstændighed. Krigen ender med det franske nederlag ved Dien Bien Phu i 1954.",
+"lat": 21.03,
+"lon": 105.85,
+"cat": "krig",
+"countries": [
+"Tonkin",
+"Annam",
+"Cochin China"
+]
+},
+{
+"id": "indien",
+"year": 1947,
+"date": "14. – 15. august 1947",
+"title": "Indien og Pakistan bliver selvstændige",
+"text": "Britisk Indien deles i Indien og Pakistan. Delingen fører til en af historiens største folkevandringer: 10–20 millioner mennesker flygter, og anslået 200.000 til 2 millioner dræbes i uroligheder (skønnene varierer meget).",
+"lat": 28.61,
+"lon": 77.21,
+"cat": "selvstaendighed",
+"countries": [
+"India",
+"Pakistan",
+"Bangladesh"
+]
+},
+{
+"id": "marshall",
+"year": 1947,
+"date": "5. juni 1947",
+"title": "Marshallplanen",
+"text": "USA's udenrigsminister George Marshall foreslår økonomisk hjælp til genopbygningen af Europa. Vesteuropa, også Danmark, modtager milliarder af dollars. Sovjetunionen afviser hjælpen for østlandene.",
+"lat": 42.37,
+"lon": -71.12,
+"cat": "okonomi",
+"countries": [
+"United States"
+]
+},
+{
+"id": "israel",
+"year": 1948,
+"date": "14. maj 1948",
+"title": "Staten Israel udråbes",
+"text": "Dagen efter angriber nabolandene, og borgerkrigen, der har raset siden november 1947, bliver til en krig mellem Israel og nabostaterne. Omkring 700.000 palæstinensere flygter eller fordrives, hvilket palæstinenserne kalder Nakba (katastrofen).",
+"lat": 32.07,
+"lon": 34.78,
+"cat": "krig",
+"countries": [
+"Israel",
+"Jordan",
+"Egypt",
+"Syria",
+"Lebanon"
+]
+},
+{
+"id": "berlinblokade",
+"year": 1948,
+"until": 1949,
+"ongoing": "Berlinblokaden",
+"date": "juni 1948 – maj 1949",
+"title": "Berlinblokaden og luftbroen",
+"text": "Sovjetunionen spærrer alle land- og vandveje til Vestberlin. Vestmagterne forsyner byen gennem luften i næsten et år, indtil blokaden ophæves.",
+"lat": 52.48,
+"lon": 13.39,
+"cat": "krise",
+"countries": [
+"Germany (Soviet)"
+]
+},
+{
+"id": "menneskeret",
+"year": 1948,
+"date": "10. december 1948",
+"title": "Verdenserklæringen om menneskerettigheder",
+"text": "FN's generalforsamling vedtager i Paris erklæringen om de rettigheder, som alle mennesker har. Den bliver grundlaget for senere menneskerettighedskonventioner.",
+"lat": 48.86,
+"lon": 2.29,
+"cat": "aftale",
+"countries": [
+"France"
+]
+},
+{
+"id": "apartheid",
+"year": 1948,
+"until": 1994,
+"ongoing": "Apartheid",
+"date": "maj 1948",
+"title": "Apartheid indføres i Sydafrika",
+"text": "Nationalistpartiet vinder valget og indfører apartheid: et lovfæstet system, der adskiller befolkningen efter hudfarve og fratager den sorte befolkning rettigheder.",
+"lat": -25.75,
+"lon": 28.19,
+"cat": "politik",
+"countries": [
+"South Africa"
+]
+},
+{
+"id": "nato",
+"year": 1949,
+"date": "4. april 1949",
+"title": "NATO grundlægges",
+"text": "12 lande underskriver Atlantpagten i Washington, heriblandt Danmark og Norge. Et angreb på ét medlem skal betragtes som et angreb på alle.",
+"lat": 38.9,
+"lon": -77.04,
+"cat": "aftale",
+"dk": true,
+"countries": [
+"United States",
+"Canada",
+"United Kingdom",
+"France",
+"Denmark",
+"Norway",
+"Netherlands",
+"Belgium",
+"Luxembourg",
+"Italy",
+"Portugal",
+"Iceland"
+]
+},
+{
+"id": "tyskland2",
+"year": 1949,
+"date": "maj og oktober 1949",
+"title": "Tyskland deles i to stater",
+"text": "Forbundsrepublikken Tyskland (Vesttyskland) oprettes i maj med Bonn som hovedstad. I oktober oprettes Den Tyske Demokratiske Republik (Østtyskland).",
+"lat": 50.73,
+"lon": 7.1,
+"cat": "politik",
+"countries": [
+"Germany (UK)",
+"Germany (USA)",
+"Germany (France)",
+"Germany (Soviet)"
+]
+},
+{
+"id": "kina",
+"year": 1949,
+"date": "1. oktober 1949",
+"title": "Folkerepublikken Kina udråbes",
+"text": "Mao Zedong udråber Folkerepublikken Kina i Beijing efter kommunisternes sejr i borgerkrigen. Nationalisterne under Chiang Kai-shek flygter til Taiwan.",
+"lat": 39.9,
+"lon": 116.4,
+"cat": "revolution",
+"countries": [
+"China",
+"Manchuria"
+]
+},
+{
+"id": "sovjetbombe",
+"year": 1949,
+"date": "29. august 1949",
+"title": "Sovjetunionen sprænger sin første atombombe",
+"text": "USA's atomvåbenmonopol er brudt, og atomkapløbet mellem supermagterne er begyndt.",
+"lat": 50.4,
+"lon": 77.8,
+"cat": "atom",
+"countries": [
+"USSR"
+]
+},
+{
+"id": "korea",
+"year": 1950,
+"until": 1953,
+"ongoing": "Koreakrigen",
+"date": "25. juni 1950",
+"title": "Koreakrigen bryder ud",
+"text": "Nordkorea angriber Sydkorea. En FN-styrke under amerikansk ledelse støtter Syd, og Kina sender senere tropper til støtte for Nord. Krigen slutter med en våbenstilstand i 1953 tæt på den oprindelige grænse.",
+"lat": 37.57,
+"lon": 126.98,
+"cat": "krig",
+"countries": [
+"Korea (USA)",
+"Korea (USSR)"
+]
+},
+{
+"id": "jutlandia",
+"year": 1951,
+"date": "januar 1951",
+"title": "Hospitalsskibet Jutlandia sejler til Korea",
+"text": "Danmarks bidrag til FN-indsatsen i Koreakrigen er hospitalsskibet Jutlandia. Personalet behandler tusindvis af sårede soldater og civile frem til 1953.",
+"lat": 35.1,
+"lon": 129.04,
+"cat": "fred",
+"dk": true,
+"countries": [
+"Korea (USA)"
+]
+},
+{
+"id": "kulstaal",
+"year": 1951,
+"date": "18. april 1951",
+"title": "Kul- og Stålunionen",
+"text": "Frankrig, Vesttyskland, Italien og Beneluxlandene samler deres kul- og stålindustri under fælles kontrol. Det er begyndelsen på det samarbejde, der senere bliver til EU.",
+"lat": 48.86,
+"lon": 2.35,
+"cat": "aftale",
+"countries": [
+"France",
+"Italy",
+"Belgium",
+"Netherlands",
+"Luxembourg",
+"Germany (UK)",
+"Germany (USA)",
+"Germany (France)"
+]
+},
+{
+"id": "brintbombe",
+"year": 1952,
+"date": "1. november 1952",
+"title": "USA sprænger den første brintbombe",
+"text": "Prøvesprængningen 'Ivy Mike' på Enewetak-atollen er omkring 700 gange kraftigere end Hiroshima-bomben. Sovjetunionen følger efter få år senere.",
+"lat": 11.5,
+"lon": 162.3,
+"cat": "atom",
+"countries": [
+"United States"
+]
+},
+{
+"id": "maumau",
+"year": 1952,
+"until": 1960,
+"ongoing": "Mau Mau-oprøret",
+"date": "oktober 1952",
+"title": "Mau Mau-oprøret i Kenya",
+"text": "Briterne erklærer undtagelsestilstand i Kenya under et væbnet oprør mod kolonistyret. Oprøret slås hårdt ned, og mindst 80.000 interneres i lejre uden rettergang.",
+"lat": -0.4,
+"lon": 36.95,
+"cat": "revolution",
+"countries": [
+"Kenya"
+]
+},
+{
+"id": "stalin",
+"year": 1953,
+"date": "5. marts 1953",
+"title": "Stalin dør",
+"text": "Sovjetunionens diktator siden 1920'erne dør. Under ham blev millioner sendt i Gulag-arbejdslejre, og omkring 700.000 blev henrettet alene under Den Store Terror 1937–38. Nikita Khrusjtjov bliver efterhånden ny leder.",
+"lat": 55.75,
+"lon": 37.62,
+"cat": "politik",
+"countries": [
+"USSR"
+]
+},
+{
+"id": "grundlov53",
+"year": 1953,
+"date": "5. juni 1953",
+"title": "Ny dansk grundlov",
+"text": "Folketinget får ét kammer, og med en ny tronfølgelov kan kvinder arve tronen, dog kun hvis der ingen sønner er. Grønland ophører med at være koloni og bliver en ligestillet del af Danmark.",
+"lat": 55.68,
+"lon": 12.58,
+"cat": "politik",
+"dk": true,
+"countries": [
+"Denmark",
+"Greenland"
+]
+},
+{
+"id": "dna",
+"year": 1953,
+"date": "april 1953",
+"title": "DNA's struktur beskrives",
+"text": "James Watson og Francis Crick beskriver DNA-molekylets dobbeltspiral i Cambridge, blandt andet på baggrund af Rosalind Franklins røntgenbilleder. Det bliver grundlaget for moderne genetik.",
+"lat": 52.2,
+"lon": 0.12,
+"cat": "videnskab",
+"countries": [
+"United Kingdom"
+]
+},
+{
+"id": "dienbienphu",
+"year": 1954,
+"date": "7. maj 1954",
+"title": "Frankrigs nederlag ved Dien Bien Phu",
+"text": "Viet Minh vinder over Frankrig. På Genève-konferencen samme sommer deles Vietnam midlertidigt ved 17. breddegrad i et kommunistisk nord og et vestligt støttet syd.",
+"lat": 21.39,
+"lon": 103.02,
+"cat": "krig",
+"countries": [
+"Tonkin",
+"Annam",
+"Cochin China",
+"Laos",
+"Cambodia"
+]
+},
+{
+"id": "algeriet",
+"year": 1954,
+"until": 1962,
+"ongoing": "Algierkrigen",
+"date": "1. november 1954",
+"title": "Algierkrigen begynder",
+"text": "Befrielsesbevægelsen FLN starter en væbnet kamp mod det franske styre. Krigen er brutal på begge sider og ender med Algeriets selvstændighed i 1962.",
+"lat": 36.75,
+"lon": 3.06,
+"cat": "krig",
+"countries": [
+"Algeria"
+]
+},
+{
+"id": "warszawa",
+"year": 1955,
+"date": "14. maj 1955",
+"title": "Warszawapagten",
+"text": "Sovjetunionen og de østeuropæiske lande opretter en militæralliance som modvægt til NATO, kort efter at Vesttyskland er blevet medlem af NATO.",
+"lat": 52.23,
+"lon": 21.01,
+"cat": "aftale",
+"countries": [
+"USSR",
+"Poland",
+"Czechoslovakia",
+"Hungary",
+"Romania",
+"Bulgaria",
+"Albania",
+"Germany (Soviet)"
+]
+},
+{
+"id": "bandung",
+"year": 1955,
+"date": "april 1955",
+"title": "Bandung-konferencen",
+"text": "29 lande fra Asien og Afrika mødes i Indonesien. De tager afstand fra kolonialisme og vil ikke tvinges ind i en af supermagternes blokke. Konferencen bliver en forløber for de alliancefrie landes bevægelse.",
+"lat": -6.92,
+"lon": 107.6,
+"cat": "politik",
+"countries": [
+"Indonesia",
+"India",
+"China",
+"Egypt"
+]
+},
+{
+"id": "montgomery",
+"year": 1955,
+"date": "1. december 1955",
+"title": "Rosa Parks og busboykotten i Montgomery",
+"text": "Rosa Parks nægter at give sin plads i bussen til en hvid passager og arresteres. Den følgende busboykot, ledet af Martin Luther King, bliver et gennembrud for borgerrettighedsbevægelsen i USA.",
+"lat": 32.38,
+"lon": -86.3,
+"cat": "politik",
+"countries": [
+"United States"
+]
+},
+{
+"id": "ungarn",
+"year": 1956,
+"date": "23. oktober – 10. november 1956",
+"title": "Opstanden i Ungarn",
+"text": "Ungarere gør oprør mod det sovjetstøttede styre. Regeringen under Imre Nagy erklærer landet neutralt og melder det ud af Warszawapagten. Sovjetiske kampvogne slår opstanden ned. Tusinder dræbes, og omkring 200.000 flygter.",
+"lat": 47.5,
+"lon": 19.04,
+"cat": "revolution",
+"countries": [
+"Hungary"
+]
+},
+{
+"id": "suez",
+"year": 1956,
+"date": "oktober – november 1956",
+"title": "Suezkrisen",
+"text": "Egypten nationaliserer Suezkanalen i juli 1956. I oktober–november angriber Israel, Storbritannien og Frankrig, men må trække sig under pres fra USA og Sovjetunionen. FN opretter sin første bevæbnede fredsbevarende styrke (UNEF), som også danske soldater deltager i.",
+"lat": 30.6,
+"lon": 32.3,
+"cat": "krise",
+"dk": true,
+"countries": [
+"Egypt",
+"Israel",
+"United Kingdom",
+"France"
+]
+},
+{
+"id": "sputnik",
+"year": 1957,
+"date": "4. oktober 1957",
+"title": "Sputnik 1",
+"text": "Sovjetunionen sender verdens første kunstige satellit i kredsløb om Jorden. I USA udløser det et chok, og rumkapløbet er begyndt.",
+"lat": 45.92,
+"lon": 63.34,
+"cat": "rum",
+"countries": [
+"USSR"
+]
+},
+{
+"id": "rom",
+"year": 1957,
+"date": "25. marts 1957",
+"title": "Romtraktaten",
+"text": "Frankrig, Vesttyskland, Italien, Belgien, Holland og Luxembourg opretter Det Europæiske Økonomiske Fællesskab (EØF) med et fælles marked. EØF bliver i 1967 en del af De Europæiske Fællesskaber (EF).",
+"lat": 41.9,
+"lon": 12.5,
+"cat": "aftale",
+"countries": [
+"France",
+"Germany (UK)",
+"Germany (USA)",
+"Germany (France)",
+"Italy",
+"Belgium",
+"Netherlands",
+"Luxembourg"
+]
+},
+{
+"id": "ghana",
+"year": 1957,
+"date": "6. marts 1957",
+"title": "Ghana bliver selvstændigt",
+"text": "Den britiske koloni Guldkysten bliver selvstændig under navnet Ghana med Kwame Nkrumah som leder. Den regnes ofte som den første koloni syd for Sahara, der bliver fri, og den inspirerer resten af Afrika.",
+"lat": 5.6,
+"lon": -0.19,
+"cat": "selvstaendighed",
+"countries": [
+"Gold Coast",
+"Ghana"
+]
+},
+{
+"id": "springet",
+"year": 1958,
+"until": 1962,
+"ongoing": "Det Store Spring",
+"date": "1958",
+"title": "Det Store Spring Fremad",
+"text": "Mao vil gøre Kina til en industrimagt på få år. Kampagnen fører til en af historiens værste hungersnøde, hvor anslået 15–45 millioner mennesker dør.",
+"lat": 32.0,
+"lon": 112.0,
+"cat": "katastrofe",
+"countries": [
+"China"
+]
+},
+{
+"id": "cuba",
+"year": 1959,
+"date": "1. januar 1959",
+"title": "Den cubanske revolution",
+"text": "Fidel Castros oprørere vælter diktatoren Batista. Cuba nærmer sig snart Sovjetunionen og bliver et kommunistisk land tæt på USA's kyst.",
+"lat": 23.11,
+"lon": -82.37,
+"cat": "revolution",
+"countries": [
+"Cuba"
+]
+},
+{
+"id": "tibet",
+"year": 1959,
+"date": "marts 1959",
+"title": "Dalai Lama flygter fra Tibet",
+"text": "Et oprør mod det kinesiske styre i Tibet slås ned. Dalai Lama flygter til Indien, hvor han opretter en eksilregering.",
+"lat": 29.65,
+"lon": 91.1,
+"cat": "revolution",
+"countries": [
+"Tibet",
+"China"
+]
+},
+{
+"id": "afrikasaar",
+"year": 1960,
+"date": "1960",
+"title": "Afrikas år",
+"text": "17 afrikanske lande bliver selvstændige i løbet af ét år, de fleste af dem tidligere franske kolonier. Kort efter selvstændigheden bryder Congokrisen ud i det tidligere Belgisk Congo.",
+"lat": 4.0,
+"lon": 17.0,
+"cat": "selvstaendighed",
+"countries": [
+"Nigeria",
+"Zaire",
+"Senegal",
+"Mali",
+"Niger",
+"Chad",
+"Cameroon",
+"Madagascar",
+"Ivory Coast",
+"Burkina Faso",
+"Benin",
+"Togo",
+"Gabon",
+"Congo",
+"Central African Republic",
+"Mauritania",
+"Somalia"
+]
+},
+{
+"id": "sharpeville",
+"year": 1960,
+"date": "21. marts 1960",
+"title": "Massakren i Sharpeville",
+"text": "Politiet skyder mod en demonstration mod paslovene, organiseret af Pan Africanist Congress (PAC), og dræber 69 mennesker. Regimet forbyder derefter både ANC og PAC, som går under jorden.",
+"lat": -26.68,
+"lon": 27.87,
+"cat": "krise",
+"countries": [
+"South Africa"
+]
+},
+{
+"id": "gagarin",
+"year": 1961,
+"date": "12. april 1961",
+"title": "Jurij Gagarin – første menneske i rummet",
+"text": "Den sovjetiske kosmonaut flyver én gang rundt om Jorden i rumkapslen Vostok 1. Sovjetunionen fører i rumkapløbet.",
+"lat": 45.92,
+"lon": 63.34,
+"cat": "rum",
+"countries": [
+"USSR"
+]
+},
+{
+"id": "svinebugten",
+"year": 1961,
+"date": "17. april 1961",
+"title": "Invasionen i Svinebugten",
+"text": "Cubanske eksilstyrker, trænet af CIA, forsøger at vælte Castro, men invasionen slår fejl inden for få dage. Det er en ydmygelse for præsident Kennedy.",
+"lat": 22.07,
+"lon": -81.17,
+"cat": "krig",
+"countries": [
+"Cuba",
+"United States"
+]
+},
+{
+"id": "muren",
+"year": 1961,
+"until": 1989,
+"ongoing": "Berlinmuren",
+"date": "13. august 1961",
+"title": "Berlinmuren bygges",
+"text": "Østtyskland lukker grænsen til Vestberlin for at stoppe flugten mod vest. Muren bliver Den Kolde Krigs stærkeste symbol. Mindst 140 mennesker dræbes ved muren frem til 1989.",
+"lat": 52.51,
+"lon": 13.39,
+"cat": "krise",
+"countries": [
+"East Germany",
+"West Germany"
+]
+},
+{
+"id": "cubakrise",
+"year": 1962,
+"date": "16. – 28. oktober 1962",
+"title": "Cubakrisen",
+"text": "USA opdager sovjetiske atomraketter på Cuba. I 13 dage er verden tættere på atomkrig end nogensinde før. Krisen løses, da Sovjetunionen fjerner raketterne, og USA i hemmelighed lover at fjerne sine raketter fra Tyrkiet.",
+"lat": 22.0,
+"lon": -79.5,
+"cat": "atom",
+"countries": [
+"Cuba",
+"United States",
+"USSR"
+]
+},
+{
+"id": "ihaveadream",
+"year": 1963,
+"date": "28. august 1963",
+"title": "Marchen på Washington",
+"text": "Omkring 250.000 mennesker demonstrerer for borgerrettigheder. Martin Luther King holder sin tale 'I Have a Dream'. Året efter vedtages Civil Rights Act, der forbyder raceadskillelse.",
+"lat": 38.89,
+"lon": -77.05,
+"cat": "politik",
+"countries": [
+"United States"
+]
+},
+{
+"id": "kennedy",
+"year": 1963,
+"date": "22. november 1963",
+"title": "Kennedy bliver dræbt",
+"text": "Præsident John F. Kennedy skydes i Dallas. Vicepræsident Lyndon B. Johnson overtager embedet.",
+"lat": 32.78,
+"lon": -96.8,
+"cat": "politik",
+"countries": [
+"United States"
+]
+},
+{
+"id": "mandela64",
+"year": 1964,
+"date": "12. juni 1964",
+"title": "Nelson Mandela idømmes livsvarigt fængsel",
+"text": "ANC-lederen dømmes i Rivonia-retssagen for sabotage mod apartheidstyret. Han sidder i alt fængslet i 27 år (1962–1990), heraf 18 år på Robben Island.",
+"lat": -33.81,
+"lon": 18.37,
+"cat": "politik",
+"countries": [
+"South Africa"
+]
+},
+{
+"id": "vietnam",
+"year": 1965,
+"until": 1975,
+"ongoing": "Vietnamkrigen",
+"date": "8. marts 1965",
+"title": "USA sender kamptropper til Vietnam",
+"text": "De første amerikanske kampenheder går i land ved Da Nang. På det højeste i 1968–69 er over en halv million amerikanske soldater i Vietnam. Krigen splitter USA og skaber protester over hele verden.",
+"lat": 16.05,
+"lon": 108.2,
+"cat": "krig",
+"countries": [
+"Vietnam"
+]
+},
+{
+"id": "kulturrevolution",
+"year": 1966,
+"until": 1976,
+"ongoing": "Kulturrevolutionen",
+"date": "maj 1966",
+"title": "Kulturrevolutionen i Kina",
+"text": "Mao mobiliserer de unge Røde Garder mod 'borgerlige' elementer. Lærere, intellektuelle og partifolk forfølges, og mange dør. Kulturrevolutionen slutter først med Maos død i 1976.",
+"lat": 39.9,
+"lon": 116.4,
+"cat": "revolution",
+"countries": [
+"China"
+]
+},
+{
+"id": "seksdages",
+"year": 1967,
+"date": "5. – 10. juni 1967",
+"title": "Seksdageskrigen",
+"text": "Israel besejrer Egypten, Jordan og Syrien og erobrer Sinai, Gazastriben, Vestbredden med Østjerusalem og Golanhøjderne. Konsekvenserne præger Mellemøsten den dag i dag.",
+"lat": 31.78,
+"lon": 35.22,
+"cat": "krig",
+"countries": [
+"Israel",
+"Egypt",
+"Jordan",
+"Syria"
+]
+},
+{
+"id": "biafra",
+"year": 1967,
+"until": 1970,
+"ongoing": "Biafrakrigen",
+"date": "30. maj – juli 1967",
+"title": "Biafrakrigen",
+"text": "Det østlige Nigeria erklærer sig selvstændigt som Biafra i maj 1967, og i juli bryder borgerkrigen ud. En blokade fører til hungersnød, og billederne af sultende børn skaber verdensomspændende opmærksomhed.",
+"lat": 5.5,
+"lon": 7.5,
+"cat": "krig",
+"countries": [
+"Nigeria"
+]
+},
+{
+"id": "pragerforaar",
+"year": 1968,
+"date": "20. – 21. august 1968",
+"title": "Foråret i Prag knuses",
+"text": "Tjekkoslovakiets leder Alexander Dubček har indført 'socialisme med et menneskeligt ansigt'. Warszawapagtens tropper invaderer landet og stopper reformerne.",
+"lat": 50.08,
+"lon": 14.43,
+"cat": "krise",
+"countries": [
+"Czechoslovakia"
+]
+},
+{
+"id": "mlk",
+"year": 1968,
+"date": "4. april 1968",
+"title": "Martin Luther King bliver dræbt",
+"text": "Borgerrettighedsforkæmperen skydes i Memphis. Mordet udløser uroligheder i over 100 amerikanske byer.",
+"lat": 35.13,
+"lon": -90.05,
+"cat": "politik",
+"countries": [
+"United States"
+]
+},
+{
+"id": "ungdomsoprør",
+"year": 1968,
+"date": "maj 1968",
+"title": "Ungdomsoprøret",
+"text": "Studenter og arbejdere i Paris demonstrerer og strejker i ugevis. Samme forår besætter studenter Psykologisk Institut ved Københavns Universitet. Oprøret retter sig mod autoriteter, krigen i Vietnam og det gamle samfund.",
+"lat": 48.85,
+"lon": 2.34,
+"cat": "revolution",
+"dk": true,
+"countries": [
+"France",
+"Denmark"
+]
+},
+{
+"id": "apollo11",
+"year": 1969,
+"date": "20. juli 1969",
+"title": "Apollo 11 lander på Månen",
+"text": "Neil Armstrong og Buzz Aldrin bliver de første mennesker på Månen, mens Michael Collins kredser over dem. Anslået 600 millioner mennesker ser med på tv.",
+"lat": 28.57,
+"lon": -80.65,
+"cat": "rum",
+"countries": [
+"United States"
+]
+},
+{
+"id": "arpanet",
+"year": 1969,
+"date": "29. oktober 1969",
+"title": "ARPANET sender sin første besked",
+"text": "Et universitet i Los Angeles sender den første besked over det militærfinansierede computernetværk ARPANET. Netværket bliver forløberen for internettet.",
+"lat": 34.07,
+"lon": -118.44,
+"cat": "videnskab",
+"countries": [
+"United States"
+]
+},
+{
+"id": "kniefall",
+"year": 1970,
+"date": "7. december 1970",
+"title": "Willy Brandt knæler i Warszawa",
+"text": "Vesttysklands kansler knæler ved mindesmærket for opstanden i Warszawas ghetto. Gestussen bliver et symbol på hans afspændingspolitik over for Østeuropa (Ostpolitik).",
+"lat": 52.25,
+"lon": 20.99,
+"cat": "fred",
+"countries": [
+"Poland",
+"West Germany"
+]
+},
+{
+"id": "bangladesh",
+"year": 1971,
+"date": "26. marts – 16. december 1971",
+"title": "Bangladesh bliver selvstændigt",
+"text": "Østpakistan kæmper for løsrivelse fra Pakistan. Den pakistanske hær begår massedrab, millioner flygter til Indien, og Indien går ind i krigen. Resultatet er den nye stat Bangladesh.",
+"lat": 23.81,
+"lon": 90.41,
+"cat": "selvstaendighed",
+"countries": [
+"Pakistan",
+"India"
+]
+},
+{
+"id": "christiania",
+"year": 1971,
+"date": "26. september 1971",
+"title": "Fristaden Christiania",
+"text": "Unge flytter ind på det forladte militærområde Bådsmandsstrædes Kaserne på Christianshavn og udråber fristaden Christiania.",
+"lat": 55.67,
+"lon": 12.6,
+"cat": "kultur",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "nixonkina",
+"year": 1972,
+"date": "februar 1972",
+"title": "Nixon besøger Kina",
+"text": "Præsident Nixon mødes med Mao i Beijing. Besøget bryder over 20 års isolation mellem USA og Kina og ændrer magtbalancen i Den Kolde Krig.",
+"lat": 39.9,
+"lon": 116.4,
+"cat": "fred",
+"countries": [
+"China",
+"United States"
+]
+},
+{
+"id": "munchen",
+"year": 1972,
+"date": "5. – 6. september 1972",
+"title": "Terrorangrebet ved OL i München",
+"text": "Den palæstinensiske gruppe Sort September tager israelske sportsfolk som gidsler. 11 israelske sportsfolk og trænere og en vesttysk politibetjent dræbes.",
+"lat": 48.17,
+"lon": 11.55,
+"cat": "katastrofe",
+"countries": [
+"West Germany"
+]
+},
+{
+"id": "ef73",
+"year": 1973,
+"date": "1. januar 1973",
+"title": "Danmark bliver medlem af EF",
+"text": "Efter en folkeafstemning i 1972, hvor 63 procent stemte ja, bliver Danmark medlem af EF sammen med Storbritannien og Irland.",
+"lat": 55.68,
+"lon": 12.58,
+"cat": "aftale",
+"dk": true,
+"countries": [
+"Denmark",
+"United Kingdom",
+"Ireland"
+]
+},
+{
+"id": "chile",
+"year": 1973,
+"date": "11. september 1973",
+"title": "Militærkup i Chile",
+"text": "Militæret med hærchefen general Augusto Pinochet i spidsen vælter den demokratisk valgte socialistiske præsident Salvador Allende, der dør under kuppet. Et militærdiktatur styrer landet frem til 1990.",
+"lat": -33.45,
+"lon": -70.67,
+"cat": "revolution",
+"countries": [
+"Chile"
+]
+},
+{
+"id": "oliekrise",
+"year": 1973,
+"date": "oktober 1973",
+"title": "Yom Kippur-krigen og oliekrisen",
+"text": "Egypten og Syrien angriber Israel. Arabiske olielande indfører en olieboykot mod Israels støtter, og olieprisen firdobles. I Danmark indføres bilfri søndage.",
+"lat": 29.0,
+"lon": 33.0,
+"cat": "okonomi",
+"dk": true,
+"countries": [
+"Israel",
+"Egypt",
+"Syria",
+"Saudi Arabia"
+]
+},
+{
+"id": "nelliker",
+"year": 1974,
+"date": "25. april 1974",
+"title": "Nellikerevolutionen i Portugal",
+"text": "Officerer vælter Vesteuropas længstlevende diktatur næsten uden blodsudgydelser. Portugal giver nu sine afrikanske kolonier fri: Guinea-Bissau i 1974 og Mozambique og Angola i 1975.",
+"lat": 38.72,
+"lon": -9.14,
+"cat": "revolution",
+"countries": [
+"Portugal",
+"Angola",
+"Mozambique",
+"Guinea-Bissau"
+]
+},
+{
+"id": "watergate",
+"year": 1974,
+"date": "9. august 1974",
+"title": "Nixon går af",
+"text": "Watergate-skandalen afslører, at præsidentens folk har brudt ind hos modpartiet og forsøgt at dække over det. Nixon er den eneste amerikanske præsident, der er gået af før tid.",
+"lat": 38.9,
+"lon": -77.04,
+"cat": "politik",
+"countries": [
+"United States"
+]
+},
+{
+"id": "saigon",
+"year": 1975,
+"date": "30. april 1975",
+"title": "Saigons fald",
+"text": "Nordvietnamesiske tropper indtager Saigon, og Vietnamkrigen er slut. Landet genforenes året efter under kommunistisk styre.",
+"lat": 10.78,
+"lon": 106.7,
+"cat": "krig",
+"countries": [
+"Vietnam"
+]
+},
+{
+"id": "khmer",
+"year": 1975,
+"until": 1979,
+"ongoing": "De Røde Khmerer",
+"date": "17. april 1975",
+"title": "De Røde Khmerer tager magten i Cambodja",
+"text": "Pol Pots styre tømmer byerne og tvinger befolkningen ud i landbruget. Omkring 1,5–2 millioner mennesker dør af henrettelser, sult og sygdom, indtil Vietnam invaderer landet i december 1978 og vælter styret i januar 1979.",
+"lat": 11.56,
+"lon": 104.92,
+"cat": "folkedrab",
+"countries": [
+"Cambodia"
+]
+},
+{
+"id": "helsinki",
+"year": 1975,
+"date": "1. august 1975",
+"title": "Helsinki-slutakten",
+"text": "35 lande fra øst og vest, herunder USA og Sovjetunionen, anerkender Europas grænser og forpligter sig til at respektere menneskerettighederne. Systemkritikere i øst bruger senere aftalen i deres kamp.",
+"lat": 60.17,
+"lon": 24.94,
+"cat": "aftale",
+"countries": [
+"Finland"
+]
+},
+{
+"id": "franco",
+"year": 1975,
+"date": "20. november 1975",
+"title": "Franco dør",
+"text": "Spaniens diktator siden borgerkrigen dør. Under kong Juan Carlos bliver Spanien et demokrati i løbet af få år.",
+"lat": 40.42,
+"lon": -3.7,
+"cat": "politik",
+"countries": [
+"Spain"
+]
+},
+{
+"id": "soweto",
+"year": 1976,
+"date": "16. juni 1976",
+"title": "Soweto-opstanden",
+"text": "Skoleelever i Soweto demonstrerer mod undervisning på afrikaans. Politiet skyder mod dem, og i de følgende uroligheder dræbes flere hundrede mennesker.",
+"lat": -26.27,
+"lon": 27.86,
+"cat": "revolution",
+"countries": [
+"South Africa"
+]
+},
+{
+"id": "mao",
+"year": 1976,
+"date": "9. september 1976",
+"title": "Mao Zedong dør",
+"text": "Efter Maos død afsluttes Kulturrevolutionen. Fra 1978 begynder Deng Xiaoping at åbne Kinas økonomi for markedet.",
+"lat": 39.9,
+"lon": 116.4,
+"cat": "politik",
+"countries": [
+"China"
+]
+},
+{
+"id": "charta77",
+"year": 1977,
+"date": "januar 1977",
+"title": "Charta 77",
+"text": "Systemkritikere i Tjekkoslovakiet, blandt dem Václav Havel, kræver, at regimet overholder de menneskerettigheder, det har skrevet under på i Helsinki. Mange underskrivere forfølges.",
+"lat": 50.08,
+"lon": 14.43,
+"cat": "politik",
+"countries": [
+"Czechoslovakia"
+]
+},
+{
+"id": "voyager",
+"year": 1977,
+"date": "august – september 1977",
+"title": "Voyager-sonderne opsendes",
+"text": "NASA sender to rumsonder af sted mod de ydre planeter. Voyager 1 bliver det første menneskeskabte objekt, der forlader solsystemets heliosfære.",
+"lat": 28.5,
+"lon": -80.6,
+"cat": "rum",
+"countries": [
+"United States"
+]
+},
+{
+"id": "campdavid",
+"year": 1978,
+"date": "17. september 1978",
+"title": "Camp David-aftalerne",
+"text": "Egyptens præsident Sadat og Israels premierminister Begin indgår aftaler under mægling af præsident Carter. I 1979 slutter landene fred, og Israel giver senere Sinai tilbage.",
+"lat": 39.65,
+"lon": -77.46,
+"cat": "fred",
+"countries": [
+"Egypt",
+"Israel",
+"United States"
+]
+},
+{
+"id": "ivf",
+"year": 1978,
+"date": "25. juli 1978",
+"title": "Verdens første reagensglasbarn",
+"text": "Louise Brown bliver født i England som det første barn undfanget ved kunstig befrugtning uden for kroppen (IVF).",
+"lat": 53.54,
+"lon": -2.11,
+"cat": "videnskab",
+"countries": [
+"United Kingdom"
+]
+},
+{
+"id": "iran",
+"year": 1979,
+"date": "januar – april 1979",
+"title": "Den iranske revolution",
+"text": "Shahen flygter, og ayatollah Khomeini vender hjem fra eksil. Iran bliver en islamisk republik. I november besætter studenter USA's ambassade og tager 66 amerikanere som gidsler, og 52 af dem holdes fanget i 444 dage.",
+"lat": 35.69,
+"lon": 51.39,
+"cat": "revolution",
+"countries": [
+"Iran"
+]
+},
+{
+"id": "afghanistan",
+"year": 1979,
+"until": 1989,
+"ongoing": "Sovjets krig i Afghanistan",
+"date": "december 1979",
+"title": "Sovjetunionen invaderer Afghanistan",
+"text": "Sovjetiske tropper skal støtte det kommunistiske styre mod islamistiske oprørere (mujahedin), som får våben fra blandt andre USA. Krigen varer næsten ti år og bliver kaldt 'Sovjetunionens Vietnam'.",
+"lat": 34.53,
+"lon": 69.17,
+"cat": "krig",
+"countries": [
+"Afghanistan",
+"USSR"
+]
+},
+{
+"id": "hjemmestyre",
+"year": 1979,
+"date": "1. maj 1979",
+"title": "Grønland får hjemmestyre",
+"text": "Grønland får sit eget landsting og sin egen regering, som overtager mange opgaver fra Danmark.",
+"lat": 64.18,
+"lon": -51.72,
+"cat": "politik",
+"dk": true,
+"countries": [
+"Greenland"
+]
+},
+{
+"id": "solidarnosc",
+"year": 1980,
+"date": "august 1980",
+"title": "Solidarność",
+"text": "Strejker på Lenin-værftet i Gdańsk fører til den første uafhængige fagforening i Østblokken, ledet af elektrikeren Lech Wałęsa. Snart har den omkring 10 millioner medlemmer.",
+"lat": 54.35,
+"lon": 18.65,
+"cat": "revolution",
+"countries": [
+"Poland"
+]
+},
+{
+"id": "iranirak",
+"year": 1980,
+"until": 1988,
+"ongoing": "Iran-Irak-krigen",
+"date": "22. september 1980",
+"title": "Iran-Irak-krigen",
+"text": "Irak under Saddam Hussein angriber Iran. Krigen varer otte år, koster hundredtusinder livet og ender uden en vinder.",
+"lat": 30.5,
+"lon": 47.8,
+"cat": "krig",
+"countries": [
+"Iran",
+"Iraq"
+]
+},
+{
+"id": "kopper",
+"year": 1980,
+"date": "8. maj 1980",
+"title": "Kopper er udryddet",
+"text": "WHO erklærer kopper for udryddet efter en global vaccinationskampagne. Det er den første og indtil videre eneste menneskelige sygdom, der er blevet udryddet.",
+"lat": 46.2,
+"lon": 6.14,
+"cat": "videnskab",
+"countries": [
+"Switzerland"
+]
+},
+{
+"id": "aids",
+"year": 1981,
+"date": "5. juni 1981",
+"title": "De første tilfælde af aids",
+"text": "Amerikanske sundhedsmyndigheder beskriver en mystisk sygdom hos unge mænd i Los Angeles. Det bliver begyndelsen på en global hiv/aids-epidemi, som har kostet over 40 millioner mennesker livet.",
+"lat": 34.05,
+"lon": -118.24,
+"cat": "katastrofe",
+"countries": [
+"United States"
+]
+},
+{
+"id": "falkland",
+"year": 1982,
+"date": "2. april – 14. juni 1982",
+"title": "Falklandskrigen",
+"text": "Argentina besætter de britiske Falklandsøer. Storbritannien sender en flådestyrke og generobrer øerne efter ti uger.",
+"lat": -51.7,
+"lon": -57.85,
+"cat": "krig",
+"countries": [
+"Argentina",
+"United Kingdom"
+]
+},
+{
+"id": "tcpip",
+"year": 1983,
+"date": "1. januar 1983",
+"title": "Internettet tager form",
+"text": "ARPANET skifter til protokollerne TCP/IP, som stadig er internettets fælles sprog. Datoen kaldes ofte internettets fødselsdag.",
+"lat": 37.43,
+"lon": -122.17,
+"cat": "videnskab",
+"countries": [
+"United States"
+]
+},
+{
+"id": "kal007",
+"year": 1983,
+"date": "1. september 1983",
+"title": "Sovjet skyder et passagerfly ned",
+"text": "Et sydkoreansk passagerfly kommer ind i sovjetisk luftrum og skydes ned. Alle 269 om bord dræbes. Spændingen mellem øst og vest er den højeste i mange år.",
+"lat": 46.6,
+"lon": 141.6,
+"cat": "krise",
+"countries": [
+"USSR"
+]
+},
+{
+"id": "bhopal",
+"year": 1984,
+"date": "2. – 3. december 1984",
+"title": "Giftudslippet i Bhopal",
+"text": "Giftig gas slipper ud fra en pesticidfabrik i Indien. Tusinder dør i løbet af få dage, og hundredtusinder får varige skader. Det er en af verdens værste industriulykker.",
+"lat": 23.26,
+"lon": 77.41,
+"cat": "katastrofe",
+"countries": [
+"India"
+]
+},
+{
+"id": "etiopien",
+"year": 1984,
+"date": "1983 – 1985",
+"title": "Hungersnøden i Etiopien",
+"text": "Tørke, borgerkrig og regeringens politik fører til hungersnød, hvor mellem 300.000 og 1 million mennesker dør (skønnene varierer). Tv-billederne fører til indsamlinger som Band Aid i 1984 og koncerten Live Aid i 1985.",
+"lat": 13.5,
+"lon": 39.5,
+"cat": "katastrofe",
+"countries": [
+"Ethiopia"
+]
+},
+{
+"id": "gorbatjov",
+"year": 1985,
+"date": "11. marts 1985",
+"title": "Gorbatjov kommer til magten",
+"text": "Mikhail Gorbatjov bliver leder af Sovjetunionen. Med glasnost (åbenhed) og perestrojka (omstrukturering) vil han reformere det kommunistiske system.",
+"lat": 55.75,
+"lon": 37.62,
+"cat": "politik",
+"countries": [
+"USSR"
+]
+},
+{
+"id": "tjernobyl",
+"year": 1986,
+"date": "26. april 1986",
+"title": "Tjernobyl-ulykken",
+"text": "En reaktor på et atomkraftværk i Ukraine eksploderer. Radioaktivt nedfald spreder sig over store dele af Europa, og over 100.000 mennesker evakueres. Ulykken svækker tilliden til det sovjetiske system.",
+"lat": 51.39,
+"lon": 30.1,
+"cat": "atom",
+"countries": [
+"USSR"
+]
+},
+{
+"id": "montreal",
+"year": 1987,
+"date": "16. september 1987",
+"title": "Montreal-protokollen",
+"text": "Verdens lande aftaler at udfase de stoffer, der nedbryder ozonlaget. Aftalen regnes for en af de mest vellykkede internationale miljøaftaler.",
+"lat": 45.5,
+"lon": -73.57,
+"cat": "aftale",
+"countries": [
+"Canada"
+]
+},
+{
+"id": "inf",
+"year": 1987,
+"date": "8. december 1987",
+"title": "INF-aftalen",
+"text": "Reagan og Gorbatjov aftaler at skrotte alle landbaserede mellemdistanceraketter. Det er første gang, en hel type atomvåben afskaffes.",
+"lat": 38.9,
+"lon": -77.04,
+"cat": "fred",
+"countries": [
+"United States",
+"USSR"
+]
+},
+{
+"id": "intifada",
+"year": 1987,
+"until": 1993,
+"ongoing": "Første intifada",
+"date": "december 1987",
+"title": "Den første intifada",
+"text": "Palæstinensere i Gaza og på Vestbredden gør oprør mod den israelske besættelse med strejker, boykot og stenkast. Oprøret varer til Oslo-aftalen i 1993.",
+"lat": 31.5,
+"lon": 34.47,
+"cat": "revolution",
+"countries": [
+"Israel"
+]
+},
+{
+"id": "lockerbie",
+"year": 1988,
+"date": "21. december 1988",
+"title": "Lockerbie-bomben",
+"text": "En bombe sprænger et amerikansk passagerfly over Skotland. 270 mennesker dræbes. En libysk efterretningsagent dømmes senere for angrebet.",
+"lat": 55.12,
+"lon": -3.35,
+"cat": "katastrofe",
+"countries": [
+"United Kingdom"
+]
+},
+{
+"id": "tiananmen",
+"year": 1989,
+"date": "4. juni 1989",
+"title": "Massakren på Den Himmelske Freds Plads",
+"text": "Efter ugers demokratidemonstrationer i Beijing sætter det kinesiske styre hæren ind. Hundreder, måske tusinder, dræbes. Begivenheden er stadig censureret i Kina.",
+"lat": 39.9,
+"lon": 116.39,
+"cat": "krise",
+"countries": [
+"China"
+]
+},
+{
+"id": "murensfald",
+"year": 1989,
+"date": "9. november 1989",
+"title": "Berlinmuren falder",
+"text": "Efter massedemonstrationer åbner Østtyskland grænsen. Berlinere klatrer op på muren og hakker stykker af den. I løbet af 1989 falder de kommunistiske regimer i Polen, Ungarn, Tjekkoslovakiet, Bulgarien og Rumænien.",
+"lat": 52.52,
+"lon": 13.38,
+"cat": "revolution",
+"countries": [
+"East Germany",
+"Poland",
+"Hungary",
+"Czechoslovakia",
+"Bulgaria",
+"Romania"
+]
+},
+{
+"id": "partnerskab",
+"year": 1989,
+"date": "1. oktober 1989",
+"title": "Registreret partnerskab",
+"text": "Danmark bliver det første land i verden, hvor to personer af samme køn kan indgå registreret partnerskab.",
+"lat": 55.68,
+"lon": 12.58,
+"cat": "politik",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "www",
+"year": 1989,
+"date": "marts 1989",
+"title": "Forslaget om World Wide Web",
+"text": "Tim Berners-Lee foreslår på forskningscentret CERN et system til at dele dokumenter over internettet. Den første hjemmeside kører på CERN fra december 1990 og bliver offentligt tilgængelig i august 1991.",
+"lat": 46.23,
+"lon": 6.05,
+"cat": "videnskab",
+"countries": [
+"Switzerland"
+]
+},
+{
+"id": "mandela90",
+"year": 1990,
+"date": "11. februar 1990",
+"title": "Nelson Mandela løslades",
+"text": "Efter 27 år i fængsel bliver Mandela løsladt. Forhandlingerne om at afskaffe apartheid begynder.",
+"lat": -33.92,
+"lon": 18.42,
+"cat": "fred",
+"countries": [
+"South Africa"
+]
+},
+{
+"id": "genforening",
+"year": 1990,
+"date": "3. oktober 1990",
+"title": "Tyskland genforenes",
+"text": "Mindre end et år efter murens fald bliver Øst- og Vesttyskland til én stat. Det samlede Tyskland bliver medlem af NATO.",
+"lat": 52.52,
+"lon": 13.4,
+"cat": "politik",
+"countries": [
+"East Germany",
+"West Germany"
+]
+},
+{
+"id": "golfkrig",
+"year": 1990,
+"until": 1991,
+"ongoing": "Golfkrigen",
+"date": "2. august 1990",
+"title": "Irak invaderer Kuwait",
+"text": "Saddam Husseins Irak besætter Kuwait. En FN-godkendt koalition under ledelse af USA befrier Kuwait i januar–februar 1991. Danmark sender korvetten Olfert Fischer til blokaden.",
+"lat": 29.37,
+"lon": 47.98,
+"cat": "krig",
+"dk": true,
+"countries": [
+"Iraq",
+"Kuwait"
+]
+},
+{
+"id": "sovjetfald",
+"year": 1991,
+"date": "26. december 1991",
+"title": "Sovjetunionen opløses",
+"text": "Efter et mislykket kupforsøg i august erklærer republikkerne sig selvstændige. Gorbatjov går af den 25. december, og dagen efter ophører Sovjetunionen med at eksistere. Den Kolde Krig er slut.",
+"lat": 55.75,
+"lon": 37.62,
+"cat": "politik",
+"countries": [
+"Russia",
+"Ukraine",
+"Byelarus",
+"Kazakhstan",
+"Uzbekistan",
+"Turkmenistan",
+"Kyrgyzstan",
+"Tajikistan",
+"Georgia",
+"Armenia",
+"Azerbaijan",
+"Moldova",
+"Estonia",
+"Latvia",
+"Lithuania"
+]
+},
+{
+"id": "baltikum",
+"year": 1991,
+"date": "august 1991",
+"title": "De baltiske lande bliver frie",
+"text": "Estland, Letland og Litauen får deres selvstændighed tilbage. Danmark er blandt de første lande, der genoptager diplomatiske forbindelser med dem.",
+"lat": 56.95,
+"lon": 24.1,
+"cat": "selvstaendighed",
+"dk": true,
+"countries": [
+"Estonia",
+"Latvia",
+"Lithuania"
+]
+},
+{
+"id": "jugoslavien",
+"year": 1991,
+"until": 1995,
+"ongoing": "Krigene i Jugoslavien",
+"date": "juni 1991",
+"title": "Jugoslavien går i opløsning",
+"text": "Slovenien og Kroatien erklærer sig selvstændige, og der bryder krig ud. Det bliver begyndelsen på en række krige med etnisk udrensning, som koster omkring 140.000 mennesker livet.",
+"lat": 45.81,
+"lon": 15.98,
+"cat": "krig",
+"countries": [
+"Slovenia",
+"Croatia",
+"Bosnia and Herzegovina",
+"Serbia",
+"Montenegro",
+"Macedonia"
+]
+},
+{
+"id": "sarajevo",
+"year": 1992,
+"until": 1996,
+"ongoing": "Belejringen af Sarajevo",
+"date": "5. april 1992",
+"title": "Belejringen af Sarajevo begynder",
+"text": "Bosnisk-serbiske styrker omringer Bosniens hovedstad. Belejringen varer næsten fire år og er den længste belejring af en hovedstad i moderne krigshistorie.",
+"lat": 43.86,
+"lon": 18.41,
+"cat": "krig",
+"countries": [
+"Bosnia and Herzegovina"
+]
+},
+{
+"id": "maastricht",
+"year": 1992,
+"date": "2. juni 1992",
+"title": "Danmark siger nej til Maastricht",
+"text": "Et snævert flertal på 50,7 procent stemmer nej til Maastricht-traktaten. Efter Edinburgh-aftalen med fire forbehold siger danskerne ja i 1993.",
+"lat": 55.68,
+"lon": 12.58,
+"cat": "politik",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "em92",
+"year": 1992,
+"date": "26. juni 1992",
+"title": "Danmark vinder EM i fodbold",
+"text": "Danmark kom kun med, fordi Jugoslavien blev udelukket på grund af krigen. I finalen i Göteborg slår Danmark Tyskland 2–0.",
+"lat": 57.71,
+"lon": 11.97,
+"cat": "kultur",
+"dk": true,
+"countries": [
+"Denmark",
+"Sweden"
+]
+},
+{
+"id": "skilsmisse",
+"year": 1993,
+"date": "1. januar 1993",
+"title": "Fløjlsskilsmissen",
+"text": "Tjekkoslovakiet deles fredeligt i to selvstændige stater: Tjekkiet og Slovakiet.",
+"lat": 48.15,
+"lon": 17.11,
+"cat": "politik",
+"countries": [
+"Czech Republic",
+"Slovakia"
+]
+},
+{
+"id": "oslo",
+"year": 1993,
+"date": "13. september 1993",
+"title": "Oslo-aftalen",
+"text": "Efter hemmelige forhandlinger i Norge giver Israels premierminister Rabin og PLO-lederen Arafat hinanden hånden foran Det Hvide Hus i Washington. Palæstinenserne får begrænset selvstyre i Gaza og på Vestbredden.",
+"lat": 59.91,
+"lon": 10.75,
+"cat": "fred",
+"countries": [
+"Israel",
+"Norway"
+]
+},
+{
+"id": "rwanda",
+"year": 1994,
+"date": "april – juli 1994",
+"title": "Folkemordet i Rwanda",
+"text": "På omkring 100 dage myrder ekstremistiske hutuer mellem 500.000 og 800.000 mennesker, de fleste tutsier (skønnene varierer, og Rwandas regering angiver over 1 million). FN trækker de fleste fredsbevarende soldater ud, og verden griber ikke ind.",
+"lat": -1.95,
+"lon": 30.06,
+"cat": "folkedrab",
+"countries": [
+"Rwanda"
+]
+},
+{
+"id": "sydafrika94",
+"year": 1994,
+"date": "27. april 1994",
+"title": "Sydafrikas første frie valg",
+"text": "For første gang kan alle stemme uanset hudfarve. ANC vinder, og Nelson Mandela bliver landets første sorte præsident. Apartheid er slut.",
+"lat": -25.75,
+"lon": 28.19,
+"cat": "politik",
+"countries": [
+"South Africa"
+]
+},
+{
+"id": "estonia",
+"year": 1994,
+"date": "28. september 1994",
+"title": "Estonia-ulykken",
+"text": "Færgen Estonia synker i en storm på vej fra Tallinn til Stockholm. 852 mennesker omkommer. Det er en af de værste skibsulykker i Europa efter krigen.",
+"lat": 59.38,
+"lon": 21.68,
+"cat": "katastrofe",
+"countries": [
+"Estonia",
+"Sweden"
+]
+},
+{
+"id": "srebrenica",
+"year": 1995,
+"date": "juli 1995",
+"title": "Folkemordet i Srebrenica",
+"text": "Bosnisk-serbiske styrker indtager den FN-beskyttede enklave og dræber omkring 8.000 bosniakiske drenge og mænd. Det er det værste massedrab i Europa siden Anden Verdenskrig.",
+"lat": 44.1,
+"lon": 19.3,
+"cat": "folkedrab",
+"countries": [
+"Bosnia and Herzegovina"
+]
+},
+{
+"id": "dayton",
+"year": 1995,
+"date": "november – december 1995",
+"title": "Dayton-aftalen",
+"text": "Fredsaftalen, forhandlet i Dayton i USA, afslutter krigen i Bosnien. Landet deles i to selvstyrende dele, og NATO-tropper, også danske, skal sikre freden.",
+"lat": 39.76,
+"lon": -84.19,
+"cat": "fred",
+"dk": true,
+"countries": [
+"Bosnia and Herzegovina",
+"Croatia",
+"Serbia"
+]
+},
+{
+"id": "dolly",
+"year": 1996,
+"date": "5. juli 1996",
+"title": "Fåret Dolly",
+"text": "Det første pattedyr, der er klonet fra en voksen celle, bliver født i Skotland. Det sætter gang i en verdensomspændende debat om kloning.",
+"lat": 55.86,
+"lon": -3.16,
+"cat": "videnskab",
+"countries": [
+"United Kingdom"
+]
+},
+{
+"id": "taliban",
+"year": 1996,
+"date": "september 1996",
+"title": "Taliban indtager Kabul",
+"text": "Den islamistiske bevægelse Taliban tager magten i det meste af Afghanistan og indfører et strengt styre, hvor piger blandt andet nægtes skolegang.",
+"lat": 34.53,
+"lon": 69.17,
+"cat": "krig",
+"countries": [
+"Afghanistan"
+]
+},
+{
+"id": "hongkong",
+"year": 1997,
+"date": "1. juli 1997",
+"title": "Hongkong overdrages til Kina",
+"text": "Efter 156 år som britisk koloni bliver Hongkong en del af Kina under princippet 'ét land, to systemer'.",
+"lat": 22.28,
+"lon": 114.16,
+"cat": "selvstaendighed",
+"countries": [
+"Hong Kong",
+"China"
+]
+},
+{
+"id": "kyoto",
+"year": 1997,
+"date": "11. december 1997",
+"title": "Kyoto-protokollen",
+"text": "Industrilandene forpligter sig til at nedbringe deres udledning af drivhusgasser. Det er den første store internationale klimaaftale med bindende mål.",
+"lat": 35.01,
+"lon": 135.77,
+"cat": "aftale",
+"countries": [
+"Japan"
+]
+},
+{
+"id": "langfredag",
+"year": 1998,
+"date": "10. april 1998",
+"title": "Langfredagsaftalen",
+"text": "Aftalen afslutter i store træk 30 års konflikt i Nordirland (The Troubles), der har kostet over 3.500 mennesker livet.",
+"lat": 54.6,
+"lon": -5.93,
+"cat": "fred",
+"countries": [
+"United Kingdom",
+"Ireland"
+]
+},
+{
+"id": "atomprøver98",
+"year": 1998,
+"date": "maj 1998",
+"title": "Indien og Pakistan prøvesprænger atomvåben",
+"text": "Indien havde prøvesprængt én gang i 1974, men erklærer sig nu åbent som atommagt. Pakistan følger efter få uger senere. Atomkapløbet mellem de to rivaler er en realitet.",
+"lat": 27.1,
+"lon": 71.75,
+"cat": "atom",
+"countries": [
+"India",
+"Pakistan"
+]
+},
+{
+"id": "google",
+"year": 1998,
+"date": "september 1998",
+"title": "Google grundlægges",
+"text": "To studerende fra Stanford-universitetet, Larry Page og Sergey Brin, starter et firma, der skal gøre internettet søgbart. Snart bliver det verdens mest brugte søgemaskine.",
+"lat": 37.45,
+"lon": -122.18,
+"cat": "videnskab",
+"countries": [
+"United States"
+]
+},
+{
+"id": "euro",
+"year": 1999,
+"date": "1. januar 1999",
+"title": "Euroen indføres",
+"text": "11 EU-lande indfører en fælles valuta. I starten bruges den kun elektronisk, og sedler og mønter kommer i 2002.",
+"lat": 50.11,
+"lon": 8.68,
+"cat": "okonomi",
+"countries": [
+"Germany",
+"France",
+"Italy",
+"Spain",
+"Portugal",
+"Netherlands",
+"Belgium",
+"Luxembourg",
+"Austria",
+"Finland",
+"Ireland"
+]
+},
+{
+"id": "natoudvid",
+"year": 1999,
+"date": "12. marts 1999",
+"title": "Polen, Tjekkiet og Ungarn i NATO",
+"text": "For første gang bliver tidligere medlemmer af Warszawapagten optaget i NATO.",
+"lat": 50.08,
+"lon": 14.43,
+"cat": "aftale",
+"countries": [
+"Poland",
+"Czech Republic",
+"Hungary"
+]
+},
+{
+"id": "kosovo",
+"year": 1999,
+"date": "24. marts – 10. juni 1999",
+"title": "NATO bomber Jugoslavien",
+"text": "For at stoppe overgreb mod albanerne i Kosovo bomber NATO Serbien i 78 dage uden FN-mandat. Danske F-16-fly deltager. Kosovo kommer under FN-administration.",
+"lat": 42.66,
+"lon": 21.17,
+"cat": "krig",
+"dk": true,
+"countries": [
+"Serbia",
+"Montenegro"
+]
+},
+{
+"id": "euronej",
+"year": 2000,
+"date": "28. september 2000",
+"title": "Danmark siger nej til euroen",
+"text": "53,2 procent stemmer nej til at indføre euroen. Danmark beholder kronen.",
+"lat": 55.68,
+"lon": 12.58,
+"cat": "politik",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "genom",
+"year": 2000,
+"date": "26. juni 2000",
+"title": "Det menneskelige genom kortlægges",
+"text": "Forskere offentliggør et første udkast til hele menneskets arvemasse. Det åbner for nye muligheder inden for medicin og forskning.",
+"lat": 38.9,
+"lon": -77.04,
+"cat": "videnskab",
+"countries": [
+"United States"
+]
+},
+{
+"id": "putin",
+"year": 2000,
+"date": "26. marts 2000",
+"title": "Putin vælges som præsident",
+"text": "Vladimir Putin, tidligere KGB-officer, vinder præsidentvalget i Rusland efter at have været fungerende præsident siden Boris Jeltsins afgang nytårsaften 1999.",
+"lat": 55.75,
+"lon": 37.62,
+"cat": "politik",
+"countries": [
+"Russia"
+]
+}
+]
