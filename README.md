@@ -1,8 +1,10 @@
 # Interaktiv verdenshistorie
 
-An interactive world map for history teaching, 1914–2000. Drag the year rail (or press play) to see what happened each year, with power blocs and colonial rule coloured year by year.
+An interactive world map for history teaching, 1914–2025. Drag the year rail (or press play) to see what happened each year, with power blocs and colonial rule coloured year by year.
 
 All UI text and event descriptions are in Danish.
+
+Read-aloud uses the browser's built-in speech synthesis (Web Speech API) with a Danish voice when one is installed; no external service or API key is needed. With "Oplæsning" on, playback waits for each year's reading to finish.
 
 ## Run locally
 
@@ -22,7 +24,7 @@ Then open http://localhost:8000. Append `#1962` to jump to a year.
 | `data/events.json` | Events: year, date, title, text, coordinates, category, countries involved. `until` marks ongoing conflicts/periods. |
 | `data/status.json` | Colouring rules: map snapshot per year range, WWI and WWII status, interwar regimes, Cold War blocs, colonial rule, Danish display names. All ranges are inclusive and describe the situation at the **end** of each year. |
 | `data/campaigns.json` | WWI and WWII campaign arrows: year, side (axis / allied / soviet), Danish label and one or more polylines of [lon, lat] waypoints. The arrowhead sits on the last point. |
-| `data/borders_*.json` | Simplified border snapshots (1914, 1920, 1930, 1938, 1945, 1960, 1994, 2000). |
+| `data/borders_*.json` | Simplified border snapshots (1914, 1920, 1930, 1938, 1945, 1960, 1994, 2000). The 2000 map is used for 2000–2025, so East Timor, Kosovo, South Sudan and Crimea are not shown. |
 | `scripts/` | Python scripts used to build the border files. |
 
 Country keys in `status.json` and `events.json` must match the `n` property in the border file used for that year (see `snapshots` in `status.json`).
@@ -37,7 +39,7 @@ for y in 1914 1920 1930 1938 1945 1960 1994 2000; do
 done
 ```
 
-`simplify.py` applies Douglas-Peucker simplification, rounds coordinates and fixes winding order for D3. `split.py` separates Greenland, Iceland and East Pakistan into their own features, so they can be coloured separately.
+`simplify.py` applies Douglas-Peucker simplification, rounds coordinates and fixes winding order for D3. `split.py` separates Greenland, Iceland and East Pakistan into their own features, so they can be coloured separately, and patches known source-data errors (the 1930 USSR label, the unnamed Switzerland in 1994/2000).
 
 ## Accuracy
 

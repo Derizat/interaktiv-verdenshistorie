@@ -3414,5 +3414,1847 @@
 "countries": [
 "Russia"
 ]
+},
+{
+"id": "wikipedia",
+"year": 2001,
+"date": "15. januar 2001",
+"title": "Wikipedia grundlægges",
+"text": "Det frie, brugerskrevne leksikon går i luften. I dag findes det på over 300 sprog, og den danske udgave startede i 2002.",
+"lat": 32.72,
+"lon": -117.16,
+"cat": "videnskab",
+"countries": [
+"United States"
+]
+},
+{
+"id": "911",
+"year": 2001,
+"date": "11. september 2001",
+"title": "Terrorangrebet 11. september",
+"text": "Al-Qaeda-terrorister kaprer fire fly og flyver to af dem ind i World Trade Center i New York og ét ind i Pentagon. Næsten 3.000 mennesker dør. USA erklærer 'krig mod terror'.",
+"lat": 40.71,
+"lon": -74.01,
+"cat": "katastrofe",
+"countries": [
+"United States"
+]
+},
+{
+"id": "afghanistan01",
+"year": 2001,
+"until": 2021,
+"ongoing": "Krigen i Afghanistan",
+"date": "7. oktober 2001",
+"title": "USA invaderer Afghanistan",
+"text": "USA og allierede angriber Taliban-styret, der har givet al-Qaeda husly. Taliban falder på to måneder, men krigen varer 20 år. Danmark deltager fra 2002, og over 40 danske soldater dør i Afghanistan.",
+"lat": 34.53,
+"lon": 69.17,
+"cat": "krig",
+"dk": true,
+"countries": [
+"Afghanistan",
+"United States"
+]
+},
+{
+"id": "systemskifte",
+"year": 2001,
+"date": "20. november 2001",
+"title": "Systemskiftet: Anders Fogh Rasmussen",
+"text": "Ved valget bliver Venstre for første gang siden 1920 landets største parti, og Anders Fogh Rasmussen danner en VK-regering med Dansk Folkeparti som støtteparti. Udlændingepolitikken strammes markant.",
+"lat": 55.68,
+"lon": 12.58,
+"cat": "politik",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "euro02",
+"year": 2002,
+"date": "1. januar 2002",
+"title": "Euro-sedler og -mønter",
+"text": "Euroen bliver fysisk valuta i 12 lande. Danmark beholder kronen efter nej'et i 2000, men kronen er bundet til euroen.",
+"lat": 50.11,
+"lon": 8.68,
+"cat": "okonomi",
+"countries": [
+"Germany",
+"France",
+"Italy",
+"Spain",
+"Portugal",
+"Netherlands",
+"Belgium",
+"Luxembourg",
+"Austria",
+"Finland",
+"Ireland",
+"Greece"
+]
+},
+{
+"id": "osttimor",
+"year": 2002,
+"date": "20. maj 2002",
+"title": "Østtimor bliver selvstændigt",
+"text": "Efter 24 års indonesisk besættelse og en FN-administration bliver Østtimor det første nye land i det 21. århundrede.",
+"lat": -8.56,
+"lon": 125.57,
+"cat": "selvstaendighed",
+"countries": [
+"Indonesia"
+]
+},
+{
+"id": "icc",
+"year": 2002,
+"date": "1. juli 2002",
+"title": "Den Internationale Straffedomstol",
+"text": "Romstatutten træder i kraft, og Den Internationale Straffedomstol (ICC) i Haag kan retsforfølge folkedrab, krigsforbrydelser og forbrydelser mod menneskeheden. USA, Rusland og Kina står udenfor.",
+"lat": 52.08,
+"lon": 4.3,
+"cat": "aftale",
+"countries": [
+"Netherlands"
+]
+},
+{
+"id": "bali",
+"year": 2002,
+"date": "12. oktober 2002",
+"title": "Terrorangrebet på Bali",
+"text": "Islamistiske bomber mod turistbarer på Bali dræber 202 mennesker, heraf 88 australiere.",
+"lat": -8.72,
+"lon": 115.17,
+"cat": "katastrofe",
+"countries": [
+"Indonesia"
+]
+},
+{
+"id": "irak03",
+"year": 2003,
+"until": 2011,
+"ongoing": "Irakkrigen",
+"date": "20. marts 2003",
+"title": "Irakkrigen begynder",
+"text": "USA og Storbritannien invaderer med støtte fra blandt andre Australien og Polen Irak med påstanden om, at Saddam Hussein har masseødelæggelsesvåben. Bagdad falder den 9. april, men våbnene findes aldrig, og landet synker ned i borgerkrig. Danmark deltager med ubåden Sælen og korvetten Olfert Fischer og sender senere en bataljon til Basra.",
+"lat": 33.3,
+"lon": 44.4,
+"cat": "krig",
+"dk": true,
+"countries": [
+"Iraq",
+"United States",
+"United Kingdom"
+]
+},
+{
+"id": "sars",
+"year": 2003,
+"date": "marts – juli 2003",
+"title": "SARS-epidemien",
+"text": "En ny coronavirus spreder sig fra Sydkina til 29 lande. Omkring 8.000 smittes, og 774 dør, før epidemien stoppes med karantæner.",
+"lat": 22.3,
+"lon": 114.17,
+"cat": "katastrofe",
+"countries": [
+"China",
+"Hong Kong"
+]
+},
+{
+"id": "darfur",
+"year": 2003,
+"until": 2011,
+"ongoing": "Konflikten i Darfur",
+"date": "2003",
+"title": "Konflikten i Darfur",
+"text": "Oprør i Sudans vestlige Darfur-region besvares af regeringen og Janjaweed-militser med angreb på landsbyer. Omkring 300.000 mennesker dør, og over 2 millioner fordrives. USA kalder det folkedrab.",
+"lat": 13.5,
+"lon": 24.9,
+"cat": "folkedrab",
+"countries": [
+"Sudan"
+]
+},
+{
+"id": "facebook",
+"year": 2004,
+"date": "4. februar 2004",
+"title": "Facebook grundlægges",
+"text": "Mark Zuckerberg starter Facebook på Harvard. Sociale medier forandrer i de følgende år, hvordan mennesker kommunikerer, og hvordan nyheder og politik spredes.",
+"lat": 42.37,
+"lon": -71.12,
+"cat": "videnskab",
+"countries": [
+"United States"
+]
+},
+{
+"id": "madrid",
+"year": 2004,
+"date": "11. marts 2004",
+"title": "Terrorangrebet i Madrid",
+"text": "Bomber i fire pendlertog dræber 193 mennesker. Angrebet, udført af islamister inspireret af al-Qaeda, er det største terrorangreb i Europa siden Lockerbie.",
+"lat": 40.41,
+"lon": -3.68,
+"cat": "katastrofe",
+"countries": [
+"Spain"
+]
+},
+{
+"id": "eu2004",
+"year": 2004,
+"date": "1. maj 2004",
+"title": "EU udvides mod øst",
+"text": "Ti lande bliver medlemmer af EU: Polen, Tjekkiet, Slovakiet, Ungarn, Slovenien, Estland, Letland, Litauen, Malta og Cypern. Det er den største udvidelse i EU's historie.",
+"lat": 50.85,
+"lon": 4.35,
+"cat": "aftale",
+"countries": [
+"Poland",
+"Czech Republic",
+"Slovakia",
+"Hungary",
+"Slovenia",
+"Estonia",
+"Latvia",
+"Lithuania",
+"Malta",
+"Cyprus"
+]
+},
+{
+"id": "orange",
+"year": 2004,
+"date": "november – december 2004",
+"title": "Den orange revolution",
+"text": "Massedemonstrationer i Kyiv mod valgsvindel tvinger et omvalg, som den vestligt orienterede Viktor Jusjtjenko vinder over Viktor Janukovitj.",
+"lat": 50.45,
+"lon": 30.52,
+"cat": "revolution",
+"countries": [
+"Ukraine"
+]
+},
+{
+"id": "tsunami",
+"year": 2004,
+"date": "26. december 2004",
+"title": "Tsunamien i Det Indiske Ocean",
+"text": "Et jordskælv ud for Sumatra udløser en tsunami, der dræber omkring 230.000 mennesker i 14 lande. 46 danskere omkommer, de fleste i Thailand.",
+"lat": 3.3,
+"lon": 95.9,
+"cat": "katastrofe",
+"dk": true,
+"countries": [
+"Indonesia",
+"Thailand",
+"Sri Lanka",
+"India"
+]
+},
+{
+"id": "london05",
+"year": 2005,
+"date": "7. juli 2005",
+"title": "Terrorangrebet i London",
+"text": "Fire selvmordsbombere angriber tre undergrundstog og en bus i myldretiden. 52 mennesker dræbes.",
+"lat": 51.51,
+"lon": -0.12,
+"cat": "katastrofe",
+"countries": [
+"United Kingdom"
+]
+},
+{
+"id": "katrina",
+"year": 2005,
+"date": "29. august 2005",
+"title": "Orkanen Katrina",
+"text": "Orkanen rammer New Orleans, digerne bryder sammen, og 80 procent af byen oversvømmes. Mellem 1.400 og 1.800 mennesker dør, og den langsomme hjælpeindsats bliver en skandale for Bush-regeringen.",
+"lat": 29.95,
+"lon": -90.07,
+"cat": "katastrofe",
+"countries": [
+"United States"
+]
+},
+{
+"id": "muhammed",
+"year": 2005,
+"until": 2006,
+"ongoing": "Muhammedkrisen",
+"date": "30. september 2005",
+"title": "Muhammed-tegningerne",
+"text": "Jyllands-Posten trykker 12 tegninger af profeten Muhammed. I begyndelsen af 2006 udløser de boykot af danske varer, angreb på danske ambassader og voldsomme demonstrationer i den muslimske verden. Det er Danmarks største udenrigspolitiske krise siden 1945.",
+"lat": 56.16,
+"lon": 10.2,
+"cat": "krise",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "merkel",
+"year": 2005,
+"date": "22. november 2005",
+"title": "Angela Merkel bliver kansler",
+"text": "Merkel bliver Tysklands første kvindelige kansler og sidder i 16 år, gennem finanskrisen, eurokrisen og flygtningekrisen.",
+"lat": 52.52,
+"lon": 13.38,
+"cat": "politik",
+"countries": [
+"Germany"
+]
+},
+{
+"id": "ambassader06",
+"year": 2006,
+"date": "4. – 5. februar 2006",
+"title": "Danske ambassader i brand",
+"text": "Under Muhammedkrisen sættes den danske ambassade i Damaskus og konsulatet i Beirut i brand, og danske varer boykottes i Mellemøsten. Statsminister Fogh afviser at undskylde på vegne af en fri presse.",
+"lat": 33.51,
+"lon": 36.29,
+"cat": "krise",
+"dk": true,
+"countries": [
+"Syria",
+"Lebanon",
+"Denmark"
+]
+},
+{
+"id": "montenegro06",
+"year": 2006,
+"date": "3. juni 2006",
+"title": "Montenegro bliver selvstændigt",
+"text": "Efter en folkeafstemning forlader Montenegro unionen med Serbien. Jugoslaviens opløsning er fuldendt, indtil Kosovo løsriver sig i 2008.",
+"lat": 42.44,
+"lon": 19.26,
+"cat": "selvstaendighed",
+"countries": [
+"Montenegro",
+"Serbia"
+]
+},
+{
+"id": "nkorea06",
+"year": 2006,
+"date": "9. oktober 2006",
+"title": "Nordkorea sprænger sin første atombombe",
+"text": "Nordkorea bliver det niende land med atomvåben (Israel medregnet). FN indfører sanktioner, men landet fortsætter prøvesprængningerne.",
+"lat": 41.28,
+"lon": 129.09,
+"cat": "atom",
+"countries": [
+"Korea, Democratic People's Republic of"
+]
+},
+{
+"id": "saddam",
+"year": 2006,
+"date": "30. december 2006",
+"title": "Saddam Hussein henrettes",
+"text": "Iraks tidligere diktator hænges efter en retssag for massakren på 148 shiamuslimer i Dujail i 1982. Samtidig raser borgerkrigen mellem sunnier og shiaer.",
+"lat": 33.3,
+"lon": 44.4,
+"cat": "politik",
+"countries": [
+"Iraq"
+]
+},
+{
+"id": "eu2007",
+"year": 2007,
+"date": "1. januar 2007",
+"title": "Rumænien og Bulgarien i EU",
+"text": "EU får 27 medlemmer. Slovenien indfører samtidig euroen som det første af de nye østlande.",
+"lat": 44.43,
+"lon": 26.1,
+"cat": "aftale",
+"countries": [
+"Romania",
+"Bulgaria"
+]
+},
+{
+"id": "iphone",
+"year": 2007,
+"date": "29. juni 2007",
+"title": "iPhone lanceres",
+"text": "Apples smartphone sætter standarden for, hvordan telefoner ser ud og bruges. I dag har over halvdelen af verdens befolkning en smartphone.",
+"lat": 37.33,
+"lon": -122.03,
+"cat": "videnskab",
+"countries": [
+"United States"
+]
+},
+{
+"id": "subprime",
+"year": 2007,
+"date": "august 2007",
+"title": "Finanskrisen begynder",
+"text": "Amerikanske boliglån til dårlige betalere (subprime) går galt, og bankerne tør ikke låne til hinanden. Krisen vokser til det største økonomiske sammenbrud siden 1929.",
+"lat": 40.71,
+"lon": -74.01,
+"cat": "okonomi",
+"countries": [
+"United States"
+]
+},
+{
+"id": "bhutto",
+"year": 2007,
+"date": "27. december 2007",
+"title": "Benazir Bhutto myrdes",
+"text": "Pakistans tidligere premierminister dræbes ved et selvmordsangreb under valgkampen. Hendes parti vinder valget, og militærdiktatoren Musharraf går af i 2008.",
+"lat": 33.6,
+"lon": 73.07,
+"cat": "politik",
+"countries": [
+"Pakistan"
+]
+},
+{
+"id": "kosovo08",
+"year": 2008,
+"date": "17. februar 2008",
+"title": "Kosovo erklærer sig selvstændigt",
+"text": "Ni år efter NATO's krig anerkendes Kosovo af USA og de fleste EU-lande, heriblandt Danmark, men ikke af Serbien, Rusland og Kina.",
+"lat": 42.66,
+"lon": 21.17,
+"cat": "selvstaendighed",
+"countries": [
+"Serbia"
+]
+},
+{
+"id": "georgien08",
+"year": 2008,
+"date": "7. – 12. august 2008",
+"title": "Krigen i Georgien",
+"text": "Efter ugers skudvekslinger angriber Georgien udbryderrepublikken Sydossetien, og Rusland svarer med en invasion. Krigen varer fem dage, og den 26. august anerkender Rusland Sydossetien og Abkhasien som selvstændige stater.",
+"lat": 42.23,
+"lon": 43.97,
+"cat": "krig",
+"countries": [
+"Georgia",
+"Russia"
+]
+},
+{
+"id": "beijing08",
+"year": 2008,
+"date": "8. – 24. august 2008",
+"title": "OL i Beijing",
+"text": "Kina viser sig frem som ny stormagt med et storslået OL. Michael Phelps vinder otte guldmedaljer, og Usain Bolt sætter verdensrekord på 100 meter.",
+"lat": 39.99,
+"lon": 116.39,
+"cat": "kultur",
+"countries": [
+"China"
+]
+},
+{
+"id": "lehman",
+"year": 2008,
+"until": 2009,
+"ongoing": "Finanskrisen",
+"date": "15. september 2008",
+"title": "Lehman Brothers krakker",
+"text": "Investeringsbanken Lehman Brothers går konkurs, og det globale finanssystem er tæt på at bryde sammen. Stater redder banker for tusindvis af milliarder, og verden går ind i den dybeste recession siden 1930'erne. I Danmark er Roskilde Bank allerede krakket i august 2008, og Amagerbanken følger i 2011.",
+"lat": 40.76,
+"lon": -73.98,
+"cat": "okonomi",
+"dk": true,
+"countries": [
+"United States",
+"Denmark"
+]
+},
+{
+"id": "obama",
+"year": 2008,
+"date": "4. november 2008",
+"title": "Obama vælges til præsident",
+"text": "Barack Obama bliver USA's første sorte præsident med løfter om forandring, afslutning af Irakkrigen og en sundhedsreform.",
+"lat": 41.88,
+"lon": -87.63,
+"cat": "politik",
+"countries": [
+"United States"
+]
+},
+{
+"id": "h1n1",
+"year": 2009,
+"date": "april 2009",
+"title": "Svineinfluenzaen",
+"text": "En ny influenzavirus (H1N1) spreder sig fra Mexico til hele verden. WHO erklærer pandemi, den første siden 1968. Den er mildere end frygtet, men dræber anslået 150.000–575.000.",
+"lat": 19.43,
+"lon": -99.13,
+"cat": "katastrofe",
+"countries": [
+"Mexico"
+]
+},
+{
+"id": "srilanka",
+"year": 2009,
+"date": "18. – 19. maj 2009",
+"title": "Borgerkrigen på Sri Lanka slutter",
+"text": "Regeringshæren knuser De Tamilske Tigre efter 26 års krig. Titusinder af civile dør i krigens sidste måneder.",
+"lat": 9.0,
+"lon": 80.5,
+"cat": "krig",
+"countries": [
+"Sri Lanka"
+]
+},
+{
+"id": "lissabon",
+"year": 2009,
+"date": "1. december 2009",
+"title": "Lissabontraktaten",
+"text": "EU får en fast formand for Det Europæiske Råd, en udenrigsrepræsentant og mere magt til Europa-Parlamentet. Traktaten blev først forkastet af irerne i 2008.",
+"lat": 38.72,
+"lon": -9.14,
+"cat": "aftale",
+"countries": [
+"Portugal"
+]
+},
+{
+"id": "cop15",
+"year": 2009,
+"date": "7. – 18. december 2009",
+"title": "COP15 i København",
+"text": "FN's klimatopmøde i Bella Center skal give en bindende aftale, men ender med en tynd 'Copenhagen Accord'. Topmødet regnes som en fiasko, men baner vej for Parisaftalen i 2015.",
+"lat": 55.64,
+"lon": 12.58,
+"cat": "aftale",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "haiti10",
+"year": 2010,
+"date": "12. januar 2010",
+"title": "Jordskælvet i Haiti",
+"text": "Et jordskælv ødelægger hovedstaden Port-au-Prince. Dødstallet er stærkt omstridt: Haitis regering angiver over 300.000, uafhængige skøn ned til 50.000–100.000. Omkring 1,5 millioner bliver hjemløse.",
+"lat": 18.54,
+"lon": -72.34,
+"cat": "katastrofe",
+"countries": [
+"Haiti"
+]
+},
+{
+"id": "eyja",
+"year": 2010,
+"date": "april 2010",
+"title": "Askeskyen fra Eyjafjallajökull",
+"text": "Vulkanudbruddet på Island lukker luftrummet over det meste af Europa i en uge. Over 100.000 flyvninger aflyses.",
+"lat": 63.63,
+"lon": -19.62,
+"cat": "katastrofe",
+"countries": [
+"Iceland"
+]
+},
+{
+"id": "eurokrise",
+"year": 2010,
+"until": 2012,
+"ongoing": "Eurokrisen",
+"date": "2. maj 2010",
+"title": "Eurokrisen: Grækenland reddes",
+"text": "Grækenland kan ikke betale sin gæld og får det første af tre redningslån fra EU og IMF mod hårde nedskæringer. Irland, Portugal, Spanien og Cypern følger efter. Euroens overlevelse er i tvivl, indtil ECB i 2012 lover at gøre 'alt, hvad der skal til'.",
+"lat": 37.98,
+"lon": 23.73,
+"cat": "okonomi",
+"countries": [
+"Greece",
+"Ireland",
+"Portugal",
+"Spain"
+]
+},
+{
+"id": "wikileaks",
+"year": 2010,
+"date": "28. november 2010",
+"title": "WikiLeaks offentliggør diplomatdepecher",
+"text": "WikiLeaks og store aviser offentliggør 250.000 hemmelige amerikanske diplomattelegrammer. Chelsea Manning, der lækkede dem, idømmes 35 års fængsel, men benådes af Obama i 2017. Julian Assange forfølges i over et årti.",
+"lat": 51.5,
+"lon": -0.12,
+"cat": "politik",
+"countries": [
+"United Kingdom",
+"United States"
+]
+},
+{
+"id": "arabforaar",
+"year": 2010,
+"until": 2012,
+"ongoing": "Det arabiske forår",
+"date": "17. december 2010",
+"title": "Det arabiske forår begynder",
+"text": "Grønthandleren Mohamed Bouazizi sætter ild til sig selv i Tunesien i protest mod myndighederne. Protesterne vælter præsident Ben Ali i januar 2011 og spreder sig til Egypten, Libyen, Yemen, Bahrain og Syrien.",
+"lat": 35.04,
+"lon": 9.49,
+"cat": "revolution",
+"countries": [
+"Tunisia",
+"Egypt",
+"Libya",
+"Syria",
+"Yemen"
+]
+},
+{
+"id": "mubarak",
+"year": 2011,
+"date": "11. februar 2011",
+"title": "Mubarak falder",
+"text": "Efter 18 dages protester på Tahrir-pladsen i Kairo går Egyptens præsident Hosni Mubarak af efter 30 år ved magten. I 2013 tager militæret magten tilbage ved et kup.",
+"lat": 30.04,
+"lon": 31.24,
+"cat": "revolution",
+"countries": [
+"Egypt"
+]
+},
+{
+"id": "fukushima",
+"year": 2011,
+"date": "11. marts 2011",
+"title": "Jordskælvet og Fukushima",
+"text": "Et jordskælv og en tsunami dræber omkring 18.000 mennesker i Japan og udløser nedsmeltning på atomkraftværket Fukushima Daiichi. Tyskland beslutter at lukke sine atomkraftværker.",
+"lat": 37.42,
+"lon": 141.03,
+"cat": "atom",
+"countries": [
+"Japan"
+]
+},
+{
+"id": "syrien11",
+"year": 2011,
+"until": 2024,
+"ongoing": "Borgerkrigen i Syrien",
+"date": "15. marts 2011",
+"title": "Borgerkrigen i Syrien begynder",
+"text": "Protester mod Bashar al-Assad besvares med vold, og landet glider ind i en borgerkrig, der koster over 500.000 livet og driver halvdelen af befolkningen på flugt. Assad falder først i december 2024.",
+"lat": 33.51,
+"lon": 36.29,
+"cat": "krig",
+"countries": [
+"Syria"
+]
+},
+{
+"id": "libyen11",
+"year": 2011,
+"date": "marts – oktober 2011",
+"title": "Libyen: NATO griber ind, Gaddafi dræbes",
+"text": "Med FN-mandat bomber NATO Gaddafis styrker for at beskytte civile. Danske F-16-fly kaster omkring 900 bomber. Gaddafi dræbes af oprørere den 20. oktober, og Libyen synker ned i kaos.",
+"lat": 32.9,
+"lon": 13.18,
+"cat": "krig",
+"dk": true,
+"countries": [
+"Libya",
+"Denmark"
+]
+},
+{
+"id": "binladen",
+"year": 2011,
+"date": "2. maj 2011",
+"title": "Osama bin Laden dræbes",
+"text": "Amerikanske specialstyrker dræber al-Qaedas leder i hans skjulested i Abbottabad i Pakistan, næsten ti år efter 11. september.",
+"lat": 34.17,
+"lon": 73.24,
+"cat": "krig",
+"countries": [
+"Pakistan",
+"United States"
+]
+},
+{
+"id": "sydsudan",
+"year": 2011,
+"date": "9. juli 2011",
+"title": "Sydsudan bliver selvstændigt",
+"text": "Efter årtiers borgerkrig og en folkeafstemning bliver Sydsudan verdens nyeste stat. Allerede i 2013 bryder en ny borgerkrig ud. Kortet viser ikke den nye grænse.",
+"lat": 4.85,
+"lon": 31.6,
+"cat": "selvstaendighed",
+"countries": [
+"Sudan"
+]
+},
+{
+"id": "utoya",
+"year": 2011,
+"date": "22. juli 2011",
+"title": "Terrorangrebet i Norge",
+"text": "Højreekstremisten Anders Breivik sprænger en bombe i regeringskvarteret i Oslo og skyder derefter 69 unge på AUF's sommerlejr på Utøya. 77 mennesker dræbes.",
+"lat": 60.03,
+"lon": 10.24,
+"cat": "katastrofe",
+"countries": [
+"Norway"
+]
+},
+{
+"id": "thorning",
+"year": 2011,
+"date": "3. oktober 2011",
+"title": "Helle Thorning-Schmidt bliver statsminister",
+"text": "Danmark får sin første kvindelige statsminister i spidsen for en S-R-SF-regering efter ti år med VK-regeringer.",
+"lat": 55.68,
+"lon": 12.58,
+"cat": "politik",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "mali12",
+"year": 2012,
+"date": "januar 2012 – januar 2013",
+"title": "Krisen i Mali",
+"text": "Tuareg-oprørere og islamister erobrer det nordlige Mali. Frankrig griber ind i januar 2013, og en FN-styrke, som Danmark deltager i, sendes til landet.",
+"lat": 16.77,
+"lon": -3.0,
+"cat": "krig",
+"dk": true,
+"countries": [
+"Mali"
+]
+},
+{
+"id": "higgs",
+"year": 2012,
+"date": "4. juli 2012",
+"title": "Higgs-partiklen findes",
+"text": "Forskere på CERN bekræfter den partikel, Peter Higgs forudsagde i 1964. Den forklarer, hvorfor andre partikler har masse.",
+"lat": 46.23,
+"lon": 6.05,
+"cat": "videnskab",
+"countries": [
+"Switzerland"
+]
+},
+{
+"id": "curiosity",
+"year": 2012,
+"date": "6. august 2012",
+"title": "Curiosity lander på Mars",
+"text": "NASA's bilstore rover lander i Gale-krateret og finder tegn på, at Mars engang havde flydende vand.",
+"lat": 34.2,
+"lon": -118.17,
+"cat": "rum",
+"countries": [
+"United States"
+]
+},
+{
+"id": "xi",
+"year": 2012,
+"date": "15. november 2012",
+"title": "Xi Jinping bliver Kinas leder",
+"text": "Xi samler mere magt end nogen leder siden Mao, slår ned på korruption og kritikere og gør Kina mere selvsikkert udadtil. I 2018 afskaffes grænsen for, hvor længe han kan sidde.",
+"lat": 39.9,
+"lon": 116.4,
+"cat": "politik",
+"countries": [
+"China"
+]
+},
+{
+"id": "frans",
+"year": 2013,
+"date": "13. marts 2013",
+"title": "Pave Frans vælges",
+"text": "Argentineren Jorge Bergoglio bliver den første pave fra Amerika og den første jesuit. Han dør i april 2025.",
+"lat": 41.9,
+"lon": 12.45,
+"cat": "politik",
+"countries": [
+"Italy"
+]
+},
+{
+"id": "snowden",
+"year": 2013,
+"date": "juni 2013",
+"title": "Snowden afslører masseovervågning",
+"text": "Edward Snowden lækker dokumenter, der viser, at den amerikanske efterretningstjeneste NSA overvåger telefoner og internet i hele verden, også allierede lederes. Han får asyl i Rusland.",
+"lat": 22.3,
+"lon": 114.17,
+"cat": "politik",
+"countries": [
+"Hong Kong",
+"United States"
+]
+},
+{
+"id": "ghouta",
+"year": 2013,
+"date": "21. august 2013",
+"title": "Giftgasangrebet i Ghouta",
+"text": "Nervegassen sarin dræber hundreder i en forstad til Damaskus. Obama afstår fra at bombe, da Syrien indvilger i at aflevere sine kemiske våben. Danske og norske skibe sejler dem ud af landet i 2014.",
+"lat": 33.52,
+"lon": 36.37,
+"cat": "katastrofe",
+"dk": true,
+"countries": [
+"Syria",
+"Denmark"
+]
+},
+{
+"id": "euromaidan",
+"year": 2013,
+"date": "21. november 2013",
+"title": "Euromajdan",
+"text": "Præsident Janukovitj dropper en aftale med EU under russisk pres. Massedemonstrationer i Kyiv ender i februar 2014 med over 100 dræbte og Janukovitjs flugt til Rusland.",
+"lat": 50.45,
+"lon": 30.52,
+"cat": "revolution",
+"countries": [
+"Ukraine"
+]
+},
+{
+"id": "mandela13",
+"year": 2013,
+"date": "5. december 2013",
+"title": "Nelson Mandela dør",
+"text": "Sydafrikas første sorte præsident og apartheidmodstander dør 95 år gammel. Verdens ledere samles til mindehøjtideligheden i Johannesburg.",
+"lat": -26.2,
+"lon": 28.04,
+"cat": "politik",
+"countries": [
+"South Africa"
+]
+},
+{
+"id": "krim",
+"year": 2014,
+"date": "18. marts 2014",
+"title": "Rusland annekterer Krim",
+"text": "Efter en folkeafstemning under russisk militær kontrol indlemmer Rusland Krim. Det er første gang siden 1945, at en europæisk stat annekterer en anden stats territorium. Vesten indfører sanktioner. Kortet viser ikke annekteringen.",
+"lat": 44.95,
+"lon": 34.1,
+"cat": "krise",
+"countries": [
+"Ukraine",
+"Russia"
+]
+},
+{
+"id": "donbas",
+"year": 2014,
+"until": 2021,
+"ongoing": "Krigen i Østukraine",
+"date": "april 2014",
+"title": "Krigen i Donbas",
+"text": "Russisk støttede separatister udråber folkerepublikker i Donetsk og Luhansk. Krigen koster omkring 14.000 livet frem til 2022, hvor Rusland invaderer hele landet.",
+"lat": 48.0,
+"lon": 37.8,
+"cat": "krig",
+"countries": [
+"Ukraine",
+"Russia"
+]
+},
+{
+"id": "isis",
+"year": 2014,
+"until": 2019,
+"ongoing": "Islamisk Stat",
+"date": "29. juni 2014",
+"title": "Islamisk Stat udråber et kalifat",
+"text": "Terrorbevægelsen IS erobrer Mosul og store dele af Irak og Syrien og udråber et kalifat. En international koalition, som Danmark deltager i med F-16-fly, bekæmper IS, der mister sit sidste område i 2019.",
+"lat": 36.34,
+"lon": 43.13,
+"cat": "krig",
+"dk": true,
+"countries": [
+"Iraq",
+"Syria"
+]
+},
+{
+"id": "mh17",
+"year": 2014,
+"date": "17. juli 2014",
+"title": "MH17 skydes ned",
+"text": "Et malaysisk passagerfly skydes ned over Østukraine med et russisk Buk-missil. Alle 298 om bord dør, heraf 196 hollændere.",
+"lat": 48.14,
+"lon": 38.64,
+"cat": "katastrofe",
+"countries": [
+"Ukraine"
+]
+},
+{
+"id": "ebola",
+"year": 2014,
+"until": 2016,
+"ongoing": "Ebola i Vestafrika",
+"date": "2014 – 2016",
+"title": "Ebola-epidemien i Vestafrika",
+"text": "Det største ebolaudbrud nogensinde rammer Guinea, Liberia og Sierra Leone. Over 11.000 dør.",
+"lat": 8.46,
+"lon": -11.78,
+"cat": "katastrofe",
+"countries": [
+"Guinea",
+"Liberia",
+"Sierra Leone"
+]
+},
+{
+"id": "skotland",
+"year": 2014,
+"date": "18. september 2014",
+"title": "Skotland stemmer nej til selvstændighed",
+"text": "55 procent stemmer for at blive i Storbritannien.",
+"lat": 55.95,
+"lon": -3.19,
+"cat": "politik",
+"countries": [
+"United Kingdom"
+]
+},
+{
+"id": "charliehebdo",
+"year": 2015,
+"date": "7. januar 2015",
+"title": "Angrebet på Charlie Hebdo",
+"text": "Islamister dræber 12 på det satiriske blad Charlie Hebdo i Paris, der havde trykt Muhammed-tegninger. 'Je suis Charlie' bliver et verdensomspændende slogan.",
+"lat": 48.86,
+"lon": 2.37,
+"cat": "katastrofe",
+"countries": [
+"France"
+]
+},
+{
+"id": "kbh15",
+"year": 2015,
+"date": "14. – 15. februar 2015",
+"title": "Terrorangrebet i København",
+"text": "En 22-årig gerningsmand skyder mod et debatmøde om ytringsfrihed på Krudttønden og senere mod synagogen i Krystalgade. To mennesker dræbes, før gerningsmanden selv skydes af politiet.",
+"lat": 55.68,
+"lon": 12.57,
+"cat": "katastrofe",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "iranaftale",
+"year": 2015,
+"date": "14. juli 2015",
+"title": "Atomaftalen med Iran",
+"text": "Iran begrænser sit atomprogram mod ophævelse af sanktioner. USA forlader aftalen i 2018.",
+"lat": 48.21,
+"lon": 16.37,
+"cat": "aftale",
+"countries": [
+"Iran",
+"United States"
+]
+},
+{
+"id": "flygtninge15",
+"year": 2015,
+"date": "september 2015",
+"title": "Flygtningekrisen",
+"text": "Over en million mennesker, mange fra Syrien, kommer til Europa over Middelhavet og Balkan. Tyskland åbner grænserne. I Danmark går flygtninge ad motorvejen fra Rødby, og regeringen indrykker annoncer i mellemøstlige aviser for at afskrække dem.",
+"lat": 54.66,
+"lon": 11.36,
+"cat": "krise",
+"dk": true,
+"countries": [
+"Germany",
+"Denmark",
+"Hungary",
+"Greece"
+]
+},
+{
+"id": "paris15",
+"year": 2015,
+"date": "13. november 2015",
+"title": "Terrorangrebene i Paris",
+"text": "IS-terrorister angriber Bataclan-koncertsalen, restauranter og Stade de France. 130 mennesker dræbes, det værste angreb i Frankrig siden Anden Verdenskrig.",
+"lat": 48.86,
+"lon": 2.37,
+"cat": "katastrofe",
+"countries": [
+"France"
+]
+},
+{
+"id": "parisaftalen",
+"year": 2015,
+"date": "12. december 2015",
+"title": "Parisaftalen",
+"text": "195 lande aftaler at holde den globale opvarmning godt under 2 grader og helst 1,5 grad. Hvert land sætter sine egne mål.",
+"lat": 48.96,
+"lon": 2.52,
+"cat": "aftale",
+"countries": [
+"France"
+]
+},
+{
+"id": "brexit",
+"year": 2016,
+"date": "23. juni 2016",
+"title": "Brexit-afstemningen",
+"text": "52 procent af briterne stemmer for at forlade EU. Premierminister Cameron går af, og det tager over tre år at forhandle udtrædelsen.",
+"lat": 51.5,
+"lon": -0.12,
+"cat": "politik",
+"countries": [
+"United Kingdom"
+]
+},
+{
+"id": "tyrkiet16",
+"year": 2016,
+"date": "15. juli 2016",
+"title": "Kupforsøget i Tyrkiet",
+"text": "Dele af militæret forsøger at vælte Erdoğan, men kuppet slås ned på en nat. Over 250 dør, og Erdoğan bruger kuppet til at fængsle titusinder og styrke sin magt.",
+"lat": 39.93,
+"lon": 32.86,
+"cat": "krise",
+"countries": [
+"Turkey"
+]
+},
+{
+"id": "trump16",
+"year": 2016,
+"date": "8. november 2016",
+"title": "Trump vælges til præsident",
+"text": "Donald Trump slår Hillary Clinton med løfter om 'America First', en mur mod Mexico og opgør med frihandel. Rusland forsøger at påvirke valget.",
+"lat": 40.76,
+"lon": -73.98,
+"cat": "politik",
+"countries": [
+"United States"
+]
+},
+{
+"id": "colombia16",
+"year": 2016,
+"date": "24. november 2016",
+"title": "Fred i Colombia",
+"text": "Regeringen og FARC-guerillaen underskriver en fredsaftale efter 52 års krig med over 220.000 dræbte. Præsident Santos får Nobels fredspris.",
+"lat": 4.71,
+"lon": -74.07,
+"cat": "fred",
+"countries": [
+"Colombia"
+]
+},
+{
+"id": "aleppo",
+"year": 2016,
+"date": "december 2016",
+"title": "Aleppo falder",
+"text": "Assads styrker indtager med russisk luftstøtte det østlige Aleppo efter fire års kampe om byen. Det er vendepunktet i den syriske borgerkrig.",
+"lat": 36.2,
+"lon": 37.16,
+"cat": "krig",
+"countries": [
+"Syria"
+]
+},
+{
+"id": "macron",
+"year": 2017,
+"date": "7. maj 2017",
+"title": "Macron vælges i Frankrig",
+"text": "Den 39-årige Emmanuel Macron slår Marine Le Pen og bliver Frankrigs yngste præsident. De gamle partier kollapser.",
+"lat": 48.86,
+"lon": 2.35,
+"cat": "politik",
+"countries": [
+"France"
+]
+},
+{
+"id": "mosul",
+"year": 2017,
+"date": "juli – oktober 2017",
+"title": "IS mister Mosul og Raqqa",
+"text": "Irakiske styrker generobrer Mosul efter ni måneders kampe, og kurdisk ledede styrker indtager IS' hovedstad Raqqa i Syrien. Kalifatet er i opløsning.",
+"lat": 36.34,
+"lon": 43.13,
+"cat": "krig",
+"countries": [
+"Iraq",
+"Syria"
+]
+},
+{
+"id": "rohingya",
+"year": 2017,
+"date": "august 2017",
+"title": "Fordrivelsen af rohingyaerne",
+"text": "Myanmars militær brænder landsbyer af og dræber tusinder af det muslimske rohingya-mindretal. Over 700.000 flygter til Bangladesh. FN kalder det et skoleeksempel på etnisk udrensning.",
+"lat": 20.9,
+"lon": 92.3,
+"cat": "folkedrab",
+"countries": [
+"Burma",
+"Bangladesh"
+]
+},
+{
+"id": "nkorea17",
+"year": 2017,
+"date": "3. september 2017",
+"title": "Nordkorea prøvesprænger en brintbombe",
+"text": "Nordkoreas sjette og største prøvesprængning kommer efter en serie missiltest, og Trump har kort forinden truet med 'ild og vrede'. Året efter mødes Trump og Kim Jong-un.",
+"lat": 41.28,
+"lon": 129.09,
+"cat": "atom",
+"countries": [
+"Korea, Democratic People's Republic of"
+]
+},
+{
+"id": "catalonien",
+"year": 2017,
+"date": "1. oktober 2017",
+"title": "Folkeafstemningen i Catalonien",
+"text": "Catalonien holder en ulovlig folkeafstemning om selvstændighed, som spansk politi forsøger at stoppe med vold. Regionens ledere flygter eller fængsles.",
+"lat": 41.39,
+"lon": 2.17,
+"cat": "krise",
+"countries": [
+"Spain"
+]
+},
+{
+"id": "metoo",
+"year": 2017,
+"date": "oktober 2017",
+"title": "#MeToo",
+"text": "Afsløringerne om filmproduceren Harvey Weinstein får millioner af kvinder til at dele oplevelser med seksuelle overgreb under hashtagget #MeToo. Bevægelsen når Danmark for alvor i 2020.",
+"lat": 34.05,
+"lon": -118.24,
+"cat": "kultur",
+"countries": [
+"United States"
+]
+},
+{
+"id": "skripal",
+"year": 2018,
+"date": "4. marts 2018",
+"title": "Giftangrebet i Salisbury",
+"text": "Den tidligere russiske spion Sergej Skripal og hans datter forgiftes med nervegassen novitjok i England. Storbritannien og over 25 lande, heriblandt Danmark, udviser russiske diplomater.",
+"lat": 51.07,
+"lon": -1.8,
+"cat": "krise",
+"dk": true,
+"countries": [
+"United Kingdom",
+"Russia"
+]
+},
+{
+"id": "iranexit",
+"year": 2018,
+"date": "8. maj 2018",
+"title": "USA forlader atomaftalen med Iran",
+"text": "Trump trækker USA ud af aftalen og genindfører sanktioner. Iran begynder igen at berige uran.",
+"lat": 38.9,
+"lon": -77.04,
+"cat": "krise",
+"countries": [
+"United States",
+"Iran"
+]
+},
+{
+"id": "trumpkim",
+"year": 2018,
+"date": "12. juni 2018",
+"title": "Trump møder Kim Jong-un",
+"text": "Det første møde nogensinde mellem en amerikansk præsident og en nordkoreansk leder holdes i Singapore. Det giver billeder, men ingen atomnedrustning.",
+"lat": 1.25,
+"lon": 103.82,
+"cat": "fred",
+"countries": [
+"Korea, Democratic People's Republic of",
+"United States"
+]
+},
+{
+"id": "khashoggi",
+"year": 2018,
+"date": "2. oktober 2018",
+"title": "Mordet på Jamal Khashoggi",
+"text": "Den saudiske journalist dræbes og parteres på Saudi-Arabiens konsulat i Istanbul. USA's efterretningstjeneste mener, at kronprins Mohammed bin Salman godkendte mordet.",
+"lat": 41.08,
+"lon": 29.0,
+"cat": "krise",
+"countries": [
+"Saudi Arabia",
+"Turkey"
+]
+},
+{
+"id": "bolsonaro",
+"year": 2018,
+"date": "28. oktober 2018",
+"title": "Bolsonaro vælges i Brasilien",
+"text": "Den højrenationalistiske Jair Bolsonaro vinder præsidentvalget. Afskovningen i Amazonas stiger kraftigt under hans styre.",
+"lat": -15.79,
+"lon": -47.88,
+"cat": "politik",
+"countries": [
+"Brazil"
+]
+},
+{
+"id": "gulevest",
+"year": 2018,
+"date": "17. november 2018",
+"title": "De gule veste",
+"text": "Protester mod højere brændstofafgifter vokser til et oprør mod Macron og leveomkostningerne. Demonstrationerne fortsætter hver lørdag i over et år.",
+"lat": 48.87,
+"lon": 2.3,
+"cat": "revolution",
+"countries": [
+"France"
+]
+},
+{
+"id": "sudan19",
+"year": 2019,
+"date": "11. april 2019",
+"title": "Omar al-Bashir væltes i Sudan",
+"text": "Efter måneders protester afsætter militæret diktatoren efter 30 år. En overgang til civilt styre afbrydes af et nyt kup i 2021 og borgerkrig i 2023.",
+"lat": 15.6,
+"lon": 32.53,
+"cat": "revolution",
+"countries": [
+"Sudan"
+]
+},
+{
+"id": "notredame",
+"year": 2019,
+"date": "15. april 2019",
+"title": "Notre-Dame brænder",
+"text": "Branden ødelægger taget og spiret på Paris' 850 år gamle katedral. Den genåbner i december 2024.",
+"lat": 48.85,
+"lon": 2.35,
+"cat": "katastrofe",
+"countries": [
+"France"
+]
+},
+{
+"id": "hongkong19",
+"year": 2019,
+"date": "juni 2019 – 2020",
+"title": "Protesterne i Hongkong",
+"text": "Millioner demonstrerer mod en udleveringslov og for demokrati. Kina svarer i 2020 med en sikkerhedslov, der reelt afskaffer Hongkongs friheder.",
+"lat": 22.28,
+"lon": 114.16,
+"cat": "revolution",
+"countries": [
+"Hong Kong",
+"China"
+]
+},
+{
+"id": "frederiksen19",
+"year": 2019,
+"date": "27. juni 2019",
+"title": "Mette Frederiksen bliver statsminister",
+"text": "Socialdemokratiet danner en etpartiregering med støtte fra Radikale, SF og Enhedslisten. Frederiksen leder landet gennem corona-pandemien.",
+"lat": 55.68,
+"lon": 12.58,
+"cat": "politik",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "gronland19",
+"year": 2019,
+"date": "august 2019",
+"title": "Trump vil købe Grønland",
+"text": "Præsident Trump bekræfter, at han vil købe Grønland, og aflyser et statsbesøg, da Mette Frederiksen kalder ideen 'absurd'. Grønlands strategiske betydning i Arktis er tilbage på dagsordenen.",
+"lat": 64.18,
+"lon": -51.72,
+"cat": "krise",
+"dk": true,
+"countries": [
+"Greenland",
+"United States",
+"Denmark"
+]
+},
+{
+"id": "klimastrejke",
+"year": 2019,
+"date": "20. september 2019",
+"title": "Den globale klimastrejke",
+"text": "Omkring 4 millioner mennesker, mest unge, strejker for klimaet, inspireret af svenske Greta Thunberg. FN's klimatopmøde i New York holdes få dage efter.",
+"lat": 59.33,
+"lon": 18.07,
+"cat": "politik",
+"countries": [
+"Sweden"
+]
+},
+{
+"id": "brexit20",
+"year": 2020,
+"date": "31. januar 2020",
+"title": "Storbritannien forlader EU",
+"text": "Efter tre et halvt års forhandlinger og to premierministre forlader Storbritannien EU. En handelsaftale indgås i december, og det indre marked forlades 1. januar 2021.",
+"lat": 51.5,
+"lon": -0.12,
+"cat": "politik",
+"countries": [
+"United Kingdom"
+]
+},
+{
+"id": "corona",
+"year": 2020,
+"until": 2022,
+"ongoing": "Corona-pandemien",
+"date": "11. marts 2020",
+"title": "Corona-pandemien",
+"text": "WHO erklærer covid-19 for en pandemi, og samme aften lukker Mette Frederiksen Danmark ned. Verden over lukkes skoler, grænser og arbejdspladser. Pandemien koster mindst 7 millioner livet; målt på overdødelighed anslår WHO langt flere.",
+"lat": 30.59,
+"lon": 114.3,
+"cat": "katastrofe",
+"dk": true,
+"countries": [
+"China",
+"Denmark"
+]
+},
+{
+"id": "floyd",
+"year": 2020,
+"date": "25. maj 2020",
+"title": "Drabet på George Floyd",
+"text": "En politibetjent i Minneapolis kvæler George Floyd med knæet på hans hals i over ni minutter. Videoen udløser de største protester mod racisme i USA siden 1960'erne og Black Lives Matter-demonstrationer verden over.",
+"lat": 44.98,
+"lon": -93.26,
+"cat": "revolution",
+"countries": [
+"United States"
+]
+},
+{
+"id": "beirut",
+"year": 2020,
+"date": "4. august 2020",
+"title": "Eksplosionen i Beirut",
+"text": "2.750 ton ammoniumnitrat eksploderer i Beiruts havn. Over 200 dør, og store dele af byen ødelægges i et af historiens største ikke-nukleare brag.",
+"lat": 33.9,
+"lon": 35.52,
+"cat": "katastrofe",
+"countries": [
+"Lebanon"
+]
+},
+{
+"id": "karabakh20",
+"year": 2020,
+"date": "27. september – 10. november 2020",
+"title": "Krigen om Nagorno-Karabakh",
+"text": "Aserbajdsjan generobrer med tyrkiske droner store dele af den armensk kontrollerede enklave. I 2023 indtager Aserbajdsjan resten, og over 100.000 armeniere flygter.",
+"lat": 39.82,
+"lon": 46.75,
+"cat": "krig",
+"countries": [
+"Azerbaijan",
+"Armenia"
+]
+},
+{
+"id": "biden",
+"year": 2020,
+"date": "3. november 2020",
+"title": "Biden vælges til præsident",
+"text": "Joe Biden slår Donald Trump, som nægter at anerkende nederlaget og hævder valgsvindel uden beviser.",
+"lat": 39.95,
+"lon": -75.17,
+"cat": "politik",
+"countries": [
+"United States"
+]
+},
+{
+"id": "mink",
+"year": 2020,
+"date": "4. november 2020",
+"title": "Minksagen",
+"text": "Regeringen beordrer alle danske mink aflivet af frygt for en muteret coronavirus, men uden lovhjemmel. Omkring 15–17 millioner mink aflives, og erhvervet nedlægges. En kommission konkluderer senere, at statsministerens udmeldinger var 'groft vildledende', hvorefter Folketinget giver hende en næse.",
+"lat": 56.5,
+"lon": 9.4,
+"cat": "politik",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "capitol",
+"year": 2021,
+"date": "6. januar 2021",
+"title": "Stormen på Kongressen",
+"text": "Tusinder af Trump-tilhængere stormer Kongressen for at stoppe godkendelsen af Bidens valgsejr. Fem mennesker dør i forbindelse med angrebet.",
+"lat": 38.89,
+"lon": -77.01,
+"cat": "krise",
+"countries": [
+"United States"
+]
+},
+{
+"id": "vacciner",
+"year": 2021,
+"date": "december 2020 – 2021",
+"title": "Corona-vaccinerne",
+"text": "Verdens første mRNA-vacciner godkendes mindre end et år efter, at virussen blev opdaget. Danmark begynder at vaccinere den 27. december 2020 og er blandt de hurtigste lande i verden.",
+"lat": 55.68,
+"lon": 12.58,
+"cat": "videnskab",
+"dk": true,
+"countries": [
+"Denmark",
+"United States",
+"Germany"
+]
+},
+{
+"id": "myanmar21",
+"year": 2021,
+"date": "1. februar 2021",
+"title": "Militærkup i Myanmar",
+"text": "Hæren afsætter Aung San Suu Kyis valgte regering. Protester slås blodigt ned, og landet glider ind i borgerkrig.",
+"lat": 19.76,
+"lon": 96.08,
+"cat": "revolution",
+"countries": [
+"Burma"
+]
+},
+{
+"id": "eriksen",
+"year": 2021,
+"date": "12. juni 2021",
+"title": "Christian Eriksen falder om ved EM",
+"text": "Danmarks landsholdsspiller får hjertestop på banen i Parken, men genoplives. Danmark går videre til semifinalen i 'sommerens eventyr'.",
+"lat": 55.7,
+"lon": 12.57,
+"cat": "kultur",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "kabul21",
+"year": 2021,
+"date": "15. august 2021",
+"title": "Taliban indtager Kabul",
+"text": "Mens USA trækker sine sidste tropper ud, bryder den afghanske hær sammen, og Taliban tager magten på få uger. Kaotiske evakueringer fra Kabuls lufthavn afslutter 20 års krig.",
+"lat": 34.53,
+"lon": 69.17,
+"cat": "krig",
+"countries": [
+"Afghanistan"
+]
+},
+{
+"id": "ukraine22",
+"year": 2022,
+"until": 2025,
+"ongoing": "Krigen i Ukraine",
+"date": "24. februar 2022",
+"title": "Rusland invaderer Ukraine",
+"text": "Rusland angriber Ukraine fra nord, øst og syd i Europas største krig siden 1945. Angrebet på Kyiv slås tilbage, og krigen bliver en udmattelseskrig med hundredtusinder af døde og sårede, som stadig fortsætter. Vesten sender våben og indfører omfattende sanktioner; Danmark giver blandt andet F-16-fly.",
+"lat": 50.45,
+"lon": 30.52,
+"cat": "krig",
+"dk": true,
+"countries": [
+"Ukraine",
+"Russia"
+]
+},
+{
+"id": "forbehold22",
+"year": 2022,
+"date": "1. juni 2022",
+"title": "Danmark afskaffer forsvarsforbeholdet",
+"text": "Efter Ruslands angreb stemmer 67 procent for at afskaffe EU-forsvarsforbeholdet fra 1993. Samme forår søger Finland og Sverige om NATO-medlemskab.",
+"lat": 55.68,
+"lon": 12.58,
+"cat": "politik",
+"dk": true,
+"countries": [
+"Denmark",
+"Finland",
+"Sweden"
+]
+},
+{
+"id": "elizabeth",
+"year": 2022,
+"date": "8. september 2022",
+"title": "Dronning Elizabeth 2. dør",
+"text": "Efter 70 år på tronen, længere end nogen anden britisk monark, dør Elizabeth 2. Hendes søn bliver kong Charles 3.",
+"lat": 57.04,
+"lon": -3.23,
+"cat": "politik",
+"countries": [
+"United Kingdom"
+]
+},
+{
+"id": "amini",
+"year": 2022,
+"date": "september 2022",
+"title": "Protesterne i Iran",
+"text": "Den 22-årige Mahsa Amini dør i moralpolitiets varetægt efter at være anholdt for forkert tørklæde. Måneders protester under sloganet 'Kvinde, liv, frihed' slås ned med hundreder af dræbte.",
+"lat": 35.69,
+"lon": 51.39,
+"cat": "revolution",
+"countries": [
+"Iran"
+]
+},
+{
+"id": "nordstream",
+"year": 2022,
+"date": "26. september 2022",
+"title": "Sabotagen mod Nord Stream",
+"text": "Eksplosioner ødelægger gasrørledningerne Nord Stream 1 og 2 i Østersøen ud for Bornholm. Tyske myndigheder sigter senere ukrainske statsborgere.",
+"lat": 55.5,
+"lon": 15.7,
+"cat": "krise",
+"dk": true,
+"countries": [
+"Denmark",
+"Germany",
+"Russia"
+]
+},
+{
+"id": "chatgpt",
+"year": 2022,
+"date": "30. november 2022",
+"title": "ChatGPT lanceres",
+"text": "OpenAI's chatbot når 100 millioner brugere på to måneder og starter et kapløb om kunstig intelligens, der forandrer arbejde, skole og politik.",
+"lat": 37.77,
+"lon": -122.42,
+"cat": "videnskab",
+"countries": [
+"United States"
+]
+},
+{
+"id": "jordskaelv23",
+"year": 2023,
+"date": "6. februar 2023",
+"title": "Jordskælvet i Tyrkiet og Syrien",
+"text": "To kraftige jordskælv dræber omkring 60.000 mennesker, de fleste i det sydlige Tyrkiet.",
+"lat": 37.17,
+"lon": 37.03,
+"cat": "katastrofe",
+"countries": [
+"Turkey",
+"Syria"
+]
+},
+{
+"id": "finlandnato",
+"year": 2023,
+"date": "4. april 2023",
+"title": "Finland bliver medlem af NATO",
+"text": "Efter 75 års alliancefrihed bliver Finland NATO's 31. medlem som direkte følge af Ruslands angreb på Ukraine. Sverige følger i marts 2024.",
+"lat": 60.17,
+"lon": 24.94,
+"cat": "aftale",
+"countries": [
+"Finland"
+]
+},
+{
+"id": "sudan23",
+"year": 2023,
+"until": 2025,
+"ongoing": "Borgerkrigen i Sudan",
+"date": "15. april 2023",
+"title": "Borgerkrigen i Sudan",
+"text": "Hæren og den paramilitære RSF-milits går i krig med hinanden. Krigen udløser verdens største fordrivelseskrise med over 12 millioner fordrevne og hungersnød, og den fortsætter stadig.",
+"lat": 15.6,
+"lon": 32.53,
+"cat": "krig",
+"countries": [
+"Sudan"
+]
+},
+{
+"id": "wagner",
+"year": 2023,
+"date": "23. – 24. juni 2023",
+"title": "Wagner-oprøret",
+"text": "Lejesoldatchefen Jevgenij Prigozjin lader sine tropper marchere mod Moskva i protest mod hærledelsen, men standser efter en dag. To måneder senere dør han i et flystyrt.",
+"lat": 47.24,
+"lon": 39.7,
+"cat": "krise",
+"countries": [
+"Russia"
+]
+},
+{
+"id": "gaza23",
+"year": 2023,
+"until": 2025,
+"ongoing": "Krigen i Gaza",
+"date": "7. oktober 2023",
+"title": "Hamas' angreb og krigen i Gaza",
+"text": "Hamas dræber omkring 1.200 mennesker i Israel og tager 251 gidsler. Israels svar, en krig i Gaza med omkring 68.000 dræbte palæstinensere ifølge Gazas sundhedsministerium ved våbenhvilen i oktober 2025, udløser en humanitær katastrofe og en verdensomspændende debat.",
+"lat": 31.5,
+"lon": 34.47,
+"cat": "krig",
+"countries": [
+"Israel"
+]
+},
+{
+"id": "koran23",
+"year": 2023,
+"date": "7. december 2023",
+"title": "Koranloven",
+"text": "Folketinget forbyder utilbørlig behandling af religiøse skrifter efter en sommer med koranafbrændinger, der udløste vrede i den muslimske verden og trusler mod Danmark.",
+"lat": 55.68,
+"lon": 12.58,
+"cat": "politik",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "frederik10",
+"year": 2024,
+"date": "14. januar 2024",
+"title": "Frederik 10. bliver konge",
+"text": "Dronning Margrethe 2. abdicerer efter 52 år, det første danske tronskifte uden et dødsfald i næsten 900 år. Frederik 10. udråbes fra Christiansborgs balkon foran et menneskehav på Slotspladsen, og omkring 300.000 fejrer dagen i København.",
+"lat": 55.68,
+"lon": 12.58,
+"cat": "politik",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "sverigenato",
+"year": 2024,
+"date": "7. marts 2024",
+"title": "Sverige bliver medlem af NATO",
+"text": "Efter to års tyrkisk og ungarsk blokering bliver Sverige det 32. medlem. Østersøen er nu omkranset af NATO-lande bortset fra Rusland.",
+"lat": 59.33,
+"lon": 18.07,
+"cat": "aftale",
+"countries": [
+"Sweden"
+]
+},
+{
+"id": "iranisrael24",
+"year": 2024,
+"date": "13. – 14. april 2024",
+"title": "Iran angriber Israel direkte",
+"text": "For første gang angriber Iran Israel fra sit eget territorium med over 300 droner og missiler, som næsten alle skydes ned. Israel svarer igen, og skyggekrigen er blevet åben.",
+"lat": 32.07,
+"lon": 34.78,
+"cat": "krig",
+"countries": [
+"Iran",
+"Israel"
+]
+},
+{
+"id": "starmer",
+"year": 2024,
+"date": "4. juli 2024",
+"title": "Labour vinder i Storbritannien",
+"text": "Keir Starmer bliver premierminister efter 14 år med konservative regeringer.",
+"lat": 51.5,
+"lon": -0.12,
+"cat": "politik",
+"countries": [
+"United Kingdom"
+]
+},
+{
+"id": "parisol",
+"year": 2024,
+"date": "26. juli – 11. august 2024",
+"title": "OL i Paris",
+"text": "Åbningsceremonien holdes på Seinen. Danmark vinder ni medaljer, heraf guld i badminton og herrehåndbold.",
+"lat": 48.86,
+"lon": 2.35,
+"cat": "kultur",
+"dk": true,
+"countries": [
+"France",
+"Denmark"
+]
+},
+{
+"id": "trump24",
+"year": 2024,
+"date": "5. november 2024",
+"title": "Trump genvælges",
+"text": "Donald Trump vinder over Kamala Harris og bliver den første præsident siden 1893, der vender tilbage efter et nederlag. Han er desuden den første dømte forbryder i embedet.",
+"lat": 38.89,
+"lon": -77.04,
+"cat": "politik",
+"countries": [
+"United States"
+]
+},
+{
+"id": "assad",
+"year": 2024,
+"date": "8. december 2024",
+"title": "Assad falder",
+"text": "Oprørere ledet af HTS indtager Damaskus på 11 dage, og Bashar al-Assad flygter til Moskva. 54 års Assad-styre og 13 års borgerkrig er slut.",
+"lat": 33.51,
+"lon": 36.29,
+"cat": "revolution",
+"countries": [
+"Syria"
+]
+},
+{
+"id": "gronland25",
+"year": 2025,
+"date": "januar – marts 2025",
+"title": "Trump kræver Grønland",
+"text": "Den genvalgte præsident erklærer, at USA 'har brug for' Grønland, og vil ikke udelukke militær magt. Krisen udløser dansk oprustning i Arktis og et spændt besøg af vicepræsident Vance på Pituffik-basen i marts.",
+"lat": 76.53,
+"lon": -68.7,
+"cat": "krise",
+"dk": true,
+"countries": [
+"Greenland",
+"Denmark",
+"United States"
+]
+},
+{
+"id": "told25",
+"year": 2025,
+"date": "2. april 2025",
+"title": "Trumps toldkrig",
+"text": "USA indfører told på varer fra næsten alle lande, ifølge økonomer det højeste toldniveau i omkring 100 år. Aktiemarkederne falder, og efterkrigstidens regler for verdenshandelen vakler.",
+"lat": 38.9,
+"lon": -77.04,
+"cat": "okonomi",
+"countries": [
+"United States"
+]
+},
+{
+"id": "leo14",
+"year": 2025,
+"date": "8. maj 2025",
+"title": "Pave Leo 14. vælges",
+"text": "Amerikaneren Robert Prevost bliver den første pave fra USA efter pave Frans' død den 21. april.",
+"lat": 41.9,
+"lon": 12.45,
+"cat": "politik",
+"countries": [
+"Italy"
+]
+},
+{
+"id": "iranisrael25",
+"year": 2025,
+"date": "13. – 24. juni 2025",
+"title": "Tolvdageskrigen mellem Israel og Iran",
+"text": "Israel bomber Irans atomanlæg og militære ledelse, Iran svarer med missiler, og USA angriber atomanlæggene i Fordow, Natanz og Isfahan. En våbenhvile indgås efter 12 dage.",
+"lat": 35.69,
+"lon": 51.39,
+"cat": "krig",
+"countries": [
+"Israel",
+"Iran",
+"United States"
+]
+},
+{
+"id": "alaska25",
+"year": 2025,
+"date": "15. august 2025",
+"title": "Trump møder Putin i Alaska",
+"text": "Det første topmøde mellem de to præsidenter siden invasionen af Ukraine giver ingen våbenhvile, men bryder Putins isolation i Vesten.",
+"lat": 61.22,
+"lon": -149.9,
+"cat": "politik",
+"countries": [
+"United States",
+"Russia"
+]
+},
+{
+"id": "gazavaabenhvile25",
+"year": 2025,
+"date": "10. oktober 2025",
+"title": "Våbenhvile i Gaza",
+"text": "Efter to års krig træder en våbenhvile i kraft på grundlag af Trumps fredsplan. De sidste levende gidsler frigives, og Israel trækker sig delvist tilbage, men aftalens næste faser går i stå, og Gazas fremtid er uafklaret.",
+"lat": 31.5,
+"lon": 34.47,
+"cat": "fred",
+"countries": [
+"Israel"
+]
 }
 ]

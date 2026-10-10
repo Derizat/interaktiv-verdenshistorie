@@ -38,7 +38,7 @@
   ],
   [
    2000,
-   2000,
+   2025,
    "2000"
   ]
  ],
@@ -1254,7 +1254,7 @@
    ],
    [
     1999,
-    2000,
+    2025,
     "nato"
    ]
   ],
@@ -1293,7 +1293,7 @@
    ],
    [
     1999,
-    2000,
+    2025,
     "nato"
    ]
   ],
@@ -1343,7 +1343,7 @@
   "China": [
    [
     1949,
-    2000,
+    2025,
     "communist"
    ]
   ],
@@ -1364,7 +1364,7 @@
   "Tibet": [
    [
     1951,
-    2000,
+    2025,
     "communist",
     "Under kinesisk styre fra 1950–51"
    ]
@@ -1385,7 +1385,7 @@
   "Korea, Democratic People's Republic of": [
    [
     1960,
-    2000,
+    2025,
     "communist"
    ]
   ],
@@ -1414,14 +1414,14 @@
    ],
    [
     1975,
-    2000,
+    2025,
     "communist"
    ]
   ],
   "Laos": [
    [
     1975,
-    2000,
+    2025,
     "communist"
    ]
   ],
@@ -1435,7 +1435,7 @@
   "Cuba": [
    [
     1961,
-    2000,
+    2025,
     "communist",
     "Castro tog magten i 1959 og erklærede revolutionen socialistisk i 1961"
    ]
@@ -1539,7 +1539,7 @@
   "Germany": [
    [
     1991,
-    2000,
+    2025,
     "nato"
    ]
   ],
@@ -1562,119 +1562,119 @@
   "United States": [
    [
     1949,
-    2000,
+    2025,
     "nato"
    ]
   ],
   "Canada": [
    [
     1949,
-    2000,
+    2025,
     "nato"
    ]
   ],
   "United Kingdom": [
    [
     1949,
-    2000,
+    2025,
     "nato"
    ]
   ],
   "France": [
    [
     1949,
-    2000,
+    2025,
     "nato"
    ]
   ],
   "Belgium": [
    [
     1949,
-    2000,
+    2025,
     "nato"
    ]
   ],
   "Netherlands": [
    [
     1949,
-    2000,
+    2025,
     "nato"
    ]
   ],
   "Luxembourg": [
    [
     1949,
-    2000,
+    2025,
     "nato"
    ]
   ],
   "Denmark": [
    [
     1949,
-    2000,
+    2025,
     "nato"
    ]
   ],
   "Greenland": [
    [
     1949,
-    2000,
+    2025,
     "nato"
    ]
   ],
   "Norway": [
    [
     1949,
-    2000,
+    2025,
     "nato"
    ]
   ],
   "Iceland": [
    [
     1949,
-    2000,
+    2025,
     "nato"
    ]
   ],
   "Italy": [
    [
     1949,
-    2000,
+    2025,
     "nato"
    ]
   ],
   "Portugal": [
    [
     1949,
-    2000,
+    2025,
     "nato"
    ]
   ],
   "Greece": [
    [
     1952,
-    2000,
+    2025,
     "nato"
    ]
   ],
   "Turkey": [
    [
     1952,
-    2000,
+    2025,
     "nato"
    ]
   ],
   "Spain": [
    [
     1982,
-    2000,
+    2025,
     "nato"
    ]
   ],
   "Czech Republic": [
    [
     1999,
-    2000,
+    2025,
     "nato"
    ]
   ],
@@ -2981,7 +2981,7 @@
    ],
    [
     1976,
-    2000,
+    2025,
     "Morocco",
     "Mauretanien holdt den sydlige del indtil 1979. Områdets status er stadig omstridt"
    ]
@@ -3225,7 +3225,7 @@
    ],
    [
     1939,
-    2000,
+    2025,
     "UK"
    ]
   ],
@@ -3381,7 +3381,7 @@
   "Puerto Rico": [
    [
     1914,
-    2000,
+    2025,
     "USA"
    ]
   ],
@@ -3394,7 +3394,7 @@
    ],
    [
     1917,
-    2000,
+    2025,
     "USA"
    ]
   ],
@@ -3467,7 +3467,7 @@
   "Niue": [
    [
     1914,
-    2000,
+    2025,
     "New Zealand"
    ]
   ],
@@ -3482,7 +3482,7 @@
   "American Samoa": [
    [
     1914,
-    2000,
+    2025,
     "USA"
    ]
   ]
@@ -3523,7 +3523,7 @@
    ],
    [
     1991,
-    2000,
+    2025,
     "Tyskland"
    ]
   ],
@@ -3605,7 +3605,7 @@
    ],
    [
     1948,
-    2000,
+    2025,
     "Israel"
    ]
   ],
@@ -3636,7 +3636,7 @@
    ],
    [
     1947,
-    2000,
+    2025,
     "Indien"
    ]
   ],
@@ -3653,7 +3653,7 @@
    ],
    [
     1971,
-    2000,
+    2025,
     "Pakistan"
    ]
   ],
@@ -3670,7 +3670,7 @@
    ],
    [
     1960,
-    2000,
+    2025,
     "Bangladesh"
    ]
   ],
@@ -3867,7 +3867,7 @@
    ],
    [
     1976,
-    2000,
+    2025,
     "Vietnam"
    ]
   ],
@@ -3908,7 +3908,7 @@
    ],
    [
     1951,
-    2000,
+    2025,
     "Tibet (Kina)"
    ]
   ],
@@ -3920,7 +3920,7 @@
    ],
    [
     1946,
-    2000,
+    2025,
     "Jordan"
    ]
   ],
@@ -3968,7 +3968,7 @@
    ],
    [
     1960,
-    2000,
+    2025,
     "Somalia"
    ]
   ],
@@ -3990,7 +3990,7 @@
    ],
    [
     1993,
-    2000,
+    2025,
     "Eritrea"
    ]
   ],
@@ -4012,14 +4012,14 @@
    ],
    [
     1997,
-    2000,
+    2025,
     "DR Congo"
    ]
   ],
   "Congo": [
    [
     1945,
-    2000,
+    2025,
     "Congo (Brazzaville)"
    ]
   ],
@@ -4031,7 +4031,7 @@
    ],
    [
     1984,
-    2000,
+    2025,
     "Burkina Faso"
    ]
   ],
@@ -4043,7 +4043,7 @@
    ],
    [
     1975,
-    2000,
+    2025,
     "Benin"
    ]
   ],
@@ -4055,7 +4055,7 @@
    ],
    [
     1972,
-    2000,
+    2025,
     "Sri Lanka"
    ]
   ],
@@ -4072,7 +4072,7 @@
    ],
    [
     1980,
-    2000,
+    2025,
     "Zimbabwe"
    ]
   ],
@@ -4101,7 +4101,7 @@
    ],
    [
     1964,
-    2000,
+    2025,
     "Zambia"
    ]
   ],
@@ -4123,7 +4123,7 @@
    ],
    [
     1964,
-    2000,
+    2025,
     "Malawi"
    ]
   ],
@@ -4140,7 +4140,7 @@
    ],
    [
     1964,
-    2000,
+    2025,
     "Tanzania"
    ]
   ],
@@ -4152,7 +4152,7 @@
    ],
    [
     1966,
-    2000,
+    2025,
     "Botswana"
    ]
   ],
@@ -4164,7 +4164,7 @@
    ],
    [
     1966,
-    2000,
+    2025,
     "Lesotho"
    ]
   ],
@@ -4176,7 +4176,7 @@
    ],
    [
     1990,
-    2000,
+    2025,
     "Namibia"
    ]
   ],
@@ -4188,7 +4188,7 @@
    ],
    [
     1966,
-    2000,
+    2025,
     "Guyana"
    ]
   ],
@@ -4212,7 +4212,7 @@
    ],
    [
     1960,
-    2000,
+    2025,
     "Ghana"
    ]
   ],
@@ -4224,7 +4224,7 @@
    ],
    [
     1990,
-    2000,
+    2025,
     "Yemen"
    ]
   ],
@@ -4236,7 +4236,7 @@
    ],
    [
     1993,
-    2000,
+    2025,
     "Tjekkiet"
    ]
   ],
@@ -4248,7 +4248,7 @@
    ],
    [
     1993,
-    2000,
+    2025,
     "Slovakiet"
    ]
   ],
@@ -4265,8 +4265,23 @@
    ],
    [
     1992,
-    2000,
+    2002,
     "Jugoslavien (Serbien og Montenegro)"
+   ],
+   [
+    2003,
+    2005,
+    "Serbien og Montenegro"
+   ],
+   [
+    2006,
+    2007,
+    "Serbien (inkl. Kosovo)"
+   ],
+   [
+    2008,
+    2025,
+    "Serbien (Kosovo erklærede sig selvstændigt i 2008; kortet viser det ikke)"
    ]
   ],
   "Montenegro": [
@@ -4282,8 +4297,18 @@
    ],
    [
     1992,
-    2000,
+    2002,
     "Jugoslavien (Serbien og Montenegro)"
+   ],
+   [
+    2003,
+    2005,
+    "Serbien og Montenegro"
+   ],
+   [
+    2006,
+    2025,
+    "Montenegro"
    ]
   ],
   "Union of South Africa": [
@@ -4306,7 +4331,7 @@
    ],
    [
     1938,
-    2000,
+    2025,
     "Iran"
    ]
   ],
@@ -4549,6 +4574,11 @@
     1923,
     1938,
     "Sovjetunionen (Ukrainske SSR)"
+   ],
+   [
+    2014,
+    2025,
+    "Ukraine (Krim annekteret af Rusland 2014; kortet viser det ikke)"
    ]
   ],
   "White Russia": [
@@ -4686,6 +4716,11 @@
     1919,
     1938,
     "Anglo-egyptisk Sudan"
+   ],
+   [
+    2011,
+    2025,
+    "Sudan (Sydsudan selvstændigt 2011; kortet viser det ikke)"
    ]
   ],
   "Egypt": [
@@ -4755,7 +4790,7 @@
    ],
    [
     1917,
-    2000,
+    2025,
     "De Amerikanske Jomfruøer"
    ]
   ],
@@ -4771,6 +4806,73 @@
     1914,
     1918,
     "Bulgarien (kortet medtager fejlagtigt Østthrakien og Konstantinopel, som var osmanniske)"
+   ]
+  ],
+  "Macedonia": [
+   [
+    1991,
+    2018,
+    "Makedonien"
+   ],
+   [
+    2019,
+    2025,
+    "Nordmakedonien"
+   ]
+  ],
+  "Burma": [
+   [
+    1914,
+    1988,
+    "Burma"
+   ],
+   [
+    1989,
+    2025,
+    "Myanmar (Burma)"
+   ]
+  ],
+  "Swaziland": [
+   [
+    1968,
+    2017,
+    "Swaziland"
+   ],
+   [
+    2018,
+    2025,
+    "Eswatini"
+   ]
+  ],
+  "Byelarus": [
+   [
+    1991,
+    2020,
+    "Hviderusland"
+   ],
+   [
+    2021,
+    2025,
+    "Belarus (tidligere Hviderusland)"
+   ]
+  ],
+  "Indonesia": [
+   [
+    1999,
+    2001,
+    "Indonesien (Østtimor under FN-styre fra 1999)"
+   ],
+   [
+    2002,
+    2025,
+    "Indonesien (Østtimor selvstændigt 2002; kortet viser det ikke)"
+   ]
+  ],
+  "Hong Kong": [
+   [
+    1997,
+    2025,
+    "Hongkong (Kina)"
    ]
   ]
  },
@@ -6200,6 +6302,369 @@
     1931,
     "authoritarian",
     "Militærkup i september 1930"
+   ]
+  ]
+ },
+ "modern": {
+  "Germany": [
+   [
+    2001,
+    2025,
+    "natoeu"
+   ]
+  ],
+  "France": [
+   [
+    2001,
+    2025,
+    "natoeu"
+   ]
+  ],
+  "Italy": [
+   [
+    2001,
+    2025,
+    "natoeu"
+   ]
+  ],
+  "Spain": [
+   [
+    2001,
+    2025,
+    "natoeu"
+   ]
+  ],
+  "Portugal": [
+   [
+    2001,
+    2025,
+    "natoeu"
+   ]
+  ],
+  "Netherlands": [
+   [
+    2001,
+    2025,
+    "natoeu"
+   ]
+  ],
+  "Belgium": [
+   [
+    2001,
+    2025,
+    "natoeu"
+   ]
+  ],
+  "Luxembourg": [
+   [
+    2001,
+    2025,
+    "natoeu"
+   ]
+  ],
+  "Denmark": [
+   [
+    2001,
+    2025,
+    "natoeu"
+   ]
+  ],
+  "Greece": [
+   [
+    2001,
+    2025,
+    "natoeu"
+   ]
+  ],
+  "United Kingdom": [
+   [
+    2001,
+    2019,
+    "natoeu"
+   ],
+   [
+    2020,
+    2025,
+    "nato",
+    "Forlod EU 31. januar 2020"
+   ]
+  ],
+  "Poland": [
+   [
+    2001,
+    2003,
+    "nato"
+   ],
+   [
+    2004,
+    2025,
+    "natoeu",
+    "EU-medlem fra 2004"
+   ]
+  ],
+  "Czech Republic": [
+   [
+    2001,
+    2003,
+    "nato"
+   ],
+   [
+    2004,
+    2025,
+    "natoeu",
+    "EU-medlem fra 2004"
+   ]
+  ],
+  "Hungary": [
+   [
+    2001,
+    2003,
+    "nato"
+   ],
+   [
+    2004,
+    2025,
+    "natoeu",
+    "EU-medlem fra 2004"
+   ]
+  ],
+  "Estonia": [
+   [
+    2004,
+    2025,
+    "natoeu",
+    "NATO og EU fra 2004"
+   ]
+  ],
+  "Latvia": [
+   [
+    2004,
+    2025,
+    "natoeu",
+    "NATO og EU fra 2004"
+   ]
+  ],
+  "Lithuania": [
+   [
+    2004,
+    2025,
+    "natoeu",
+    "NATO og EU fra 2004"
+   ]
+  ],
+  "Slovakia": [
+   [
+    2004,
+    2025,
+    "natoeu",
+    "NATO og EU fra 2004"
+   ]
+  ],
+  "Slovenia": [
+   [
+    2004,
+    2025,
+    "natoeu",
+    "NATO og EU fra 2004"
+   ]
+  ],
+  "Bulgaria": [
+   [
+    2004,
+    2006,
+    "nato",
+    "NATO fra 2004"
+   ],
+   [
+    2007,
+    2025,
+    "natoeu",
+    "EU fra 2007"
+   ]
+  ],
+  "Romania": [
+   [
+    2004,
+    2006,
+    "nato",
+    "NATO fra 2004"
+   ],
+   [
+    2007,
+    2025,
+    "natoeu",
+    "EU fra 2007"
+   ]
+  ],
+  "Croatia": [
+   [
+    2009,
+    2012,
+    "nato",
+    "NATO fra 2009"
+   ],
+   [
+    2013,
+    2025,
+    "natoeu",
+    "EU fra 2013"
+   ]
+  ],
+  "Albania": [
+   [
+    2009,
+    2025,
+    "nato",
+    "NATO fra 2009"
+   ]
+  ],
+  "Montenegro": [
+   [
+    2017,
+    2025,
+    "nato",
+    "NATO fra 2017"
+   ]
+  ],
+  "Macedonia": [
+   [
+    2020,
+    2025,
+    "nato",
+    "NATO fra 2020"
+   ]
+  ],
+  "Finland": [
+   [
+    2001,
+    2022,
+    "eu",
+    "Alliancefrit EU-land"
+   ],
+   [
+    2023,
+    2025,
+    "natoeu",
+    "NATO fra 4. april 2023"
+   ]
+  ],
+  "Sweden": [
+   [
+    2001,
+    2023,
+    "eu",
+    "Alliancefrit EU-land"
+   ],
+   [
+    2024,
+    2025,
+    "natoeu",
+    "NATO fra 7. marts 2024"
+   ]
+  ],
+  "Austria": [
+   [
+    2001,
+    2025,
+    "eu",
+    "Neutralt EU-land"
+   ]
+  ],
+  "Ireland": [
+   [
+    2001,
+    2025,
+    "eu",
+    "Neutralt EU-land"
+   ]
+  ],
+  "Cyprus": [
+   [
+    2004,
+    2025,
+    "eu",
+    "EU fra 2004"
+   ]
+  ],
+  "Malta": [
+   [
+    2004,
+    2025,
+    "eu",
+    "EU fra 2004"
+   ]
+  ],
+  "United States": [
+   [
+    2001,
+    2025,
+    "nato"
+   ]
+  ],
+  "Canada": [
+   [
+    2001,
+    2025,
+    "nato"
+   ]
+  ],
+  "Turkey": [
+   [
+    2001,
+    2025,
+    "nato"
+   ]
+  ],
+  "Norway": [
+   [
+    2001,
+    2025,
+    "nato"
+   ]
+  ],
+  "Iceland": [
+   [
+    2001,
+    2025,
+    "nato"
+   ]
+  ],
+  "Greenland": [
+   [
+    2001,
+    2025,
+    "nato",
+    "Del af rigsfællesskabet og NATO via Danmark; forlod EF i 1985"
+   ]
+  ],
+  "Russia": [
+   [
+    2001,
+    2025,
+    "russia",
+    "Rusland"
+   ]
+  ],
+  "Byelarus": [
+   [
+    2001,
+    2025,
+    "russia",
+    "Ruslands nærmeste allierede"
+   ]
+  ],
+  "Ukraine": [
+   [
+    2014,
+    2021,
+    "neutral",
+    "Krim annekteret af Rusland 2014; krig i Donbas"
+   ],
+   [
+    2022,
+    2025,
+    "neutral",
+    "I krig med Rusland siden februar 2022; Krim og dele af øst og syd besat"
    ]
   ]
  }

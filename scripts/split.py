@@ -13,6 +13,20 @@ RULES = {
 
 # Source-data fixes: the 1930 basemap labels the whole USSR "White Russia".
 RENAMES = {"1930": {"White Russia": "USSR"}}
+# The 1994 and 2000 basemaps leave Switzerland unnamed and name a tiny sliver instead:
+# name the unnamed feature containing the point and drop the sliver.
+NAME_BY_POINT = {"1994": {"Switzerland": (7.45, 46.95)}, "2000": {"Switzerland": (7.45, 46.95)}}
+
+def contains(ring, x, y):
+    inside = False
+    for i in range(len(ring) - 1):
+        x1, y1 = ring[i]; x2, y2 = ring[i + 1]
+        if (y1 > y) != (y2 > y) and x < (x2 - x1) * (y - y1) / (y2 - y1) + x1:
+            inside = not inside
+    return inside
+
+def ring_area(r):
+    return abs(sum(r[i][0] * r[i + 1][1] - r[i + 1][0] * r[i][1] for i in range(len(r) - 1)) / 2)
 
 def centroid(ring):
     xs = [p[0] for p in ring]; ys = [p[1] for p in ring]
@@ -25,6 +39,13 @@ def main(path, snap):
             if f["properties"]["n"] == old:
                 f["properties"]["n"] = new
                 print(snap, f"renamed {old} -> {new}")
+    for name, (x, y) in NAME_BY_POINT.get(snap, {}).items():
+        g["features"] = [f for f in g["features"] if not (f["properties"]["n"] == name and sum(ring_area(p[0]) for p in f["geometry"]["coordinates"]) < 0.05)]
+        for f in g["features"]:
+            if f["properties"]["n"] is None and any(contains(p[0], x, y) for p in f["geometry"]["coordinates"]):
+                f["properties"]["n"] = name
+                print(snap, f"named unnamed feature -> {name}")
+                break
     for src, new, test in RULES.get(snap, []):
         for f in list(g["features"]):
             if f["properties"]["n"] != src:
