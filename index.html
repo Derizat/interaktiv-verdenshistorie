@@ -29,6 +29,7 @@
   --east: #c4473b;
   --communist: #eba08c;
   --occ-west: #b9c8d8;
+  --arrow-axis: #2b2826; --arrow-allied: #24579e; --arrow-soviet: #b23a2e;
 
   --r-uk: #e48aa3; --r-fr: #8b7bc6; --r-pt: #4f9d69; --r-be: #e1b236; --r-nl: #ef8a3a; --r-es: #b06a3b;
   --r-it: #5fb3a6; --r-jp: #d0574e; --r-us: #4b7fc9; --r-dk: #a3363b; --r-au: #9a7a55; --r-za: #7f8c3c; --r-ma: #9b6a96;
@@ -43,6 +44,7 @@
     --border: #50626f; --rule: #2a3a46; --accent: #f07a62;
     --allied: #5b8fd6; --nato: #5b8fd6; --axis: #0b0c0d; --axis-soft: #4a4440; --soviet: #d4685b; --east: #d4685b;
     --communist: #a8685a; --occ-west: #3e5266;
+    --arrow-axis: #ece6dc; --arrow-allied: #86b4f2; --arrow-soviet: #f2826f;
     --r-uk: #c86f88; --r-fr: #7d6db8; --r-pt: #3f8a5a; --r-be: #c49a2a; --r-nl: #d6762c; --r-es: #9a5a30;
     --r-it: #4c9a8e; --r-jp: #b8483f; --r-us: #4a74b4; --r-dk: #b94a50; --r-au: #8a6c49; --r-za: #6f7b33; --r-ma: #8a5c86;
     color-scheme: dark;
@@ -53,6 +55,7 @@
   --border: #50626f; --rule: #2a3a46; --accent: #f07a62;
   --allied: #5b8fd6; --nato: #5b8fd6; --axis: #0b0c0d; --axis-soft: #4a4440; --soviet: #d4685b; --east: #d4685b;
   --communist: #a8685a; --occ-west: #3e5266;
+  --arrow-axis: #ece6dc; --arrow-allied: #86b4f2; --arrow-soviet: #f2826f;
   --r-uk: #c86f88; --r-fr: #7d6db8; --r-pt: #3f8a5a; --r-be: #c49a2a; --r-nl: #d6762c; --r-es: #9a5a30;
   --r-it: #4c9a8e; --r-jp: #b8483f; --r-us: #4a74b4; --r-dk: #b94a50; --r-au: #8a6c49; --r-za: #6f7b33; --r-ma: #8a5c86;
   color-scheme: dark;
@@ -91,6 +94,7 @@ button { font: inherit; color: inherit; }
 .map svg { display: block; width: 100%; height: 100%; touch-action: none; }
 .country { stroke: var(--border); stroke-width: .6px; vector-effect: non-scaling-stroke; transition: fill .45s ease; }
 .country.hl { stroke: var(--accent); stroke-width: 2.4px; }
+.leaving { stroke: var(--border); stroke-width: .6px; vector-effect: non-scaling-stroke; }
 .graticule { fill: none; stroke: var(--ink); stroke-opacity: .06; stroke-width: .5px; vector-effect: non-scaling-stroke; }
 .marker { cursor: pointer; }
 .marker .ring { fill: var(--surface); stroke-width: 3px; }
@@ -105,6 +109,14 @@ button { font: inherit; color: inherit; }
 @keyframes pulse { 0% { r: 16; opacity: .9; } 100% { r: 34; opacity: 0; } }
 
 .callouts { position: absolute; inset: 0; pointer-events: none; }
+.bigyear { position: absolute; left: 0; top: 0; transform: translate(-50%, -50%); font-family: var(--font-display); font-weight: 800; line-height: .8; letter-spacing: -.01em; font-variant-numeric: tabular-nums; color: color-mix(in srgb, var(--ink) 17%, transparent); pointer-events: none; user-select: none; white-space: nowrap; transition: opacity .3s ease; }
+.bigyear.off { opacity: 0; }
+.arrow { cursor: help; }
+.arrow .halo { fill: none; stroke: var(--surface); stroke-opacity: .9; stroke-width: 8px; stroke-linecap: round; stroke-linejoin: round; }
+.arrow .line { fill: none; stroke-width: 4px; stroke-linecap: round; stroke-linejoin: round; }
+.arrow .head { stroke: var(--surface); stroke-width: 1.5px; stroke-linejoin: round; }
+.alabel { position: absolute; width: max-content; max-width: 170px; font: 700 12.5px/1.2 var(--font-body); pointer-events: none; text-shadow: 0 0 3px var(--surface), 0 0 3px var(--surface), 0 0 2px var(--surface), 0 0 1px var(--surface); }
+.sw.sw-arrow { border: 0; width: 20px; }
 .callout { position: absolute; pointer-events: auto; cursor: pointer; width: max-content; background: var(--surface); color: var(--ink); border: 1px solid var(--rule); border-radius: 8px; padding: 3px 8px; font-size: 13px; font-weight: 700; line-height: 1.25; max-width: 190px; box-shadow: 0 2px 8px rgb(0 0 0 / .12); animation: pop .35s cubic-bezier(.2,1.4,.4,1) both; }
 .callouts.still .callout { animation: none; }
 .callout.sel { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent); }
@@ -226,8 +238,10 @@ button { font: inherit; color: inherit; }
         </pattern>
       </defs>
       <g id="world"><path id="sphere"></path><path class="graticule" id="graticule"></path><g id="countries"></g></g>
+      <g id="arrows"></g>
       <g id="markers"></g>
     </svg>
+    <div class="bigyear" id="bigyear" aria-hidden="true"></div>
     <div class="callouts" id="callouts"></div>
     <div class="zoom">
       <button type="button" id="zin" aria-label="Zoom ind">+</button>
@@ -305,10 +319,17 @@ const METROPOLE = { "United Kingdom": "UK", "France": "France", "Portugal": "Por
   "Spain": "Spain", "Italy": "Italy", "Empire of Japan": "Japan", "United States": "USA", "Denmark": "Denmark", "Australia": "Australia",
   "South Africa": "South Africa", "Union of South Africa": "South Africa", "Morocco": "Morocco" };
 
+const SIDES = {
+  axis:   { label: "Aksemagternes felttog", color: "var(--arrow-axis)" },
+  allied: { label: "De allieredes felttog", color: "var(--arrow-allied)" },
+  soviet: { label: "Sovjetunionens felttog", color: "var(--arrow-soviet)" },
+};
+const REDUCED_MOTION = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
 const MONTHS = ["januar","februar","marts","april","maj","juni","juli","august","september","oktober","november","december"];
 
 const state = { year: Y0, mode: "blocs", selected: null, snapKey: null, transform: d3.zoomIdentity, playing: null };
-let EVENTS = [], ST = null;
+let EVENTS = [], ST = null, CAMPAIGNS = [];
 const SNAPS = {};
 
 /* ---------- data helpers ---------- */
@@ -372,7 +393,7 @@ function colonyFill(n, y, active) {
 }
 
 /* ---------- map ---------- */
-const svg = d3.select("#svg"), world = d3.select("#world"), gCountries = d3.select("#countries"), gMarkers = d3.select("#markers");
+const svg = d3.select("#svg"), world = d3.select("#world"), gCountries = d3.select("#countries"), gMarkers = d3.select("#markers"), gArrows = d3.select("#arrows");
 const mapEl = document.getElementById("map"), tip = document.getElementById("tip"), calloutsEl = document.getElementById("callouts");
 const projection = d3.geoNaturalEarth1();
 const path = d3.geoPath(projection);
@@ -391,6 +412,8 @@ function fitProjection() {
 const zoom = d3.zoom().scaleExtent([1, 10]).on("zoom", (ev) => {
   state.transform = ev.transform;
   world.attr("transform", ev.transform);
+  bigYearEl.classList.toggle("off", ev.transform.k > 1.05);
+  placeArrows(false);
   placeMarkers();
 });
 svg.call(zoom).on("dblclick.zoom", null);
@@ -399,7 +422,8 @@ document.getElementById("zout").onclick = () => svg.transition().duration(300).c
 document.getElementById("zreset").onclick = () => svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity);
 
 async function loadSnap(key) {
-  if (!SNAPS[key]) SNAPS[key] = fetch(`data/borders_${key}.json`).then(r => r.json());
+  if (!SNAPS[key]) SNAPS[key] = fetch(`data/borders_${key}.json`).then(r => r.json())
+    .then(geo => { geo.features.forEach((f, i) => { f._k = key + ":" + i; }); return geo; });
   return SNAPS[key];
 }
 
@@ -408,12 +432,17 @@ async function drawCountries() {
   const geo = await loadSnap(key);
   if (key !== state.snapKey) {
     state.snapKey = key;
-    const sel = gCountries.selectAll("path").data(geo.features, (d, i) => key + i);
-    sel.exit().transition().duration(350).style("opacity", 0).remove();
-    sel.enter().append("path").attr("class", "country").attr("d", path).style("opacity", 0)
+    // Key by each feature's own snapshot id, so paths from the previous snapshot exit instead of being reused with new data.
+    gCountries.selectAll("path.leaving").interrupt().remove();
+    const sel = gCountries.selectAll("path.country").data(geo.features, d => d._k);
+    sel.exit().classed("country", false).classed("leaving", true).style("pointer-events", "none")
+      .transition().duration(350).style("opacity", 0).remove();
+    const first = sel.empty() && sel.exit().empty();
+    const entered = sel.enter().append("path").attr("class", "country").attr("d", path)
       .on("pointermove", onCountryHover).on("pointerleave", () => { tip.hidden = true; })
-      .on("click", onCountryHover)
-      .transition().duration(350).style("opacity", 1);
+      .on("click", onCountryHover);
+    // Paint the first map immediately; only later snapshot changes cross-fade.
+    if (!first) entered.style("opacity", 0).transition().duration(350).style("opacity", 1);
   }
   colorCountries(geo.features);
 }
@@ -435,7 +464,11 @@ function onCountryHover(ev, d) {
   let line = "";
   if (state.mode === "blocs") { const s = blocStatus(n, y); line = STATUS[s.key].label + (s.note ? ". " + s.note : ""); }
   else line = colonyFill(n, y, rulersActive(y, state.features || [])).label;
-  tip.innerHTML = `<b>${displayName(n, y)}</b>${line}`;
+  showTip(ev, displayName(n, y), line);
+}
+
+function showTip(ev, title, line) {
+  tip.innerHTML = `<b>${title}</b>${line}`;
   const r = mapEl.getBoundingClientRect();
   let x = ev.clientX - r.left + 14, yy = ev.clientY - r.top + 14;
   tip.hidden = false;
@@ -463,14 +496,111 @@ function renderLegend(features, active) {
       .map(([r, n]) => ({ fill: `var(${RULER_VAR[r]})`, label: r === "Morocco" ? "Besat af Marokko" : r === "Japan" ? "Japansk besættelse" : ST.rulers[r] + " styre", n }));
     items.push({ fill: "var(--land)", label: "Selvstændige lande" });
   }
+  const sides = [...new Set(arrowsFor(y).map(c => c.side))];
+  ["axis", "allied", "soviet"].filter(k => sides.includes(k)).forEach(k => items.push({ arrow: SIDES[k].color, label: SIDES[k].label }));
   el.className = "legend" + (legendClosed ? " closed" : "");
   el.innerHTML = `<button class="toggle" type="button" aria-expanded="${!legendClosed}">${legendClosed ? "Vis forklaring" : "Skjul forklaring"}</button>
     <h2>${title}</h2>
-    <ul>${items.map(i => `<li><span class="sw" style="background:${i.fill.startsWith("url") ? "none" : i.fill}">${i.fill.startsWith("url") ? swatchSvg(i.fill) : ""}</span>${i.label}${i.n ? `<span class="n">${i.n} ${i.n === 1 ? "område" : "områder"}</span>` : ""}</li>`).join("")}</ul>
+    <ul>${items.map(i => `<li>${i.arrow ? arrowSwatch(i.arrow) : `<span class="sw" style="background:${i.fill.startsWith("url") ? "none" : i.fill}">${i.fill.startsWith("url") ? swatchSvg(i.fill) : ""}</span>`}${i.label}${i.n ? `<span class="n">${i.n} ${i.n === 1 ? "område" : "områder"}</span>` : ""}</li>`).join("")}</ul>
     <div class="foot">Grænser fra kortet over ${state.snapKey}. Farverne viser situationen ved årets udgang.</div>`;
   el.querySelector(".toggle").onclick = () => { legendClosed = !legendClosed; renderLegend(features, active); };
+  placeBigYear();
+}
+function arrowSwatch(color) {
+  return `<span class="sw sw-arrow"><svg width="20" height="12" style="display:block"><path d="M1 6H12" style="stroke:${color};stroke-width:3;stroke-linecap:round"/><path d="M11 1.5L19 6L11 10.5Z" style="fill:${color}"/></svg></span>`;
 }
 function swatchSvg(fill) { return `<svg width="18" height="12" style="display:block;border-radius:2px"><rect width="18" height="12" fill="${fill}"/></svg>`; }
+
+/* ---------- big year ---------- */
+const bigYearEl = document.getElementById("bigyear");
+function relRect(el) {
+  const m = mapEl.getBoundingClientRect(), r = el.getBoundingClientRect();
+  return { x: r.left - m.left, y: r.top - m.top, w: r.width, h: r.height };
+}
+function placeBigYear() {
+  bigYearEl.textContent = state.year;
+  const top = projection([-40, 83.6])[1];
+  let x, y, size;
+  if (top >= 110) {
+    size = Math.min(top * 0.8, W * 0.28, 260);
+    x = W / 2; y = top / 2 + 4;
+  } else {
+    // No room above the map: use open ocean, the Pacific first, avoiding the legend and zoom buttons.
+    size = Math.max(40, Math.min(W * 0.09, 150));
+    const blockers = [relRect(document.getElementById("legend")), relRect(document.querySelector(".zoom"))];
+    const spots = [[-125, -33], [-138, 28], [82, -33]];
+    let spot = spots[spots.length - 1];
+    for (const s of spots) {
+      const [px, py] = projection(s), w = size * 2.1, h = size * 0.85;
+      const r = { x: px - w / 2, y: py - h / 2, w, h };
+      if (r.x < 0 || r.x + w > W || r.y < 0 || r.y + h > H) continue;
+      if (blockers.some(b => r.x < b.x + b.w && r.x + r.w > b.x && r.y < b.y + b.h && r.y + r.h > b.y)) continue;
+      spot = s; break;
+    }
+    [x, y] = projection(spot);
+  }
+  bigYearEl.style.fontSize = size + "px";
+  bigYearEl.style.left = x + "px";
+  bigYearEl.style.top = y + "px";
+}
+
+/* ---------- campaign arrows ---------- */
+const arrowLine = d3.line().curve(d3.curveCatmullRom.alpha(0.5));
+function arrowsFor(y) { return CAMPAIGNS.filter(c => c.year === y); }
+
+function drawArrows() {
+  const sel = gArrows.selectAll("g.arrow").data(arrowsFor(state.year), d => d.id);
+  sel.exit().remove();
+  const entering = sel.enter().append("g").attr("class", "arrow")
+    .on("pointermove", (ev, d) => showTip(ev, d.label, SIDES[d.side].label))
+    .on("pointerleave", () => { tip.hidden = true; });
+  entering.each(function (d) {
+    const g = d3.select(this);
+    d.paths.forEach(() => g.append("path").attr("class", "halo"));
+    d.paths.forEach(() => g.append("path").attr("class", "line").style("stroke", SIDES[d.side].color));
+    g.append("path").attr("class", "head").style("fill", SIDES[d.side].color);
+  });
+  placeArrows(!REDUCED_MOTION, entering);
+}
+
+function placeArrows(animate, entering) {
+  const t = state.transform;
+  gArrows.selectAll("g.arrow").each(function (d) {
+    const g = d3.select(this);
+    const halos = g.selectAll("path.halo").nodes(), lines = g.selectAll("path.line").nodes(), head = g.select("path.head");
+    d.paths.forEach((pl, i) => {
+      const dd = arrowLine(pl.map(p => t.apply(projection(p))));
+      halos[i].setAttribute("d", dd); lines[i].setAttribute("d", dd);
+    });
+    const last = lines[lines.length - 1], L = last.getTotalLength();
+    const end = last.getPointAtLength(L), back = last.getPointAtLength(Math.max(0, L - 8));
+    const a = Math.atan2(end.y - back.y, end.x - back.x), ux = Math.cos(a), uy = Math.sin(a);
+    // Scale head and stroke with the on-screen length, so short arrows at world zoom stay arrows instead of blobs.
+    const hl = Math.min(14, Math.max(5, L * 0.4)), hw = hl * 0.55, sw = L > 60 ? 4 : L > 25 ? 3 : 2;
+    g.selectAll("path.line").style("stroke-width", sw + "px");
+    g.selectAll("path.halo").style("stroke-width", (sw + 4) + "px");
+    const bx = end.x - ux * hl, by = end.y - uy * hl;
+    head.attr("d", `M${end.x + ux * 1.5},${end.y + uy * 1.5}L${bx - uy * hw},${by + ux * hw}L${bx + uy * hw},${by - ux * hw}Z`);
+    // Stop the last stroke short of the tip so the round cap does not poke through the head.
+    const dash = (node, isLast) => { const l = node.getTotalLength(); return isLast ? Math.max(0, l - hl * 0.7) : l; };
+    [...halos, ...lines].forEach((node) => {
+      const isLast = node === last || node === halos[halos.length - 1];
+      const l = dash(node, isLast);
+      d3.select(node).interrupt().attr("stroke-dasharray", `${l} ${node.getTotalLength() + 40}`).attr("stroke-dashoffset", 0);
+    });
+    head.interrupt().style("opacity", 1);
+  });
+  if (animate && entering && !entering.empty()) {
+    entering.each(function (d, i) {
+      const g = d3.select(this), delay = 150 + i * 140;
+      g.selectAll("path.halo, path.line").each(function () {
+        const l = parseFloat(this.getAttribute("stroke-dasharray"));
+        d3.select(this).attr("stroke-dashoffset", l).transition().delay(delay).duration(900).ease(d3.easeCubicOut).attr("stroke-dashoffset", 0);
+      });
+      g.select("path.head").style("opacity", 0).transition().delay(delay + 800).duration(200).style("opacity", 1);
+    });
+  }
+}
 
 /* ---------- events ---------- */
 function eventsFor(y) {
@@ -526,6 +656,25 @@ function placeCallouts(animate) {
     const cands = [[22, -h / 2], [-22 - w, -h / 2], [-w / 2, -24 - h], [-w / 2, 22], [22, -h - 6], [22, 6], [-22 - w, -h - 6], [-22 - w, 6]];
     for (const [dx, dy] of cands) {
       const r = { x: p[0] + dx, y: p[1] + dy, w, h };
+      if (r.x < 4 || r.y < 4 || r.x + w > W - 4 || r.y + h > H - 4 || overlaps(r)) continue;
+      placed.push(r);
+      el.style.left = r.x + "px"; el.style.top = r.y + "px"; el.style.visibility = "visible";
+      return;
+    }
+    el.remove();
+  });
+  gArrows.selectAll("g.arrow").each(function (d) {
+    const lines = this.querySelectorAll("path.line"), ln = lines[lines.length - 1], L = ln.getTotalLength();
+    if (L < 40) return;
+    const m = ln.getPointAtLength(L * 0.45), m2 = ln.getPointAtLength(L * 0.45 + 2);
+    const a = Math.atan2(m2.y - m.y, m2.x - m.x), nx = -Math.sin(a), ny = Math.cos(a);
+    const el = document.createElement("div");
+    el.className = "alabel"; el.textContent = d.label; el.style.color = SIDES[d.side].color; el.style.visibility = "hidden";
+    calloutsEl.appendChild(el);
+    const w = el.offsetWidth, h = el.offsetHeight, off = 9 + Math.abs(nx) * w / 2 + Math.abs(ny) * h / 2;
+    for (const sgn of [1, -1]) {
+      const cx = m.x + nx * off * sgn, cy = m.y + ny * off * sgn;
+      const r = { x: cx - w / 2, y: cy - h / 2, w, h };
       if (r.x < 4 || r.y < 4 || r.x + w > W - 4 || r.y + h > H - 4 || overlaps(r)) continue;
       placed.push(r);
       el.style.left = r.x + "px"; el.style.top = r.y + "px"; el.style.visibility = "visible";
@@ -648,6 +797,7 @@ async function setYear(y) {
   if (changed && state.selected && !(state.selected.year === y || (state.selected.until && state.selected.year < y && state.selected.until >= y))) state.selected = null;
   updateRail();
   renderPanel();
+  drawArrows();
   drawMarkers();
   await drawCountries();
   if (location.hash !== "#" + y) history.replaceState(null, "", "#" + y);
@@ -658,8 +808,8 @@ async function setYear(y) {
   try {
     const m = localStorage.getItem("vh-mode"); if (m === "colonies" || m === "blocs") state.mode = m;
   } catch (e) {}
-  const [ev, st] = await Promise.all([fetch("data/events.json").then(r => r.json()), fetch("data/status.json").then(r => r.json())]);
-  EVENTS = ev; ST = st;
+  const [ev, st, camp] = await Promise.all(["events", "status", "campaigns"].map(f => fetch(`data/${f}.json`).then(r => r.json())));
+  EVENTS = ev; ST = st; CAMPAIGNS = camp;
   buildRail();
   fitProjection();
   setMode(state.mode);
@@ -669,7 +819,7 @@ async function setYear(y) {
   document.getElementById("loading").remove();
   ["1945", "1960", "1994", "2000", "1938"].forEach(k => loadSnap(k));
   window.addEventListener("hashchange", () => { const v = parseInt(location.hash.slice(1), 10); if (v >= Y0 && v <= Y1 && v !== state.year) { stopPlay(); setYear(v); } });
-  let rt; window.addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => { fitProjection(); svg.call(zoom.transform, d3.zoomIdentity); }, 150); });
+  let rt; window.addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => { fitProjection(); svg.call(zoom.transform, d3.zoomIdentity); placeBigYear(); }, 150); });
 })().catch(err => {
   document.getElementById("loading").textContent = "Kortdata kunne ikke hentes. Genindlæs siden for at prøve igen.";
   console.error(err);

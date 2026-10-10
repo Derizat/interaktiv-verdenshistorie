@@ -1,0 +1,1708 @@
+[
+{
+"id": "polen-nord",
+"year": 1939,
+"side": "axis",
+"label": "Tyskland angriber fra Østpreussen",
+"paths": [
+[
+[
+20.6,
+54.0
+],
+[
+20.9,
+53.1
+],
+[
+21.0,
+52.3
+]
+]
+]
+},
+{
+"id": "polen-pommern",
+"year": 1939,
+"side": "axis",
+"label": "Tyskland angriber over korridoren",
+"paths": [
+[
+[
+16.3,
+53.9
+],
+[
+17.5,
+53.6
+],
+[
+18.6,
+53.4
+]
+]
+]
+},
+{
+"id": "polen-syd",
+"year": 1939,
+"side": "axis",
+"label": "Tyskland angriber fra syd",
+"paths": [
+[
+[
+17.0,
+50.3
+],
+[
+19.5,
+51.0
+],
+[
+20.9,
+51.9
+]
+]
+]
+},
+{
+"id": "polen-ost",
+"year": 1939,
+"side": "soviet",
+"label": "Sovjet rykker ind i Østpolen",
+"paths": [
+[
+[
+28.5,
+53.6
+],
+[
+26.2,
+53.2
+],
+[
+24.0,
+52.6
+]
+]
+]
+},
+{
+"id": "vinterkrig",
+"year": 1939,
+"side": "soviet",
+"label": "Vinterkrigen: Sovjet angriber Finland",
+"paths": [
+[
+[
+30.3,
+59.95
+],
+[
+29.8,
+60.3
+],
+[
+29.3,
+60.5
+]
+]
+]
+},
+{
+"id": "vinterkrig-40",
+"year": 1940,
+"side": "soviet",
+"label": "Vinterkrigen: gennembrud til Viborg (marts)",
+"paths": [
+[
+[
+29.6,
+60.4
+],
+[
+29.2,
+60.6
+],
+[
+28.75,
+60.72
+]
+]
+]
+},
+{
+"id": "weserubung-dk",
+"year": 1940,
+"side": "axis",
+"label": "Danmark besættes",
+"paths": [
+[
+[
+9.4,
+54.4
+],
+[
+9.6,
+55.6
+],
+[
+9.9,
+56.9
+]
+]
+]
+},
+{
+"id": "weserubung-no",
+"year": 1940,
+"side": "axis",
+"label": "Norge angribes",
+"paths": [
+[
+[
+8.0,
+55.0
+],
+[
+4.6,
+60.5
+],
+[
+9.5,
+65.0
+],
+[
+17.4,
+68.4
+]
+]
+]
+},
+{
+"id": "vest-holland",
+"year": 1940,
+"side": "axis",
+"label": "Angreb på Holland og Belgien",
+"paths": [
+[
+[
+7.2,
+52.0
+],
+[
+5.6,
+51.6
+],
+[
+4.4,
+51.2
+]
+]
+]
+},
+{
+"id": "vest-ardenner",
+"year": 1940,
+"side": "axis",
+"label": "Gennembrud i Ardennerne",
+"paths": [
+[
+[
+6.9,
+50.3
+],
+[
+5.0,
+49.7
+],
+[
+3.2,
+50.0
+],
+[
+1.8,
+50.6
+]
+]
+]
+},
+{
+"id": "frankrig-syd",
+"year": 1940,
+"side": "axis",
+"label": "Frankrig erobres",
+"paths": [
+[
+[
+2.6,
+49.6
+],
+[
+2.4,
+48.2
+],
+[
+1.0,
+46.6
+]
+]
+]
+},
+{
+"id": "dunkerque",
+"year": 1940,
+"side": "allied",
+"label": "Evakueringen fra Dunkerque",
+"paths": [
+[
+[
+2.37,
+51.03
+],
+[
+1.9,
+51.25
+],
+[
+1.35,
+51.15
+]
+]
+]
+},
+{
+"id": "blitz",
+"year": 1940,
+"side": "axis",
+"label": "Luftangreb på Storbritannien",
+"paths": [
+[
+[
+2.2,
+49.8
+],
+[
+0.9,
+50.7
+],
+[
+-0.1,
+51.45
+]
+]
+]
+},
+{
+"id": "italien-egypten",
+"year": 1940,
+"side": "axis",
+"label": "Italien angriber Egypten",
+"paths": [
+[
+[
+23.6,
+31.8
+],
+[
+25.0,
+31.65
+],
+[
+25.9,
+31.45
+]
+]
+]
+},
+{
+"id": "italien-graekenland",
+"year": 1940,
+"side": "axis",
+"label": "Italien angriber Grækenland (slås tilbage)",
+"paths": [
+[
+[
+19.9,
+40.8
+],
+[
+20.3,
+40.2
+],
+[
+20.5,
+39.85
+]
+]
+]
+},
+{
+"id": "compass",
+"year": 1940,
+"side": "allied",
+"label": "Operation Compass: Sidi Barrani (dec.)",
+"paths": [
+[
+[
+27.2,
+31.35
+],
+[
+26.0,
+31.5
+],
+[
+25.2,
+31.6
+]
+]
+]
+},
+{
+"id": "baltikum-40",
+"year": 1940,
+"side": "soviet",
+"label": "Sovjet besætter Baltikum",
+"paths": [
+[
+[
+30.5,
+57.3
+],
+[
+27.5,
+57.2
+],
+[
+24.6,
+56.9
+]
+]
+]
+},
+{
+"id": "rommel-41",
+"year": 1941,
+"side": "axis",
+"label": "Rommel rykker frem til Egyptens grænse; Tobruk belejres",
+"paths": [
+[
+[
+13.2,
+32.9
+],
+[
+17.5,
+31.0
+],
+[
+20.1,
+32.1
+],
+[
+23.0,
+31.9
+],
+[
+25.1,
+31.6
+]
+]
+]
+},
+{
+"id": "compass-41",
+"year": 1941,
+"side": "allied",
+"label": "Compass: Tobruk og Beda Fomm (jan.–feb.)",
+"paths": [
+[
+[
+25.1,
+31.6
+],
+[
+23.9,
+32.1
+],
+[
+22.0,
+32.6
+],
+[
+20.1,
+31.9
+]
+]
+]
+},
+{
+"id": "balkan-jug",
+"year": 1941,
+"side": "axis",
+"label": "Jugoslavien angribes",
+"paths": [
+[
+[
+15.5,
+46.6
+],
+[
+18.0,
+45.6
+],
+[
+20.4,
+44.8
+]
+]
+]
+},
+{
+"id": "balkan-gr",
+"year": 1941,
+"side": "axis",
+"label": "Grækenland og Kreta erobres",
+"paths": [
+[
+[
+23.3,
+41.9
+],
+[
+22.9,
+40.6
+],
+[
+23.7,
+38.0
+],
+[
+24.6,
+35.4
+]
+]
+]
+},
+{
+"id": "barb-nord",
+"year": 1941,
+"side": "axis",
+"label": "Barbarossa: mod Leningrad",
+"paths": [
+[
+[
+21.3,
+54.9
+],
+[
+25.0,
+56.6
+],
+[
+30.3,
+59.9
+]
+]
+]
+},
+{
+"id": "barb-midt",
+"year": 1941,
+"side": "axis",
+"label": "Barbarossa: mod Moskva",
+"paths": [
+[
+[
+23.7,
+52.1
+],
+[
+28.0,
+53.9
+],
+[
+32.0,
+54.8
+],
+[
+36.5,
+55.5
+]
+]
+]
+},
+{
+"id": "barb-syd",
+"year": 1941,
+"side": "axis",
+"label": "Barbarossa: mod Kyiv og Rostov",
+"paths": [
+[
+[
+23.9,
+50.5
+],
+[
+30.5,
+50.4
+],
+[
+35.5,
+48.4
+],
+[
+39.7,
+47.2
+]
+]
+]
+},
+{
+"id": "moskva-mod",
+"year": 1941,
+"side": "soviet",
+"label": "Sovjetisk modoffensiv ved Moskva",
+"paths": [
+[
+[
+38.6,
+55.9
+],
+[
+36.8,
+55.5
+],
+[
+34.8,
+55.0
+]
+]
+]
+},
+{
+"id": "iran-brit",
+"year": 1941,
+"side": "allied",
+"label": "Briterne rykker ind i Iran",
+"paths": [
+[
+[
+44.4,
+33.3
+],
+[
+47.5,
+34.0
+],
+[
+50.6,
+35.4
+]
+]
+]
+},
+{
+"id": "iran-sov",
+"year": 1941,
+"side": "soviet",
+"label": "Sovjet rykker ind i Iran",
+"paths": [
+[
+[
+49.0,
+40.4
+],
+[
+50.0,
+38.0
+],
+[
+51.2,
+36.1
+]
+]
+]
+},
+{
+"id": "pearl",
+"year": 1941,
+"side": "axis",
+"label": "Japan angriber Pearl Harbor (ad nordlig rute fra Kurilerne)",
+"paths": [
+[
+[
+147.6,
+44.9
+],
+[
+165.0,
+43.0
+],
+[
+179.9,
+42.5
+]
+],
+[
+[
+-179.9,
+42.5
+],
+[
+-165.0,
+40.0
+],
+[
+-158.0,
+27.0
+],
+[
+-157.95,
+21.35
+]
+]
+]
+},
+{
+"id": "malaya",
+"year": 1941,
+"side": "axis",
+"label": "Japan invaderer Malaya",
+"paths": [
+[
+[
+106.7,
+10.8
+],
+[
+103.6,
+6.6
+],
+[
+101.6,
+3.6
+]
+]
+]
+},
+{
+"id": "filippinerne-41",
+"year": 1941,
+"side": "axis",
+"label": "Japan angriber Filippinerne",
+"paths": [
+[
+[
+121.0,
+23.0
+],
+[
+120.6,
+18.5
+],
+[
+120.9,
+15.2
+]
+]
+]
+},
+{
+"id": "blau-stalingrad",
+"year": 1942,
+"side": "axis",
+"label": "Fremstød mod Stalingrad",
+"paths": [
+[
+[
+37.0,
+50.6
+],
+[
+41.0,
+49.6
+],
+[
+44.3,
+48.75
+]
+]
+]
+},
+{
+"id": "blau-kaukasus",
+"year": 1942,
+"side": "axis",
+"label": "Fremstød mod Kaukasus",
+"paths": [
+[
+[
+39.7,
+47.2
+],
+[
+40.4,
+45.6
+],
+[
+43.6,
+43.8
+]
+]
+]
+},
+{
+"id": "midway",
+"year": 1942,
+"side": "axis",
+"label": "Midway: japansk angreb slås tilbage",
+"paths": [
+[
+[
+132.5,
+33.5
+],
+[
+150.0,
+32.5
+],
+[
+165.0,
+31.5
+],
+[
+179.9,
+30.0
+]
+],
+[
+[
+-179.9,
+30.0
+],
+[
+-177.4,
+28.2
+]
+]
+]
+},
+{
+"id": "uranus-nord",
+"year": 1942,
+"side": "soviet",
+"label": "Operation Uranus: Stalingrad omringes",
+"paths": [
+[
+[
+42.0,
+50.0
+],
+[
+42.9,
+49.3
+],
+[
+43.5,
+48.75
+]
+]
+]
+},
+{
+"id": "uranus-syd",
+"year": 1942,
+"side": "soviet",
+"label": "Uranus: sydlig knibtang",
+"paths": [
+[
+[
+45.0,
+47.9
+],
+[
+44.2,
+48.3
+],
+[
+43.65,
+48.65
+]
+]
+]
+},
+{
+"id": "rommel-42",
+"year": 1942,
+"side": "axis",
+"label": "Rommel når El Alamein",
+"paths": [
+[
+[
+22.5,
+32.6
+],
+[
+25.5,
+31.6
+],
+[
+28.8,
+30.85
+]
+]
+]
+},
+{
+"id": "alamein-42",
+"year": 1942,
+"side": "allied",
+"label": "Briterne slår tilbage fra El Alamein til El Agheila",
+"paths": [
+[
+[
+29.0,
+30.5
+],
+[
+26.5,
+31.0
+],
+[
+23.5,
+31.6
+],
+[
+20.4,
+31.6
+],
+[
+19.2,
+30.3
+]
+]
+]
+},
+{
+"id": "torch-casa",
+"year": 1942,
+"side": "allied",
+"label": "Operation Torch",
+"paths": [
+[
+[
+-15.0,
+38.5
+],
+[
+-10.5,
+35.5
+],
+[
+-7.7,
+33.65
+]
+]
+]
+},
+{
+"id": "torch-alger",
+"year": 1942,
+"side": "allied",
+"label": "Torch: landgang ved Oran og Algier",
+"paths": [
+[
+[
+-5.4,
+36.0
+],
+[
+-1.0,
+36.4
+],
+[
+2.9,
+36.85
+]
+]
+]
+},
+{
+"id": "singapore-java",
+"year": 1942,
+"side": "axis",
+"label": "Japan erobrer Singapore og Java",
+"paths": [
+[
+[
+103.0,
+2.5
+],
+[
+104.5,
+-1.5
+],
+[
+106.8,
+-6.2
+]
+]
+]
+},
+{
+"id": "burma",
+"year": 1942,
+"side": "axis",
+"label": "Japan erobrer Burma",
+"paths": [
+[
+[
+100.5,
+13.8
+],
+[
+97.6,
+16.5
+],
+[
+96.2,
+21.8
+]
+]
+]
+},
+{
+"id": "guadalcanal",
+"year": 1942,
+"side": "allied",
+"label": "USA går i land på Guadalcanal",
+"paths": [
+[
+[
+167.0,
+-16.0
+],
+[
+163.0,
+-12.0
+],
+[
+160.1,
+-9.5
+]
+]
+]
+},
+{
+"id": "kursk-kyiv",
+"year": 1943,
+"side": "soviet",
+"label": "Efter Kursk: Kyiv befries",
+"paths": [
+[
+[
+37.0,
+51.2
+],
+[
+34.0,
+50.9
+],
+[
+30.6,
+50.5
+]
+]
+]
+},
+{
+"id": "kursk-syd",
+"year": 1943,
+"side": "axis",
+"label": "Slaget ved Kursk: tysk knibtangsangreb",
+"paths": [
+[
+[
+36.6,
+50.4
+],
+[
+36.75,
+51.05
+]
+]
+]
+},
+{
+"id": "kursk-nord",
+"year": 1943,
+"side": "axis",
+"label": "Slaget ved Kursk: nordlig knibtang",
+"paths": [
+[
+[
+36.1,
+52.9
+],
+[
+36.3,
+52.3
+]
+]
+]
+},
+{
+"id": "smolensk",
+"year": 1943,
+"side": "soviet",
+"label": "Smolensk generobres",
+"paths": [
+[
+[
+35.4,
+54.5
+],
+[
+33.7,
+54.7
+],
+[
+32.1,
+54.8
+]
+]
+]
+},
+{
+"id": "dnepr",
+"year": 1943,
+"side": "soviet",
+"label": "Mod Dnepr",
+"paths": [
+[
+[
+38.0,
+49.0
+],
+[
+36.0,
+48.2
+],
+[
+34.6,
+47.6
+]
+]
+]
+},
+{
+"id": "tunesien-v",
+"year": 1943,
+"side": "allied",
+"label": "Aksen kapitulerer i Tunesien",
+"paths": [
+[
+[
+3.2,
+36.6
+],
+[
+7.0,
+36.3
+],
+[
+10.0,
+36.75
+]
+]
+]
+},
+{
+"id": "tunesien-o",
+"year": 1943,
+"side": "allied",
+"label": "8. armé fra øst",
+"paths": [
+[
+[
+13.2,
+32.9
+],
+[
+10.4,
+33.6
+],
+[
+10.15,
+36.4
+]
+]
+]
+},
+{
+"id": "sicilien",
+"year": 1943,
+"side": "allied",
+"label": "Landgang på Sicilien",
+"paths": [
+[
+[
+11.0,
+36.0
+],
+[
+13.2,
+36.4
+],
+[
+14.25,
+37.05
+]
+]
+]
+},
+{
+"id": "italien-43",
+"year": 1943,
+"side": "allied",
+"label": "Op gennem Italien",
+"paths": [
+[
+[
+15.65,
+38.1
+],
+[
+16.0,
+39.6
+],
+[
+14.8,
+40.7
+],
+[
+13.9,
+41.4
+]
+]
+]
+},
+{
+"id": "salomon",
+"year": 1943,
+"side": "allied",
+"label": "Ø-hop: Salomonøerne",
+"paths": [
+[
+[
+160.2,
+-9.4
+],
+[
+157.5,
+-8.0
+],
+[
+155.4,
+-6.3
+]
+]
+]
+},
+{
+"id": "tarawa",
+"year": 1943,
+"side": "allied",
+"label": "Tarawa (Gilbertøerne)",
+"paths": [
+[
+[
+178.5,
+-8.5
+],
+[
+175.8,
+-3.0
+],
+[
+173.0,
+1.3
+]
+]
+]
+},
+{
+"id": "dday",
+"year": 1944,
+"side": "allied",
+"label": "D-dag",
+"paths": [
+[
+[
+-1.4,
+50.65
+],
+[
+-1.0,
+49.9
+],
+[
+-0.75,
+49.4
+]
+]
+]
+},
+{
+"id": "normandiet-ud",
+"year": 1944,
+"side": "allied",
+"label": "Udbrud fra Normandiet til Belgien",
+"paths": [
+[
+[
+-0.8,
+49.05
+],
+[
+1.0,
+48.8
+],
+[
+2.4,
+48.95
+],
+[
+4.3,
+50.75
+]
+]
+]
+},
+{
+"id": "market-garden",
+"year": 1944,
+"side": "allied",
+"label": "Operation Market Garden (Arnhem nås ikke)",
+"paths": [
+[
+[
+5.4,
+51.2
+],
+[
+5.48,
+51.44
+],
+[
+5.86,
+51.84
+],
+[
+5.88,
+51.93
+]
+]
+]
+},
+{
+"id": "dragoon",
+"year": 1944,
+"side": "allied",
+"label": "Landgang i Sydfrankrig",
+"paths": [
+[
+[
+6.6,
+42.0
+],
+[
+6.6,
+43.25
+],
+[
+5.4,
+44.5
+],
+[
+4.85,
+45.7
+]
+]
+]
+},
+{
+"id": "rom",
+"year": 1944,
+"side": "allied",
+"label": "Rom indtages, mod Firenze",
+"paths": [
+[
+[
+13.8,
+41.5
+],
+[
+12.5,
+41.95
+],
+[
+11.25,
+43.7
+]
+]
+]
+},
+{
+"id": "ardenner",
+"year": 1944,
+"side": "axis",
+"label": "Ardenneroffensiven (dec.)",
+"paths": [
+[
+[
+6.45,
+50.35
+],
+[
+5.6,
+50.2
+],
+[
+5.0,
+50.25
+]
+]
+]
+},
+{
+"id": "bagration",
+"year": 1944,
+"side": "soviet",
+"label": "Operation Bagration",
+"paths": [
+[
+[
+30.5,
+54.6
+],
+[
+27.6,
+53.9
+],
+[
+24.5,
+53.0
+],
+[
+21.3,
+52.3
+]
+]
+]
+},
+{
+"id": "ukraine-44",
+"year": 1944,
+"side": "soviet",
+"label": "Ukraine befries: mod Lviv og Weichsel",
+"paths": [
+[
+[
+30.5,
+50.45
+],
+[
+27.5,
+49.7
+],
+[
+24.0,
+49.85
+],
+[
+21.7,
+50.65
+]
+]
+]
+},
+{
+"id": "balkan-44",
+"year": 1944,
+"side": "soviet",
+"label": "Den Røde Hær ind på Balkan",
+"paths": [
+[
+[
+28.5,
+47.4
+],
+[
+26.1,
+44.5
+],
+[
+23.4,
+42.8
+],
+[
+20.6,
+44.75
+]
+]
+]
+},
+{
+"id": "baltikum-44",
+"year": 1944,
+"side": "soviet",
+"label": "Mod Baltikum",
+"paths": [
+[
+[
+29.5,
+58.6
+],
+[
+27.0,
+58.7
+],
+[
+24.9,
+59.35
+]
+]
+]
+},
+{
+"id": "marianerne",
+"year": 1944,
+"side": "allied",
+"label": "Ø-hop: Marianerne",
+"paths": [
+[
+[
+162.3,
+11.5
+],
+[
+152.0,
+13.5
+],
+[
+145.8,
+15.1
+]
+]
+]
+},
+{
+"id": "leyte",
+"year": 1944,
+"side": "allied",
+"label": "Tilbage til Filippinerne (Leyte)",
+"paths": [
+[
+[
+135.0,
+9.5
+],
+[
+129.0,
+10.6
+],
+[
+125.1,
+11.0
+]
+]
+]
+},
+{
+"id": "berlin",
+"year": 1945,
+"side": "soviet",
+"label": "Fra Weichsel til Berlin",
+"paths": [
+[
+[
+21.0,
+52.2
+],
+[
+17.5,
+52.4
+],
+[
+14.7,
+52.5
+],
+[
+13.5,
+52.52
+]
+]
+]
+},
+{
+"id": "wien",
+"year": 1945,
+"side": "soviet",
+"label": "Budapest og Wien",
+"paths": [
+[
+[
+20.3,
+47.3
+],
+[
+18.5,
+47.6
+],
+[
+16.5,
+48.15
+]
+]
+]
+},
+{
+"id": "rhinen",
+"year": 1945,
+"side": "allied",
+"label": "Over Rhinen til Elben",
+"paths": [
+[
+[
+6.2,
+51.6
+],
+[
+9.0,
+51.9
+],
+[
+11.6,
+51.95
+],
+[
+12.9,
+51.6
+]
+]
+]
+},
+{
+"id": "iwojima",
+"year": 1945,
+"side": "allied",
+"label": "Iwo Jima",
+"paths": [
+[
+[
+145.8,
+15.3
+],
+[
+143.0,
+20.5
+],
+[
+141.35,
+24.7
+]
+]
+]
+},
+{
+"id": "okinawa",
+"year": 1945,
+"side": "allied",
+"label": "Okinawa",
+"paths": [
+[
+[
+139.7,
+10.0
+],
+[
+134.0,
+18.0
+],
+[
+128.1,
+26.4
+]
+]
+]
+},
+{
+"id": "atombomber",
+"year": 1945,
+"side": "allied",
+"label": "Atombomberne: Hiroshima og Nagasaki (fra Tinian)",
+"paths": [
+[
+[
+145.6,
+15.0
+],
+[
+140.0,
+25.0
+],
+[
+132.45,
+34.4
+]
+]
+]
+},
+{
+"id": "manchuriet-v",
+"year": 1945,
+"side": "soviet",
+"label": "Sovjet angriber Japan i Manchuriet",
+"paths": [
+[
+[
+115.5,
+49.5
+],
+[
+120.5,
+46.3
+],
+[
+125.0,
+44.0
+]
+]
+]
+},
+{
+"id": "manchuriet-o",
+"year": 1945,
+"side": "soviet",
+"label": "Fra øst mod Manchuriet",
+"paths": [
+[
+[
+131.9,
+43.2
+],
+[
+128.5,
+44.4
+],
+[
+125.6,
+44.0
+]
+]
+]
+}
+]

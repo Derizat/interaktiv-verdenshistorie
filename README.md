@@ -21,6 +21,7 @@ Then open http://localhost:8000. Append `#1962` to jump to a year.
 | `index.html` | The whole app (HTML, CSS, JS). D3 v7 is loaded from cdnjs. |
 | `data/events.json` | Events: year, date, title, text, coordinates, category, countries involved. `until` marks ongoing conflicts/periods. |
 | `data/status.json` | Colouring rules: map snapshot per year range, WWII status, Cold War blocs, colonial rule, Danish display names. All ranges are inclusive and describe the situation at the **end** of each year. |
+| `data/campaigns.json` | WWII campaign arrows: year, side (axis / allied / soviet), Danish label and one or more polylines of [lon, lat] waypoints. The arrowhead sits on the last point. |
 | `data/borders_*.json` | Simplified border snapshots (1938, 1945, 1960, 1994, 2000). |
 | `scripts/` | Python scripts used to build the border files. |
 
