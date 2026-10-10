@@ -1,5 +1,1287 @@
 [
 {
+"id": "sarajevo1914",
+"year": 1914,
+"date": "28. juni 1914",
+"title": "Skuddene i Sarajevo",
+"text": "Den østrig-ungarske tronfølger Franz Ferdinand og hans hustru Sophie bliver skudt af den bosnisk-serbiske nationalist Gavrilo Princip. Mordet udløser julikrisen, der ender i verdenskrig.",
+"lat": 43.86,
+"lon": 18.43,
+"cat": "krise",
+"countries": [
+"Austro-Hungarian Empire",
+"Serbia"
+]
+},
+{
+"id": "ww1",
+"year": 1914,
+"until": 1918,
+"ongoing": "1. verdenskrig",
+"date": "28. juli – 4. august 1914",
+"title": "Første Verdenskrig bryder ud",
+"text": "Østrig-Ungarn erklærer Serbien krig den 28. juli. Alliancerne trækker Rusland, Tyskland, Frankrig og Storbritannien med i løbet af en uge. Tyskland angriber Frankrig gennem det neutrale Belgien.",
+"lat": 50.85,
+"lon": 4.35,
+"cat": "krig",
+"countries": [
+"German Empire",
+"Austro-Hungarian Empire",
+"Russian Empire",
+"France",
+"United Kingdom of Great Britain and Ireland",
+"Serbia",
+"Belgium"
+]
+},
+{
+"id": "neutral14",
+"year": 1914,
+"date": "1. august 1914",
+"title": "Danmark erklærer sig neutralt",
+"text": "Regeringen Zahle erklærer Danmark neutralt og indkalder en sikringsstyrke, der vokser til omkring 58.000 mand. Efter tysk krav udlægger Danmark miner i Storebælt, og for at fremstå upartisk også i Lillebælt og Øresund. Landet holder sig uden for krigen.",
+"lat": 55.68,
+"lon": 12.58,
+"cat": "politik",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "tannenberg14",
+"year": 1914,
+"date": "26. – 30. august 1914",
+"title": "Slaget ved Tannenberg",
+"text": "Tyske styrker under Hindenburg og Ludendorff omringer og tilintetgør den russiske 2. armé i Østpreussen. Omkring 90.000 russere tages til fange.",
+"lat": 53.5,
+"lon": 20.2,
+"cat": "krig",
+"countries": [
+"German Empire",
+"Russian Empire"
+]
+},
+{
+"id": "marne14",
+"year": 1914,
+"date": "6. – 12. september 1914",
+"title": "Slaget ved Marne",
+"text": "Franske og britiske styrker stopper den tyske fremrykning mod Paris. Schlieffen-planen om en hurtig sejr er mislykkedes, og vestfronten stivner i skyttegrave fra Nordsøen til Schweiz.",
+"lat": 48.95,
+"lon": 3.4,
+"cat": "krig",
+"countries": [
+"France",
+"German Empire"
+]
+},
+{
+"id": "armenien",
+"year": 1915,
+"until": 1916,
+"ongoing": "Folkemordet på armenierne",
+"date": "24. april 1915",
+"title": "Folkemordet på armenierne",
+"text": "Det osmanniske styre arresterer armenske ledere i Konstantinopel og deporterer derefter den armenske befolkning mod den syriske ørken. Op mod 1,5 millioner armeniere dør (de fleste forskere anslår 1–1,5 millioner). Tyrkiet anerkender ikke begivenhederne som folkemord.",
+"lat": 41.01,
+"lon": 28.98,
+"cat": "folkedrab",
+"countries": [
+"Ottoman Empire"
+]
+},
+{
+"id": "gallipoli",
+"year": 1915,
+"date": "25. april 1915 – januar 1916",
+"title": "Gallipoli",
+"text": "Britiske, franske, australske og newzealandske tropper lander på Gallipoli-halvøen for at åbne Dardanellerne og slå Det Osmanniske Rige ud af krigen. Felttoget mislykkes, og de allierede trækker sig ud efter otte måneder.",
+"lat": 40.2,
+"lon": 26.3,
+"cat": "krig",
+"countries": [
+"Ottoman Empire",
+"United Kingdom of Great Britain and Ireland",
+"France"
+]
+},
+{
+"id": "lusitania",
+"year": 1915,
+"date": "7. maj 1915",
+"title": "Lusitania sænkes",
+"text": "En tysk ubåd sænker det britiske passagerskib Lusitania ud for Irland. 1.198 mennesker omkommer, heraf 128 amerikanere. Sænkningen vender den amerikanske opinion mod Tyskland.",
+"lat": 51.4,
+"lon": -8.5,
+"cat": "katastrofe",
+"countries": [
+"United Kingdom of Great Britain and Ireland",
+"German Empire"
+]
+},
+{
+"id": "italien15",
+"year": 1915,
+"date": "23. maj 1915",
+"title": "Italien går ind i krigen",
+"text": "Italien forlader sine gamle allierede Tyskland og Østrig-Ungarn og erklærer Østrig-Ungarn krig efter løfter om landvindinger i Londontraktaten. En ny front åbnes i Alperne og ved Isonzo-floden.",
+"lat": 45.95,
+"lon": 13.6,
+"cat": "krig",
+"countries": [
+"Kingdom of Italy",
+"Austro-Hungarian Empire"
+]
+},
+{
+"id": "grundlov15",
+"year": 1915,
+"date": "5. juni 1915",
+"title": "Kvinder får valgret i Danmark",
+"text": "Den nye grundlov giver kvinder og tjenestefolk valgret til Rigsdagen. Det første folketingsvalg med kvindelige vælgere holdes i 1918.",
+"lat": 55.68,
+"lon": 12.58,
+"cat": "politik",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "verdun",
+"year": 1916,
+"date": "21. februar – 18. december 1916",
+"title": "Slaget ved Verdun",
+"text": "Tyskland angriber den franske fæstningsby Verdun, angiveligt for at 'bløde Frankrig hvidt'. Efter ti måneders kampe er fronten næsten uændret, og omkring 700.000 soldater er dræbt, såret eller savnet.",
+"lat": 49.16,
+"lon": 5.39,
+"cat": "krig",
+"countries": [
+"France",
+"German Empire"
+]
+},
+{
+"id": "paaskeoproer",
+"year": 1916,
+"date": "24. – 29. april 1916",
+"title": "Påskeoprøret i Dublin",
+"text": "Irske republikanere besætter bygninger i Dublin og udråber en irsk republik. Briterne slår oprøret ned på en uge og henretter 15 af lederne, hvilket vender den irske opinion mod det britiske styre.",
+"lat": 53.35,
+"lon": -6.26,
+"cat": "revolution",
+"countries": [
+"United Kingdom of Great Britain and Ireland"
+]
+},
+{
+"id": "jylland",
+"year": 1916,
+"date": "31. maj – 1. juni 1916",
+"title": "Søslaget ved Jylland",
+"text": "Den britiske og den tyske flåde mødes i Skagerrak ud for Jyllands vestkyst i krigens største søslag. Briterne mister flest skibe, men den tyske højsøflåde vover sig kun få gange ud igen og udfordrer aldrig mere den britiske flåde. Mange faldne skylles i land på den jyske vestkyst.",
+"lat": 56.7,
+"lon": 5.9,
+"cat": "krig",
+"dk": true,
+"countries": [
+"Denmark",
+"United Kingdom of Great Britain and Ireland",
+"German Empire"
+]
+},
+{
+"id": "somme",
+"year": 1916,
+"date": "1. juli – 18. november 1916",
+"title": "Slaget ved Somme",
+"text": "Den britiske offensiv ved Somme skal aflaste Verdun. På den første dag mister briterne omkring 57.000 mand, heraf 19.000 dræbte, den blodigste dag i den britiske hærs historie. Kampvognen bruges for første gang i september.",
+"lat": 50.0,
+"lon": 2.7,
+"cat": "krig",
+"countries": [
+"France",
+"United Kingdom of Great Britain and Ireland",
+"German Empire"
+]
+},
+{
+"id": "febrev",
+"year": 1917,
+"date": "8. – 15. marts 1917",
+"title": "Februarrevolutionen i Rusland",
+"text": "Strejker og mytteri i Petrograd tvinger zar Nikolaj 2. til at abdicere. En provisorisk regering overtager magten, men fortsætter den upopulære krig.",
+"lat": 59.93,
+"lon": 30.33,
+"cat": "revolution",
+"countries": [
+"Russian Empire"
+]
+},
+{
+"id": "vestindien",
+"year": 1917,
+"date": "31. marts 1917",
+"title": "Dansk Vestindien sælges til USA",
+"text": "Efter en folkeafstemning i Danmark i december 1916 overdrages øerne Sankt Thomas, Sankt Jan og Sankt Croix til USA for 25 millioner dollars. De hedder i dag De Amerikanske Jomfruøer.",
+"lat": 18.34,
+"lon": -64.93,
+"cat": "politik",
+"dk": true,
+"countries": [
+"Denmark",
+"United States Virgin Islands"
+]
+},
+{
+"id": "usa17",
+"year": 1917,
+"date": "6. april 1917",
+"title": "USA går ind i krigen",
+"text": "Efter Tysklands uindskrænkede ubådskrig og Zimmermann-telegrammet, der tilbød Mexico en alliance, erklærer USA Tyskland krig. Amerikanske tropper ankommer i stort tal fra 1918.",
+"lat": 38.89,
+"lon": -77.03,
+"cat": "krig",
+"countries": [
+"United States",
+"German Empire"
+]
+},
+{
+"id": "balfour",
+"year": 1917,
+"date": "2. november 1917",
+"title": "Balfour-erklæringen",
+"text": "Den britiske udenrigsminister Balfour erklærer, at Storbritannien støtter et 'nationalt hjem for det jødiske folk' i Palæstina. Erklæringen bliver grundlaget for det britiske mandat og konflikten om landet.",
+"lat": 51.5,
+"lon": -0.13,
+"cat": "aftale",
+"countries": [
+"United Kingdom of Great Britain and Ireland"
+]
+},
+{
+"id": "oktrev",
+"year": 1917,
+"until": 1922,
+"ongoing": "Den russiske borgerkrig",
+"date": "7. november 1917",
+"title": "Oktoberrevolutionen",
+"text": "Bolsjevikkerne under Lenin tager magten i Petrograd. Rusland slutter fred med Tyskland i Brest-Litovsk i marts 1918, og en borgerkrig mellem røde og hvide varer til 1922.",
+"lat": 59.94,
+"lon": 30.31,
+"cat": "revolution",
+"countries": [
+"Russian Empire"
+]
+},
+{
+"id": "foraarsoff",
+"year": 1918,
+"date": "21. marts – juli 1918",
+"title": "Den tyske forårsoffensiv",
+"text": "Med tropper frigjort fra østfronten gør Tyskland et sidste forsøg på at vinde krigen, før de amerikanske styrker er fuldtallige. Offensiven når 60 km frem, men bryder sammen i juli.",
+"lat": 49.9,
+"lon": 2.9,
+"cat": "krig",
+"countries": [
+"German Empire",
+"France"
+]
+},
+{
+"id": "spanskesyge",
+"year": 1918,
+"until": 1920,
+"ongoing": "Den spanske syge",
+"date": "1918 – 1920",
+"title": "Den spanske syge",
+"text": "En influenzapandemi spreder sig over hele verden og dræber anslået 20–50 millioner mennesker, måske flere, og dermed flere end selve krigen. I Danmark dør omkring 15.000–18.000.",
+"lat": 39.2,
+"lon": -96.6,
+"cat": "katastrofe",
+"dk": true,
+"countries": [
+"United States",
+"Denmark"
+]
+},
+{
+"id": "novrev",
+"year": 1918,
+"date": "9. november 1918",
+"title": "Tyskland bliver republik",
+"text": "Efter matrosoprør i Kiel og revolution i Berlin bekendtgøres kejser Wilhelm 2.s abdikation, og han flygter dagen efter til Holland. Socialdemokraten Philipp Scheidemann udråber republikken.",
+"lat": 52.52,
+"lon": 13.38,
+"cat": "revolution",
+"countries": [
+"German Empire"
+]
+},
+{
+"id": "vaabenstilstand",
+"year": 1918,
+"date": "11. november 1918",
+"title": "Våbenstilstanden",
+"text": "Klokken 11 den 11. november tier våbnene på vestfronten. Tyskland har bedt om våbenstilstand efter nederlag i felten og revolution derhjemme. Omkring 9–10 millioner soldater er døde i krigen.",
+"lat": 49.43,
+"lon": 2.83,
+"cat": "fred",
+"countries": [
+"German Empire",
+"France",
+"United Kingdom of Great Britain and Ireland"
+]
+},
+{
+"id": "island18",
+"year": 1918,
+"date": "1. december 1918",
+"title": "Island bliver en suveræn stat",
+"text": "Island bliver et selvstændigt kongerige i personalunion med Danmark. Danmark varetager fortsat udenrigspolitikken. Aftalen kan genforhandles fra 1940 og opsiges fra 1943.",
+"lat": 64.15,
+"lon": -21.95,
+"cat": "selvstaendighed",
+"dk": true,
+"countries": [
+"Iceland",
+"Denmark"
+]
+},
+{
+"id": "irland19",
+"year": 1919,
+"until": 1921,
+"ongoing": "Den irske uafhængighedskrig",
+"date": "21. januar 1919",
+"title": "Den irske uafhængighedskrig begynder",
+"text": "Sinn Féin udråber en irsk republik, og IRA indleder en guerillakrig mod det britiske styre. Krigen ender med en traktat i december 1921, der cementerer delingen af øen.",
+"lat": 53.35,
+"lon": -6.26,
+"cat": "krig",
+"countries": [
+"United Kingdom of Great Britain and Ireland"
+]
+},
+{
+"id": "amritsar",
+"year": 1919,
+"date": "13. april 1919",
+"title": "Massakren i Amritsar",
+"text": "Britiske tropper skyder mod en fredelig forsamling i Amritsar i Indien og dræber officielt 379 mennesker; indiske skøn er langt højere. Massakren styrker den indiske selvstændighedsbevægelse under Gandhi.",
+"lat": 31.62,
+"lon": 74.88,
+"cat": "krise",
+"countries": [
+"British Raj"
+]
+},
+{
+"id": "versailles",
+"year": 1919,
+"date": "28. juni 1919",
+"title": "Versailles-traktaten",
+"text": "Tyskland må afstå land, begrænse hæren til 100.000 mand, betale krigsskadeerstatninger og påtage sig skylden for krigen. Traktaten opretter også Folkeforbundet. I Tyskland kaldes den 'diktatet'.",
+"lat": 48.8,
+"lon": 2.12,
+"cat": "aftale",
+"countries": [
+"Germany",
+"France"
+]
+},
+{
+"id": "weimar",
+"year": 1919,
+"date": "11. august 1919",
+"title": "Weimarrepublikken",
+"text": "Tysklands nye demokratiske forfatning vedtages i Weimar. Republikken er fra starten presset af kommunistiske opstande, højreekstreme kupforsøg og krigsskadeerstatningerne.",
+"lat": 50.98,
+"lon": 11.33,
+"cat": "politik",
+"countries": [
+"Germany"
+]
+},
+{
+"id": "folkeforbund",
+"year": 1920,
+"date": "10. januar 1920",
+"title": "Folkeforbundet oprettes",
+"text": "Folkeforbundet oprettes, da Versailles-traktaten træder i kraft. Det skal forhindre nye krige gennem forhandling og kollektiv sikkerhed. USA bliver aldrig medlem, og forbundet mangler magt til at stoppe aggression i 1930'erne. Danmark optages i marts 1920.",
+"lat": 46.2,
+"lon": 6.15,
+"cat": "aftale",
+"dk": true,
+"countries": [
+"Switzerland",
+"Denmark"
+]
+},
+{
+"id": "paaskekrise",
+"year": 1920,
+"date": "29. marts – 5. april 1920",
+"title": "Påskekrisen",
+"text": "Kong Christian 10. afskediger regeringen Zahle i en strid om grænsedragningen i Slesvig. Fagbevægelsen truer med generalstrejke, og kongen må give sig. Siden har ingen konge blandet sig i regeringsdannelsen.",
+"lat": 55.68,
+"lon": 12.58,
+"cat": "krise",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "genforening1920",
+"year": 1920,
+"date": "15. juni 1920",
+"title": "Genforeningen",
+"text": "Efter folkeafstemninger i februar og marts bliver Nordslesvig dansk igen efter 56 år under tysk styre. Suveræniteten overdrages formelt den 5. juli, og kong Christian 10. rider over den gamle grænse ved Frederikshøj den 10. juli. Grænsen fra 1920 gælder stadig.",
+"lat": 55.05,
+"lon": 9.42,
+"cat": "politik",
+"dk": true,
+"countries": [
+"Denmark",
+"Germany"
+]
+},
+{
+"id": "warszawa20",
+"year": 1920,
+"date": "12. – 25. august 1920",
+"title": "Slaget ved Warszawa",
+"text": "Polen slår Den Røde Hær tilbage foran Warszawa i den polsk-sovjetiske krig. 'Miraklet ved Wisła' standser den bolsjevikiske fremrykning mod Vesteuropa.",
+"lat": 52.23,
+"lon": 21.01,
+"cat": "krig",
+"countries": [
+"Poland",
+"USSR"
+]
+},
+{
+"id": "valgretusa",
+"year": 1920,
+"date": "18. august 1920",
+"title": "Kvinder får valgret i USA",
+"text": "Den 19. forfatningstilføjelse giver amerikanske kvinder valgret efter årtiers kamp.",
+"lat": 38.89,
+"lon": -77.03,
+"cat": "politik",
+"countries": [
+"United States"
+]
+},
+{
+"id": "nep",
+"year": 1921,
+"date": "marts 1921",
+"title": "NEP: Lenin tillader privat handel",
+"text": "Midt i en forsyningskrise og under opstanden i Kronstadt indfører Lenin Den Nye Økonomiske Politik, der tillader bønder og småhandlende at handle frit. Politikken afskaffes af Stalin i 1928.",
+"lat": 55.75,
+"lon": 37.62,
+"cat": "okonomi",
+"countries": [
+"USSR"
+]
+},
+{
+"id": "insulin",
+"year": 1921,
+"date": "1921 – 1922",
+"title": "Insulin opdages",
+"text": "Frederick Banting og Charles Best isolerer insulin i Toronto. I januar 1922 behandles den første patient, og sukkersyge er ikke længere en dødsdom.",
+"lat": 43.66,
+"lon": -79.4,
+"cat": "videnskab",
+"countries": [
+"Canada"
+]
+},
+{
+"id": "irland21",
+"year": 1921,
+"date": "6. december 1921",
+"title": "Den irske fristat",
+"text": "Den anglo-irske traktat gør 26 irske grevskaber til en selvstyrende fristat i Det Britiske Imperium, mens Nordirland forbliver i Storbritannien. Delingen udløser en irsk borgerkrig i 1922–23.",
+"lat": 53.35,
+"lon": -6.26,
+"cat": "selvstaendighed",
+"countries": [
+"United Kingdom of Great Britain and Ireland"
+]
+},
+{
+"id": "rom22",
+"year": 1922,
+"date": "28. – 30. oktober 1922",
+"title": "Mussolini marcherer mod Rom",
+"text": "Fascisterne truer med at indtage Rom, og kong Victor Emanuel 3. udnævner Benito Mussolini til premierminister. Italien bliver i løbet af få år et etpartidiktatur.",
+"lat": 41.9,
+"lon": 12.5,
+"cat": "revolution",
+"countries": [
+"Italy"
+]
+},
+{
+"id": "osmannisk22",
+"year": 1922,
+"date": "1. november 1922",
+"title": "Det Osmanniske Rige ophører",
+"text": "Efter Tyrkiets sejr over Grækenland afskaffer Mustafa Kemal (Atatürk) sultanatet. Omkring 1,5 millioner grækere og tyrkere tvangsflyttes mellem de to lande året efter.",
+"lat": 41.01,
+"lon": 28.98,
+"cat": "politik",
+"countries": [
+"Ottoman Sultanate"
+]
+},
+{
+"id": "tutankhamon",
+"year": 1922,
+"date": "4. november 1922",
+"title": "Tutankhamons grav findes",
+"text": "Howard Carter finder den næsten urørte grav i Kongernes Dal. Fundet udløser en verdensomspændende Egypten-feber.",
+"lat": 25.74,
+"lon": 32.6,
+"cat": "kultur",
+"countries": [
+"Egypt"
+]
+},
+{
+"id": "sovjet22",
+"year": 1922,
+"date": "30. december 1922",
+"title": "Sovjetunionen oprettes",
+"text": "Rusland, Ukraine, Hviderusland og de kaukasiske republikker danner Unionen af Socialistiske Sovjetrepublikker efter bolsjevikkernes sejr i borgerkrigen.",
+"lat": 55.75,
+"lon": 37.62,
+"cat": "politik",
+"countries": [
+"USSR",
+"Ukraine",
+"White Russia",
+"Georgia",
+"Armenia",
+"Azerbaijan"
+]
+},
+{
+"id": "ruhr",
+"year": 1923,
+"date": "11. januar 1923",
+"title": "Ruhr-besættelsen og hyperinflationen",
+"text": "Frankrig og Belgien besætter Ruhr-området, da Tyskland ikke betaler sine krigsskadeerstatninger. Den tyske regering støtter passiv modstand med seddelpressen, og i november koster et brød op mod 200 milliarder mark.",
+"lat": 51.45,
+"lon": 7.0,
+"cat": "okonomi",
+"countries": [
+"Germany",
+"France",
+"Belgium"
+]
+},
+{
+"id": "kanto",
+"year": 1923,
+"date": "1. september 1923",
+"title": "Jordskælvet i Kanto",
+"text": "Et jordskælv og de efterfølgende brande ødelægger Tokyo og Yokohama. Over 100.000 mennesker omkommer.",
+"lat": 35.4,
+"lon": 139.6,
+"cat": "katastrofe",
+"countries": [
+"Empire of Japan"
+]
+},
+{
+"id": "tyrkiet23",
+"year": 1923,
+"date": "29. oktober 1923",
+"title": "Republikken Tyrkiet",
+"text": "Mustafa Kemal udråber republikken med Ankara som hovedstad og indleder en radikal modernisering: latinsk alfabet, sekulært styre og valgret til kvinder i 1934.",
+"lat": 39.93,
+"lon": 32.86,
+"cat": "politik",
+"countries": [
+"Ottoman Sultanate"
+]
+},
+{
+"id": "oelstue",
+"year": 1923,
+"date": "8. – 9. november 1923",
+"title": "Ølstuekuppet i München",
+"text": "Hitler og nazisterne forsøger et kup i München, men politiet stopper det i en skudveksling, hvor 16 nazister og fire politibetjente dør. Hitler idømmes fem års fængsel, afsoner ni måneder og skriver 'Mein Kampf' i fængslet.",
+"lat": 48.14,
+"lon": 11.58,
+"cat": "krise",
+"countries": [
+"Germany"
+]
+},
+{
+"id": "lenin",
+"year": 1924,
+"date": "21. januar 1924",
+"title": "Lenin dør",
+"text": "Efter Lenins død udkæmpes en magtkamp i partiet. Stalin, der er generalsekretær, udmanøvrerer Trotskij og sine øvrige rivaler i løbet af få år.",
+"lat": 55.75,
+"lon": 37.62,
+"cat": "politik",
+"countries": [
+"USSR"
+]
+},
+{
+"id": "stauning24",
+"year": 1924,
+"date": "23. april 1924",
+"title": "Danmarks første socialdemokratiske regering",
+"text": "Thorvald Stauning danner regering efter valget. Nina Bang bliver undervisningsminister og dermed verdens første kvindelige minister i en parlamentarisk regering.",
+"lat": 55.68,
+"lon": 12.58,
+"cat": "politik",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "dawes",
+"year": 1924,
+"date": "16. august 1924",
+"title": "Dawes-planen",
+"text": "Amerikanske lån og en ny betalingsplan for krigsskadeerstatningerne får den tyske økonomi på fode. De følgende år kaldes Weimarrepublikkens gyldne år.",
+"lat": 51.5,
+"lon": -0.13,
+"cat": "okonomi",
+"countries": [
+"Germany",
+"United States"
+]
+},
+{
+"id": "meinkampf",
+"year": 1925,
+"date": "18. juli 1925",
+"title": "'Mein Kampf' udkommer",
+"text": "Hitlers bog beskriver hans antisemitisme, hadet til Versailles-traktaten og planen om 'livsrum' i øst. Bogen sælger beskedent, indtil nazisterne får magten.",
+"lat": 48.14,
+"lon": 11.58,
+"cat": "politik",
+"countries": [
+"Germany"
+]
+},
+{
+"id": "locarno",
+"year": 1925,
+"date": "16. oktober 1925",
+"title": "Locarno-traktaterne",
+"text": "Tyskland, Frankrig og Belgien garanterer deres fælles grænser, og Tyskland optages i Folkeforbundet året efter. 'Locarno-ånden' giver håb om varig fred i Europa.",
+"lat": 46.17,
+"lon": 8.8,
+"cat": "aftale",
+"countries": [
+"Germany",
+"France",
+"Belgium",
+"Italy",
+"United Kingdom of Great Britain and Ireland"
+]
+},
+{
+"id": "generalstrejke",
+"year": 1926,
+"date": "3. – 12. maj 1926",
+"title": "Generalstrejken i Storbritannien",
+"text": "Omkring 1,7 millioner arbejdere strejker til støtte for minearbejderne, der er truet af lønnedgang. Strejken bryder sammen efter ni dage.",
+"lat": 51.5,
+"lon": -0.13,
+"cat": "politik",
+"countries": [
+"United Kingdom of Great Britain and Ireland"
+]
+},
+{
+"id": "folkeforbund26",
+"year": 1926,
+"date": "8. september 1926",
+"title": "Tyskland optages i Folkeforbundet",
+"text": "Tyskland får permanent plads i Folkeforbundets råd. Udenrigsminister Stresemann og hans franske kollega Briand får Nobels fredspris for forsoningen.",
+"lat": 46.2,
+"lon": 6.15,
+"cat": "fred",
+"countries": [
+"Germany",
+"Switzerland"
+]
+},
+{
+"id": "hirohito",
+"year": 1926,
+"date": "25. december 1926",
+"title": "Hirohito bliver kejser af Japan",
+"text": "Hirohito regerer til 1989. Under ham fører militæret Japan ind i krig i Kina og mod USA.",
+"lat": 35.68,
+"lon": 139.75,
+"cat": "politik",
+"countries": [
+"Empire of Japan"
+]
+},
+{
+"id": "shanghai27",
+"year": 1927,
+"date": "12. april 1927",
+"title": "Chiang Kai-shek bryder med kommunisterne",
+"text": "Nationalistpartiet Kuomintang slår ned på kommunisterne i Shanghai og dræber tusinder. Bruddet starter den kinesiske borgerkrig, der med afbrydelser varer til 1949.",
+"lat": 31.23,
+"lon": 121.47,
+"cat": "krise",
+"countries": [
+"Chinese Warlords"
+]
+},
+{
+"id": "lindbergh",
+"year": 1927,
+"date": "20. – 21. maj 1927",
+"title": "Lindbergh flyver alene over Atlanten",
+"text": "Charles Lindbergh flyver fra New York til Paris på 33,5 timer i 'Spirit of St. Louis'. Flyvningen gør ham verdensberømt og viser luftfartens muligheder.",
+"lat": 48.97,
+"lon": 2.44,
+"cat": "videnskab",
+"countries": [
+"France",
+"United States"
+]
+},
+{
+"id": "jazzsanger",
+"year": 1927,
+"date": "6. oktober 1927",
+"title": "Den første spillefilm med tale",
+"text": "'Jazzsangeren' med Al Jolson har premiere i New York som den første spillefilm med synkron tale og sang. Inden for få år er stumfilmen død.",
+"lat": 40.76,
+"lon": -73.98,
+"cat": "kultur",
+"countries": [
+"United States"
+]
+},
+{
+"id": "kellogg",
+"year": 1928,
+"date": "27. august 1928",
+"title": "Kellogg-Briand-pagten",
+"text": "15 lande, senere over 60, lover at afstå fra krig som politisk middel. Pagten har ingen sanktioner og forhindrer ikke 1930'ernes krige.",
+"lat": 48.86,
+"lon": 2.35,
+"cat": "aftale",
+"countries": [
+"France",
+"United States",
+"Germany"
+]
+},
+{
+"id": "penicillin",
+"year": 1928,
+"date": "september 1928",
+"title": "Penicillin opdages",
+"text": "Alexander Fleming opdager i London, at en skimmelsvamp dræber bakterier. Først under Anden Verdenskrig bliver penicillin fremstillet i stor skala.",
+"lat": 51.52,
+"lon": -0.17,
+"cat": "videnskab",
+"countries": [
+"United Kingdom of Great Britain and Ireland"
+]
+},
+{
+"id": "femaarsplan",
+"year": 1928,
+"until": 1932,
+"ongoing": "Første femårsplan",
+"date": "oktober 1928",
+"title": "Stalins første femårsplan",
+"text": "Sovjetunionen skal industrialiseres med tvang. Landbruget kollektiviseres, omkring 2 millioner bønder deporteres som 'kulakker', og Stalin sidder nu alene på magten.",
+"lat": 55.75,
+"lon": 37.62,
+"cat": "okonomi",
+"countries": [
+"USSR"
+]
+},
+{
+"id": "lateran",
+"year": 1929,
+"date": "11. februar 1929",
+"title": "Lateran-traktaten",
+"text": "Mussolini og pave Pius 11. indgår forlig: Vatikanstaten bliver en selvstændig stat, og katolicismen bliver Italiens statsreligion.",
+"lat": 41.9,
+"lon": 12.45,
+"cat": "aftale",
+"countries": [
+"Italy"
+]
+},
+{
+"id": "trotskij",
+"year": 1929,
+"date": "februar 1929",
+"title": "Trotskij udvises af Sovjetunionen",
+"text": "Stalins sidste store rival sendes i eksil og myrdes i Mexico i 1940 af en sovjetisk agent.",
+"lat": 55.75,
+"lon": 37.62,
+"cat": "politik",
+"countries": [
+"USSR"
+]
+},
+{
+"id": "krak",
+"year": 1929,
+"until": 1938,
+"ongoing": "Den store depression",
+"date": "24. – 29. oktober 1929",
+"title": "Børskrakket på Wall Street",
+"text": "Aktiekurserne i New York styrtdykker. Krakket udløser Den Store Depression: Banker krakker, verdenshandelen halveres i værdi, og arbejdsløsheden når 25 procent i USA og over 30 procent i Tyskland i 1932.",
+"lat": 40.71,
+"lon": -74.01,
+"cat": "okonomi",
+"countries": [
+"United States"
+]
+},
+{
+"id": "saltmarch",
+"year": 1930,
+"date": "12. marts – 6. april 1930",
+"title": "Saltmarchen",
+"text": "Gandhi går 390 km til kysten for at udvinde salt i protest mod det britiske saltmonopol. Den civile ulydighedskampagne mobiliserer millioner af indere.",
+"lat": 20.9,
+"lon": 72.9,
+"cat": "revolution",
+"countries": [
+"British Raj"
+]
+},
+{
+"id": "nazivalg30",
+"year": 1930,
+"date": "14. september 1930",
+"title": "Nazisternes gennembrud",
+"text": "Midt i den økonomiske krise går NSDAP fra 12 til 107 mandater og bliver Rigsdagens næststørste parti.",
+"lat": 52.52,
+"lon": 13.38,
+"cat": "politik",
+"countries": [
+"Germany"
+]
+},
+{
+"id": "haile",
+"year": 1930,
+"date": "2. november 1930",
+"title": "Haile Selassie krones",
+"text": "Ras Tafari krones som kejser af Etiopien, Afrikas eneste uafhængige kejserrige. Han regerer til 1974.",
+"lat": 9.03,
+"lon": 38.74,
+"cat": "politik",
+"countries": [
+"Ethiopia"
+]
+},
+{
+"id": "spanien31",
+"year": 1931,
+"date": "14. april 1931",
+"title": "Spanien bliver republik",
+"text": "Kong Alfons 13. forlader landet efter kommunalvalg med republikansk flertal. Den anden spanske republik indfører reformer, der splitter landet dybt.",
+"lat": 40.42,
+"lon": -3.7,
+"cat": "politik",
+"countries": [
+"Spain"
+]
+},
+{
+"id": "manchuriet",
+"year": 1931,
+"until": 1932,
+"ongoing": "Japan i Manchuriet",
+"date": "18. september 1931",
+"title": "Japan besætter Manchuriet",
+"text": "Efter en iscenesat sprængning ved jernbanen i Mukden besætter den japanske hær Manchuriet og opretter lydstaten Manchukuo. Folkeforbundet protesterer, og Japan melder sig ud i 1933.",
+"lat": 41.8,
+"lon": 123.4,
+"cat": "krig",
+"countries": [
+"Manchuria",
+"Empire of Japan"
+]
+},
+{
+"id": "guld31",
+"year": 1931,
+"date": "29. september 1931",
+"title": "Danmark forlader guldstandarden",
+"text": "Få dage efter Storbritannien opgiver Danmark guldindløseligheden, og kronen falder. Krisen rammer landbruget hårdt, og arbejdsløsheden blandt de forsikrede arbejdere når knap 32 procent i 1932.",
+"lat": 55.68,
+"lon": 12.58,
+"cat": "okonomi",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "holodomor",
+"year": 1932,
+"until": 1933,
+"ongoing": "Hungersnøden i Ukraine",
+"date": "1932 – 1933",
+"title": "Hungersnøden i Ukraine (Holodomor)",
+"text": "Tvangskollektiviseringen og sovjetiske kornrekvisitioner fører til hungersnød i Ukraine, Kasakhstan og andre kornområder. Anslået 3,5–5 millioner dør i Ukraine alene og flere millioner i resten af Sovjetunionen. Ukraine og mange andre lande anerkender det som folkedrab, hvilket Rusland afviser.",
+"lat": 49.0,
+"lon": 32.0,
+"cat": "folkedrab",
+"countries": [
+"USSR"
+]
+},
+{
+"id": "chaco",
+"year": 1932,
+"until": 1935,
+"ongoing": "Chaco-krigen",
+"date": "juni 1932",
+"title": "Chaco-krigen",
+"text": "Bolivia og Paraguay kæmper om det tørre Chaco-område, hvor man håbede at finde olie. Mellem 80.000 og 100.000 soldater dør, de fleste af sygdom, i Sydamerikas blodigste krig i det 20. århundrede.",
+"lat": -21.5,
+"lon": -60.5,
+"cat": "krig",
+"countries": [
+"Bolivia",
+"Paraguay"
+]
+},
+{
+"id": "roosevelt",
+"year": 1932,
+"date": "8. november 1932",
+"title": "Roosevelt vælges til præsident",
+"text": "Franklin D. Roosevelt vinder stort over Hoover midt i depressionen med løftet om en 'New Deal' for det amerikanske folk.",
+"lat": 38.89,
+"lon": -77.03,
+"cat": "politik",
+"countries": [
+"United States"
+]
+},
+{
+"id": "hitler33",
+"year": 1933,
+"date": "30. januar 1933",
+"title": "Hitler bliver rigskansler",
+"text": "Præsident Hindenburg udnævner Hitler til leder af en koalitionsregering. Efter Rigsdagsbranden i februar ophæves borgerrettighederne, og i marts giver Rigsdagen Hitler fuldmagt til at regere uden parlament.",
+"lat": 52.52,
+"lon": 13.38,
+"cat": "politik",
+"countries": [
+"Germany"
+]
+},
+{
+"id": "kanslergade",
+"year": 1933,
+"date": "30. januar 1933",
+"title": "Kanslergadeforliget",
+"text": "Samme nat som Hitler bliver kansler, indgår Stauning-regeringen og Venstre et kriseforlig i Staunings lejlighed i Kanslergade: Kronen devalueres 10 procent, strejker og lockouter forbydes i et år, og socialreformen gennemføres.",
+"lat": 55.69,
+"lon": 12.57,
+"cat": "politik",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "newdeal",
+"year": 1933,
+"date": "marts – juni 1933",
+"title": "New Deal",
+"text": "I sine første 100 dage får Roosevelt vedtaget love om bankgarantier, offentlige arbejder og støtte til landbruget. Staten påtager sig et nyt ansvar for økonomien.",
+"lat": 38.89,
+"lon": -77.03,
+"cat": "okonomi",
+"countries": [
+"United States"
+]
+},
+{
+"id": "dachau",
+"year": 1933,
+"date": "22. marts 1933",
+"title": "Den første koncentrationslejr",
+"text": "Dachau ved München åbner som lejr for politiske fanger og bliver model for nazisternes lejrsystem. I april begynder boykotten af jødiske forretninger.",
+"lat": 48.27,
+"lon": 11.47,
+"cat": "folkedrab",
+"countries": [
+"Germany"
+]
+},
+{
+"id": "knivenat",
+"year": 1934,
+"date": "30. juni – 2. juli 1934",
+"title": "De lange knives nat",
+"text": "Hitler lader SS myrde SA-lederen Ernst Röhm og mindst 85 andre modstandere. Efter Hindenburgs død i august gør Hitler sig selv til 'Fører og rigskansler'.",
+"lat": 52.52,
+"lon": 13.38,
+"cat": "krise",
+"countries": [
+"Germany"
+]
+},
+{
+"id": "langemarch",
+"year": 1934,
+"until": 1935,
+"ongoing": "Den lange march",
+"date": "oktober 1934 – oktober 1935",
+"title": "Den lange march",
+"text": "Kinas kommunister bryder ud af nationalisternes omringning og marcherer anslået 6.000–9.000 km (officielt 12.500 km) til Nordkina. Kun en brøkdel når frem, men Mao Zedong bliver partiets leder undervejs.",
+"lat": 36.6,
+"lon": 109.2,
+"cat": "revolution",
+"countries": [
+"Chinese Warlords"
+]
+},
+{
+"id": "kirov",
+"year": 1934,
+"date": "1. december 1934",
+"title": "Mordet på Kirov",
+"text": "Partilederen i Leningrad bliver skudt. Stalin bruger mordet som påskud for de udrensninger, der kulminerer i Den Store Terror 1936–38.",
+"lat": 59.94,
+"lon": 30.32,
+"cat": "krise",
+"countries": [
+"USSR"
+]
+},
+{
+"id": "saar35",
+"year": 1935,
+"date": "13. januar 1935",
+"title": "Saar-afstemningen",
+"text": "Over 90 procent stemmer for, at Saar-området vender tilbage til Tyskland efter 15 år under Folkeforbundet. Hitler fejrer det som sin første udenrigspolitiske sejr.",
+"lat": 49.24,
+"lon": 6.99,
+"cat": "politik",
+"countries": [
+"Germany",
+"France"
+]
+},
+{
+"id": "nurnberglove",
+"year": 1935,
+"date": "15. september 1935",
+"title": "Nürnberglovene",
+"text": "Jøder fratages deres tyske statsborgerskab, og ægteskab mellem jøder og 'ariere' forbydes. Lovene gør racediskrimination til statens grundlag.",
+"lat": 49.45,
+"lon": 11.08,
+"cat": "folkedrab",
+"countries": [
+"Germany"
+]
+},
+{
+"id": "etiopien35",
+"year": 1935,
+"until": 1936,
+"ongoing": "Italien i Etiopien",
+"date": "3. oktober 1935",
+"title": "Italien angriber Etiopien",
+"text": "Mussolini vil skabe et nyt romersk imperium. Italien bruger giftgas, og Addis Abeba falder i maj 1936. Folkeforbundets sanktioner virker ikke og viser forbundets afmagt.",
+"lat": 9.03,
+"lon": 38.74,
+"cat": "krig",
+"countries": [
+"Ethiopia",
+"Italy"
+]
+},
+{
+"id": "rhinland",
+"year": 1936,
+"date": "7. marts 1936",
+"title": "Tyskland besætter Rhinlandet",
+"text": "Tyske tropper rykker ind i det demilitariserede Rhinland i strid med Versailles- og Locarno-aftalerne. Frankrig og Storbritannien reagerer ikke.",
+"lat": 50.73,
+"lon": 7.1,
+"cat": "krise",
+"countries": [
+"Germany"
+]
+},
+{
+"id": "spanskborgerkrig",
+"year": 1936,
+"until": 1939,
+"ongoing": "Den spanske borgerkrig",
+"date": "17. – 18. juli 1936",
+"title": "Den spanske borgerkrig",
+"text": "Generaler under Francisco Franco gør oprør mod republikken. Tyskland og Italien støtter Franco, Sovjetunionen republikken, og frivillige fra hele verden kæmper i de internationale brigader, heriblandt omkring 500 danskere, hvoraf omkring 220 dør. Franco vinder i 1939.",
+"lat": 40.42,
+"lon": -3.7,
+"cat": "krig",
+"dk": true,
+"countries": [
+"Spain"
+]
+},
+{
+"id": "ol36",
+"year": 1936,
+"date": "1. – 16. august 1936",
+"title": "OL i Berlin",
+"text": "Nazisterne bruger legene som propaganda for det nye Tyskland. Den sorte amerikaner Jesse Owens vinder fire guldmedaljer.",
+"lat": 52.51,
+"lon": 13.24,
+"cat": "kultur",
+"countries": [
+"Germany"
+]
+},
+{
+"id": "moskvaproc",
+"year": 1936,
+"until": 1938,
+"ongoing": "Den Store Terror",
+"date": "august 1936",
+"title": "Moskvaprocesserne og Den Store Terror",
+"text": "Gamle bolsjevikker tilstår opdigtede forbrydelser i skueprocesser og henrettes. I 1937–38 henrettes omkring 700.000 mennesker, og hundredtusinder sendes i Gulag.",
+"lat": 55.75,
+"lon": 37.62,
+"cat": "folkedrab",
+"countries": [
+"USSR"
+]
+},
+{
+"id": "guernica",
+"year": 1937,
+"date": "26. april 1937",
+"title": "Bombningen af Guernica",
+"text": "Tyske og italienske fly bomber den baskiske by Guernica på markedsdagen. Angrebet på civile vækker forfærdelse og inspirerer Picassos maleri 'Guernica'.",
+"lat": 43.31,
+"lon": -2.68,
+"cat": "katastrofe",
+"countries": [
+"Spain"
+]
+},
+{
+"id": "hindenburg",
+"year": 1937,
+"date": "6. maj 1937",
+"title": "Hindenburg-ulykken",
+"text": "Det tyske luftskib Hindenburg bryder i brand ved landingen i New Jersey. 36 mennesker dør, og æraen med luftskibe er slut.",
+"lat": 40.03,
+"lon": -74.33,
+"cat": "katastrofe",
+"countries": [
+"United States"
+]
+},
+{
+"id": "kinajapan",
+"year": 1937,
+"until": 1945,
+"ongoing": "Den kinesisk-japanske krig",
+"date": "7. juli 1937",
+"title": "Japan angriber Kina",
+"text": "Efter et sammenstød ved Marco Polo-broen nær Beijing indleder Japan en fuld invasion af Kina. I december indtager japanske tropper Nanjing og myrder anslået 100.000–300.000 civile og krigsfanger (Nanjing-massakren; tallet er omstridt).",
+"lat": 39.85,
+"lon": 116.21,
+"cat": "krig",
+"countries": [
+"Chinese Warlords",
+"Empire of Japan"
+]
+},
+{
+"id": "anschluss",
+"year": 1938,
+"date": "12. – 15. marts 1938",
+"title": "Anschluss: Østrig indlemmes i Tyskland",
+"text": "Tyske tropper marcherer ind i Østrig den 12. marts, og dagen efter indlemmes landet ved lov i Tyskland. Den 15. marts hyldes Hitler af hundredtusinder på Heldenplatz i Wien. Jødeforfølgelsen begynder straks.",
+"lat": 48.21,
+"lon": 16.37,
+"cat": "krise",
+"countries": [
+"Germany"
+]
+},
+{
+"id": "evian",
+"year": 1938,
+"date": "6. – 15. juli 1938",
+"title": "Évian-konferencen",
+"text": "32 lande mødes for at drøfte jødiske flygtninge fra Tyskland og Østrig. Næsten ingen vil tage imod flere. Danmark lukker samme år reelt grænsen for jødiske flygtninge, og i hele perioden 1933–39 får under 2.000 flygtninge ophold i landet.",
+"lat": 46.4,
+"lon": 6.59,
+"cat": "politik",
+"dk": true,
+"countries": [
+"France",
+"Denmark"
+]
+},
+{
+"id": "munchen38",
+"year": 1938,
+"date": "29. – 30. september 1938",
+"title": "München-aftalen",
+"text": "Storbritannien, Frankrig, Italien og Tyskland aftaler, at Tjekkoslovakiet skal afstå Sudeterlandet til Tyskland. Chamberlain taler om 'fred i vor tid'. I marts 1939 besætter Tyskland resten af Tjekkiet.",
+"lat": 48.14,
+"lon": 11.58,
+"cat": "aftale",
+"countries": [
+"Germany",
+"Czechoslovakia",
+"United Kingdom",
+"France",
+"Italy"
+]
+},
+{
+"id": "krystalnat",
+"year": 1938,
+"date": "9. – 10. november 1938",
+"title": "Krystalnatten",
+"text": "Nazister ødelægger synagoger og jødiske forretninger over hele Tyskland og Østrig. Mindst 91 jøder dræbes, og 30.000 sendes i koncentrationslejr. Forfølgelsen er nu åben statsvold.",
+"lat": 52.52,
+"lon": 13.38,
+"cat": "folkedrab",
+"countries": [
+"Germany"
+]
+},
+{
 "id": "mrpagt",
 "year": 1939,
 "date": "23. august 1939",
@@ -805,8 +2087,7 @@
 "lon": -0.19,
 "cat": "selvstaendighed",
 "countries": [
-"Gold Coast",
-"Ghana"
+"Gold Coast"
 ]
 },
 {

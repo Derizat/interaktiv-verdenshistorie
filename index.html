@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="description" content="Interaktivt verdenskort til historieundervisning, 1939–2000.">
-<title>Verdenshistorie 1939–2000</title>
+<title>Verdenshistorie 1914–2000</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Big+Shoulders+Display:wght@600;800&display=swap">
@@ -32,7 +32,7 @@
   --arrow-axis: #2b2826; --arrow-allied: #24579e; --arrow-soviet: #b23a2e;
 
   --r-uk: #e48aa3; --r-fr: #8b7bc6; --r-pt: #4f9d69; --r-be: #e1b236; --r-nl: #ef8a3a; --r-es: #b06a3b;
-  --r-it: #5fb3a6; --r-jp: #d0574e; --r-us: #4b7fc9; --r-dk: #a3363b; --r-au: #9a7a55; --r-za: #7f8c3c; --r-ma: #9b6a96;
+  --r-it: #5fb3a6; --r-jp: #d0574e; --r-us: #4b7fc9; --r-dk: #a3363b; --r-au: #9a7a55; --r-za: #7f8c3c; --r-ma: #9b6a96; --r-de: #6b6a7a; --r-nz: #4d8f8b;
 
   --font-display: "Big Shoulders Display", "Arial Narrow", "Roboto Condensed", sans-serif;
   --font-body: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
@@ -46,7 +46,7 @@
     --communist: #a8685a; --occ-west: #3e5266;
     --arrow-axis: #ece6dc; --arrow-allied: #86b4f2; --arrow-soviet: #f2826f;
     --r-uk: #c86f88; --r-fr: #7d6db8; --r-pt: #3f8a5a; --r-be: #c49a2a; --r-nl: #d6762c; --r-es: #9a5a30;
-    --r-it: #4c9a8e; --r-jp: #b8483f; --r-us: #4a74b4; --r-dk: #b94a50; --r-au: #8a6c49; --r-za: #6f7b33; --r-ma: #8a5c86;
+    --r-it: #4c9a8e; --r-jp: #b8483f; --r-us: #4a74b4; --r-dk: #b94a50; --r-au: #8a6c49; --r-za: #6f7b33; --r-ma: #8a5c86; --r-de: #8a889c; --r-nz: #3f7a77;
     color-scheme: dark;
   }
 }
@@ -57,7 +57,7 @@
   --communist: #a8685a; --occ-west: #3e5266;
   --arrow-axis: #ece6dc; --arrow-allied: #86b4f2; --arrow-soviet: #f2826f;
   --r-uk: #c86f88; --r-fr: #7d6db8; --r-pt: #3f8a5a; --r-be: #c49a2a; --r-nl: #d6762c; --r-es: #9a5a30;
-  --r-it: #4c9a8e; --r-jp: #b8483f; --r-us: #4a74b4; --r-dk: #b94a50; --r-au: #8a6c49; --r-za: #6f7b33; --r-ma: #8a5c86;
+  --r-it: #4c9a8e; --r-jp: #b8483f; --r-us: #4a74b4; --r-dk: #b94a50; --r-au: #8a6c49; --r-za: #6f7b33; --r-ma: #8a5c86; --r-de: #8a889c; --r-nz: #3f7a77;
   color-scheme: dark;
 }
 
@@ -210,7 +210,7 @@ button { font: inherit; color: inherit; }
 
 <div class="app">
   <header class="top">
-    <div class="brand"><h1>Verdenshistorie</h1><span>1939–2000 på verdenskortet</span></div>
+    <div class="brand"><h1>Verdenshistorie</h1><span>1914–2000 på verdenskortet</span></div>
     <div class="seg" role="group" aria-label="Kortlag">
       <button id="mode-blocs" type="button" aria-pressed="true">Magtblokke</button>
       <button id="mode-colonies" type="button" aria-pressed="false">Kolonistyre</button>
@@ -255,12 +255,12 @@ button { font: inherit; color: inherit; }
 
   <aside class="side" id="side" aria-live="polite">
     <div class="yearhead">
-      <div class="year" id="year">1939</div>
+      <div class="year" id="year">1914</div>
       <div class="era" id="era"></div>
     </div>
     <div class="cards" id="cards"></div>
     <div id="ongoing"></div>
-    <p class="credit">Teksterne er faktatjekket mod opslagsværker, men tjek altid tal, før de bruges i undervisningen. Grænser: <a href="https://github.com/aourednik/historical-basemaps" target="_blank" rel="noopener">historical-basemaps</a> (A. Ourednik), forenklet. Kortet bruger fem grænse-snapshots (1938, 1945, 1960, 1994, 2000), så grænser skifter i spring.</p>
+    <p class="credit">Teksterne er faktatjekket mod opslagsværker, men tjek altid tal, før de bruges i undervisningen. Grænser: <a href="https://github.com/aourednik/historical-basemaps" target="_blank" rel="noopener">historical-basemaps</a> (A. Ourednik), forenklet. Kortet bruger otte grænse-snapshots (1914, 1920, 1930, 1938, 1945, 1960, 1994, 2000), så grænser skifter i spring.</p>
   </aside>
 
   <section class="rail" aria-label="Tidslinje">
@@ -269,18 +269,18 @@ button { font: inherit; color: inherit; }
       <button type="button" id="play" class="play">▶ Afspil</button>
       <button type="button" id="next" aria-label="Næste år">▶</button>
     </div>
-    <div class="track" id="track" role="slider" tabindex="0" aria-label="Årstal" aria-valuemin="1939" aria-valuemax="2000" aria-valuenow="1939">
+    <div class="track" id="track" role="slider" tabindex="0" aria-label="Årstal" aria-valuemin="1914" aria-valuemax="2000" aria-valuenow="1939">
       <div class="eras" id="eras"></div>
       <div class="cols" id="cols"></div>
       <div class="labels" id="labels"></div>
-      <div class="handle" id="handle"><b id="handle-y">1939</b></div>
+      <div class="handle" id="handle"><b id="handle-y">1914</b></div>
     </div>
   </section>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script>
-const Y0 = 1939, Y1 = 2000;
+const Y0 = 1914, Y1 = 2000;
 
 const CATS = {
   krig:            { icon: "⚔️", label: "Krig og konflikt", color: "#b23a32" },
@@ -311,15 +311,27 @@ const STATUS = {
   split:     { label: "Delt land (Vietnam)", fill: "url(#hatch-split)" },
   colony:    { label: "Koloni (se laget Kolonistyre)", fill: "url(#hatch-colony)" },
   neutral:   { label: "Neutral / øvrige lande", fill: "var(--land)" },
+  central:   { label: "Centralmagterne", fill: "var(--axis)" },
+  entente:   { label: "Ententen (de allierede)", fill: "var(--allied)" },
+  ussr:      { label: "Sovjetunionen", fill: "var(--east)" },
+  fascist:   { label: "Fascistiske og nazistiske diktaturer", fill: "var(--axis)" },
+  authoritarian: { label: "Andre diktaturer og autoritære styrer", fill: "var(--axis-soft)" },
+};
+// Legend wording that differs by era.
+const LEGEND_LABELS = {
+  ww1: { occupied: "Besat af Centralmagterne" },
+  interwar: { neutral: "Demokratier og øvrige lande", communist: "Andre kommunistiske lande (Mongoliet)" },
 };
 
-const RULER_VAR = { UK: "--r-uk", France: "--r-fr", Portugal: "--r-pt", Belgium: "--r-be", Netherlands: "--r-nl", Spain: "--r-es",
+const RULER_VAR = { Germany: "--r-de", "New Zealand": "--r-nz", UK: "--r-uk", France: "--r-fr", Portugal: "--r-pt", Belgium: "--r-be", Netherlands: "--r-nl", Spain: "--r-es",
   Italy: "--r-it", Japan: "--r-jp", USA: "--r-us", Denmark: "--r-dk", Australia: "--r-au", "South Africa": "--r-za", Morocco: "--r-ma" };
-const METROPOLE = { "United Kingdom": "UK", "France": "France", "Portugal": "Portugal", "Belgium": "Belgium", "Netherlands": "Netherlands",
+const METROPOLE = { "New Zealand": "New Zealand", "German Empire": "Germany", "United Kingdom of Great Britain and Ireland": "UK", "Kingdom of Italy": "Italy", "United Kingdom": "UK", "France": "France", "Portugal": "Portugal", "Belgium": "Belgium", "Netherlands": "Netherlands",
   "Spain": "Spain", "Italy": "Italy", "Empire of Japan": "Japan", "United States": "USA", "Denmark": "Denmark", "Australia": "Australia",
   "South Africa": "South Africa", "Union of South Africa": "South Africa", "Morocco": "Morocco" };
 
 const SIDES = {
+  central: { label: "Centralmagternes felttog", color: "var(--arrow-axis)" },
+  entente: { label: "Ententens felttog", color: "var(--arrow-allied)" },
   axis:   { label: "Aksemagternes felttog", color: "var(--arrow-axis)" },
   allied: { label: "De allieredes felttog", color: "var(--arrow-allied)" },
   soviet: { label: "Sovjetunionens felttog", color: "var(--arrow-soviet)" },
@@ -352,6 +364,8 @@ function colonyLabel(c) {
   return (ST.rulers[c.v] || c.v) + " koloni";
 }
 function eraOf(y) {
+  if (y <= 1918) return { key: "ww1", title: "Første Verdenskrig", sub: y === 1914 ? "Krigen bryder ud" : "Status ved årets udgang" };
+  if (y <= 1938) return { key: "interwar", title: "Mellemkrigstiden", sub: y <= 1923 ? "Fred, revolution og nye grænser" : y <= 1929 ? "De gyldne tyvere" : "Krise og diktaturer" };
   if (y <= 1945) return { key: "ww2", title: "Anden Verdenskrig", sub: y === 1945 ? "Krigen slutter, og verden deles" : "Status ved årets udgang" };
   if (y <= 1991) return { key: "cold", title: "Den Kolde Krig", sub: y < 1947 ? "Øst og vest glider fra hinanden" : "Supermagterne USA og Sovjetunionen" };
   return { key: "post", title: "Efter Den Kolde Krig", sub: "Én supermagt og en ny verdensorden" };
@@ -363,12 +377,20 @@ function monthIndex(s) {
   return best;
 }
 function blocStatus(n, y) {
+  if (y <= 1938 && y > 1918) {
+    const r = range(ST.interwar, n, y);
+    if (r) return { key: r.v, note: r.note };
+    const c = colonyOf(n, y);
+    if (c) return { key: "colony", note: colonyLabel(c) + (c.note ? ". " + c.note : "") };
+    return { key: "neutral" };
+  }
   if (y <= 1944) {
-    const r = range(ST.ww2, n, y);
+    const war = y <= 1918 ? ST.ww1 : ST.ww2, align = y <= 1918 ? ST.ww1RulerAlign : ST.ww2RulerAlign;
+    const r = range(war, n, y);
     if (r) return { key: r.v, note: r.note };
     const c = colonyOf(n, y);
     if (c) {
-      const a = range(ST.ww2RulerAlign, c.v, y);
+      const a = range(align, c.v, y);
       return { key: a ? a.v : "neutral", note: colonyLabel(c) + (a && a.note ? ". " + a.note : "") };
     }
     return { key: "neutral" };
@@ -485,11 +507,12 @@ function renderLegend(features, active) {
   let items = [], title;
   if (state.mode === "blocs") {
     const era = eraOf(y);
-    title = y <= 1944 ? "Anden Verdenskrig" : (y <= 1991 ? "Den Kolde Krig" : "Efter Den Kolde Krig");
+    title = eraOf(y).title;
     const counts = {};
     for (const f of features) { const k = blocStatus(f.properties.n, y).key; counts[k] = (counts[k] || 0) + 1; }
-    const order = ["axis", "occupied", "allied", "soviet", "nato", "east", "communist", "split", "westocc", "colony", "neutral"];
-    items = order.filter(k => counts[k]).map(k => ({ fill: STATUS[k].fill, label: STATUS[k].label }));
+    const order = ["central", "entente", "axis", "occupied", "allied", "soviet", "ussr", "fascist", "authoritarian", "nato", "east", "communist", "split", "westocc", "colony", "neutral"];
+    const labels = LEGEND_LABELS[eraOf(y).key] || {};
+    items = order.filter(k => counts[k]).map(k => ({ fill: STATUS[k].fill, label: labels[k] || STATUS[k].label }));
   } else {
     title = "Kolonimagter";
     items = Object.entries(active).sort((a, b) => b[1] - a[1])
@@ -497,7 +520,7 @@ function renderLegend(features, active) {
     items.push({ fill: "var(--land)", label: "Selvstændige lande" });
   }
   const sides = [...new Set(arrowsFor(y).map(c => c.side))];
-  ["axis", "allied", "soviet"].filter(k => sides.includes(k)).forEach(k => items.push({ arrow: SIDES[k].color, label: SIDES[k].label }));
+  ["central", "entente", "axis", "allied", "soviet"].filter(k => sides.includes(k)).forEach(k => items.push({ arrow: SIDES[k].color, label: SIDES[k].label }));
   el.className = "legend" + (legendClosed ? " closed" : "");
   el.innerHTML = `<button class="toggle" type="button" aria-expanded="${!legendClosed}">${legendClosed ? "Vis forklaring" : "Skjul forklaring"}</button>
     <h2>${title}</h2>
@@ -558,7 +581,7 @@ function drawArrows() {
     const g = d3.select(this);
     d.paths.forEach(() => g.append("path").attr("class", "halo"));
     d.paths.forEach(() => g.append("path").attr("class", "line").style("stroke", SIDES[d.side].color));
-    g.append("path").attr("class", "head").style("fill", SIDES[d.side].color);
+    d.paths.forEach(() => g.append("path").attr("class", "head").style("fill", SIDES[d.side].color));
   });
   placeArrows(!REDUCED_MOTION, entering);
 }
@@ -567,28 +590,27 @@ function placeArrows(animate, entering) {
   const t = state.transform;
   gArrows.selectAll("g.arrow").each(function (d) {
     const g = d3.select(this);
-    const halos = g.selectAll("path.halo").nodes(), lines = g.selectAll("path.line").nodes(), head = g.select("path.head");
+    const halos = g.selectAll("path.halo").nodes(), lines = g.selectAll("path.line").nodes(), heads = g.selectAll("path.head").nodes();
     d.paths.forEach((pl, i) => {
       const dd = arrowLine(pl.map(p => t.apply(projection(p))));
       halos[i].setAttribute("d", dd); lines[i].setAttribute("d", dd);
     });
-    const last = lines[lines.length - 1], L = last.getTotalLength();
-    const end = last.getPointAtLength(L), back = last.getPointAtLength(Math.max(0, L - 8));
-    const a = Math.atan2(end.y - back.y, end.x - back.x), ux = Math.cos(a), uy = Math.sin(a);
-    // Scale head and stroke with the on-screen length, so short arrows at world zoom stay arrows instead of blobs.
-    const hl = Math.min(14, Math.max(5, L * 0.4)), hw = hl * 0.55, sw = L > 60 ? 4 : L > 25 ? 3 : 2;
-    g.selectAll("path.line").style("stroke-width", sw + "px");
-    g.selectAll("path.halo").style("stroke-width", (sw + 4) + "px");
-    const bx = end.x - ux * hl, by = end.y - uy * hl;
-    head.attr("d", `M${end.x + ux * 1.5},${end.y + uy * 1.5}L${bx - uy * hw},${by + ux * hw}L${bx + uy * hw},${by - ux * hw}Z`);
-    // Stop the last stroke short of the tip so the round cap does not poke through the head.
-    const dash = (node, isLast) => { const l = node.getTotalLength(); return isLast ? Math.max(0, l - hl * 0.7) : l; };
-    [...halos, ...lines].forEach((node) => {
-      const isLast = node === last || node === halos[halos.length - 1];
-      const l = dash(node, isLast);
-      d3.select(node).interrupt().attr("stroke-dasharray", `${l} ${node.getTotalLength() + 40}`).attr("stroke-dashoffset", 0);
+    d.paths.forEach((pl, i) => {
+      const ln = lines[i], L = ln.getTotalLength();
+      // A polyline that stops at the antimeridian continues on the other side, so it gets no head.
+      const hasHead = Math.abs(pl[pl.length - 1][0]) < 179.5;
+      const end = ln.getPointAtLength(L), back = ln.getPointAtLength(Math.max(0, L - 8));
+      const a = Math.atan2(end.y - back.y, end.x - back.x), ux = Math.cos(a), uy = Math.sin(a);
+      // Scale head and stroke with the on-screen length, so short arrows at world zoom stay arrows instead of blobs.
+      const hl = Math.min(14, Math.max(5, L * 0.4)), hw = hl * 0.55, sw = L > 60 ? 4 : L > 25 ? 3 : 2;
+      ln.style.strokeWidth = sw + "px"; halos[i].style.strokeWidth = (sw + 4) + "px";
+      const bx = end.x - ux * hl, by = end.y - uy * hl;
+      heads[i].setAttribute("d", hasHead ? `M${end.x + ux * 1.5},${end.y + uy * 1.5}L${bx - uy * hw},${by + ux * hw}L${bx + uy * hw},${by - ux * hw}Z` : "");
+      // Stop the stroke short of the tip so the round cap does not poke through the head.
+      const dashLen = hasHead ? Math.max(0, L - hl * 0.7) : L;
+      [ln, halos[i]].forEach(node => d3.select(node).interrupt().attr("stroke-dasharray", `${dashLen} ${L + 40}`).attr("stroke-dashoffset", 0));
     });
-    head.interrupt().style("opacity", 1);
+    g.selectAll("path.head").interrupt().style("opacity", 1);
   });
   if (animate && entering && !entering.empty()) {
     entering.each(function (d, i) {
@@ -597,7 +619,7 @@ function placeArrows(animate, entering) {
         const l = parseFloat(this.getAttribute("stroke-dasharray"));
         d3.select(this).attr("stroke-dashoffset", l).transition().delay(delay).duration(900).ease(d3.easeCubicOut).attr("stroke-dashoffset", 0);
       });
-      g.select("path.head").style("opacity", 0).transition().delay(delay + 800).duration(200).style("opacity", 1);
+      g.selectAll("path.head").style("opacity", 0).transition().delay(delay + 800).duration(200).style("opacity", 1);
     });
   }
 }
@@ -728,14 +750,15 @@ svg.on("click", () => { if (state.selected) { state.selected = null; markSelecte
 const track = document.getElementById("track"), handle = document.getElementById("handle");
 function buildRail() {
   const counts = d3.rollup(EVENTS, v => v, e => e.year);
+  document.getElementById("cols").style.gridTemplateColumns = `repeat(${Y1 - Y0 + 1}, minmax(0, 1fr))`;
   document.getElementById("cols").innerHTML = d3.range(Y0, Y1 + 1).map(y => {
     const ev = counts.get(y) || [];
     return `<div class="col${y % 10 === 0 ? " dec" : ""}" data-y="${y}">${ev.map(e => `<i class="${e.dk ? "d" : ""}"></i>`).join("")}</div>`;
   }).join("");
   const pct = (y) => ((y - Y0 + 0.5) / (Y1 - Y0 + 1)) * 100;
-  document.getElementById("labels").innerHTML = [1940, 1950, 1960, 1970, 1980, 1990, 2000]
+  document.getElementById("labels").innerHTML = [1920, 1930, 1940, 1950, 1960, 1970, 1980, 1990, 2000]
     .map((y, i) => `<span class="${i % 2 ? "odd" : ""}" style="left:${pct(y)}%">${y}</span>`).join("");
-  const eras = [[1939, 1945, "2. verdenskrig"], [1947, 1991, "Den Kolde Krig"]];
+  const eras = [[1914, 1918, "1. vk"], [1919, 1938, "Mellemkrigstiden"], [1939, 1945, "2. vk"], [1947, 1991, "Den Kolde Krig"]];
   document.getElementById("eras").innerHTML = eras.map(([a, b, l]) =>
     `<span style="left:${((a - Y0) / (Y1 - Y0 + 1)) * 100}%;width:${((b - a + 1) / (Y1 - Y0 + 1)) * 100}%">${l}</span>`).join("");
 }
@@ -817,7 +840,7 @@ async function setYear(y) {
   state.year = -1;
   await setYear(h >= Y0 && h <= Y1 ? h : Y0);
   document.getElementById("loading").remove();
-  ["1945", "1960", "1994", "2000", "1938"].forEach(k => loadSnap(k));
+  ["1920", "1930", "1938", "1945", "1960", "1994", "2000", "1914"].forEach(k => loadSnap(k));
   window.addEventListener("hashchange", () => { const v = parseInt(location.hash.slice(1), 10); if (v >= Y0 && v <= Y1 && v !== state.year) { stopPlay(); setYear(v); } });
   let rt; window.addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => { fitProjection(); svg.call(zoom.transform, d3.zoomIdentity); placeBigYear(); }, 150); });
 })().catch(err => {

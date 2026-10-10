@@ -1,6 +1,6 @@
 # Interaktiv verdenshistorie
 
-An interactive world map for history teaching, 1939–2000. Drag the year rail (or press play) to see what happened each year, with power blocs and colonial rule coloured year by year.
+An interactive world map for history teaching, 1914–2000. Drag the year rail (or press play) to see what happened each year, with power blocs and colonial rule coloured year by year.
 
 All UI text and event descriptions are in Danish.
 
@@ -20,9 +20,9 @@ Then open http://localhost:8000. Append `#1962` to jump to a year.
 |---|---|
 | `index.html` | The whole app (HTML, CSS, JS). D3 v7 is loaded from cdnjs. |
 | `data/events.json` | Events: year, date, title, text, coordinates, category, countries involved. `until` marks ongoing conflicts/periods. |
-| `data/status.json` | Colouring rules: map snapshot per year range, WWII status, Cold War blocs, colonial rule, Danish display names. All ranges are inclusive and describe the situation at the **end** of each year. |
-| `data/campaigns.json` | WWII campaign arrows: year, side (axis / allied / soviet), Danish label and one or more polylines of [lon, lat] waypoints. The arrowhead sits on the last point. |
-| `data/borders_*.json` | Simplified border snapshots (1938, 1945, 1960, 1994, 2000). |
+| `data/status.json` | Colouring rules: map snapshot per year range, WWI and WWII status, interwar regimes, Cold War blocs, colonial rule, Danish display names. All ranges are inclusive and describe the situation at the **end** of each year. |
+| `data/campaigns.json` | WWI and WWII campaign arrows: year, side (axis / allied / soviet), Danish label and one or more polylines of [lon, lat] waypoints. The arrowhead sits on the last point. |
+| `data/borders_*.json` | Simplified border snapshots (1914, 1920, 1930, 1938, 1945, 1960, 1994, 2000). |
 | `scripts/` | Python scripts used to build the border files. |
 
 Country keys in `status.json` and `events.json` must match the `n` property in the border file used for that year (see `snapshots` in `status.json`).
@@ -30,7 +30,7 @@ Country keys in `status.json` and `events.json` must match the `n` property in t
 ## Rebuilding the border data
 
 ```bash
-for y in 1938 1945 1960 1994 2000; do
+for y in 1914 1920 1930 1938 1945 1960 1994 2000; do
   curl -sSL -o /tmp/world_$y.geojson "https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson/world_$y.geojson"
   MIN_AREA=0.03 python3 scripts/simplify.py /tmp/world_$y.geojson data/borders_$y.json
   python3 scripts/split.py data/borders_$y.json $y

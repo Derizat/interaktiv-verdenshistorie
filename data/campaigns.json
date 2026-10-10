@@ -1,5 +1,783 @@
 [
 {
+"id": "schlieffen",
+"year": 1914,
+"side": "central",
+"label": "Schlieffen-planen: gennem Belgien mod Paris",
+"paths": [
+[
+[
+6.1,
+50.8
+],
+[
+4.4,
+50.85
+],
+[
+3.0,
+50.2
+],
+[
+3.4,
+49.2
+]
+]
+]
+},
+{
+"id": "marne-14",
+"year": 1914,
+"side": "entente",
+"label": "Slaget ved Marne: tyskerne stoppes",
+"paths": [
+[
+[
+2.6,
+48.8
+],
+[
+3.0,
+49.1
+],
+[
+3.3,
+49.45
+]
+]
+]
+},
+{
+"id": "ostpreussen-14",
+"year": 1914,
+"side": "entente",
+"label": "Russisk angreb på Østpreussen (1. og 2. armé)",
+"paths": [
+[
+[
+21.6,
+52.9
+],
+[
+20.9,
+53.3
+],
+[
+20.3,
+53.6
+]
+],
+[
+[
+23.0,
+54.6
+],
+[
+22.2,
+54.6
+],
+[
+21.6,
+54.65
+]
+]
+]
+},
+{
+"id": "tannenberg",
+"year": 1914,
+"side": "central",
+"label": "Tannenberg: russisk 2. armé omringes",
+"paths": [
+[
+[
+19.4,
+53.95
+],
+[
+19.9,
+53.6
+],
+[
+20.2,
+53.45
+]
+]
+]
+},
+{
+"id": "serbien-14",
+"year": 1914,
+"side": "central",
+"label": "Østrig-Ungarn angriber Serbien (slås tilbage)",
+"paths": [
+[
+[
+19.1,
+44.85
+],
+[
+19.5,
+44.6
+],
+[
+19.9,
+44.3
+]
+]
+]
+},
+{
+"id": "ypres-14",
+"year": 1914,
+"side": "central",
+"label": "1. slag ved Ypres: kapløbet mod havet ender",
+"paths": [
+[
+[
+3.7,
+51.05
+],
+[
+3.2,
+50.9
+],
+[
+2.95,
+50.86
+]
+]
+]
+},
+{
+"id": "galicien-14",
+"year": 1914,
+"side": "entente",
+"label": "Russisk offensiv i Galicien: Lemberg erobres",
+"paths": [
+[
+[
+26.2,
+49.6
+],
+[
+24.0,
+49.85
+],
+[
+22.8,
+49.8
+]
+]
+]
+},
+{
+"id": "gorlice",
+"year": 1915,
+"side": "central",
+"label": "Gorlice–Tarnów: Rusland drives ud af Polen",
+"paths": [
+[
+[
+21.0,
+49.7
+],
+[
+23.0,
+50.3
+],
+[
+25.0,
+51.5
+],
+[
+26.5,
+52.5
+]
+]
+]
+},
+{
+"id": "gallipoli-15",
+"year": 1915,
+"side": "entente",
+"label": "Gallipoli: landgang på halvøen",
+"paths": [
+[
+[
+25.3,
+39.6
+],
+[
+25.9,
+40.0
+],
+[
+26.25,
+40.2
+]
+]
+]
+},
+{
+"id": "serbien-15",
+"year": 1915,
+"side": "central",
+"label": "Serbien erobres af Tyskland, Østrig-Ungarn og Bulgarien",
+"paths": [
+[
+[
+20.5,
+44.9
+],
+[
+20.9,
+43.9
+],
+[
+21.1,
+43.0
+],
+[
+20.7,
+42.4
+]
+],
+[
+[
+23.3,
+42.7
+],
+[
+22.6,
+43.15
+],
+[
+21.9,
+43.32
+]
+]
+]
+},
+{
+"id": "isonzo",
+"year": 1915,
+"side": "entente",
+"label": "Isonzo-fronten: italienske angreb",
+"paths": [
+[
+[
+12.9,
+45.9
+],
+[
+13.4,
+45.95
+],
+[
+13.65,
+45.95
+]
+]
+]
+},
+{
+"id": "mesopotamien-15",
+"year": 1915,
+"side": "entente",
+"label": "Mesopotamien: briterne mod Bagdad, stoppet ved Ctesiphon og belejret i Kut",
+"paths": [
+[
+[
+47.8,
+30.5
+],
+[
+46.2,
+31.7
+],
+[
+45.8,
+32.5
+]
+]
+]
+},
+{
+"id": "verdun",
+"year": 1916,
+"side": "central",
+"label": "Verdun",
+"paths": [
+[
+[
+5.5,
+49.4
+],
+[
+5.45,
+49.3
+],
+[
+5.43,
+49.21
+]
+]
+]
+},
+{
+"id": "somme",
+"year": 1916,
+"side": "entente",
+"label": "Somme",
+"paths": [
+[
+[
+2.45,
+50.0
+],
+[
+2.7,
+50.02
+],
+[
+2.95,
+50.03
+]
+]
+]
+},
+{
+"id": "brusilov",
+"year": 1916,
+"side": "entente",
+"label": "Brusilov-offensiven",
+"paths": [
+[
+[
+26.3,
+50.7
+],
+[
+25.5,
+50.4
+],
+[
+25.2,
+50.1
+],
+[
+24.7,
+49.0
+]
+]
+]
+},
+{
+"id": "rumaenien-16",
+"year": 1916,
+"side": "central",
+"label": "Rumænien besejres: Bukarest falder",
+"paths": [
+[
+[
+22.5,
+45.6
+],
+[
+24.3,
+45.2
+],
+[
+26.1,
+44.43
+]
+],
+[
+[
+25.4,
+43.6
+],
+[
+25.8,
+44.0
+],
+[
+26.1,
+44.43
+]
+]
+]
+},
+{
+"id": "usa-17",
+"year": 1917,
+"side": "entente",
+"label": "Amerikanske tropper sendes til Frankrig (1917–18)",
+"paths": [
+[
+[
+-70.0,
+41.5
+],
+[
+-40.0,
+46.0
+],
+[
+-10.0,
+48.0
+],
+[
+-2.2,
+47.3
+]
+]
+]
+},
+{
+"id": "nivelle",
+"year": 1917,
+"side": "entente",
+"label": "Nivelle-offensiven ved Chemin des Dames fejler; franske mytterier",
+"paths": [
+[
+[
+3.6,
+49.33
+],
+[
+3.65,
+49.4
+],
+[
+3.7,
+49.45
+]
+]
+]
+},
+{
+"id": "passchendaele",
+"year": 1917,
+"side": "entente",
+"label": "Passchendaele (3. slag ved Ypres)",
+"paths": [
+[
+[
+2.8,
+50.85
+],
+[
+2.95,
+50.88
+],
+[
+3.02,
+50.9
+]
+]
+]
+},
+{
+"id": "kerenskij",
+"year": 1917,
+"side": "entente",
+"label": "Kerenskij-offensiven: Ruslands sidste angreb bryder sammen",
+"paths": [
+[
+[
+25.8,
+49.4
+],
+[
+25.2,
+49.2
+],
+[
+24.4,
+49.05
+]
+]
+]
+},
+{
+"id": "caporetto",
+"year": 1917,
+"side": "central",
+"label": "Caporetto: Italien slås tilbage til Piave",
+"paths": [
+[
+[
+13.6,
+46.25
+],
+[
+13.0,
+46.0
+],
+[
+12.7,
+45.8
+],
+[
+12.5,
+45.65
+]
+]
+]
+},
+{
+"id": "bagdad-17",
+"year": 1917,
+"side": "entente",
+"label": "Bagdad indtages",
+"paths": [
+[
+[
+45.8,
+32.5
+],
+[
+44.9,
+33.0
+],
+[
+44.4,
+33.3
+]
+]
+]
+},
+{
+"id": "jerusalem-17",
+"year": 1917,
+"side": "entente",
+"label": "Allenby: Gaza og Jerusalem erobres",
+"paths": [
+[
+[
+34.0,
+31.1
+],
+[
+34.5,
+31.5
+],
+[
+35.0,
+31.75
+],
+[
+35.22,
+31.78
+]
+]
+]
+},
+{
+"id": "riga-17",
+"year": 1917,
+"side": "central",
+"label": "Riga erobres",
+"paths": [
+[
+[
+23.3,
+56.5
+],
+[
+23.8,
+56.8
+],
+[
+24.1,
+56.95
+]
+]
+]
+},
+{
+"id": "faustschlag",
+"year": 1918,
+"side": "central",
+"label": "Operation Faustschlag: Tyskland rykker ind i Ukraine (feb.–maj 1918)",
+"paths": [
+[
+[
+25.0,
+52.0
+],
+[
+28.0,
+51.0
+],
+[
+31.0,
+50.4
+],
+[
+34.0,
+49.5
+]
+]
+]
+},
+{
+"id": "foraar-18",
+"year": 1918,
+"side": "central",
+"label": "Forårsoffensiven: mod Amiens",
+"paths": [
+[
+[
+3.3,
+49.9
+],
+[
+2.9,
+49.85
+],
+[
+2.5,
+49.85
+]
+]
+]
+},
+{
+"id": "blucher-yorck",
+"year": 1918,
+"side": "central",
+"label": "Blücher-Yorck: tyskerne når Marne ved Château-Thierry (maj)",
+"paths": [
+[
+[
+3.6,
+49.45
+],
+[
+3.5,
+49.25
+],
+[
+3.4,
+49.05
+]
+]
+]
+},
+{
+"id": "hundrede-dage",
+"year": 1918,
+"side": "entente",
+"label": "De Hundrede Dage: allieret offensiv til Mons og Sedan",
+"paths": [
+[
+[
+2.4,
+49.85
+],
+[
+3.1,
+49.95
+],
+[
+4.0,
+50.3
+],
+[
+3.95,
+50.45
+]
+],
+[
+[
+5.1,
+49.2
+],
+[
+5.0,
+49.45
+],
+[
+4.94,
+49.7
+]
+]
+]
+},
+{
+"id": "megiddo",
+"year": 1918,
+"side": "entente",
+"label": "Megiddo: Damaskus og Aleppo erobres",
+"paths": [
+[
+[
+35.0,
+32.5
+],
+[
+35.9,
+33.0
+],
+[
+36.3,
+33.5
+],
+[
+37.1,
+36.2
+]
+]
+]
+},
+{
+"id": "saloniki-18",
+"year": 1918,
+"side": "entente",
+"label": "Gennembrud på Salonikifronten",
+"paths": [
+[
+[
+22.0,
+41.0
+],
+[
+21.8,
+41.5
+],
+[
+21.5,
+42.2
+]
+]
+]
+},
+{
+"id": "vittorio",
+"year": 1918,
+"side": "entente",
+"label": "Vittorio Veneto: Østrig-Ungarn bryder sammen",
+"paths": [
+[
+[
+12.2,
+45.7
+],
+[
+12.3,
+45.95
+],
+[
+12.5,
+46.1
+]
+]
+]
+},
+{
 "id": "polen-nord",
 "year": 1939,
 "side": "axis",

@@ -5,8 +5,14 @@ RULES = {
     "1938": [("Denmark", "Greenland", lambda x, y: x < -11 and x > -75 and y > 58 and not (-25.5 < x < -12)),
              ("Denmark", "Iceland", lambda x, y: -25.5 < x < -12 and 62.5 < y < 67.5)],
     "1945": [("Denmark", "Greenland", lambda x, y: x < -11 and x > -75 and y > 58 and not (-25.5 < x < -12))],
+    "1914": [("Denmark", "Greenland", lambda x, y: x < -11 and x > -75 and y > 58 and not (-25.5 < x < -12))],
+    "1920": [("Denmark", "Greenland", lambda x, y: x < -11 and x > -75 and y > 58 and not (-25.5 < x < -12))],
+    "1930": [("Denmark", "Greenland", lambda x, y: x < -11 and x > -75 and y > 58 and not (-25.5 < x < -12))],
     "1960": [("Pakistan", "East Pakistan", lambda x, y: x > 85)],
 }
+
+# Source-data fixes: the 1930 basemap labels the whole USSR "White Russia".
+RENAMES = {"1930": {"White Russia": "USSR"}}
 
 def centroid(ring):
     xs = [p[0] for p in ring]; ys = [p[1] for p in ring]
@@ -14,6 +20,11 @@ def centroid(ring):
 
 def main(path, snap):
     g = json.load(open(path))
+    for old, new in RENAMES.get(snap, {}).items():
+        for f in g["features"]:
+            if f["properties"]["n"] == old:
+                f["properties"]["n"] = new
+                print(snap, f"renamed {old} -> {new}")
     for src, new, test in RULES.get(snap, []):
         for f in list(g["features"]):
             if f["properties"]["n"] != src:
