@@ -2830,7 +2830,7 @@
 },
 {
 "id": "etiopien",
-"year": 1984,
+"year": 1983,
 "date": "1983 – 1985",
 "title": "Hungersnøden i Etiopien",
 "text": "Tørke, borgerkrig og regeringens politik fører til hungersnød, hvor mellem 300.000 og 1 million mennesker dør (skønnene varierer). Tv-billederne fører til indsamlinger som Band Aid i 1984 og koncerten Live Aid i 1985.",
@@ -2839,7 +2839,9 @@
 "cat": "katastrofe",
 "countries": [
 "Ethiopia"
-]
+],
+"until": 1985,
+"ongoing": "Hungersnøden i Etiopien"
 },
 {
 "id": "gorbatjov",

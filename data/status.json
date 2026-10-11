@@ -1236,6 +1236,13 @@
     1944,
     "allied"
    ]
+  ],
+  "New Zealand": [
+   [
+    1939,
+    1944,
+    "allied"
+   ]
   ]
  },
  "cold": {
@@ -2127,7 +2134,8 @@
    [
     1950,
     1959,
-    "Italy"
+    "Italy",
+    "FN-formynderskabsområde under italiensk administration"
    ]
   ],
   "Eritrea": [
@@ -3484,6 +3492,46 @@
     1914,
     2025,
     "USA"
+   ]
+  ],
+  "Guam": [
+   [
+    1914,
+    2025,
+    "USA",
+    "Amerikansk territorium"
+   ]
+  ],
+  "Saipan": [
+   [
+    1938,
+    1944,
+    "Japan",
+    "Japansk mandatområde (tidligere tysk)"
+   ]
+  ],
+  "New Hebrides": [
+   [
+    1914,
+    1944,
+    "UK",
+    "Britisk-fransk kondominium"
+   ]
+  ],
+  "Walbis Bay": [
+   [
+    1938,
+    1944,
+    "South Africa",
+    "Administreret af Sydafrika"
+   ]
+  ],
+  "Oman (British Raj)": [
+   [
+    1938,
+    1944,
+    "UK",
+    "Britisk protektorat"
    ]
   ]
  },
@@ -4874,6 +4922,18 @@
     2025,
     "Hongkong (Kina)"
    ]
+  ],
+  "Nordarabien": [
+   [
+    1919,
+    1931,
+    "Nordarabien (omstridt stammeområde)"
+   ],
+   [
+    1932,
+    1937,
+    "Saudi-Arabien"
+   ]
   ]
  },
  "da": {
@@ -5033,7 +5093,7 @@
   "Tajikistan": "Tadsjikistan",
   "Thailand": "Thailand",
   "Togo": "Togo",
-  "Trinidad": "Trinidad",
+  "Trinidad": "Trinidad og Tobago",
   "Trucial Oman": "Traktatkysten",
   "Tunisia": "Tunesien",
   "Turkey": "Tyrkiet",
@@ -5083,7 +5143,33 @@
   "Danzig": "Danzig",
   "Niue": "Niue",
   "Tonga": "Tonga",
-  "American Samoa": "Amerikansk Samoa"
+  "American Samoa": "Amerikansk Samoa",
+  "Antigua and Barbuda": "Antigua og Barbuda",
+  "Dominica": "Dominica",
+  "Grenada": "Grenada",
+  "Guadeloupe": "Guadeloupe",
+  "Guam": "Guam",
+  "Martinique": "Martinique",
+  "Martinique (France)": "Martinique",
+  "Netherlands Antilles": "De Nederlandske Antiller",
+  "New Caledonia": "Ny Kaledonien",
+  "New Hebrides": "Ny Hebriderne",
+  "Gilbert and Ellice Islands": "Gilbert- og Elliceøerne",
+  "Oman (British Raj)": "Oman",
+  "Rapa Nui": "Påskeøen (Rapa Nui)",
+  "Saint Kitts and Nevis": "Saint Kitts og Nevis",
+  "Saint Lucia": "Saint Lucia",
+  "Saint Vincent and the Grenadines": "Saint Vincent og Grenadinerne",
+  "Saipan": "Saipan",
+  "Sakhalin (RU)": "Sakhalin (russisk)",
+  "Turks and Caicos Islands": "Turks- og Caicosøerne",
+  "Walbis Bay": "Walvis Bay",
+  "Anguilla": "Anguilla",
+  "Montserrat": "Montserrat",
+  "United States Virgin Islands": "De Amerikanske Jomfruøer",
+  "Wallis and Futuna Islands": "Wallis og Futuna",
+  "Saint Barthelemy": "Saint-Barthélemy",
+  "Saint Martin": "Saint-Martin"
  },
  "ww1": {
   "German Empire": [
@@ -5777,6 +5863,13 @@
    ]
   ],
   "South Africa": [
+   [
+    1914,
+    1918,
+    "entente"
+   ]
+  ],
+  "New Zealand": [
    [
     1914,
     1918,
@@ -6667,5 +6760,153 @@
     "I krig med Rusland siden februar 2022; Krim og dele af øst og syd besat"
    ]
   ]
- }
+ },
+ "aliases": [
+  [
+   "Germany",
+   "German Empire",
+   "Germany (UK)",
+   "Germany (USA)",
+   "Germany (France)",
+   "Germany (Soviet)",
+   "Saar Protectorate",
+   "West Germany",
+   "East Germany",
+   "East Prussia"
+  ],
+  [
+   "Russian Empire",
+   "USSR",
+   "Russia",
+   "South Russia",
+   "Far Eastern SSR"
+  ],
+  [
+   "Chinese Warlords",
+   "Chinese warlords",
+   "Manchu Empire",
+   "China"
+  ],
+  [
+   "Ottoman Empire",
+   "Ottoman Sultanate",
+   "Republic of Turkey",
+   "Turkey"
+  ],
+  [
+   "United Kingdom",
+   "United Kingdom of Great Britain and Ireland"
+  ],
+  [
+   "Kingdom of Italy",
+   "Italy"
+  ],
+  [
+   "Austro-Hungarian Empire",
+   "Austria",
+   "Hungary"
+  ],
+  [
+   "Empire of Japan",
+   "Japan",
+   "Japan (USA)"
+  ],
+  [
+   "Korea (USA)",
+   "Korea, Republic of"
+  ],
+  [
+   "Korea (USSR)",
+   "Korea, Democratic People's Republic of"
+  ],
+  [
+   "Yugoslavia",
+   "Serbia",
+   "Montenegro"
+  ],
+  [
+   "Czechoslovakia",
+   "Czech Republic",
+   "Slovakia"
+  ],
+  [
+   "Persia",
+   "Iran"
+  ],
+  [
+   "Abyssinia",
+   "Ethiopia",
+   "Ethiopia (Italy)"
+  ],
+  [
+   "Rattanakosin Kingdom",
+   "Siam",
+   "Thailand"
+  ],
+  [
+   "Union of South Africa",
+   "South Africa"
+  ],
+  [
+   "Gold Coast",
+   "Ghana"
+  ],
+  [
+   "Belgian Congo",
+   "Zaire (Belgium)",
+   "Zaire"
+  ],
+  [
+   "French Indochina",
+   "French Indo-China",
+   "Tonkin",
+   "Annam",
+   "Cochin China",
+   "Vietnam"
+  ],
+  [
+   "East Pakistan",
+   "Bangladesh"
+  ],
+  [
+   "Mandatory Palestine (GB)",
+   "Israel"
+  ],
+  [
+   "Libya",
+   "Libya (IT)",
+   "Cyraneica (UK Lybia)",
+   "Tripolitana (UK Lybia)",
+   "Fezzan (Frech Lybia)"
+  ],
+  [
+   "British Raj",
+   "India"
+  ],
+  [
+   "Ceylon",
+   "Sri Lanka"
+  ],
+  [
+   "Netherlands Indies",
+   "Dutch East Indies",
+   "Indonesia"
+  ],
+  [
+   "Malaya",
+   "Malaysia"
+  ],
+  [
+   "Mesopotamia (GB)",
+   "Iraq"
+  ],
+  [
+   "Syria (France)",
+   "Syria"
+  ],
+  [
+   "Byelarus",
+   "White Russia"
+  ]
+ ]
 }

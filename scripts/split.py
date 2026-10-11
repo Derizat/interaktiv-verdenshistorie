@@ -15,7 +15,11 @@ RULES = {
 RENAMES = {"1930": {"White Russia": "USSR"}}
 # The 1994 and 2000 basemaps leave Switzerland unnamed and name a tiny sliver instead:
 # name the unnamed feature containing the point and drop the sliver.
-NAME_BY_POINT = {"1994": {"Switzerland": (7.45, 46.95)}, "2000": {"Switzerland": (7.45, 46.95)}}
+NAME_BY_POINT = {"1994": {"Switzerland": (7.45, 46.95)}, "2000": {"Switzerland": (7.45, 46.95)},
+                 # Unnamed northern Arabian desert in the 1920 and 1930 basemaps.
+                 "1920": {"Nordarabien": (40.9, 29.4)}, "1930": {"Nordarabien": (40.9, 29.4)}}
+# Unnamed leftovers drawn on top of a named country: drop them.
+DROP_UNNAMED_AT = {"1938": [(40.9, 29.4)], "1994": [(121.0, 23.7)]}
 
 def contains(ring, x, y):
     inside = False
@@ -46,6 +50,11 @@ def main(path, snap):
                 f["properties"]["n"] = name
                 print(snap, f"named unnamed feature -> {name}")
                 break
+    for x, y in DROP_UNNAMED_AT.get(snap, []):
+        before = len(g["features"])
+        g["features"] = [f for f in g["features"] if not (f["properties"]["n"] is None and any(contains(p[0], x, y) for p in f["geometry"]["coordinates"]))]
+        if len(g["features"]) < before:
+            print(snap, f"dropped {before - len(g['features'])} unnamed feature(s) at {x},{y}")
     for src, new, test in RULES.get(snap, []):
         for f in list(g["features"]):
             if f["properties"]["n"] != src:
