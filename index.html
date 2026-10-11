@@ -363,6 +363,10 @@ const SIDES = {
   axis:   { label: "Aksemagternes felttog", color: "var(--arrow-axis)" },
   allied: { label: "De allieredes felttog", color: "var(--arrow-allied)" },
   soviet: { label: "Sovjetunionens felttog", color: "var(--arrow-soviet)" },
+  north:  { label: "Nordkorea og Kina", color: "var(--arrow-soviet)" },
+  un:     { label: "FN-styrker og Sydkorea", color: "var(--arrow-allied)" },
+  iraq:   { label: "Irak", color: "var(--arrow-axis)" },
+  coalition: { label: "Koalitionen (USA m.fl.)", color: "var(--arrow-allied)" },
 };
 const REDUCED_MOTION = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
@@ -470,9 +474,11 @@ function fitProjection() {
   zoom.extent([[0, 0], [W, H]]).translateExtent([[-W * 0.1, -H * 0.1], [W * 1.1, H * 1.1]]);
 }
 
-const zoom = d3.zoom().scaleExtent([1, 10]).on("zoom", (ev) => {
+// Up to 24x, so small theatres like Korea or Kuwait can be read.
+const zoom = d3.zoom().scaleExtent([1, 24]).on("zoom", (ev) => {
   state.transform = ev.transform;
   world.attr("transform", ev.transform);
+  scalePatterns(ev.transform.k);
   bigYearEl.classList.toggle("off", ev.transform.k > 1.05);
   placeArrows(false);
   placeMarkers();
@@ -481,6 +487,15 @@ svg.call(zoom).on("dblclick.zoom", null);
 document.getElementById("zin").onclick = () => svg.transition().duration(300).call(zoom.scaleBy, 1.6);
 document.getElementById("zout").onclick = () => svg.transition().duration(300).call(zoom.scaleBy, 1 / 1.6);
 document.getElementById("zreset").onclick = () => svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity);
+
+// Hatch patterns live in the zoomed group; counter-scale them so stripes keep their on-screen width.
+const PATTERN_BASE = new Map();
+function scalePatterns(k) {
+  document.querySelectorAll("#svg defs pattern").forEach(p => {
+    if (!PATTERN_BASE.has(p)) PATTERN_BASE.set(p, p.getAttribute("patternTransform") || "");
+    p.setAttribute("patternTransform", `${PATTERN_BASE.get(p)} scale(${1 / k})`);
+  });
+}
 
 async function loadSnap(key) {
   if (!SNAPS[key]) SNAPS[key] = fetch(`data/borders_${key}.json`, { cache: "no-cache" })
@@ -576,7 +591,7 @@ function renderLegend(features, active) {
     items.push({ fill: "var(--land)", label: "Selvstændige lande" });
   }
   const sides = [...new Set(arrowsFor(y).map(c => c.side))];
-  ["central", "entente", "axis", "allied", "soviet"].filter(k => sides.includes(k)).forEach(k => items.push({ arrow: SIDES[k].color, label: SIDES[k].label }));
+  Object.keys(SIDES).filter(k => sides.includes(k)).forEach(k => items.push({ arrow: SIDES[k].color, label: SIDES[k].label }));
   el.className = "legend" + (legendClosed ? " closed" : "");
   el.innerHTML = `<button class="toggle" type="button" aria-expanded="${!legendClosed}">${legendClosed ? "Vis forklaring" : "Skjul forklaring"}</button>
     <h2>${title}</h2>
