@@ -4,7 +4,7 @@ An interactive world map for history teaching, 1914–2025. Drag the year rail (
 
 All UI text and event descriptions are in Danish.
 
-Read-aloud uses the browser's built-in speech synthesis (Web Speech API) with a Danish voice when one is installed; no external service or API key is needed. With "Oplæsning" on, playback waits for each year's reading to finish.
+Read-aloud plays pre-recorded MP3s (Google Cloud Text-to-Speech, voice `da-DK-Chirp3-HD-Charon`) from `audio/`. An event without a recording, for example one added or edited since the clips were last generated, is read by the browser's own Danish voice instead (Web Speech API). With "Oplæsning" on, playback waits for each year's reading to finish.
 
 ## Run locally
 
@@ -24,6 +24,8 @@ Then open http://localhost:8000. Append `#1962` to jump to a year.
 | `data/events.json` | Events: year, date, title, text, coordinates, category, countries involved. `until` marks ongoing conflicts/periods. |
 | `data/status.json` | Colouring rules: map snapshot per year range, WWI and WWII status, interwar regimes, Cold War blocs, colonial rule, Danish display names. All ranges are inclusive and describe the situation at the **end** of each year. |
 | `data/campaigns.json` | Campaign arrows for WWI, WWII, the Korean War and the Gulf War: year, side (a key of `SIDES` in index.html), Danish label and one or more polylines of [lon, lat] waypoints. The arrowhead sits on the last point. |
+| `data/audio.json` | Voice name and the list of recorded clips in `audio/`. Written by `scripts/tts.py`. |
+| `audio/` | One MP3 per event and per year, named by a hash of the voice and the text. |
 | `data/borders_*.json` | Simplified border snapshots (1914, 1920, 1930, 1938, 1945, 1960, 1994, 2000). The 2000 map is used for 2000–2025, so East Timor, Kosovo, South Sudan and Crimea are not shown. |
 | `scripts/` | Python scripts used to build the border files. |
 
@@ -40,6 +42,16 @@ done
 ```
 
 `simplify.py` applies Douglas-Peucker simplification, rounds coordinates and fixes winding order for D3. `split.py` separates Greenland, Iceland and East Pakistan into their own features, so they can be coloured separately, and patches known source-data errors (the 1930 USSR label, the unnamed Switzerland in 1994/2000).
+
+## Regenerating the read-aloud clips
+
+Run this after adding or editing events. It needs a Google Cloud API key with the Text-to-Speech API enabled, in `$GOOGLE_TTS_KEY` or `~/.config/google-tts/key`:
+
+```bash
+python3 scripts/tts.py --prune
+```
+
+Only clips whose text changed are generated again. `--prune` deletes the clips that no longer match any text, but only when every clip was generated. A full run is about 78,000 characters, which costs at most a few dollars. Set `TTS_VOICE` once to switch voice; that regenerates every clip, and later runs keep the voice stored in `data/audio.json`.
 
 ## Accuracy
 

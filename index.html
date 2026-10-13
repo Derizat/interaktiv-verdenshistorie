@@ -229,7 +229,7 @@ button { font: inherit; color: inherit; }
   <header class="top">
     <div class="brand"><h1>Verdenshistorie</h1><span>1914–2025 på verdenskortet</span></div>
     <div class="tools">
-    <button id="speak" class="pill" type="button" aria-pressed="false" title="Læs begivenhederne op med browserens danske stemme">🔊 Oplæsning</button>
+    <button id="speak" class="pill" type="button" aria-pressed="false" title="Læs begivenhederne op">🔊 Oplæsning</button>
     <div class="seg" role="group" aria-label="Kortlag">
       <button id="mode-blocs" type="button" aria-pressed="true">Magtblokke</button>
       <button id="mode-colonies" type="button" aria-pressed="false">Kolonistyre</button>
@@ -803,7 +803,7 @@ function renderPanel() {
   document.getElementById("cards").innerHTML = now.map((e, i) => `
     <article class="card${state.selected && state.selected.id === e.id ? " sel" : ""}" data-id="${e.id}" tabindex="0" style="animation-delay:${i * 60}ms">
       <div class="ic" style="--c:${CATS[e.cat].color}">${CATS[e.cat].icon}<i>${i + 1}</i></div>
-      <div><div class="meta"><span>${e.date}</span><span>· ${CATS[e.cat].label}</span>${e.dk ? '<span class="dk">Danmark</span>' : ""}${TTS.supported ? `<button class="say" type="button" data-say="${e.id}" aria-label="Læs op" aria-pressed="false">🔊</button>` : ""}</div>
+      <div><div class="meta"><span>${e.date}</span><span>· ${CATS[e.cat].label}</span>${e.dk ? '<span class="dk">Danmark</span>' : ""}${TTS.supported ? `<button class="say" type="button" data-say="${e.id}" aria-label="Læs op" aria-pressed="${TTS.current === e.id}">🔊</button>` : ""}</div>
       <h3>${e.title}</h3><p>${e.text}</p></div>
     </article>`).join("");
   document.getElementById("ongoing").innerHTML = ongoing.length ? `<div class="ongoing-h">Pågår også</div><div class="chips">${ongoing.map(e =>
@@ -842,10 +842,23 @@ function markSelected(animate) {
 }
 svg.on("click", () => { if (state.selected) { state.selected = null; markSelected(); } });
 
-/* ---------- speech (browser voice) ---------- */
-const TTS = { supported: "speechSynthesis" in window && "SpeechSynthesisUtterance" in window, on: false, voice: null, current: null, token: 0 };
+/* ---------- speech (recorded clips, browser voice as fallback) ---------- */
+// Clips are MP3s made by scripts/tts.py and listed in data/audio.json. Text without a clip
+// (an event added or edited since the last run) is read by the browser's Danish voice instead.
+const TTS = {
+  synth: "speechSynthesis" in window && "SpeechSynthesisUtterance" in window,
+  supported: false, on: false, voice: null, current: null, token: 0, done: null,
+  clips: new Set(), clipVoice: "", audio: new Audio(), unlocked: false,
+};
+const SILENT = "data:audio/wav;base64,UklGRnQAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YVAAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgA==";
+// FNV-1a over UTF-8, the same hash as clip_id() in scripts/tts.py.
+function clipId(...parts) {
+  let h = 0x811c9dc5;
+  for (const b of new TextEncoder().encode([TTS.clipVoice, ...parts].join("\n"))) h = Math.imul(h ^ b, 0x01000193);
+  return (h >>> 0).toString(16).padStart(8, "0");
+}
 function pickVoice() {
-  if (!TTS.supported) return null;
+  if (!TTS.synth) return null;
   const voices = speechSynthesis.getVoices();
   const da = voices.filter(v => /^da/i.test(v.lang));
   const pref = ["Sara", "Helle", "Magnus", "Google"];
@@ -853,61 +866,128 @@ function pickVoice() {
   TTS.voice = da[0] || null;
   return TTS.voice;
 }
-if (TTS.supported) { pickVoice(); speechSynthesis.addEventListener("voiceschanged", pickVoice); }
+if (TTS.synth) { pickVoice(); speechSynthesis.addEventListener("voiceschanged", pickVoice); }
 // Split only where a sentence mark is followed by a capital letter: Danish ordinals ("3. september",
 // "Frederik 10. udråbes") end in a period but are followed by lower case.
 function sentences(text) {
   return text.replace(/\s+/g, " ").replace(/([.!?]["')]?) (?=["'(]?[A-ZÆØÅÉÜ])/g, "$1\u0000").split("\u0000").map(s => s.trim()).filter(Boolean);
 }
-// Speaks the chunks in order; resolves when done or when interrupted.
-function speak(chunks) {
-  if (!TTS.supported) return Promise.resolve();
-  speechSynthesis.cancel();
-  const token = ++TTS.token;
+// Reads text chunks with the browser voice; resolves when done or when interrupted.
+function sayText(chunks, token) {
+  if (!TTS.synth) return Promise.resolve();
   return new Promise(resolve => {
     let i = 0;
     const next = () => {
       if (token !== TTS.token || i >= chunks.length) return resolve();
       const u = new SpeechSynthesisUtterance(chunks[i++]);
       u.lang = "da-DK"; if (TTS.voice) u.voice = TTS.voice; u.rate = 1;
-      u.onend = next; u.onerror = () => resolve();
+      // iOS drops an utterance without any event if speech was never started from a tap; don't wait forever.
+      const t = setTimeout(() => { if (token === TTS.token) speechSynthesis.cancel(); resolve(); }, 3000);
+      u.onstart = () => clearTimeout(t);
+      u.onend = () => { clearTimeout(t); next(); };
+      u.onerror = () => { clearTimeout(t); resolve(); };
       speechSynthesis.speak(u);
     };
     next();
   });
 }
-function stopSpeech() {
+// Plays one recorded clip; falls back to the browser voice if it cannot be loaded or played.
+// If halt() interrupts it, it never settles: speak() has already been resolved by then.
+function playClip(part, token) {
+  const a = TTS.audio;
+  return new Promise(resolve => {
+    let settled = false;
+    const end = (fallback) => {
+      if (settled) return;
+      settled = true;
+      a.onended = a.onerror = a.onpause = null;
+      if (fallback && token === TTS.token) sayText(part.chunks, token).then(resolve); else resolve();
+    };
+    a.onended = () => end(false);
+    a.onerror = () => end(true);
+    a.src = `audio/${part.clip}.mp3`;
+    a.play().then(() => {
+      // Paused from outside the page (lock screen, headset): stop reading instead of waiting forever.
+      // A clip that reaches its end also fires "pause", but with a.ended set.
+      if (!settled && token === TTS.token) a.onpause = () => { if (!a.ended) { stopPlay(); stopSpeech(); } };
+    }, () => { if (token === TTS.token) end(true); });
+  });
+}
+// Stops whatever is being read and resolves the pending speak().
+function halt() {
   TTS.token++;
-  if (TTS.supported) speechSynthesis.cancel();
+  const a = TTS.audio;
+  a.onended = a.onerror = a.onpause = null;
+  a.pause();
+  if (TTS.synth) speechSynthesis.cancel();
+  const done = TTS.done; TTS.done = null; if (done) done();
+}
+// Reads the parts in order. The first clip starts synchronously, so a click can start playback.
+function speak(parts) {
+  halt();
+  const token = TTS.token;
+  return new Promise(resolve => {
+    TTS.done = resolve;
+    let i = 0;
+    const next = () => {
+      if (token !== TTS.token) return;
+      if (i >= parts.length) { TTS.done = null; return resolve(); }
+      const p = parts[i++];
+      (TTS.clips.has(p.clip) ? playClip(p, token) : sayText(p.chunks, token)).then(next);
+    };
+    next();
+  });
+}
+// iOS only lets a media element play, or the browser voice speak, without a tap once it has been
+// started from one. Called from every click that can lead to reading.
+function unlockSpeech() {
+  if (TTS.synth && !TTS.synthUnlocked) {
+    TTS.synthUnlocked = true;
+    const u = new SpeechSynthesisUtterance(" "); u.volume = 0; speechSynthesis.speak(u);
+  }
+  if (TTS.unlocked || !TTS.audio.paused) return;
+  TTS.unlocked = true;
+  TTS.audio.src = SILENT;
+  TTS.audio.play().catch(() => {});
+}
+function stopSpeech() {
+  halt();
   TTS.current = null;
   document.querySelectorAll(".say[aria-pressed='true']").forEach(b => b.setAttribute("aria-pressed", "false"));
 }
-function eventChunks(e) { return [`${e.title}.`, `${e.date}.`, ...sentences(e.text)]; }
+function eventPart(e) { return { clip: clipId(e.title, e.date, e.text), chunks: [`${e.title}.`, `${e.date}.`, ...sentences(e.text)] }; }
 async function toggleSpeakEvent(id) {
   if (TTS.current === id) { stopSpeech(); return; }
   const e = EVENTS.find(x => x.id === id); if (!e) return;
+  // Reading one card pauses the slideshow; otherwise the next year would cut the card off.
+  stopPlay();
   stopSpeech();
+  unlockSpeech();
   TTS.current = id;
   const btn = document.querySelector(`.say[data-say="${id}"]`); if (btn) btn.setAttribute("aria-pressed", "true");
-  await speak(eventChunks(e));
-  if (TTS.current === id) { TTS.current = null; if (btn) btn.setAttribute("aria-pressed", "false"); }
+  await speak([eventPart(e)]);
+  if (TTS.current === id) { TTS.current = null; document.querySelector(`.say[data-say="${id}"]`)?.setAttribute("aria-pressed", "false"); }
 }
 async function speakYear(y) {
-  const { now } = eventsFor(y);
-  const chunks = [`${y}.`];
-  now.forEach(e => chunks.push(...eventChunks(e)));
-  await speak(chunks);
+  await speak([{ clip: clipId("year", y), chunks: [`${y}.`] }, ...eventsFor(y).now.map(eventPart)]);
 }
 const speakBtn = document.getElementById("speak");
-if (!TTS.supported) { speakBtn.classList.add("unsupported"); speakBtn.title = "Browseren understøtter ikke oplæsning"; speakBtn.disabled = true; }
-try { TTS.on = TTS.supported && localStorage.getItem("vh-speak") === "1"; } catch (e) {}
+try { TTS.on = localStorage.getItem("vh-speak") === "1"; } catch (e) {}
 speakBtn.setAttribute("aria-pressed", TTS.on);
+function initSpeech(manifest) {
+  if (manifest && Array.isArray(manifest.clips)) { TTS.clips = new Set(manifest.clips); TTS.clipVoice = manifest.voice || ""; }
+  TTS.supported = TTS.synth || TTS.clips.size > 0;
+  if (!TTS.supported) {
+    speakBtn.classList.add("unsupported"); speakBtn.title = "Browseren understøtter ikke oplæsning"; speakBtn.disabled = true;
+    TTS.on = false; speakBtn.setAttribute("aria-pressed", false);
+  }
+}
 speakBtn.onclick = () => {
   TTS.on = !TTS.on;
   speakBtn.setAttribute("aria-pressed", TTS.on);
   try { localStorage.setItem("vh-speak", TTS.on ? "1" : "0"); } catch (e) {}
   if (!TTS.on) stopSpeech();
-  else if (!TTS.voice) speakBtn.title = "Ingen dansk stemme fundet; browseren bruger en anden stemme";
+  else { unlockSpeech(); if (!TTS.clips.size && !TTS.voice) speakBtn.title = "Ingen dansk stemme fundet; browseren bruger en anden stemme"; }
 };
 document.addEventListener("visibilitychange", () => { if (document.hidden) { stopPlay(); stopSpeech(); } });
 
@@ -961,6 +1041,7 @@ playBtn.onclick = async () => {
   // Claim the run before awaiting anything, so a second click pauses this run instead of starting another.
   const run = state.playing = { active: true };
   playBtn.textContent = "❚❚ Pause";
+  if (TTS.on) unlockSpeech();
   if (state.year >= Y1) await setYear(Y0);
   while (run.active) {
     // With speech on, each year lasts as long as the reading; otherwise a fixed pause.
@@ -1032,8 +1113,11 @@ function onResize() {
     const m = localStorage.getItem("vh-mode"); if (m === "colonies" || m === "blocs") state.mode = m;
   } catch (e) {}
   // Revalidate data files on every load (ETag/304), so a new deploy is picked up without a hard reload.
+  // Without the audio manifest the page still works, reading everything with the browser voice.
+  const audio = fetch("data/audio.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : null).catch(() => null);
   const [ev, st, camp] = await Promise.all(["events", "status", "campaigns"].map(f => fetch(`data/${f}.json`, { cache: "no-cache" }).then(r => r.json())));
   EVENTS = ev; ST = st; CAMPAIGNS = camp;
+  initSpeech(await audio);
   buildRail();
   fitProjection();
   setMode(state.mode);
