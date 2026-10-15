@@ -94,6 +94,11 @@ button { font: inherit; color: inherit; }
 .seg { display: inline-flex; background: var(--surface); border: 1px solid var(--rule); border-radius: 999px; padding: 3px; gap: 2px; }
 .seg button { border: 0; background: transparent; padding: 7px 16px; border-radius: 999px; cursor: pointer; font-weight: 700; font-size: 15px; color: var(--muted); }
 .seg button[aria-pressed="true"] { background: var(--ink); color: var(--surface); }
+.find { -webkit-appearance: none; appearance: none; border: 1px solid var(--rule); background: var(--surface); border-radius: 999px; padding: 8px 14px; font: inherit; font-size: 15px; color: var(--ink); width: 200px; max-width: 100%; box-sizing: border-box; }
+.find::placeholder { color: var(--muted); }
+.find.miss { box-shadow: 0 0 0 2px #c8102e; }
+select.pill { -webkit-appearance: none; appearance: none; padding-right: 34px; max-width: 240px; text-overflow: ellipsis; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%236b7280' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 13px center; background-size: 12px 8px; }
+select.pill.active { background-color: var(--accent); border-color: var(--accent); color: #fff; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='white' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E"); }
 
 /* Map */
 .map { grid-area: map; position: relative; min-height: 0; border-radius: 14px; overflow: hidden; background: var(--surface); border: 1px solid var(--rule); }
@@ -170,6 +175,7 @@ button { font: inherit; color: inherit; }
 .card .meta { font-size: 12.5px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: center; }
 .card h3 { margin: 2px 0 4px; font-size: 17px; line-height: 1.25; text-wrap: balance; }
 .card p { margin: 0; font-size: 14.5px; }
+.empty { margin: 0; color: var(--muted); font-size: 14.5px; }
 .dk { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: .04em; padding: 1px 6px; border-radius: 4px; background: #c8102e; color: #fff; }
 @keyframes slidein { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
 .ongoing-h { margin: 16px 0 8px; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
@@ -185,8 +191,9 @@ button { font: inherit; color: inherit; }
 .ctrls { display: flex; gap: 6px; }
 .ctrls button { height: 46px; min-width: 46px; border-radius: 12px; border: 1px solid var(--rule); background: var(--surface); cursor: pointer; font-weight: 700; font-size: 16px; padding: 0 12px; }
 .ctrls .play { background: var(--ink); color: var(--surface); border-color: var(--ink); min-width: 112px; }
-.track { position: relative; user-select: none; touch-action: none; cursor: pointer; padding-top: 18px; }
-.eras { position: absolute; top: 0; left: 0; right: 0; height: 14px; }
+/* Top to bottom: the year flag (0-18px), the era brackets (20-34px), the dots (from 36px). The flag must not cover the era names. */
+.track { position: relative; user-select: none; touch-action: none; cursor: pointer; padding-top: 36px; }
+.eras { position: absolute; top: 20px; left: 0; right: 0; height: 14px; }
 .eras span { position: absolute; top: 0; height: 14px; font-size: 11px; font-weight: 700; color: var(--muted); border-top: 2px solid var(--muted); padding-top: 1px; white-space: nowrap; overflow: hidden; }
 .cols { display: grid; grid-template-columns: repeat(62, minmax(0, 1fr)); height: 46px; border-radius: 10px; background: var(--surface); border: 1px solid var(--rule); overflow: hidden; }
 .col { display: flex; flex-direction: column-reverse; align-items: center; gap: 2px; padding: 4px 0; border-left: 1px solid transparent; }
@@ -198,8 +205,9 @@ button { font: inherit; color: inherit; }
 .col.on i.d { background: #c8102e; }
 .labels { position: relative; height: 18px; margin-top: 3px; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
 .labels span { position: absolute; transform: translateX(-50%); }
-.handle { position: absolute; top: 14px; width: 4px; height: 54px; margin-left: -2px; background: var(--accent); border-radius: 2px; pointer-events: none; transition: left .25s ease; }
-.handle b { position: absolute; top: -2px; left: 50%; transform: translate(-50%, -100%); background: var(--accent); color: #fff; font: 700 12px/1 var(--font-body); padding: 3px 6px; border-radius: 5px; font-variant-numeric: tabular-nums; }
+.span { position: absolute; top: 36px; height: 46px; box-sizing: border-box; border: 2px solid var(--accent); border-radius: 8px; background: color-mix(in srgb, var(--accent) 14%, transparent); pointer-events: none; }
+.handle { position: absolute; top: 18px; width: 4px; height: 68px; margin-left: -2px; background: var(--accent); border-radius: 2px; pointer-events: none; transition: left .25s ease; }
+.handle b { position: absolute; top: 0; left: 50%; transform: translate(-50%, -100%); background: var(--accent); color: #fff; font: 700 12px/1 var(--font-body); padding: 3px 6px; border-radius: 5px; font-variant-numeric: tabular-nums; }
 
 .loading { position: absolute; inset: 0; display: grid; place-items: center; color: var(--muted); font-size: 15px; }
 
@@ -209,6 +217,11 @@ button { font: inherit; color: inherit; }
   .side { overflow: visible; }
   .year { font-size: 60px; }
   .brand h1 { font-size: 24px; }
+  /* Tighter controls, so search + filter and read-aloud + layer switch each fit on one row of a phone. */
+  .tools { gap: 8px; }
+  .find { flex: 1 1 130px; width: auto; min-width: 0; padding: 7px 12px; font-size: 14px; }
+  .pill, .seg button { padding: 7px 12px; font-size: 14px; }
+  select.pill { padding-right: 30px; width: 190px; }
   .rail { grid-template-columns: minmax(0, 1fr); }
   .ctrls { order: 2; justify-content: center; }
   .labels span.odd { display: none; }
@@ -229,6 +242,9 @@ button { font: inherit; color: inherit; }
   <header class="top">
     <div class="brand"><h1>Verdenshistorie</h1><span>1914–2025 på verdenskortet</span></div>
     <div class="tools">
+    <input class="find" id="find" type="search" list="find-list" placeholder="Find begivenhed…" aria-label="Find begivenhed" autocomplete="off" spellcheck="false">
+    <datalist id="find-list"></datalist>
+    <select id="filter" class="pill" aria-label="Vis kun"></select>
     <button id="speak" class="pill" type="button" aria-pressed="false" title="Læs begivenhederne op">🔊 Oplæsning</button>
     <div class="seg" role="group" aria-label="Kortlag">
       <button id="mode-blocs" type="button" aria-pressed="true">Magtblokke</button>
@@ -289,14 +305,15 @@ button { font: inherit; color: inherit; }
 
   <section class="rail" aria-label="Tidslinje">
     <div class="ctrls">
-      <button type="button" id="prev" aria-label="Forrige år">◀</button>
-      <button type="button" id="play" class="play">▶ Afspil</button>
-      <button type="button" id="next" aria-label="Næste år">▶</button>
+      <button type="button" id="prev" aria-label="Forrige år" title="Forrige år (←)">◀</button>
+      <button type="button" id="play" class="play" title="Afspil eller pause (mellemrum)">▶ Afspil</button>
+      <button type="button" id="next" aria-label="Næste år" title="Næste år (→)">▶</button>
     </div>
     <div class="track" id="track" role="slider" tabindex="0" aria-label="Årstal" aria-valuemin="1914" aria-valuemax="2025" aria-valuenow="1939">
       <div class="eras" id="eras"></div>
       <div class="cols" id="cols"></div>
       <div class="labels" id="labels"></div>
+      <div class="span" id="span" hidden></div>
       <div class="handle" id="handle"><b id="handle-y">1914</b></div>
     </div>
   </section>
@@ -372,7 +389,7 @@ const REDUCED_MOTION = window.matchMedia("(prefers-reduced-motion: reduce)").mat
 
 const MONTHS = ["januar","februar","marts","april","maj","juni","juli","august","september","oktober","november","december"];
 
-const state = { year: Y0, mode: "blocs", selected: null, snapKey: null, transform: d3.zoomIdentity, playing: null };
+const state = { year: Y0, mode: "blocs", selected: null, snapKey: null, transform: d3.zoomIdentity, playing: null, filter: "all" };
 let EVENTS = [], ST = null, CAMPAIGNS = [];
 const SNAPS = {};
 
@@ -700,9 +717,12 @@ function placeArrows(animate, entering) {
 }
 
 /* ---------- events ---------- */
+// The filter ("all", "dk" or a category key) applies everywhere events are shown: map, panel, rail and read-aloud.
+function visible(e) { const f = state.filter; return f === "all" || (f === "dk" ? !!e.dk : e.cat === f); }
+function activeIn(e, y) { return e.year === y || (e.until && e.year < y && e.until >= y); }
 function eventsFor(y) {
-  const now = EVENTS.filter(e => e.year === y).sort((a, b) => monthIndex(a.date) - monthIndex(b.date));
-  const ongoing = EVENTS.filter(e => e.until && e.year < y && e.until >= y);
+  const now = EVENTS.filter(e => e.year === y && visible(e)).sort((a, b) => monthIndex(a.date) - monthIndex(b.date));
+  const ongoing = EVENTS.filter(e => e.until && e.year < y && e.until >= y && visible(e));
   return { now, ongoing };
 }
 
@@ -800,12 +820,13 @@ function renderPanel() {
   const y = state.year, { now, ongoing } = eventsFor(y), era = eraOf(y);
   document.getElementById("year").textContent = y;
   document.getElementById("era").innerHTML = `<b>${era.title}</b>${era.sub}`;
-  document.getElementById("cards").innerHTML = now.map((e, i) => `
+  document.getElementById("cards").innerHTML = now.length ? now.map((e, i) => `
     <article class="card${state.selected && state.selected.id === e.id ? " sel" : ""}" data-id="${e.id}" tabindex="0" style="animation-delay:${i * 60}ms">
       <div class="ic" style="--c:${CATS[e.cat].color}">${CATS[e.cat].icon}<i>${i + 1}</i></div>
       <div><div class="meta"><span>${e.date}</span><span>· ${CATS[e.cat].label}</span>${e.dk ? '<span class="dk">Danmark</span>' : ""}${TTS.supported ? `<button class="say" type="button" data-say="${e.id}" aria-label="Læs op" aria-pressed="${TTS.current === e.id}">🔊</button>` : ""}</div>
       <h3>${e.title}</h3><p>${e.text}</p></div>
-    </article>`).join("");
+    </article>`).join("")
+    : `<p class="empty">Ingen begivenheder i ${y}${state.filter === "all" ? "" : ` under “${filterLabel(state.filter)}”`}.</p>`;
   document.getElementById("ongoing").innerHTML = ongoing.length ? `<div class="ongoing-h">Pågår også</div><div class="chips">${ongoing.map(e =>
     `<button type="button" class="chip${state.selected && state.selected.id === e.id ? " sel" : ""}" data-id="${e.id}"><span class="e">${CATS[e.cat].icon}</span>${e.ongoing}<span class="y">${e.year}–${e.until}</span></button>`).join("")}</div>` : "";
 }
@@ -820,12 +841,16 @@ document.getElementById("side").addEventListener("keydown", (ev) => {
   const el = ev.target.closest(".card"); if (el && (ev.key === "Enter" || ev.key === " ")) { ev.preventDefault(); select(el.dataset.id, true); }
 });
 
-function select(id, fromPanel) {
-  const e = EVENTS.find(x => x.id === id);
-  state.selected = state.selected && state.selected.id === id ? null : e;
-  // Selecting an ongoing event in a busy year adds its marker, which drawMarkers decides.
-  if (e && e.until && e.year !== state.year) drawMarkers(); else markSelected();
-  if (state.selected && !fromPanel) {
+function select(id, fromPanel) { setSelected(state.selected && state.selected.id === id ? null : id, fromPanel); }
+// Selects one event (null clears); ignored unless the event is shown in the current year.
+function setSelected(id, fromPanel) {
+  const e = id ? EVENTS.find(x => x.id === id) : null;
+  if (id && !(e && activeIn(e, state.year) && visible(e))) return;
+  const prev = state.selected;
+  state.selected = e;
+  // In busy years an ongoing event's marker only exists while it is selected, which drawMarkers decides.
+  if ([prev, e].some(x => x && x.until && x.year !== state.year)) drawMarkers(); else markSelected();
+  if (e && !fromPanel) {
     const card = document.querySelector(`.card[data-id="${id}"], .chip[data-id="${id}"]`);
     if (card) card.scrollIntoView({ block: "nearest", behavior: "smooth" });
   }
@@ -839,8 +864,19 @@ function markSelected(animate) {
   document.querySelectorAll("#side [data-id]").forEach(el => el.classList.toggle("sel", el.dataset.id === id));
   if (SNAPS[state.snapKey]) SNAPS[state.snapKey].then(g => colorCountries(g.features));
   placeCallouts(animate);
+  updateSpan();
+  syncHash();
 }
-svg.on("click", () => { if (state.selected) { state.selected = null; markSelected(); } });
+svg.on("click", () => { if (state.selected) setSelected(null); });
+// The address carries the year and the selected event (#1962/cubakrisen), so a link can open a specific card.
+function syncHash() {
+  const h = "#" + state.year + (state.selected ? "/" + state.selected.id : "");
+  if (location.hash !== h) history.replaceState(null, "", h);
+}
+function parseHash() {
+  const m = /^#(\d{4})(?:\/([\w-]+))?$/.exec(location.hash);
+  return m && +m[1] >= Y0 && +m[1] <= Y1 ? { year: +m[1], id: m[2] || null } : null;
+}
 
 /* ---------- speech (recorded clips, browser voice as fallback) ---------- */
 // Clips are MP3s made by scripts/tts.py and listed in data/audio.json. Text without a clip
@@ -992,23 +1028,35 @@ speakBtn.onclick = () => {
 document.addEventListener("visibilitychange", () => { if (document.hidden) { stopPlay(); stopSpeech(); } });
 
 /* ---------- year rail ---------- */
-const track = document.getElementById("track"), handle = document.getElementById("handle");
-function buildRail() {
-  const counts = d3.rollup(EVENTS, v => v, e => e.year);
-  document.getElementById("cols").style.gridTemplateColumns = `repeat(${Y1 - Y0 + 1}, minmax(0, 1fr))`;
+const track = document.getElementById("track"), handle = document.getElementById("handle"), spanEl = document.getElementById("span");
+// Horizontal position of a year's column in the rail, in percent: its left edge and its centre.
+const colLeft = (y) => ((y - Y0) / (Y1 - Y0 + 1)) * 100, colMid = (y) => colLeft(y) + 50 / (Y1 - Y0 + 1);
+function buildDots() {
+  const counts = d3.rollup(EVENTS.filter(visible), v => v, e => e.year);
   document.getElementById("cols").innerHTML = d3.range(Y0, Y1 + 1).map(y => {
     const ev = counts.get(y) || [];
     // Shrink the dots in crowded years so the stack stays inside the rail.
     const dot = ev.length > 6 ? Math.max(2, Math.floor((38 - (ev.length - 1)) / ev.length)) : 0;
     return `<div class="col${y % 10 === 0 ? " dec" : ""}" data-y="${y}"${dot ? ` style="--dot:${dot}px;gap:1px"` : ""}>${ev.map(e => `<i class="${e.dk ? "d" : ""}"></i>`).join("")}</div>`;
   }).join("");
-  const pct = (y) => ((y - Y0 + 0.5) / (Y1 - Y0 + 1)) * 100;
+}
+function buildRail() {
+  document.getElementById("cols").style.gridTemplateColumns = `repeat(${Y1 - Y0 + 1}, minmax(0, 1fr))`;
+  buildDots();
   document.getElementById("labels").innerHTML = [1920, 1930, 1940, 1950, 1960, 1970, 1980, 1990, 2000, 2010, 2020]
-    .map((y, i) => `<span class="${i % 2 ? "odd" : ""}" style="left:${pct(y)}%">${y}</span>`).join("");
+    .map((y, i) => `<span class="${i % 2 ? "odd" : ""}" style="left:${colMid(y)}%">${y}</span>`).join("");
   const eras = [[1914, 1918, "1. verdenskrig", "1. vk"], [1919, 1938, "Mellemkrigstiden", "Mellemkrig"], [1939, 1945, "2. verdenskrig", "2. vk"], [1947, 1991, "Den Kolde Krig", "Kold krig"], [1992, 2025, "Efter Den Kolde Krig", "Efter 1991"]];
   document.getElementById("eras").innerHTML = eras.map(([a, b, l, s]) =>
-    `<span style="left:${((a - Y0) / (Y1 - Y0 + 1)) * 100}%;width:${((b - a + 1) / (Y1 - Y0 + 1)) * 100}%" title="${l}" data-long="${l}" data-short="${s}">${l}</span>`).join("");
+    `<span style="left:${colLeft(a)}%;width:${colLeft(b + 1) - colLeft(a)}%" title="${l}" data-long="${l}" data-short="${s}">${l}</span>`).join("");
   fitEraLabels();
+}
+// A selected event with a duration is drawn as a bar across its years.
+function updateSpan() {
+  const s = state.selected;
+  spanEl.hidden = !(s && s.until);
+  if (spanEl.hidden) return;
+  spanEl.style.left = colLeft(s.year) + "%";
+  spanEl.style.width = (colLeft(s.until + 1) - colLeft(s.year)) + "%";
 }
 // Use the long era name where it fits, else the short one, else only the bracket line (name in the tooltip).
 function fitEraLabels() {
@@ -1053,15 +1101,17 @@ playBtn.onclick = async () => {
 };
 function stopPlay() { if (state.playing) { state.playing.active = false; state.playing = null; stopSpeech(); } playBtn.textContent = "▶ Afspil"; }
 document.addEventListener("keydown", (e) => {
-  if (e.target.closest("input, textarea, [role=slider]")) return;
+  if (e.target.closest("input, textarea, select, [role=slider]")) return;
   if (e.key === "ArrowRight") { stopPlay(); setYear(state.year + 1); }
   if (e.key === "ArrowLeft") { stopPlay(); setYear(state.year - 1); }
+  // Space plays and pauses, unless a control that handles Space itself (button, card, marker) has focus.
+  if (e.key === " " && !e.target.closest("button, a, [tabindex]")) { e.preventDefault(); playBtn.click(); }
 });
 
 function updateRail() {
   const y = state.year;
   document.querySelectorAll("#cols .col").forEach(c => c.classList.toggle("on", +c.dataset.y === y));
-  handle.style.left = (((y - Y0 + 0.5) / (Y1 - Y0 + 1)) * 100) + "%";
+  handle.style.left = colMid(y) + "%";
   document.getElementById("handle-y").textContent = y;
   track.setAttribute("aria-valuenow", y);
   track.setAttribute("aria-valuetext", `${y}: ${eventsFor(y).now.length} begivenheder`);
@@ -1078,19 +1128,66 @@ function setMode(m) {
 document.getElementById("mode-blocs").onclick = () => setMode("blocs");
 document.getElementById("mode-colonies").onclick = () => setMode("colonies");
 
+/* ---------- filter and search ---------- */
+const filterEl = document.getElementById("filter"), findEl = document.getElementById("find");
+function filterLabel(f) { return f === "dk" ? "Danmark" : CATS[f] ? CATS[f].label : ""; }
+function buildFilter() {
+  filterEl.innerHTML = `<option value="all">Alle begivenheder</option><option value="dk">Kun Danmark</option>`
+    + `<optgroup label="Kategori">${Object.entries(CATS).map(([k, c]) => `<option value="${k}">${c.icon} ${c.label}</option>`).join("")}</optgroup>`;
+  document.getElementById("find-list").innerHTML = [...EVENTS].sort((a, b) => a.year - b.year || monthIndex(a.date) - monthIndex(b.date))
+    .map(e => `<option value="${e.title} (${e.year})">`).join("");
+}
+function setFilter(f) {
+  state.filter = f;
+  filterEl.value = f;
+  filterEl.classList.toggle("active", f !== "all");
+  if (state.selected && !visible(state.selected)) state.selected = null;
+  buildDots(); updateRail(); renderPanel(); drawMarkers();
+}
+filterEl.onchange = () => setFilter(filterEl.value);
+// The field shares a phone row with the filter, where the full placeholder would be cut off.
+const narrow = matchMedia("(max-width: 860px)");
+const fitFind = () => { findEl.placeholder = narrow.matches ? "Find…" : "Find begivenhed…"; };
+narrow.addEventListener("change", fitFind); fitFind();
+// A suggestion picked from the list matches exactly ("Cubakrisen (1962)"); typed text finds the earliest title, then text, containing it.
+function exactEvent(q) { q = q.trim().toLowerCase(); return EVENTS.find(e => `${e.title} (${e.year})`.toLowerCase() === q) || null; }
+function findEvent(q) {
+  q = q.trim().toLowerCase();
+  const first = (pred) => EVENTS.filter(pred).sort((a, b) => a.year - b.year)[0];
+  return exactEvent(q) || first(e => e.title.toLowerCase().includes(q)) || first(e => e.text.toLowerCase().includes(q)) || null;
+}
+async function goToEvent(e) {
+  if (!e) { findEl.classList.add("miss"); setTimeout(() => findEl.classList.remove("miss"), 900); return; }
+  if (!visible(e)) setFilter("all");
+  stopPlay();
+  findEl.blur();
+  if (state.year !== e.year) await setYear(e.year);
+  if (state.year !== e.year) return;
+  if (!(state.selected && state.selected.id === e.id)) setSelected(e.id);
+  else document.querySelector(`.card[data-id="${e.id}"], .chip[data-id="${e.id}"]`)?.scrollIntoView({ block: "nearest", behavior: "smooth" });
+}
+// "change" also fires when the field loses focus, so only an exact pick from the list navigates; Enter searches the typed text.
+// Enter is handled a tick later, after a highlighted suggestion has been written into the field, so both paths find the same event.
+findEl.addEventListener("change", () => { const e = exactEvent(findEl.value); if (e) goToEvent(e); });
+findEl.addEventListener("keydown", (ev) => {
+  if (ev.key !== "Enter") return;
+  ev.preventDefault();
+  setTimeout(() => { const q = findEl.value.trim(); if (q) goToEvent(findEvent(q)); }, 0);
+});
+
 /* ---------- year ---------- */
 async function setYear(y) {
   y = Math.max(Y0, Math.min(Y1, y));
   const changed = y !== state.year;
   if (changed && TTS.current) stopSpeech();
   state.year = y;
-  if (changed && state.selected && !(state.selected.year === y || (state.selected.until && state.selected.year < y && state.selected.until >= y))) state.selected = null;
+  if (changed && state.selected && !activeIn(state.selected, y)) state.selected = null;
   updateRail();
   renderPanel();
   drawArrows();
   drawMarkers();
   try { await drawCountries(); } catch (err) { console.warn("Kortet kunne ikke hentes; prøver igen ved næste årsskift.", err); }
-  if (state.year === y && location.hash !== "#" + y) history.replaceState(null, "", "#" + y);
+  if (state.year === y) syncHash();
 }
 
 /* ---------- resize ---------- */
@@ -1119,14 +1216,21 @@ function onResize() {
   EVENTS = ev; ST = st; CAMPAIGNS = camp;
   initSpeech(await audio);
   buildRail();
+  buildFilter();
   fitProjection();
   setMode(state.mode);
-  const h = parseInt((location.hash || "").slice(1), 10);
+  const h = parseHash();
   state.year = -1;
-  await setYear(h >= Y0 && h <= Y1 ? h : Y0);
+  await setYear(h ? h.year : Y0);
+  // On a phone the panel sits below the map, so don't scroll a linked card into view there: the map should be what opens.
+  if (h && h.id) { setSelected(h.id, window.innerWidth <= 860); syncHash(); }
   document.getElementById("loading").remove();
   ["1920", "1930", "1938", "1945", "1960", "1994", "2000", "1914"].forEach(k => loadSnap(k).catch(() => {}));
-  window.addEventListener("hashchange", () => { const v = parseInt(location.hash.slice(1), 10); if (v >= Y0 && v <= Y1 && v !== state.year) { stopPlay(); setYear(v); } });
+  window.addEventListener("hashchange", async () => {
+    const h = parseHash(); if (!h) return;
+    if (h.year !== state.year) { stopPlay(); await setYear(h.year); }
+    if (h.id !== (state.selected && state.selected.id)) { setSelected(h.id); syncHash(); }
+  });
   let rt; window.addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(onResize, 150); });
 })().catch(err => {
   document.getElementById("loading").textContent = "Kortdata kunne ikke hentes. Genindlæs siden for at prøve igen.";

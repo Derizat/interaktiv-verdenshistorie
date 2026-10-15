@@ -14,7 +14,7 @@ The page loads its data with `fetch`, so it needs a web server (opening `index.h
 python3 -m http.server 8000
 ```
 
-Then open http://localhost:8000. Append `#1962` to jump to a year.
+Then open http://localhost:8000. Append `#1962` to jump to a year, or `#1962/cubakrise` (an event id from `events.json`) to open that event's card as well. The address updates as you browse, so any view can be shared as a link.
 
 ## Structure
 
