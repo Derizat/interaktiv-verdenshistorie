@@ -27,7 +27,8 @@ Then open http://localhost:8000. Append `#1962` to jump to a year, or `#1962/cub
 | `data/audio.json` | Voice name and the list of recorded clips in `audio/`. Written by `scripts/tts.py`. |
 | `audio/` | One MP3 per event and per year, named by a hash of the voice and the text. |
 | `data/borders_*.json` | Simplified border snapshots (1914, 1920, 1930, 1938, 1945, 1960, 1994, 2000). The 2000 map is used for 2000–2025, so East Timor, Kosovo, South Sudan and Crimea are not shown. |
-| `scripts/` | Python scripts used to build the border files. |
+| `scripts/` | Python scripts used to build the border files, the read-aloud clips and the Ukraine data. |
+| `ukraine/` | A separate page for the Russia–Ukraine war, month by month from February 2022: a regional map with Russian-held and contested areas, the war's own events and campaign arrows. See [ukraine/data/README.md](ukraine/data/README.md). |
 
 Country keys in `status.json` and `events.json` must match the `n` property in the border file used for that year (see `snapshots` in `status.json`).
 
@@ -42,6 +43,20 @@ done
 ```
 
 `simplify.py` applies Douglas-Peucker simplification, rounds coordinates and fixes winding order for D3. `split.py` separates Greenland, Iceland and East Pakistan into their own features, so they can be coloured separately, and patches known source-data errors (the 1930 USSR label, the unnamed Switzerland in 1994/2000).
+
+## The Ukraine war page
+
+`ukraine/index.html` is a cut-down copy of the main page for one war. The slider steps through months instead of years. The map shows Ukraine and its neighbours at a regional scale, with oblasts, rivers and towns. Control areas come from [VIINA](https://github.com/zhukovyuri/VIINA), and the events are written by hand.
+
+To update the control areas with the newest days, run this. It downloads about 240 MB to `.cache/` the first time and takes about 30 seconds:
+
+```bash
+python3 scripts/ukraine.py --refresh
+```
+
+New months appear on the rail automatically. Events and arrows for them are added by hand in `ukraine/data/events.json` and `campaigns.json`.
+
+`ukraine/data/control.json` is derived from VIINA and is licensed under the Open Database License (ODbL), not the GPL.
 
 ## Regenerating the read-aloud clips
 
@@ -65,6 +80,8 @@ Known limitations:
 
 Border data: [historical-basemaps](https://github.com/aourednik/historical-basemaps) by A. Ourednik, licensed GPL-3.0. The simplified files in `data/borders_*.json` are derived from it.
 
+Ukraine page: territorial control from VIINA (Zhukov and Ayers 2023, ODbL); basemap from [Natural Earth](https://www.naturalearthdata.com) (public domain).
+
 ## License
 
-GPL-3.0, see [LICENSE](LICENSE). The border data is derived from GPL-3.0 licensed data, so the whole project uses the same license.
+GPL-3.0, see [LICENSE](LICENSE). The border data is derived from GPL-3.0 licensed data, so the whole project uses the same license. The one exception is `ukraine/data/control.json`, which is licensed under the ODbL 1.0, as VIINA's licence requires.

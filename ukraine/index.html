@@ -1,0 +1,1097 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Interaktivt kort over Ruslands krig mod Ukraine, måned for måned fra 2022, til historieundervisning.">
+<title>Ukraine-krigen måned for måned</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Big+Shoulders+Display:wght@600;800&display=swap">
+<style>
+/* A copy of the world-history atlas (../index.html), cut down to one war: a regional map, a month rail and the war's own events. */
+:root {
+  --bg: #e9eef1;
+  --surface: #ffffff;
+  --ink: #17232c;
+  --muted: #586874;
+  --sea: #cfdde6;
+  --land: #f6f4ee;
+  --land-other: #ece9e1;
+  --ru-land: #ead6d1;
+  --nato-land: #d9e3ef;
+  --border: #8a9ba7;
+  --rule: #c9d4db;
+  --accent: #c8402f;
+  --river: #7aa3c2;
+  --occ: #d0574a;
+  --occ-old: #8f2f27;
+  --contested: #e9a79b;
+  --arrow-ru: #8f241b; --arrow-ua: #1f5aa8;
+
+  --font-display: "Big Shoulders Display", "Arial Narrow", "Roboto Condensed", sans-serif;
+  --font-body: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  --font-emoji: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e161c; --surface: #16222b; --ink: #e5ecf0; --muted: #93a4b0; --sea: #0f202b; --land: #2a3640; --land-other: #222d36;
+    --ru-land: #3d2c2e; --nato-land: #23324a; --border: #50626f; --rule: #2a3a46; --accent: #f07a62; --river: #3f6f93;
+    --occ: #c4544a; --occ-old: #7e2a24; --contested: #6e3a35; --arrow-ru: #f2826f; --arrow-ua: #86b4f2;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e161c; --surface: #16222b; --ink: #e5ecf0; --muted: #93a4b0; --sea: #0f202b; --land: #2a3640; --land-other: #222d36;
+  --ru-land: #3d2c2e; --nato-land: #23324a; --border: #50626f; --rule: #2a3a46; --accent: #f07a62; --river: #3f6f93;
+  --occ: #c4544a; --occ-old: #7e2a24; --contested: #6e3a35; --arrow-ru: #f2826f; --arrow-ua: #86b4f2;
+  color-scheme: dark;
+}
+
+html, body { height: 100%; }
+body { margin: 0; }
+[hidden] { display: none !important; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 16px; line-height: 1.45; }
+button { font: inherit; color: inherit; }
+a { color: inherit; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+.app {
+  height: 100%;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 410px);
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  grid-template-areas: "top top" "map side" "rail rail";
+  gap: 12px;
+  padding-inline: 16px;
+  padding-block: 12px;
+}
+
+/* Header */
+.top { grid-area: top; display: flex; align-items: center; justify-content: space-between; gap: 12px 20px; flex-wrap: wrap; }
+.brand { display: flex; align-items: baseline; gap: 10px; min-width: 0; flex-wrap: wrap; }
+.brand h1 { font-family: var(--font-display); font-weight: 800; font-size: 30px; letter-spacing: .01em; margin: 0; line-height: 1; text-transform: uppercase; }
+.brand span { color: var(--muted); font-size: 15px; }
+.brand a { color: var(--muted); font-size: 14px; text-decoration: none; border-bottom: 1px solid var(--rule); }
+.brand a:hover { color: var(--ink); }
+.tools { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.pill { border: 1px solid var(--rule); background: var(--surface); border-radius: 999px; padding: 9px 16px; cursor: pointer; font-weight: 700; font-size: 15px; color: var(--muted); }
+.pill[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+.pill.unsupported { opacity: .5; cursor: not-allowed; }
+.card .say { margin-left: auto; border: 1px solid var(--rule); background: var(--surface); border-radius: 999px; width: 30px; height: 26px; cursor: pointer; font-size: 14px; line-height: 1; padding: 0; flex: none; }
+.card .say[aria-pressed="true"] { border-color: var(--accent); box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 35%, transparent); }
+.find { -webkit-appearance: none; appearance: none; border: 1px solid var(--rule); background: var(--surface); border-radius: 999px; padding: 8px 14px; font: inherit; font-size: 15px; color: var(--ink); width: 200px; max-width: 100%; box-sizing: border-box; }
+.find::placeholder { color: var(--muted); }
+.find.miss { box-shadow: 0 0 0 2px #c8102e; }
+select.pill { -webkit-appearance: none; appearance: none; padding-right: 34px; max-width: 240px; text-overflow: ellipsis; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%236b7280' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 13px center; background-size: 12px 8px; }
+select.pill.active { background-color: var(--accent); border-color: var(--accent); color: #fff; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='white' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E"); }
+
+/* Map */
+.map { grid-area: map; position: relative; min-height: 0; border-radius: 14px; overflow: hidden; background: var(--sea); border: 1px solid var(--rule); }
+.map svg { display: block; width: 100%; height: 100%; touch-action: none; }
+.country { stroke: var(--border); stroke-width: .7px; vector-effect: non-scaling-stroke; fill: var(--land-other); }
+.country.c-UKR { fill: var(--land); }
+.country.c-RUS, .country.c-BLR { fill: var(--ru-land); }
+.country.c-POL, .country.c-SVK, .country.c-HUN, .country.c-ROU, .country.c-BGR, .country.c-LTU { fill: var(--nato-land); }
+.lake { fill: var(--sea); stroke: color-mix(in srgb, var(--river) 60%, transparent); stroke-width: .6px; vector-effect: non-scaling-stroke; transition: fill .5s ease; }
+.lake.drained { fill: color-mix(in srgb, var(--sea) 25%, var(--land)); stroke-dasharray: 3 2; }
+.river { fill: none; stroke: var(--river); stroke-width: 1.2px; vector-effect: non-scaling-stroke; stroke-linejoin: round; stroke-linecap: round; }
+.river.big { stroke-width: 2px; }
+.ctrl { vector-effect: non-scaling-stroke; }
+.ctrl-ru { fill: var(--occ); stroke: var(--occ-old); stroke-width: .8px; }
+.ctrl-pre { fill: var(--occ-old); }
+.ctrl-cont { fill: url(#hatch-contested); }
+.region { fill: transparent; stroke: var(--ink); stroke-opacity: .28; stroke-width: .6px; stroke-dasharray: 2 2; vector-effect: non-scaling-stroke; }
+.region.ru { stroke-opacity: .18; }
+.borders { fill: none; stroke: var(--ink); stroke-width: 1.3px; stroke-opacity: .75; vector-effect: non-scaling-stroke; pointer-events: none; }
+.place circle { fill: var(--surface); stroke: var(--ink); stroke-width: 1.5px; }
+.place.r1 circle { fill: var(--ink); }
+.place text { font: 700 12px/1 var(--font-body); fill: var(--ink); paint-order: stroke; stroke: var(--surface); stroke-width: 3px; stroke-linejoin: round; pointer-events: none; }
+.place.r1 text { font-size: 13.5px; }
+.place.ru text { font-style: italic; }
+.rlabel { font: italic 600 11.5px/1 var(--font-body); fill: var(--river); paint-order: stroke; stroke: var(--sea); stroke-width: 3px; pointer-events: none; }
+.olabel { font: 700 10px/1 var(--font-body); letter-spacing: .1em; text-transform: uppercase; fill: var(--muted); opacity: .75; text-anchor: middle; pointer-events: none; paint-order: stroke; stroke: color-mix(in srgb, var(--surface) 60%, transparent); stroke-width: 2.5px; }
+
+/* Markers are ink annotations on a coloured map: neutral ring, category in the icon. Only the selected one takes the accent. */
+.marker { cursor: pointer; transition: opacity .25s ease; }
+.marker .body { transition: transform .25s cubic-bezier(.2, 1.2, .4, 1); }
+.marker .halo { fill: var(--surface); opacity: .85; }
+.marker .ring { fill: var(--surface); stroke: var(--ink); stroke-width: 2.5px; }
+.marker .icon { font-family: var(--font-emoji); font-size: 15px; text-anchor: middle; dominant-baseline: central; pointer-events: none; }
+.marker .num { fill: var(--ink); stroke: var(--surface); stroke-width: 2px; }
+.marker .numtxt { fill: var(--surface); font-size: 10.5px; font-weight: 700; text-anchor: middle; dominant-baseline: central; pointer-events: none; font-family: var(--font-body); }
+.marker.ongoing { opacity: .62; }
+.marker.ongoing .ring { stroke-dasharray: 3 2; }
+.markers.has-sel .marker:not(.sel) { opacity: .4; }
+.markers.has-sel .marker.ongoing:not(.sel) { opacity: .25; }
+.marker.sel { opacity: 1; }
+.marker.sel .body { transform: scale(1.3); }
+.marker.sel .ring { stroke: var(--accent); stroke-width: 4px; }
+.marker.sel .num { fill: var(--accent); }
+.marker .pulse { fill: none; stroke: var(--accent); stroke-width: 2.5px; opacity: 0; }
+.marker.sel .pulse { animation: pulse 1.6s ease-out infinite; }
+@keyframes pulse { 0% { r: 20; opacity: .9; } 100% { r: 46; opacity: 0; } }
+
+.callouts { position: absolute; inset: 0; pointer-events: none; }
+.bigyear { position: absolute; left: 0; top: 0; transform: translate(-50%, -50%); font-family: var(--font-display); font-weight: 800; line-height: .82; text-align: center; letter-spacing: -.01em; font-variant-numeric: tabular-nums; color: color-mix(in srgb, var(--ink) 17%, transparent); pointer-events: none; user-select: none; white-space: nowrap; transition: opacity .3s ease; text-transform: uppercase; }
+.bigyear small { display: block; font-size: .42em; letter-spacing: .04em; }
+.bigyear.off { opacity: 0; }
+.arrow { cursor: help; }
+.arrow .halo { fill: none; stroke: var(--surface); stroke-opacity: .9; stroke-width: 8px; stroke-linecap: round; stroke-linejoin: round; }
+.arrow .line { fill: none; stroke-width: 4px; stroke-linecap: round; stroke-linejoin: round; }
+.arrow .head { stroke: var(--surface); stroke-width: 1.5px; stroke-linejoin: round; }
+.alabel { position: absolute; width: max-content; max-width: 170px; font: 700 12.5px/1.2 var(--font-body); pointer-events: none; text-shadow: 0 0 3px var(--surface), 0 0 3px var(--surface), 0 0 2px var(--surface), 0 0 1px var(--surface); }
+.sw.sw-arrow { border: 0; width: 20px; }
+.callout { position: absolute; pointer-events: auto; cursor: pointer; width: max-content; background: var(--surface); color: var(--ink); border: 1px solid var(--rule); border-radius: 8px; padding: 3px 8px; font-size: 13px; font-weight: 700; line-height: 1.25; max-width: 190px; box-shadow: 0 2px 8px rgb(0 0 0 / .12); animation: pop .35s cubic-bezier(.2,1.4,.4,1) both; }
+.callouts.still .callout { animation: none; }
+.callout.sel { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent); }
+.callouts.has-sel .callout:not(.sel) { opacity: .55; }
+@keyframes pop { from { transform: scale(.6); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+
+.zoom { position: absolute; top: 10px; right: 10px; display: flex; flex-direction: column; gap: 6px; }
+.zoom button { width: 38px; height: 38px; border-radius: 10px; border: 1px solid var(--rule); background: var(--surface); cursor: pointer; font-size: 20px; font-weight: 700; line-height: 1; }
+
+.legend { position: absolute; left: 10px; bottom: 10px; background: color-mix(in srgb, var(--surface) 92%, transparent); border: 1px solid var(--rule); border-radius: 10px; padding: 10px 12px; max-width: min(300px, calc(100% - 80px)); font-size: 13px; }
+.legend h2 { margin: 0 0 6px; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.legend ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+.legend li { display: flex; align-items: center; gap: 8px; }
+.sw { width: 18px; height: 12px; border-radius: 3px; border: 1px solid var(--border); flex: none; }
+.legend .foot { margin-top: 8px; padding-top: 6px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 12px; }
+.legend .toggle { display: none; }
+
+.tip { position: absolute; pointer-events: none; background: var(--ink); color: var(--surface); padding: 6px 10px; border-radius: 8px; font-size: 13px; max-width: 260px; z-index: 5; }
+.tip b { display: block; font-size: 14px; }
+.tip[hidden] { display: none !important; }
+
+/* Side panel */
+.side { grid-area: side; min-height: 0; overflow: auto; background: var(--surface); border: 1px solid var(--rule); border-radius: 14px; padding: 16px 18px; }
+.yearhead { display: flex; align-items: flex-end; justify-content: space-between; gap: 12px; border-bottom: 2px solid var(--ink); padding-bottom: 6px; margin-bottom: 8px; }
+.year { font-family: var(--font-display); font-weight: 800; font-size: 76px; line-height: .85; font-variant-numeric: tabular-nums; letter-spacing: -.01em; }
+.era { text-align: right; color: var(--muted); font-size: 13px; line-height: 1.3; }
+.era b { display: block; color: var(--ink); font-size: 17px; }
+.stats { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 13px; color: var(--muted); margin-bottom: 12px; }
+.stats b { color: var(--ink); font-variant-numeric: tabular-nums; }
+.stats .up { color: var(--occ); }
+.stats .down { color: var(--arrow-ua); }
+.cards { display: grid; gap: 10px; }
+.card { display: grid; grid-template-columns: 40px minmax(0, 1fr); gap: 10px; padding: 10px; border-radius: 10px; border: 1px solid transparent; cursor: pointer; animation: slidein .35s ease both; }
+.card:hover { background: color-mix(in srgb, var(--sea) 35%, transparent); }
+.card.sel { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 7%, transparent); }
+.card .ic { width: 40px; height: 40px; border-radius: 50%; border: 3px solid var(--c); display: grid; place-items: center; font-family: var(--font-emoji); font-size: 19px; box-sizing: border-box; position: relative; }
+.card .ic i { position: absolute; top: -6px; right: -6px; width: 18px; height: 18px; border-radius: 50%; background: var(--ink); color: var(--surface); font: 700 11px/18px var(--font-body); text-align: center; font-style: normal; }
+.card .meta { font-size: 12.5px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: center; }
+.card h3 { margin: 2px 0 4px; font-size: 17px; line-height: 1.25; text-wrap: balance; }
+.card p { margin: 0; font-size: 14.5px; }
+.empty { margin: 0; color: var(--muted); font-size: 14.5px; }
+.dk { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: .04em; padding: 1px 6px; border-radius: 4px; background: #c8102e; color: #fff; }
+@keyframes slidein { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+.ongoing-h { margin: 16px 0 8px; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { border: 1px solid var(--rule); background: transparent; border-radius: 999px; padding: 5px 11px; font-size: 13.5px; cursor: pointer; }
+.chip.sel { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+.chip .e { font-family: var(--font-emoji); margin-right: 4px; }
+.chip .y { color: var(--muted); margin-left: 4px; font-variant-numeric: tabular-nums; }
+.credit { margin-top: 18px; padding-top: 10px; border-top: 1px solid var(--rule); font-size: 12px; color: var(--muted); }
+
+/* Month rail */
+.rail { grid-area: rail; display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 14px; align-items: center; }
+.ctrls { display: flex; gap: 6px; }
+.ctrls button { height: 46px; min-width: 46px; border-radius: 12px; border: 1px solid var(--rule); background: var(--surface); cursor: pointer; font-weight: 700; font-size: 16px; padding: 0 12px; }
+.ctrls .play { background: var(--ink); color: var(--surface); border-color: var(--ink); min-width: 112px; }
+/* Top to bottom: the month flag (0-18px), the phase brackets (20-34px), the dots (from 36px). */
+.track { position: relative; user-select: none; touch-action: none; cursor: pointer; padding-top: 36px; }
+.eras { position: absolute; top: 20px; left: 0; right: 0; height: 14px; }
+.eras span { position: absolute; top: 0; height: 14px; font-size: 11px; font-weight: 700; color: var(--muted); border-top: 2px solid var(--muted); padding-top: 1px; white-space: nowrap; overflow: hidden; box-sizing: border-box; padding-right: 4px; }
+.cols { display: grid; height: 46px; border-radius: 10px; background: var(--surface); border: 1px solid var(--rule); overflow: hidden; }
+.col { display: flex; flex-direction: column-reverse; align-items: center; gap: 2px; padding: 4px 0; border-left: 1px solid transparent; }
+.col.dec { border-left-color: var(--rule); }
+.col i { width: var(--dot, 5px); height: var(--dot, 5px); border-radius: 50%; background: var(--muted); opacity: .55; flex: none; }
+.col i.d { background: #c8102e; opacity: .9; }
+.col.on { background: color-mix(in srgb, var(--accent) 16%, transparent); }
+.col.on i { opacity: 1; background: var(--ink); }
+.col.on i.d { background: #c8102e; }
+.labels { position: relative; height: 18px; margin-top: 3px; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.labels span { position: absolute; transform: translateX(-50%); }
+.span { position: absolute; top: 36px; height: 46px; box-sizing: border-box; border: 2px solid var(--accent); border-radius: 8px; background: color-mix(in srgb, var(--accent) 14%, transparent); pointer-events: none; }
+.handle { position: absolute; top: 18px; width: 4px; height: 68px; margin-left: -2px; background: var(--accent); border-radius: 2px; pointer-events: none; transition: left .25s ease; }
+.handle b { position: absolute; top: 0; left: 50%; transform: translate(-50%, -100%); background: var(--accent); color: #fff; font: 700 12px/1 var(--font-body); padding: 3px 6px; border-radius: 5px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+.loading { position: absolute; inset: 0; display: grid; place-items: center; color: var(--muted); font-size: 15px; background: var(--sea); }
+
+@media (max-width: 860px) {
+  .app { height: auto; grid-template-columns: minmax(0, 1fr); grid-template-rows: auto; grid-template-areas: "top" "map" "rail" "side"; }
+  .map { aspect-ratio: 5 / 4; max-width: 100%; min-height: 300px; }
+  .side { overflow: visible; }
+  .year { font-size: 60px; }
+  .brand h1 { font-size: 24px; }
+  .tools { gap: 8px; }
+  .find { flex: 1 1 130px; width: auto; min-width: 0; padding: 7px 12px; font-size: 14px; }
+  .pill { padding: 7px 12px; font-size: 14px; }
+  select.pill { padding-right: 30px; width: 190px; }
+  .rail { grid-template-columns: minmax(0, 1fr); }
+  .ctrls { order: 2; justify-content: center; }
+  .legend { font-size: 12px; padding: 8px 10px; max-width: calc(100% - 70px); }
+  .legend .toggle { display: block; border: 0; background: none; padding: 0; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); cursor: pointer; font-weight: 700; }
+  .legend.closed ul, .legend.closed .foot, .legend.closed h2 { display: none; }
+  .legend:not(.closed) .toggle { margin-bottom: 6px; }
+  .eras span { font-size: 9px; }
+  .labels span.odd { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+</style>
+</head>
+<body>
+
+<div class="app">
+  <header class="top">
+    <div class="brand"><h1>Ukraine-krigen</h1><span>måned for måned fra 2022</span><a href="../">← Verdenshistorie 1914–2025</a></div>
+    <div class="tools">
+    <input class="find" id="find" type="search" list="find-list" placeholder="Find begivenhed…" aria-label="Find begivenhed" autocomplete="off" spellcheck="false">
+    <datalist id="find-list"></datalist>
+    <select id="filter" class="pill" aria-label="Vis kun"></select>
+    <button id="speak" class="pill" type="button" aria-pressed="false" title="Læs begivenhederne op">🔊 Oplæsning</button>
+    </div>
+  </header>
+
+  <main class="map" id="map">
+    <svg id="svg" role="img" aria-label="Kort over Ukraine med frontlinjen og begivenheder for den valgte måned">
+      <defs>
+        <pattern id="hatch-contested" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+          <rect width="6" height="6" style="fill: var(--contested)"></rect>
+          <line x1="0" y1="0" x2="0" y2="6" style="stroke: var(--occ); stroke-width: 2.6"></line>
+        </pattern>
+        <clipPath id="ua-clip"><path id="ua-clip-path"></path></clipPath>
+      </defs>
+      <g id="world">
+        <g id="land"></g>
+        <g id="lakes"></g>
+        <g id="ctrl" clip-path="url(#ua-clip)"><path class="ctrl ctrl-ru" id="ctrl-ru"></path><path class="ctrl ctrl-pre" id="ctrl-pre"></path><path class="ctrl ctrl-cont" id="ctrl-cont"></path></g>
+        <g id="rivers"></g>
+        <g id="regions"></g>
+        <path class="borders" id="borders"></path>
+      </g>
+      <g id="labels-map"></g>
+      <g id="places"></g>
+      <g id="arrows"></g>
+      <g id="markers" class="markers"></g>
+    </svg>
+    <div class="bigyear" id="bigyear" aria-hidden="true"></div>
+    <div class="callouts" id="callouts"></div>
+    <div class="zoom">
+      <button type="button" id="zin" aria-label="Zoom ind">+</button>
+      <button type="button" id="zout" aria-label="Zoom ud">−</button>
+      <button type="button" id="zreset" aria-label="Vis hele kortet" style="font-size:15px">⤢</button>
+    </div>
+    <div class="legend" id="legend"></div>
+    <div class="tip" id="tip" hidden></div>
+    <div class="loading" id="loading">Henter kort…</div>
+  </main>
+
+  <aside class="side" id="side" aria-live="polite">
+    <div class="yearhead">
+      <div class="year" id="year">2022</div>
+      <div class="era" id="era"></div>
+    </div>
+    <div class="stats" id="stats"></div>
+    <div class="cards" id="cards"></div>
+    <div id="ongoing"></div>
+    <p class="credit">Kontrol over territoriet: <a href="https://github.com/zhukovyuri/VIINA" target="_blank" rel="noopener">VIINA</a> (Y. Zhukov og N. Ayers), Open Database License. Rødt betyder, at Wikipedias kort og <a href="https://deepstatemap.live" target="_blank" rel="noopener">DeepStateMap</a> er enige om russisk kontrol (i februar og marts 2022, før DeepStateMap gik i gang: Wikipedia og <a href="https://understandingwar.org" target="_blank" rel="noopener">ISW</a>); skraveret betyder, at de er uenige, eller at der kæmpes. Ingen af kilderne er neutrale, og fronten ved hver måneds udgang er en vurdering, ikke en fast linje. Grundkort: <a href="https://www.naturalearthdata.com" target="_blank" rel="noopener">Natural Earth</a> (Ukraines internationalt anerkendte grænser). Tjek altid tal, før de bruges i undervisningen.</p>
+  </aside>
+
+  <section class="rail" aria-label="Tidslinje">
+    <div class="ctrls">
+      <button type="button" id="prev" aria-label="Forrige måned" title="Forrige måned (←)">◀</button>
+      <button type="button" id="play" class="play" title="Afspil eller pause (mellemrum)">▶ Afspil</button>
+      <button type="button" id="next" aria-label="Næste måned" title="Næste måned (→)">▶</button>
+    </div>
+    <div class="track" id="track" role="slider" tabindex="0" aria-label="Måned">
+      <div class="eras" id="eras"></div>
+      <div class="cols" id="cols"></div>
+      <div class="labels" id="labels"></div>
+      <div class="span" id="span" hidden></div>
+      <div class="handle" id="handle"><b id="handle-y"></b></div>
+    </div>
+  </section>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const MONTH_NAMES = ["januar", "februar", "marts", "april", "maj", "juni", "juli", "august", "september", "oktober", "november", "december"];
+const MONTH_SHORT = ["jan.", "feb.", "mar.", "apr.", "maj", "jun.", "jul.", "aug.", "sep.", "okt.", "nov.", "dec."];
+
+const CATS = {
+  front:       { icon: "⚔️", label: "Kampe og fronter", color: "#b23a32" },
+  luft:        { icon: "🚀", label: "Missil- og droneangreb", color: "#d9732b" },
+  forbrydelse: { icon: "🕯️", label: "Krigsforbrydelser og civile ofre", color: "#4b3a5c" },
+  katastrofe:  { icon: "⚠️", label: "Katastrofer", color: "#7d5a3c" },
+  atom:        { icon: "☢️", label: "Atomkraft og atomtrusler", color: "#c9a31a" },
+  diplomati:   { icon: "🕊️", label: "Forhandlinger og fangeudveksling", color: "#3e9a7a" },
+  stoette:     { icon: "📦", label: "Våben og støtte", color: "#2f6f8f" },
+  politik:     { icon: "🏛️", label: "Politik", color: "#5a6b7a" },
+  flugt:       { icon: "🧳", label: "Flygtninge", color: "#b0458a" },
+};
+const SIDES = {
+  russia:  { label: "Russiske offensiver", color: "var(--arrow-ru)" },
+  ukraine: { label: "Ukrainske offensiver", color: "var(--arrow-ua)" },
+};
+// Phases of the war, for the brackets above the rail and the panel heading: [first month, last month, name, short name].
+const PHASES = [
+  ["2022-02", "2022-03", "Invasionen", "Invasion"],
+  ["2022-04", "2022-08", "Slaget om Donbas", "Donbas"],
+  ["2022-09", "2022-11", "Ukrainske modoffensiver 2022", "Kharkiv/Kherson"],
+  ["2022-12", "2023-05", "Vinterkrig og Bakhmut", "Bakhmut"],
+  ["2023-06", "2023-11", "Ukraines modoffensiv 2023", "Modoffensiv 23"],
+  ["2023-12", "2024-07", "Russisk offensiv", "Russisk offensiv"],
+  ["2024-08", "2025-03", "Kursk og Pokrovsk", "Kursk"],
+  ["2025-04", "2026-01", "Udmattelseskrig", "Udmattelse"],
+  ["2026-02", "2099-12", "Forhandlinger og fastlåst front", "Fastlåst"],
+];
+const UA_KM2 = 603550;
+const REDUCED_MOTION = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+const state = { t: 0, selected: null, transform: d3.zoomIdentity, playing: null, filter: "all" };
+let BASE = null, CTRL = null, EVENTS = [], CAMPAIGNS = [], PLACES = [], MONTHS = [];
+
+/* ---------- months ---------- */
+const monthKey = (t) => MONTHS[t];
+function monthName(m, short) { const [y, mo] = m.split("-"); return `${(short ? MONTH_SHORT : MONTH_NAMES)[mo - 1]} ${y}`; }
+const cap = (s) => s[0].toUpperCase() + s.slice(1);
+function phaseOf(m) { return PHASES.find(([a, b]) => m >= a && m <= b) || PHASES[PHASES.length - 1]; }
+function dayLabel(d) { return `${+d.slice(6)}. ${MONTH_NAMES[+d.slice(4, 6) - 1]} ${d.slice(0, 4)}`; }
+
+/* ---------- map ---------- */
+const svg = d3.select("#svg"), world = d3.select("#world"), gMarkers = d3.select("#markers"), gArrows = d3.select("#arrows"), gPlaces = d3.select("#places"), gMapLabels = d3.select("#labels-map");
+const mapEl = document.getElementById("map"), tip = document.getElementById("tip"), calloutsEl = document.getElementById("callouts");
+// Conformal conic centred on Ukraine: shapes stay true, and the country sits level instead of tilted.
+const projection = d3.geoConicConformal().parallels([45, 51]).rotate([-31.5, 0]);
+const path = d3.geoPath(projection);
+const FOCUS = { type: "MultiPoint", coordinates: [[22.1, 44.3], [22.1, 52.4], [40.3, 52.4], [40.3, 44.3], [31.2, 52.4], [31.2, 44.3]] };
+let W = 0, H = 0;
+
+function fitProjection() {
+  const r = mapEl.getBoundingClientRect();
+  W = r.width; H = r.height;
+  projection.fitExtent([[10, 10], [W - 10, H - 10]], FOCUS);
+  if (BASE) drawBase();
+  zoom.extent([[0, 0], [W, H]]).translateExtent([[-W * 0.25, -H * 0.25], [W * 1.25, H * 1.25]]);
+}
+
+const zoom = d3.zoom().scaleExtent([1, 12]).on("zoom", (ev) => {
+  state.transform = ev.transform;
+  world.attr("transform", ev.transform);
+  scalePatterns(ev.transform.k);
+  if (ev.sourceEvent) tip.hidden = true;
+  bigYearEl.classList.toggle("off", ev.transform.k > 1.05);
+  placeArrows(false);
+  placeMarkers();
+  placePlaces();
+});
+svg.call(zoom).on("dblclick.zoom", null);
+document.getElementById("zin").onclick = () => svg.transition().duration(300).call(zoom.scaleBy, 1.6);
+document.getElementById("zout").onclick = () => svg.transition().duration(300).call(zoom.scaleBy, 1 / 1.6);
+document.getElementById("zreset").onclick = () => svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity);
+
+// Hatch patterns live in the zoomed group; counter-scale them so stripes keep their on-screen width.
+// Legend swatches use unscaled "-sw" copies.
+document.querySelectorAll("#svg defs pattern").forEach(p => { const c = p.cloneNode(true); c.id = p.id + "-sw"; p.parentNode.appendChild(c); });
+const PATTERN_BASE = new Map();
+function scalePatterns(k) {
+  document.querySelectorAll('#svg defs pattern:not([id$="-sw"])').forEach(p => {
+    if (!PATTERN_BASE.has(p)) PATTERN_BASE.set(p, p.getAttribute("patternTransform") || "");
+    p.setAttribute("patternTransform", `${PATTERN_BASE.get(p)} scale(${1 / k})`);
+  });
+}
+
+// The basemap is fixed; only its drawing depends on the map size.
+function drawBase() {
+  const ua = BASE.countries.features.find(f => f.properties.id === "UKR");
+  d3.select("#ua-clip-path").attr("d", path(ua));
+  d3.select("#land").selectAll("path").data(BASE.countries.features, d => d.properties.id).join("path")
+    .attr("class", d => "country c-" + d.properties.id).attr("d", path)
+    .on("pointermove", (ev, d) => showTip(ev, d.properties.n, COUNTRY_NOTES[d.properties.id] || ""))
+    .on("pointerleave", () => { tip.hidden = true; });
+  d3.select("#lakes").selectAll("path").data(BASE.lakes.features).join("path").attr("class", "lake").attr("d", path)
+    .attr("id", d => d.properties.id ? "lake-" + d.properties.id : null);
+  d3.select("#rivers").selectAll("path").data(BASE.rivers.features).join("path")
+    .attr("class", d => "river" + (d.properties.n === "Dnipro" || d.properties.n === "Donau" ? " big" : "")).attr("d", path);
+  d3.select("#regions").selectAll("path").data(BASE.regions.features).join("path")
+    .attr("class", d => "region" + (d.properties.c === "RUS" ? " ru" : "")).attr("d", path)
+    .on("pointermove", (ev, d) => showTip(ev, d.properties.n, d.properties.c === "RUS" ? "Russisk grænseregion" : REGION_NOTES[d.properties.n] || "Oblast (region) i Ukraine"))
+    .on("pointerleave", () => { tip.hidden = true; });
+  // Country borders on top of the control areas, as one path.
+  d3.select("#borders").attr("d", BASE.countries.features.map(f => path(f)).join(""));
+  drawControl();
+}
+const REGION_NOTES = {
+  Krim: "Ukrainsk halvø, besat og annekteret af Rusland i 2014 (annekteringen anerkendes ikke internationalt)",
+  Sevastopol: "By med særstatus på Krim-halvøen, besat og annekteret af Rusland i 2014",
+  Kyiv: "Ukraines hovedstad: by med særstatus, ikke en del af Kyiv oblast",
+};
+const COUNTRY_NOTES = {
+  RUS: "Angriberen. Russiske styrker angreb fra Rusland, Hviderusland og det besatte Krim.",
+  BLR: "Ruslands allierede. Russiske styrker angreb Kyiv-området herfra i februar 2022.",
+  MDA: "Nabo til Ukraine; Rusland har haft soldater i udbryderområdet Transnistrien siden 1992.",
+  POL: "NATO-land. Ukraines vigtigste forsyningsvej for våben og nødhjælp.",
+  ROU: "NATO-land. Korn fra Ukraine blev under krigen sejlet ud ad Donau via Rumænien.",
+  SVK: "NATO-land.", HUN: "NATO-land.", BGR: "NATO-land.", LTU: "NATO-land.",
+  UKR: "",
+};
+function drawControl() {
+  const f = CTRL.months[state.t];
+  d3.select("#ctrl-pre").attr("d", path({ type: "MultiPolygon", coordinates: CTRL.prewar.ru }));
+  d3.select("#ctrl-ru").attr("d", path({ type: "MultiPolygon", coordinates: f.ru }));
+  d3.select("#ctrl-cont").attr("d", path({ type: "MultiPolygon", coordinates: f.contested }));
+  // The Kakhovka dam was destroyed on 6 June 2023 and the reservoir drained.
+  d3.select("#lake-kakhovka").classed("drained", f.m >= "2023-06");
+}
+
+/* ---------- places (screen space, so labels keep their size when zooming) ---------- */
+function placePlaces() {
+  const t = state.transform, k = t.k;
+  // Bigger towns first; a label is skipped where it would overlap one already placed.
+  const shown = PLACES.filter(p => p.r === 1 || (p.r === 2 && k >= 1) || (p.r === 3 && k >= 1.9) || (p.r === 4 && k >= 3.2));
+  const boxes = [];
+  const items = [];
+  for (const p of shown) {
+    const [x, y] = t.apply(projection([p.lon, p.lat]));
+    if (x < -20 || y < -20 || x > W + 20 || y > H + 20) continue;
+    const fs = p.r === 1 ? 13.5 : 12, w = p.n.length * fs * 0.56, h = fs;
+    const right = p.side !== "l";
+    const box = { x: right ? x + 5 : x - 5 - w, y: y - h / 2 - 1, w, h: h + 2 };
+    const hit = boxes.some(b => box.x < b.x + b.w && box.x + box.w > b.x && box.y < b.y + b.h && box.y + box.h > b.y);
+    items.push({ p, x, y, right, label: !hit });
+    if (!hit) boxes.push(box);
+  }
+  const g = gPlaces.selectAll("g.place").data(items, d => d.p.n);
+  g.exit().remove();
+  const e = g.enter().append("g").attr("class", d => `place r${d.p.r}${d.p.ru ? " ru" : ""}`);
+  e.append("circle").attr("r", d => d.p.r === 1 ? 3.6 : 2.8);
+  e.append("text").attr("dy", "0.35em");
+  g.merge(e).attr("transform", d => `translate(${d.x},${d.y})`)
+    .select("text").attr("x", d => d.right ? 6 : -6).attr("text-anchor", d => d.right ? "start" : "end")
+    .text(d => d.label ? d.p.n : "");
+  // Oblast and river names: only when zoomed in a little, where there is room.
+  const labels = [];
+  if (k >= 1.5) for (const f of BASE.regions.features) if (f.properties.c === "UKR" && f.properties.n !== "Kyiv" && f.properties.n !== "Sevastopol") labels.push({ cls: "olabel", n: f.properties.n.replace(" (oblast)", ""), at: f.properties.l });
+  for (const r of RIVER_LABELS) if (k >= r.k && W * k >= (r.minW || 0)) labels.push({ cls: "rlabel", n: r.n, at: r.at });
+  const ml = gMapLabels.selectAll("text").data(labels, d => d.cls + d.n);
+  ml.exit().remove();
+  ml.enter().append("text").attr("class", d => d.cls).text(d => d.n).merge(ml)
+    .attr("transform", d => { const [x, y] = t.apply(projection(d.at)); return `translate(${x},${y})`; });
+}
+// minW: the label is wider than its sea on a narrow map, so it waits until there is room.
+const RIVER_LABELS = [{ n: "Dnipro", at: [31.65, 49.55], k: 1 }, { n: "Dnipro", at: [33.05, 46.83], k: 2.2 }, { n: "Donets", at: [37.55, 49.05], k: 2.2 }, { n: "Sortehavet", at: [29.8, 44.4], k: 0 }, { n: "Det Asovske Hav", at: [35.6, 45.95], k: 1, minW: 600 }];
+
+function showTip(ev, title, line) {
+  tip.innerHTML = `<b>${title}</b>${line}`;
+  const r = mapEl.getBoundingClientRect();
+  let x = ev.clientX - r.left + 14, yy = ev.clientY - r.top + 14;
+  tip.hidden = false;
+  const tw = tip.offsetWidth, th = tip.offsetHeight;
+  if (x + tw > r.width - 8) x = ev.clientX - r.left - tw - 14;
+  if (yy + th > r.height - 8) yy = ev.clientY - r.top - th - 14;
+  tip.style.left = x + "px"; tip.style.top = yy + "px";
+}
+
+/* ---------- legend ---------- */
+let legendClosed = window.matchMedia("(max-width: 860px)").matches;
+function renderLegend() {
+  const f = CTRL.months[state.t], el = document.getElementById("legend");
+  const items = [
+    { fill: "var(--occ-old)", label: "Besat før 2022 (Krim og dele af Donbas)" },
+    { fill: "var(--occ)", label: "Russisk kontrol (kilderne er enige)" },
+    { fill: "url(#hatch-contested)", label: "Omstridt: kampe, eller kilderne er uenige" },
+    { fill: "var(--land)", label: "Ukrainsk kontrol" },
+    { fill: "var(--ru-land)", label: "Rusland og Hviderusland" },
+    { fill: "var(--nato-land)", label: "NATO-lande" },
+  ];
+  const sides = [...new Set(arrowsFor(state.t).map(c => c.side))];
+  Object.keys(SIDES).filter(k => sides.includes(k)).forEach(k => items.push({ arrow: SIDES[k].color, label: SIDES[k].label }));
+  el.className = "legend" + (legendClosed ? " closed" : "");
+  el.innerHTML = `<button class="toggle" type="button" aria-expanded="${!legendClosed}">${legendClosed ? "Vis forklaring" : "Skjul forklaring"}</button>
+    <h2>Kontrol ${dayLabel(f.date)}</h2>
+    <ul>${items.map(i => `<li>${i.arrow ? arrowSwatch(i.arrow) : `<span class="sw" style="background:${i.fill.startsWith("url") ? "none" : i.fill}">${i.fill.startsWith("url") ? swatchSvg(i.fill) : ""}</span>`}${i.label}</li>`).join("")}</ul>
+    <div class="foot">Data: VIINA (ODbL) ud fra Wikipedia og DeepStateMap (feb.–mar. 2022: Wikipedia og ISW).</div>`;
+  el.querySelector(".toggle").onclick = () => { legendClosed = !legendClosed; renderLegend(); };
+  placeBigYear();
+}
+function arrowSwatch(color) {
+  return `<span class="sw sw-arrow"><svg width="20" height="12" style="display:block"><path d="M1 6H12" style="stroke:${color};stroke-width:3;stroke-linecap:round"/><path d="M11 1.5L19 6L11 10.5Z" style="fill:${color}"/></svg></span>`;
+}
+function swatchSvg(fill) { return `<svg width="18" height="12" style="display:block;border-radius:2px"><rect width="18" height="12" fill="${fill.replace(/\)$/, "-sw)")}"/></svg>`; }
+
+/* ---------- big month ---------- */
+const bigYearEl = document.getElementById("bigyear");
+function placeBigYear() {
+  const m = monthKey(state.t);
+  bigYearEl.innerHTML = `<small>${MONTH_NAMES[m.slice(5) - 1]}</small>${m.slice(0, 4)}`;
+  // In the Black Sea, west of Crimea.
+  const [x, y] = projection([31.2, 44.25]);
+  const size = Math.max(36, Math.min(W * 0.1, 120));
+  bigYearEl.style.fontSize = size + "px";
+  bigYearEl.style.left = x + "px";
+  bigYearEl.style.top = Math.min(y, H - size * 0.9) + "px";
+}
+
+/* ---------- campaign arrows ---------- */
+const arrowLine = d3.line().curve(d3.curveCatmullRom.alpha(0.5));
+function arrowsFor(t) { const m = monthKey(t); return CAMPAIGNS.filter(c => m >= c.m && m <= (c.until || c.m)); }
+
+function drawArrows() {
+  const sel = gArrows.selectAll("g.arrow").data(arrowsFor(state.t), d => d.id);
+  sel.exit().remove();
+  const entering = sel.enter().append("g").attr("class", "arrow")
+    .on("pointermove", (ev, d) => showTip(ev, d.label, SIDES[d.side].label))
+    .on("pointerleave", () => { tip.hidden = true; });
+  entering.each(function (d) {
+    const g = d3.select(this);
+    d.paths.forEach(() => g.append("path").attr("class", "halo"));
+    d.paths.forEach(() => g.append("path").attr("class", "line").style("stroke", SIDES[d.side].color));
+    d.paths.forEach(() => g.append("path").attr("class", "head").style("fill", SIDES[d.side].color));
+  });
+  placeArrows(!REDUCED_MOTION, entering);
+}
+
+function placeArrows(animate, entering) {
+  const t = state.transform;
+  gArrows.selectAll("g.arrow").each(function (d) {
+    const g = d3.select(this);
+    const halos = g.selectAll("path.halo").nodes(), lines = g.selectAll("path.line").nodes(), heads = g.selectAll("path.head").nodes();
+    d.paths.forEach((pl, i) => {
+      const dd = arrowLine(pl.map(p => t.apply(projection(p))));
+      halos[i].setAttribute("d", dd); lines[i].setAttribute("d", dd);
+    });
+    d.paths.forEach((pl, i) => {
+      const ln = lines[i], L = ln.getTotalLength();
+      const end = ln.getPointAtLength(L), back = ln.getPointAtLength(Math.max(0, L - 8));
+      const a = Math.atan2(end.y - back.y, end.x - back.x), ux = Math.cos(a), uy = Math.sin(a);
+      const hl = Math.min(14, Math.max(5, L * 0.4)), hw = hl * 0.55, sw = L > 60 ? 4 : L > 25 ? 3 : 2;
+      ln.style.strokeWidth = sw + "px"; halos[i].style.strokeWidth = (sw + 4) + "px";
+      const bx = end.x - ux * hl, by = end.y - uy * hl;
+      heads[i].setAttribute("d", `M${end.x + ux * 1.5},${end.y + uy * 1.5}L${bx - uy * hw},${by + ux * hw}L${bx + uy * hw},${by - ux * hw}Z`);
+      // Stop the stroke short of the tip so the round cap does not poke through the head.
+      const dashLen = Math.max(0, L - hl * 0.7);
+      [ln, halos[i]].forEach(node => d3.select(node).interrupt().attr("stroke-dasharray", `${dashLen} ${L + 40}`).attr("stroke-dashoffset", 0));
+    });
+    g.selectAll("path.head").interrupt().style("opacity", 1);
+  });
+  if (animate && entering && !entering.empty()) {
+    entering.each(function (d, i) {
+      const g = d3.select(this), delay = 150 + i * 140;
+      g.selectAll("path.halo, path.line").each(function () {
+        const l = parseFloat(this.getAttribute("stroke-dasharray"));
+        d3.select(this).attr("stroke-dashoffset", l).transition().delay(delay).duration(900).ease(d3.easeCubicOut).attr("stroke-dashoffset", 0);
+      });
+      g.selectAll("path.head").style("opacity", 0).transition().delay(delay + 800).duration(200).style("opacity", 1);
+    });
+  }
+  scheduleCallouts();
+}
+
+/* ---------- events ---------- */
+// The filter ("all", "dk" or a category key) applies everywhere events are shown: map, panel, rail and read-aloud.
+function visible(e) { const f = state.filter; return f === "all" || (f === "dk" ? !!e.dk : e.cat === f); }
+function activeIn(e, m) { return e.m === m || (e.until && e.m < m && e.until >= m); }
+function dayOf(e) { const d = parseInt(e.date, 10); return isNaN(d) ? 0 : d; }
+function eventsFor(t) {
+  const m = monthKey(t);
+  const now = EVENTS.filter(e => e.m === m && visible(e)).sort((a, b) => dayOf(a) - dayOf(b));
+  const ongoing = EVENTS.filter(e => e.until && e.m < m && e.until >= m && visible(e));
+  return { now, ongoing };
+}
+
+function placeMarkers() {
+  const t = state.transform;
+  gMarkers.selectAll("g.marker").attr("transform", d => { const p = t.apply(projection([d.lon, d.lat])); return `translate(${p[0]},${p[1]})`; });
+  scheduleCallouts();
+}
+
+function drawMarkers() {
+  const { now, ongoing } = eventsFor(state.t);
+  const selId = state.selected && state.selected.id;
+  const onMap = now.length >= 6 ? ongoing.filter(e => e.id === selId) : ongoing;
+  const data = [...onMap.map(e => ({ ...e, _ongoing: true })), ...now.map((e, i) => ({ ...e, _n: i + 1 }))];
+  const sel = gMarkers.selectAll("g.marker").data(data, d => d.id + (d._ongoing ? "-o" : ""));
+  sel.exit().remove();
+  const g = sel.enter().append("g").attr("class", d => "marker" + (d._ongoing ? " ongoing" : ""))
+    .attr("tabindex", 0).attr("role", "button").attr("aria-label", d => d.title)
+    .on("click", (ev, d) => { ev.stopPropagation(); select(d.id); })
+    .on("keydown", (ev, d) => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); select(d.id); } });
+  g.append("circle").attr("class", "pulse").attr("r", 20);
+  // .body carries the selection scale (CSS), .inner the pop-in transition (d3) - keep them apart so neither cancels the other.
+  const inner = g.append("g").attr("class", "body").append("g").attr("class", "inner");
+  inner.append("circle").attr("class", "halo").attr("r", d => d._ongoing ? 15 : 19);
+  inner.append("circle").attr("class", "ring").attr("r", d => d._ongoing ? 12 : 16);
+  inner.append("text").attr("class", "icon").style("font-size", d => d._ongoing ? "12px" : "15px").text(d => CATS[d.cat].icon);
+  const badge = inner.filter(d => !d._ongoing).append("g").attr("transform", "translate(13,-13)");
+  badge.append("circle").attr("class", "num").attr("r", 8);
+  badge.append("text").attr("class", "numtxt").text(d => d._n);
+  inner.filter(d => !d._ongoing).attr("transform", "scale(0)")
+    .transition().delay((d, i) => 80 * i).duration(450).ease(d3.easeBackOut.overshoot(2)).attr("transform", "scale(1)");
+  gMarkers.selectAll("g.marker.ongoing").lower();
+  placeMarkers();
+  markSelected(true);
+}
+
+let calloutFrame = 0;
+// Zoom fires many events per frame; lay the labels out once per frame.
+function scheduleCallouts() {
+  if (calloutFrame) return;
+  calloutFrame = requestAnimationFrame(() => { calloutFrame = 0; placeCallouts(false); });
+}
+function placeCallouts(animate) {
+  const t = state.transform, selId = state.selected && state.selected.id;
+  const items = gMarkers.selectAll("g.marker").data().filter(d => !d._ongoing || d.id === selId)
+    .sort((a, b) => (b.id === selId) - (a.id === selId));
+  const arrows = [];
+  gArrows.selectAll("g.arrow").each(function (d) {
+    const lines = this.querySelectorAll("path.line"), ln = lines[lines.length - 1], L = ln.getTotalLength();
+    if (L < 40) return;
+    const m = ln.getPointAtLength(L * 0.45), m2 = ln.getPointAtLength(L * 0.45 + 2);
+    const a = Math.atan2(m2.y - m.y, m2.x - m.x);
+    arrows.push({ d, m, nx: -Math.sin(a), ny: Math.cos(a) });
+  });
+  calloutsEl.classList.toggle("still", !animate);
+  // Write all labels hidden, then read every size in one layout pass, then position - no read/write interleaving.
+  calloutsEl.innerHTML = items.map(d => `<div class="callout${d.id === selId ? " sel" : ""}" data-id="${d.id}" style="visibility:hidden;left:0;top:0">${d._n ? d._n + ". " : ""}${d.title}</div>`).join("")
+    + arrows.map(a => `<div class="alabel" style="visibility:hidden;left:0;top:0;color:${SIDES[a.d.side].color}">${a.d.label}</div>`).join("");
+  const els = [...calloutsEl.children];
+  const sizes = els.map(el => [el.offsetWidth, el.offsetHeight]);
+  const mapBox = mapEl.getBoundingClientRect();
+  const rel = (el) => { const r = el.getBoundingClientRect(); return { x: r.left - mapBox.left - 6, y: r.top - mapBox.top - 6, w: r.width + 12, h: r.height + 12 }; };
+  const placed = gMarkers.selectAll("g.marker").data().map(d => { const p = t.apply(projection([d.lon, d.lat])), r = d.id === selId ? 26 : 17; return { x: p[0] - r, y: p[1] - r, w: 2 * r, h: 2 * r }; });
+  placed.push(rel(document.getElementById("legend")), rel(document.querySelector(".zoom")));
+  const overlaps = (r) => placed.some(p => r.x < p.x + p.w && r.x + r.w > p.x && r.y < p.y + p.h && r.y + r.h > p.y);
+  const fits = (r) => r.x >= 4 && r.y >= 4 && r.x + r.w <= W - 4 && r.y + r.h <= H - 4 && !overlaps(r);
+  const pos = els.map(() => null);
+  items.forEach((d, i) => {
+    const p = t.apply(projection([d.lon, d.lat])), [w, h] = sizes[i], o = d.id === selId ? 30 : 22;
+    const ring = (o) => [[o, -h / 2], [-o - w, -h / 2], [-w / 2, -o - 2 - h], [-w / 2, o], [o, -h - 6], [o, 6], [-o - w, -h - 6], [-o - w, 6]];
+    for (const [dx, dy] of [...ring(o), ...ring(o + 22)]) {
+      const r = { x: p[0] + dx, y: p[1] + dy, w, h };
+      if (fits(r)) { placed.push(r); pos[i] = r; break; }
+    }
+  });
+  arrows.forEach((a, j) => {
+    const i = items.length + j, [w, h] = sizes[i], off = 9 + Math.abs(a.nx) * w / 2 + Math.abs(a.ny) * h / 2;
+    for (const sgn of [1, -1]) {
+      const r = { x: a.m.x + a.nx * off * sgn - w / 2, y: a.m.y + a.ny * off * sgn - h / 2, w, h };
+      if (fits(r)) { placed.push(r); pos[i] = r; break; }
+    }
+  });
+  els.forEach((el, i) => {
+    const r = pos[i];
+    if (!r) { el.remove(); return; }
+    el.style.left = r.x + "px"; el.style.top = r.y + "px"; el.style.visibility = "visible";
+  });
+}
+calloutsEl.addEventListener("click", (ev) => { const c = ev.target.closest(".callout"); if (c) select(c.dataset.id); });
+
+const fmt = (n) => Math.round(n).toLocaleString("da-DK");
+const geoKm2 = (coords) => d3.geoArea({ type: "MultiPolygon", coordinates: coords }) * 6371.0088 ** 2;
+function renderPanel() {
+  const t = state.t, m = monthKey(t), { now, ongoing } = eventsFor(t), ph = phaseOf(m), f = CTRL.months[t];
+  document.getElementById("year").textContent = m.slice(0, 4);
+  const partial = t === MONTHS.length - 1 && f.date.slice(6) < "28";
+  document.getElementById("era").innerHTML = `<b>${cap(MONTH_NAMES[m.slice(5) - 1])} ${m.slice(0, 4)}</b>${ph[2]}<br>${partial ? `Status ${dayLabel(f.date)}` : "Status ved månedens udgang"}`;
+  const ru = f._km2 ?? (f._km2 = geoKm2(f.ru)), prev = t > 0 ? (CTRL.months[t - 1]._km2 ?? (CTRL.months[t - 1]._km2 = geoKm2(CTRL.months[t - 1].ru))) : null;
+  const cont = geoKm2(f.contested), diff = prev == null ? null : ru - prev;
+  document.getElementById("stats").innerHTML = `<span>Russisk kontrol: <b>${fmt(Math.round(ru / 100) * 100)} km²</b> (${(100 * ru / UA_KM2).toLocaleString("da-DK", { maximumFractionDigits: 1, minimumFractionDigits: 1 })} % af Ukraine)</span>`
+    + (diff == null || Math.abs(diff) < 50 ? "" : `<span class="${diff > 0 ? "up" : "down"}">${diff > 0 ? "+" : "−"}${fmt(Math.round(Math.abs(diff) / 10) * 10)} km² siden måneden før</span>`)
+    + `<span>Omstridt: <b>${fmt(Math.round(cont / 100) * 100)} km²</b></span>`;
+  document.getElementById("cards").innerHTML = now.length ? now.map((e, i) => `
+    <article class="card${state.selected && state.selected.id === e.id ? " sel" : ""}" data-id="${e.id}" tabindex="0" style="animation-delay:${i * 60}ms">
+      <div class="ic" style="--c:${CATS[e.cat].color}">${CATS[e.cat].icon}<i>${i + 1}</i></div>
+      <div><div class="meta"><span>${e.date}</span><span>· ${CATS[e.cat].label}</span>${e.dk ? '<span class="dk">Danmark</span>' : ""}${TTS.supported ? `<button class="say" type="button" data-say="${e.id}" aria-label="Læs op" aria-pressed="${TTS.current === e.id}">🔊</button>` : ""}</div>
+      <h3>${e.title}</h3><p>${e.text}</p></div>
+    </article>`).join("")
+    : `<p class="empty">Ingen udvalgte begivenheder i ${monthName(m)}${state.filter === "all" ? "" : ` under “${filterLabel(state.filter)}”`}. Kortet viser stadig frontens forløb.</p>`;
+  document.getElementById("ongoing").innerHTML = ongoing.length ? `<div class="ongoing-h">Pågår også</div><div class="chips">${ongoing.map(e =>
+    `<button type="button" class="chip${state.selected && state.selected.id === e.id ? " sel" : ""}" data-id="${e.id}"><span class="e">${CATS[e.cat].icon}</span>${e.ongoing || e.title}<span class="y">${monthName(e.m, true)}–${monthName(e.until, true)}</span></button>`).join("")}</div>` : "";
+}
+document.getElementById("side").addEventListener("click", (ev) => {
+  const say = ev.target.closest("[data-say]");
+  if (say) { ev.stopPropagation(); toggleSpeakEvent(say.dataset.say); return; }
+  const el = ev.target.closest("[data-id]"); if (el) select(el.dataset.id, true);
+});
+document.getElementById("side").addEventListener("keydown", (ev) => {
+  // Buttons inside a card (read-aloud) handle their own Enter/Space.
+  if (ev.target.closest("button")) return;
+  const el = ev.target.closest(".card"); if (el && (ev.key === "Enter" || ev.key === " ")) { ev.preventDefault(); select(el.dataset.id, true); }
+});
+
+function select(id, fromPanel) { setSelected(state.selected && state.selected.id === id ? null : id, fromPanel); }
+// Selects one event (null clears); ignored unless the event is shown in the current month.
+function setSelected(id, fromPanel) {
+  const e = id ? EVENTS.find(x => x.id === id) : null;
+  if (id && !(e && activeIn(e, monthKey(state.t)) && visible(e))) return;
+  const prev = state.selected;
+  state.selected = e;
+  // In busy months an ongoing event's marker only exists while it is selected, which drawMarkers decides.
+  if ([prev, e].some(x => x && x.until && x.m !== monthKey(state.t))) drawMarkers(); else markSelected();
+  if (e && !fromPanel) {
+    const card = document.querySelector(`.card[data-id="${id}"], .chip[data-id="${id}"]`);
+    if (card) card.scrollIntoView({ block: "nearest", behavior: "smooth" });
+  }
+}
+function markSelected(animate) {
+  const id = state.selected && state.selected.id;
+  gMarkers.selectAll("g.marker").classed("sel", d => d.id === id);
+  gMarkers.selectAll("g.marker.sel").raise();
+  gMarkers.classed("has-sel", !!id);
+  calloutsEl.classList.toggle("has-sel", !!id);
+  document.querySelectorAll("#side [data-id]").forEach(el => el.classList.toggle("sel", el.dataset.id === id));
+  placeCallouts(animate);
+  updateSpan();
+  syncHash();
+}
+svg.on("click", () => { if (state.selected) setSelected(null); });
+// The address carries the month and the selected event (#2022-03/butja), so a link can open a specific card.
+function syncHash() {
+  const h = "#" + monthKey(state.t) + (state.selected ? "/" + state.selected.id : "");
+  if (location.hash !== h) history.replaceState(null, "", h);
+}
+function parseHash() {
+  const m = /^#(\d{4}-\d{2})(?:\/([\w-]+))?$/.exec(location.hash);
+  const t = m ? MONTHS.indexOf(m[1]) : -1;
+  return t >= 0 ? { t, id: m[2] || null } : null;
+}
+
+/* ---------- speech (browser voice; recorded clips when data/audio.json lists them) ---------- */
+const TTS = {
+  synth: "speechSynthesis" in window && "SpeechSynthesisUtterance" in window,
+  supported: false, on: false, voice: null, current: null, token: 0, done: null,
+  clips: new Set(), clipVoice: "", audio: new Audio(), unlocked: false,
+};
+const SILENT = "data:audio/wav;base64,UklGRnQAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YVAAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgA==";
+// FNV-1a over UTF-8, the same hash as clip_id() in ../scripts/tts.py.
+function clipId(...parts) {
+  let h = 0x811c9dc5;
+  for (const b of new TextEncoder().encode([TTS.clipVoice, ...parts].join("\n"))) h = Math.imul(h ^ b, 0x01000193);
+  return (h >>> 0).toString(16).padStart(8, "0");
+}
+function pickVoice() {
+  if (!TTS.synth) return null;
+  const voices = speechSynthesis.getVoices();
+  const da = voices.filter(v => /^da/i.test(v.lang));
+  const pref = ["Sara", "Helle", "Magnus", "Google"];
+  da.sort((a, b) => pref.findIndex(p => a.name.includes(p)) - pref.findIndex(p => b.name.includes(p)));
+  TTS.voice = da[0] || null;
+  return TTS.voice;
+}
+if (TTS.synth) { pickVoice(); speechSynthesis.addEventListener("voiceschanged", pickVoice); }
+// Split only where a sentence mark is followed by a capital letter: Danish ordinals ("24. februar") end in a period.
+function sentences(text) {
+  return text.replace(/\s+/g, " ").replace(/([.!?]["')]?) (?=["'(]?[A-ZÆØÅÉÜ])/g, "$1\u0000").split("\u0000").map(s => s.trim()).filter(Boolean);
+}
+function sayText(chunks, token) {
+  if (!TTS.synth) return Promise.resolve();
+  return new Promise(resolve => {
+    let i = 0;
+    const next = () => {
+      if (token !== TTS.token || i >= chunks.length) return resolve();
+      const u = new SpeechSynthesisUtterance(chunks[i++]);
+      u.lang = "da-DK"; if (TTS.voice) u.voice = TTS.voice; u.rate = 1;
+      // iOS drops an utterance without any event if speech was never started from a tap; don't wait forever.
+      const t = setTimeout(() => { if (token === TTS.token) speechSynthesis.cancel(); resolve(); }, 3000);
+      u.onstart = () => clearTimeout(t);
+      u.onend = () => { clearTimeout(t); next(); };
+      u.onerror = () => { clearTimeout(t); resolve(); };
+      speechSynthesis.speak(u);
+    };
+    next();
+  });
+}
+function playClip(part, token) {
+  const a = TTS.audio;
+  return new Promise(resolve => {
+    let settled = false;
+    const end = (fallback) => {
+      if (settled) return;
+      settled = true;
+      a.onended = a.onerror = a.onpause = null;
+      if (fallback && token === TTS.token) sayText(part.chunks, token).then(resolve); else resolve();
+    };
+    a.onended = () => end(false);
+    a.onerror = () => end(true);
+    a.src = `../audio/${part.clip}.mp3`;
+    a.play().then(() => {
+      if (!settled && token === TTS.token) a.onpause = () => { if (!a.ended) { stopPlay(); stopSpeech(); } };
+    }, () => { if (token === TTS.token) end(true); });
+  });
+}
+function halt() {
+  TTS.token++;
+  const a = TTS.audio;
+  a.onended = a.onerror = a.onpause = null;
+  a.pause();
+  if (TTS.synth) speechSynthesis.cancel();
+  const done = TTS.done; TTS.done = null; if (done) done();
+}
+function speak(parts) {
+  halt();
+  const token = TTS.token;
+  return new Promise(resolve => {
+    TTS.done = resolve;
+    let i = 0;
+    const next = () => {
+      if (token !== TTS.token) return;
+      if (i >= parts.length) { TTS.done = null; return resolve(); }
+      const p = parts[i++];
+      (TTS.clips.has(p.clip) ? playClip(p, token) : sayText(p.chunks, token)).then(next);
+    };
+    next();
+  });
+}
+function unlockSpeech() {
+  if (TTS.synth && !TTS.synthUnlocked) {
+    TTS.synthUnlocked = true;
+    const u = new SpeechSynthesisUtterance(" "); u.volume = 0; speechSynthesis.speak(u);
+  }
+  if (TTS.unlocked || !TTS.audio.paused) return;
+  TTS.unlocked = true;
+  TTS.audio.src = SILENT;
+  TTS.audio.play().catch(() => {});
+}
+function stopSpeech() {
+  halt();
+  TTS.current = null;
+  document.querySelectorAll(".say[aria-pressed='true']").forEach(b => b.setAttribute("aria-pressed", "false"));
+}
+function eventPart(e) { return { clip: clipId(e.title, e.date, e.text), chunks: [`${e.title}.`, `${e.date}.`, ...sentences(e.text)] }; }
+async function toggleSpeakEvent(id) {
+  if (TTS.current === id) { stopSpeech(); return; }
+  const e = EVENTS.find(x => x.id === id); if (!e) return;
+  stopPlay();
+  stopSpeech();
+  unlockSpeech();
+  TTS.current = id;
+  const btn = document.querySelector(`.say[data-say="${id}"]`); if (btn) btn.setAttribute("aria-pressed", "true");
+  await speak([eventPart(e)]);
+  if (TTS.current === id) { TTS.current = null; document.querySelector(`.say[data-say="${id}"]`)?.setAttribute("aria-pressed", "false"); }
+}
+async function speakMonth(t) {
+  const m = monthKey(t);
+  await speak([{ clip: clipId("month", m), chunks: [`${cap(monthName(m))}.`] }, ...eventsFor(t).now.map(eventPart)]);
+}
+const speakBtn = document.getElementById("speak");
+try { TTS.on = localStorage.getItem("vh-speak") === "1"; } catch (e) {}
+speakBtn.setAttribute("aria-pressed", TTS.on);
+function initSpeech(manifest) {
+  if (manifest && Array.isArray(manifest.clips)) { TTS.clips = new Set(manifest.clips); TTS.clipVoice = manifest.voice || ""; }
+  TTS.supported = TTS.synth || TTS.clips.size > 0;
+  if (!TTS.supported) {
+    speakBtn.classList.add("unsupported"); speakBtn.title = "Browseren understøtter ikke oplæsning"; speakBtn.disabled = true;
+    TTS.on = false; speakBtn.setAttribute("aria-pressed", false);
+  }
+}
+speakBtn.onclick = () => {
+  TTS.on = !TTS.on;
+  speakBtn.setAttribute("aria-pressed", TTS.on);
+  try { localStorage.setItem("vh-speak", TTS.on ? "1" : "0"); } catch (e) {}
+  if (!TTS.on) stopSpeech();
+  else { unlockSpeech(); if (!TTS.clips.size && !TTS.voice) speakBtn.title = "Ingen dansk stemme fundet; browseren bruger en anden stemme"; }
+};
+document.addEventListener("visibilitychange", () => { if (document.hidden) { stopPlay(); stopSpeech(); } });
+
+/* ---------- month rail ---------- */
+const track = document.getElementById("track"), handle = document.getElementById("handle"), spanEl = document.getElementById("span");
+const colLeft = (t) => (t / MONTHS.length) * 100, colMid = (t) => colLeft(t) + 50 / MONTHS.length;
+const monthIndexOf = (m) => { const i = MONTHS.indexOf(m); return i >= 0 ? i : m < MONTHS[0] ? 0 : MONTHS.length - 1; };
+function buildDots() {
+  const counts = d3.rollup(EVENTS.filter(visible), v => v, e => e.m);
+  document.getElementById("cols").innerHTML = MONTHS.map(m => {
+    const ev = counts.get(m) || [];
+    const dot = ev.length > 6 ? Math.max(2, Math.floor((38 - (ev.length - 1)) / ev.length)) : 0;
+    return `<div class="col${m.endsWith("-01") ? " dec" : ""}" data-m="${m}"${dot ? ` style="--dot:${dot}px;gap:1px"` : ""}>${ev.map(e => `<i class="${e.dk ? "d" : ""}"></i>`).join("")}</div>`;
+  }).join("");
+}
+function buildRail() {
+  document.getElementById("cols").style.gridTemplateColumns = `repeat(${MONTHS.length}, minmax(0, 1fr))`;
+  track.setAttribute("aria-valuemin", 0); track.setAttribute("aria-valuemax", MONTHS.length - 1);
+  buildDots();
+  // Year labels at each January (and at the first month).
+  document.getElementById("labels").innerHTML = MONTHS.map((m, t) => m.endsWith("-01") || t === 0 ? `<span class="${+m.slice(0, 4) % 2 ? "odd" : ""}" style="left:${colMid(t)}%">${m.slice(0, 4)}</span>` : "").join("");
+  document.getElementById("eras").innerHTML = PHASES.map(([a, b, l, s]) => {
+    const i0 = monthIndexOf(a), i1 = monthIndexOf(b);
+    if (a > MONTHS[MONTHS.length - 1]) return "";
+    return `<span style="left:${colLeft(i0)}%;width:${colLeft(i1 + 1) - colLeft(i0)}%" title="${l}" data-long="${l}" data-short="${s}">${l}</span>`;
+  }).join("");
+  fitEraLabels();
+}
+function updateSpan() {
+  const s = state.selected;
+  spanEl.hidden = !(s && s.until);
+  if (spanEl.hidden) return;
+  const a = monthIndexOf(s.m), b = monthIndexOf(s.until);
+  spanEl.style.left = colLeft(a) + "%";
+  spanEl.style.width = (colLeft(b + 1) - colLeft(a)) + "%";
+}
+// Use the long phase name where it fits, else the short one, else only the bracket line (name in the tooltip).
+function fitEraLabels() {
+  document.querySelectorAll("#eras span").forEach(el => {
+    el.textContent = el.dataset.long;
+    if (el.scrollWidth > el.clientWidth) el.textContent = el.dataset.short;
+    if (el.scrollWidth > el.clientWidth) el.textContent = "";
+  });
+}
+function monthFromX(clientX) {
+  const r = document.getElementById("cols").getBoundingClientRect();
+  return Math.max(0, Math.min(MONTHS.length - 1, Math.floor(((clientX - r.left) / r.width) * MONTHS.length)));
+}
+let dragging = false;
+track.addEventListener("pointerdown", (e) => { dragging = true; track.setPointerCapture(e.pointerId); stopPlay(); setMonth(monthFromX(e.clientX)); });
+track.addEventListener("pointermove", (e) => { if (!dragging) return; const t = monthFromX(e.clientX); if (t !== state.t) setMonth(t); });
+["pointerup", "pointercancel", "lostpointercapture"].forEach(t => track.addEventListener(t, () => { dragging = false; }));
+track.addEventListener("keydown", (e) => {
+  const step = { ArrowRight: 1, ArrowUp: 1, ArrowLeft: -1, ArrowDown: -1, PageUp: 12, PageDown: -12 }[e.key];
+  if (step) { e.preventDefault(); stopPlay(); setMonth(state.t + step); }
+  if (e.key === "Home") { e.preventDefault(); setMonth(0); }
+  if (e.key === "End") { e.preventDefault(); setMonth(MONTHS.length - 1); }
+});
+document.getElementById("prev").onclick = () => { stopPlay(); setMonth(state.t - 1); };
+document.getElementById("next").onclick = () => { stopPlay(); setMonth(state.t + 1); };
+const playBtn = document.getElementById("play");
+const sleep = (ms) => new Promise(r => setTimeout(r, ms));
+playBtn.onclick = async () => {
+  if (state.playing) return stopPlay();
+  // Claim the run before awaiting anything, so a second click pauses this run instead of starting another.
+  const run = state.playing = { active: true };
+  playBtn.textContent = "❚❚ Pause";
+  if (TTS.on) unlockSpeech();
+  if (state.t >= MONTHS.length - 1) setMonth(0);
+  while (run.active) {
+    // With speech on, each month lasts as long as the reading; otherwise a fixed pause, longer when there is something to read.
+    if (TTS.on) { await speakMonth(state.t); await sleep(600); } else await sleep(eventsFor(state.t).now.length ? 2200 : 1100);
+    if (!run.active) break;
+    if (state.t >= MONTHS.length - 1) { stopPlay(); break; }
+    setMonth(state.t + 1);
+  }
+};
+function stopPlay() { if (state.playing) { state.playing.active = false; state.playing = null; stopSpeech(); } playBtn.textContent = "▶ Afspil"; }
+document.addEventListener("keydown", (e) => {
+  if (e.target.closest("input, textarea, select, [role=slider]")) return;
+  if (e.key === "ArrowRight") { stopPlay(); setMonth(state.t + 1); }
+  if (e.key === "ArrowLeft") { stopPlay(); setMonth(state.t - 1); }
+  // Space plays and pauses, unless a control that handles Space itself (button, card, marker) has focus.
+  if (e.key === " " && !e.target.closest("button, a, [tabindex]")) { e.preventDefault(); playBtn.click(); }
+});
+
+function updateRail() {
+  const t = state.t;
+  document.querySelectorAll("#cols .col").forEach((c, i) => c.classList.toggle("on", i === t));
+  handle.style.left = colMid(t) + "%";
+  document.getElementById("handle-y").textContent = monthName(monthKey(t), true);
+  track.setAttribute("aria-valuenow", t);
+  track.setAttribute("aria-valuetext", `${monthName(monthKey(t))}: ${eventsFor(t).now.length} begivenheder`);
+}
+
+/* ---------- filter and search ---------- */
+const filterEl = document.getElementById("filter"), findEl = document.getElementById("find");
+function filterLabel(f) { return f === "dk" ? "Med dansk vinkel" : CATS[f] ? CATS[f].label : ""; }
+function buildFilter() {
+  const used = new Set(EVENTS.map(e => e.cat));
+  filterEl.innerHTML = `<option value="all">Alle begivenheder</option><option value="dk">Med dansk vinkel</option>`
+    + `<optgroup label="Kategori">${Object.entries(CATS).filter(([k]) => used.has(k)).map(([k, c]) => `<option value="${k}">${c.icon} ${c.label}</option>`).join("")}</optgroup>`;
+  document.getElementById("find-list").innerHTML = [...EVENTS].sort((a, b) => a.m.localeCompare(b.m) || dayOf(a) - dayOf(b))
+    .map(e => `<option value="${e.title} (${monthName(e.m)})">`).join("");
+}
+function setFilter(f) {
+  state.filter = f;
+  filterEl.value = f;
+  filterEl.classList.toggle("active", f !== "all");
+  if (state.selected && !visible(state.selected)) state.selected = null;
+  buildDots(); updateRail(); renderPanel(); drawMarkers();
+}
+filterEl.onchange = () => setFilter(filterEl.value);
+const narrow = matchMedia("(max-width: 860px)");
+const fitFind = () => { findEl.placeholder = narrow.matches ? "Find…" : "Find begivenhed…"; };
+narrow.addEventListener("change", fitFind); fitFind();
+function exactEvent(q) { q = q.trim().toLowerCase(); return EVENTS.find(e => `${e.title} (${monthName(e.m)})`.toLowerCase() === q) || null; }
+function findEvent(q) {
+  q = q.trim().toLowerCase();
+  const first = (pred) => EVENTS.filter(pred).sort((a, b) => a.m.localeCompare(b.m))[0];
+  return exactEvent(q) || first(e => e.title.toLowerCase().includes(q)) || first(e => e.text.toLowerCase().includes(q)) || null;
+}
+function goToEvent(e) {
+  if (!e) { findEl.classList.add("miss"); setTimeout(() => findEl.classList.remove("miss"), 900); return; }
+  if (!visible(e)) setFilter("all");
+  stopPlay();
+  findEl.blur();
+  const t = MONTHS.indexOf(e.m);
+  if (t < 0) return;
+  if (state.t !== t) setMonth(t);
+  if (!(state.selected && state.selected.id === e.id)) setSelected(e.id);
+  else document.querySelector(`.card[data-id="${e.id}"], .chip[data-id="${e.id}"]`)?.scrollIntoView({ block: "nearest", behavior: "smooth" });
+}
+// "change" also fires when the field loses focus, so only an exact pick from the list navigates; Enter searches the typed text.
+findEl.addEventListener("change", () => { const e = exactEvent(findEl.value); if (e) goToEvent(e); });
+findEl.addEventListener("keydown", (ev) => {
+  if (ev.key !== "Enter") return;
+  ev.preventDefault();
+  setTimeout(() => { const q = findEl.value.trim(); if (q) goToEvent(findEvent(q)); }, 0);
+});
+
+/* ---------- month ---------- */
+function setMonth(t) {
+  t = Math.max(0, Math.min(MONTHS.length - 1, t));
+  const changed = t !== state.t;
+  if (changed && TTS.current) stopSpeech();
+  state.t = t;
+  if (changed && state.selected && !activeIn(state.selected, monthKey(t))) state.selected = null;
+  updateRail();
+  drawControl();
+  renderPanel();
+  drawArrows();
+  drawMarkers();
+  renderLegend();
+  syncHash();
+}
+
+/* ---------- resize ---------- */
+// Refit the map to its new size but keep what the user was looking at: same centre, same zoom level.
+function onResize() {
+  fitEraLabels();
+  const r = mapEl.getBoundingClientRect();
+  if (Math.abs(r.width - W) < 1 && Math.abs(r.height - H) < 1) return;
+  const t = state.transform, center = projection.invert(t.invert([W / 2, H / 2]));
+  fitProjection();
+  const p = projection(center);
+  svg.call(zoom.transform, t.k > 1.001 && p ? d3.zoomIdentity.translate(W / 2 - p[0] * t.k, H / 2 - p[1] * t.k).scale(t.k) : d3.zoomIdentity);
+  placeBigYear();
+  placePlaces();
+}
+
+/* ---------- boot ---------- */
+(async function boot() {
+  const load = (f) => fetch(`data/${f}.json`, { cache: "no-cache" }).then(r => { if (!r.ok) throw new Error(`${f}.json: HTTP ${r.status}`); return r.json(); });
+  const audio = fetch("../data/audio.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : null).catch(() => null);
+  [BASE, CTRL, EVENTS, CAMPAIGNS, PLACES] = await Promise.all(["basemap", "control", "events", "campaigns", "places"].map(load));
+  MONTHS = CTRL.months.map(f => f.m);
+  initSpeech(await audio);
+  buildRail();
+  buildFilter();
+  fitProjection();
+  const h = parseHash();
+  state.t = -1;
+  setMonth(h ? h.t : 0);
+  // On a phone the panel sits below the map, so don't scroll a linked card into view there: the map should be what opens.
+  if (h && h.id) { setSelected(h.id, window.innerWidth <= 860); syncHash(); }
+  placePlaces();
+  document.getElementById("loading").remove();
+  window.addEventListener("hashchange", () => {
+    const h = parseHash(); if (!h) return;
+    if (h.t !== state.t) { stopPlay(); setMonth(h.t); }
+    if (h.id !== (state.selected && state.selected.id)) { setSelected(h.id); syncHash(); }
+  });
+  let rt; window.addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(onResize, 150); });
+})().catch(err => {
+  document.getElementById("loading").textContent = "Kortdata kunne ikke hentes. Genindlæs siden for at prøve igen.";
+  console.error(err);
+});
+</script>
+</body>
+</html>

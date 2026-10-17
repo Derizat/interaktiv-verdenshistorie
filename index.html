@@ -82,9 +82,12 @@ button { font: inherit; color: inherit; }
 
 /* Header */
 .top { grid-area: top; display: flex; align-items: center; justify-content: space-between; gap: 12px 20px; flex-wrap: wrap; }
-.brand { display: flex; align-items: baseline; gap: 10px; min-width: 0; }
+.brand { display: flex; align-items: baseline; gap: 4px 10px; min-width: 0; flex-wrap: wrap; }
 .brand h1 { font-family: var(--font-display); font-weight: 800; font-size: 30px; letter-spacing: .01em; margin: 0; line-height: 1; text-transform: uppercase; }
 .brand span { color: var(--muted); font-size: 15px; }
+.brand a, .card a.more { color: var(--muted); font-size: 14px; text-decoration: none; border-bottom: 1px solid var(--rule); }
+.brand a:hover, .card a.more:hover { color: var(--ink); border-color: var(--ink); }
+.card a.more { display: inline-block; margin-top: 6px; font-weight: 700; color: var(--accent); }
 .tools { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
 .pill { border: 1px solid var(--rule); background: var(--surface); border-radius: 999px; padding: 9px 16px; cursor: pointer; font-weight: 700; font-size: 15px; color: var(--muted); }
 .pill[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
@@ -240,7 +243,7 @@ select.pill.active { background-color: var(--accent); border-color: var(--accent
 
 <div class="app">
   <header class="top">
-    <div class="brand"><h1>Verdenshistorie</h1><span>1914–2025 på verdenskortet</span></div>
+    <div class="brand"><h1>Verdenshistorie</h1><span>1914–2025 på verdenskortet</span><a href="ukraine/">Ukraine-krigen måned for måned →</a></div>
     <div class="tools">
     <input class="find" id="find" type="search" list="find-list" placeholder="Find begivenhed…" aria-label="Find begivenhed" autocomplete="off" spellcheck="false">
     <datalist id="find-list"></datalist>
@@ -824,7 +827,7 @@ function renderPanel() {
     <article class="card${state.selected && state.selected.id === e.id ? " sel" : ""}" data-id="${e.id}" tabindex="0" style="animation-delay:${i * 60}ms">
       <div class="ic" style="--c:${CATS[e.cat].color}">${CATS[e.cat].icon}<i>${i + 1}</i></div>
       <div><div class="meta"><span>${e.date}</span><span>· ${CATS[e.cat].label}</span>${e.dk ? '<span class="dk">Danmark</span>' : ""}${TTS.supported ? `<button class="say" type="button" data-say="${e.id}" aria-label="Læs op" aria-pressed="${TTS.current === e.id}">🔊</button>` : ""}</div>
-      <h3>${e.title}</h3><p>${e.text}</p></div>
+      <h3>${e.title}</h3><p>${e.text}</p>${e.link ? `<a class="more" href="${e.link.href}">${e.link.text} →</a>` : ""}</div>
     </article>`).join("")
     : `<p class="empty">Ingen begivenheder i ${y}${state.filter === "all" ? "" : ` under “${filterLabel(state.filter)}”`}.</p>`;
   document.getElementById("ongoing").innerHTML = ongoing.length ? `<div class="ongoing-h">Pågår også</div><div class="chips">${ongoing.map(e =>
