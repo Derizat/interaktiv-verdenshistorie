@@ -371,12 +371,14 @@ const mapEl = document.getElementById("map"), tip = document.getElementById("tip
 const projection = d3.geoConicConformal().parallels([45, 51]).rotate([-31.5, 0]);
 const path = d3.geoPath(projection);
 const FOCUS = { type: "MultiPoint", coordinates: [[22.1, 44.3], [22.1, 52.4], [40.3, 52.4], [40.3, 44.3], [31.2, 52.4], [31.2, 44.3]] };
+// Phones: same frame plus a margin in the east, so labels for Luhansk and Rostov next to the front aren't clipped.
+const FOCUS_NARROW = { type: "MultiPoint", coordinates: [[22.1, 44.3], [22.1, 52.4], [41.4, 52.4], [41.4, 44.3], [31.7, 52.4], [31.7, 44.3]] };
 let W = 0, H = 0;
 
 function fitProjection() {
   const r = mapEl.getBoundingClientRect();
   W = r.width; H = r.height;
-  projection.fitExtent([[10, 10], [W - 10, H - 10]], FOCUS);
+  projection.fitExtent([[10, 10], [W - 10, H - 10]], matchMedia("(max-width: 860px)").matches ? FOCUS_NARROW : FOCUS);
   if (BASE) drawBase();
   zoom.extent([[0, 0], [W, H]]).translateExtent([[-W * 0.25, -H * 0.25], [W * 1.25, H * 1.25]]);
 }
