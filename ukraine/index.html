@@ -158,6 +158,7 @@ select.pill.active { background-color: var(--accent); border-color: var(--accent
 .legend li { display: flex; align-items: center; gap: 8px; }
 .sw { width: 18px; height: 12px; border-radius: 3px; border: 1px solid var(--border); flex: none; }
 .legend .foot { margin-top: 8px; padding-top: 6px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 12px; }
+.legend { box-sizing: border-box; max-height: calc(100% - 20px); overflow: auto; }
 .legend .toggle { display: none; }
 
 .tip { position: absolute; pointer-events: none; background: var(--ink); color: var(--surface); padding: 6px 10px; border-radius: 8px; font-size: 13px; max-width: 260px; z-index: 5; }
@@ -249,7 +250,7 @@ select.pill.active { background-color: var(--accent); border-color: var(--accent
 
 <div class="app">
   <header class="top">
-    <div class="brand"><h1>Ukraine-krigen</h1><span>måned for måned fra 2022</span><a href="../">← Verdenshistorie 1914–2025</a></div>
+    <div class="brand"><h1>Ukraine-krigen</h1><span>måned for måned fra 2022</span><a href="../#2022">← Verdenshistorie 1914–2025</a></div>
     <div class="tools">
     <input class="find" id="find" type="search" list="find-list" placeholder="Find begivenhed…" aria-label="Find begivenhed" autocomplete="off" spellcheck="false">
     <datalist id="find-list"></datalist>
@@ -463,7 +464,7 @@ function placePlaces() {
     const [x, y] = t.apply(projection([p.lon, p.lat]));
     if (x < -20 || y < -20 || x > W + 20 || y > H + 20) continue;
     const fs = p.r === 1 ? 13.5 : 12, w = p.n.length * fs * 0.56, h = fs;
-    const right = p.side !== "l";
+    const right = p.side !== "l" && x + 6 + w < W - 4;
     const box = { x: right ? x + 5 : x - 5 - w, y: y - h / 2 - 1, w, h: h + 2 };
     const hit = boxes.some(b => box.x < b.x + b.w && box.x + box.w > b.x && box.y < b.y + b.h && box.y + box.h > b.y);
     items.push({ p, x, y, right, label: !hit });
@@ -621,7 +622,7 @@ function drawMarkers() {
   const sel = gMarkers.selectAll("g.marker").data(data, d => d.id + (d._ongoing ? "-o" : ""));
   sel.exit().remove();
   const g = sel.enter().append("g").attr("class", d => "marker" + (d._ongoing ? " ongoing" : ""))
-    .attr("tabindex", 0).attr("role", "button").attr("aria-label", d => d.title)
+    .attr("tabindex", 0).attr("role", "button").attr("aria-label", d => d._ongoing && d.ongoing ? d.ongoing : d.title)
     .on("click", (ev, d) => { ev.stopPropagation(); select(d.id); })
     .on("keydown", (ev, d) => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); select(d.id); } });
   g.append("circle").attr("class", "pulse").attr("r", 20);
@@ -653,14 +654,14 @@ function placeCallouts(animate) {
   const arrows = [];
   gArrows.selectAll("g.arrow").each(function (d) {
     const lines = this.querySelectorAll("path.line"), ln = lines[lines.length - 1], L = ln.getTotalLength();
-    if (L < 40) return;
+    if (L < 25) return;
     const m = ln.getPointAtLength(L * 0.45), m2 = ln.getPointAtLength(L * 0.45 + 2);
     const a = Math.atan2(m2.y - m.y, m2.x - m.x);
     arrows.push({ d, m, nx: -Math.sin(a), ny: Math.cos(a) });
   });
   calloutsEl.classList.toggle("still", !animate);
   // Write all labels hidden, then read every size in one layout pass, then position - no read/write interleaving.
-  calloutsEl.innerHTML = items.map(d => `<div class="callout${d.id === selId ? " sel" : ""}" data-id="${d.id}" style="visibility:hidden;left:0;top:0">${d._n ? d._n + ". " : ""}${d.title}</div>`).join("")
+  calloutsEl.innerHTML = items.map(d => `<div class="callout${d.id === selId ? " sel" : ""}" data-id="${d.id}" style="visibility:hidden;left:0;top:0">${d._n ? d._n + ". " : ""}${d._ongoing && d.ongoing ? d.ongoing : d.title}</div>`).join("")
     + arrows.map(a => `<div class="alabel" style="visibility:hidden;left:0;top:0;color:${SIDES[a.d.side].color}">${a.d.label}</div>`).join("");
   const els = [...calloutsEl.children];
   const sizes = els.map(el => [el.offsetWidth, el.offsetHeight]);
@@ -709,7 +710,7 @@ function renderPanel() {
   document.getElementById("cards").innerHTML = now.length ? now.map((e, i) => `
     <article class="card${state.selected && state.selected.id === e.id ? " sel" : ""}" data-id="${e.id}" tabindex="0" style="animation-delay:${i * 60}ms">
       <div class="ic" style="--c:${CATS[e.cat].color}">${CATS[e.cat].icon}<i>${i + 1}</i></div>
-      <div><div class="meta"><span>${e.date}</span><span>· ${CATS[e.cat].label}</span>${e.dk ? '<span class="dk">Danmark</span>' : ""}${TTS.supported ? `<button class="say" type="button" data-say="${e.id}" aria-label="Læs op" aria-pressed="${TTS.current === e.id}">🔊</button>` : ""}</div>
+      <div><div class="meta"><span>${e.date}</span><span>· ${CATS[e.cat].label}</span>${e.dk ? '<span class="dk">Danmark</span>' : ""}${TTS.supported ? `<button class="say" type="button" data-say="${e.id}" aria-label="Læs op: ${e.title}" aria-pressed="${TTS.current === e.id}">🔊</button>` : ""}</div>
       <h3>${e.title}</h3><p>${e.text}</p></div>
     </article>`).join("")
     : `<p class="empty">Ingen udvalgte begivenheder i ${monthName(m)}${state.filter === "all" ? "" : ` under “${filterLabel(state.filter)}”`}. Kortet viser stadig frontens forløb.</p>`;
@@ -719,11 +720,12 @@ function renderPanel() {
 document.getElementById("side").addEventListener("click", (ev) => {
   const say = ev.target.closest("[data-say]");
   if (say) { ev.stopPropagation(); toggleSpeakEvent(say.dataset.say); return; }
+  if (ev.target.closest("a")) return;
   const el = ev.target.closest("[data-id]"); if (el) select(el.dataset.id, true);
 });
 document.getElementById("side").addEventListener("keydown", (ev) => {
-  // Buttons inside a card (read-aloud) handle their own Enter/Space.
-  if (ev.target.closest("button")) return;
+  // Buttons and links inside a card handle their own Enter/Space.
+  if (ev.target.closest("button, a")) return;
   const el = ev.target.closest(".card"); if (el && (ev.key === "Enter" || ev.key === " ")) { ev.preventDefault(); select(el.dataset.id, true); }
 });
 
@@ -760,8 +762,9 @@ function syncHash() {
 }
 function parseHash() {
   const m = /^#(\d{4}-\d{2})(?:\/([\w-]+))?$/.exec(location.hash);
-  const t = m ? MONTHS.indexOf(m[1]) : -1;
-  return t >= 0 ? { t, id: m[2] || null } : null;
+  if (!m) return null;
+  const t = MONTHS.indexOf(m[1]);
+  return { t: t >= 0 ? t : m[1] < MONTHS[0] ? 0 : MONTHS.length - 1, id: m[2] || null };
 }
 
 /* ---------- speech (browser voice; recorded clips when data/audio.json lists them) ---------- */
@@ -953,8 +956,9 @@ track.addEventListener("pointermove", (e) => { if (!dragging) return; const t = 
 track.addEventListener("keydown", (e) => {
   const step = { ArrowRight: 1, ArrowUp: 1, ArrowLeft: -1, ArrowDown: -1, PageUp: 12, PageDown: -12 }[e.key];
   if (step) { e.preventDefault(); stopPlay(); setMonth(state.t + step); }
-  if (e.key === "Home") { e.preventDefault(); setMonth(0); }
-  if (e.key === "End") { e.preventDefault(); setMonth(MONTHS.length - 1); }
+  if (e.key === "Home") { e.preventDefault(); stopPlay(); setMonth(0); }
+  if (e.key === "End") { e.preventDefault(); stopPlay(); setMonth(MONTHS.length - 1); }
+  if (e.key === " ") { e.preventDefault(); playBtn.click(); }
 });
 document.getElementById("prev").onclick = () => { stopPlay(); setMonth(state.t - 1); };
 document.getElementById("next").onclick = () => { stopPlay(); setMonth(state.t + 1); };
@@ -977,18 +981,25 @@ playBtn.onclick = async () => {
 };
 function stopPlay() { if (state.playing) { state.playing.active = false; state.playing = null; stopSpeech(); } playBtn.textContent = "▶ Afspil"; }
 document.addEventListener("keydown", (e) => {
-  if (e.target.closest("input, textarea, select, [role=slider]")) return;
+  if (e.target.closest("input, textarea, select, [role=slider]") || e.altKey || e.metaKey || e.ctrlKey) return;
   if (e.key === "ArrowRight") { stopPlay(); setMonth(state.t + 1); }
   if (e.key === "ArrowLeft") { stopPlay(); setMonth(state.t - 1); }
   // Space plays and pauses, unless a control that handles Space itself (button, card, marker) has focus.
   if (e.key === " " && !e.target.closest("button, a, [tabindex]")) { e.preventDefault(); playBtn.click(); }
 });
 
+// The year flag is centred on the handle; at the ends of the rail, shift it inward so it stays inside the page.
+function clampFlag(pct) {
+  const flag = handle.querySelector("b"), tw = track.clientWidth, fw = flag.offsetWidth, x = pct / 100 * tw;
+  const shift = Math.max(0, Math.min(tw - fw, x - fw / 2)) - (x - fw / 2);
+  flag.style.transform = `translate(calc(-50% + ${shift}px), -100%)`;
+}
 function updateRail() {
   const t = state.t;
   document.querySelectorAll("#cols .col").forEach((c, i) => c.classList.toggle("on", i === t));
   handle.style.left = colMid(t) + "%";
   document.getElementById("handle-y").textContent = monthName(monthKey(t), true);
+  clampFlag(colMid(t));
   track.setAttribute("aria-valuenow", t);
   track.setAttribute("aria-valuetext", `${monthName(monthKey(t))}: ${eventsFor(t).now.length} begivenheder`);
 }
@@ -1008,6 +1019,8 @@ function setFilter(f) {
   filterEl.value = f;
   filterEl.classList.toggle("active", f !== "all");
   if (state.selected && !visible(state.selected)) state.selected = null;
+  // A card that is being read and is now hidden would keep talking with no button left to stop it.
+  if (TTS.current && !visible(EVENTS.find(e => e.id === TTS.current))) stopSpeech();
   buildDots(); updateRail(); renderPanel(); drawMarkers();
 }
 filterEl.onchange = () => setFilter(filterEl.value);
@@ -1044,6 +1057,7 @@ function setMonth(t) {
   t = Math.max(0, Math.min(MONTHS.length - 1, t));
   const changed = t !== state.t;
   if (changed && TTS.current) stopSpeech();
+  if (changed) tip.hidden = true;
   state.t = t;
   if (changed && state.selected && !activeIn(state.selected, monthKey(t))) state.selected = null;
   updateRail();
@@ -1059,6 +1073,7 @@ function setMonth(t) {
 // Refit the map to its new size but keep what the user was looking at: same centre, same zoom level.
 function onResize() {
   fitEraLabels();
+  updateRail();
   const r = mapEl.getBoundingClientRect();
   if (Math.abs(r.width - W) < 1 && Math.abs(r.height - H) < 1) return;
   const t = state.transform, center = projection.invert(t.invert([W / 2, H / 2]));
@@ -1087,7 +1102,9 @@ function onResize() {
   placePlaces();
   document.getElementById("loading").remove();
   window.addEventListener("hashchange", () => {
-    const h = parseHash(); if (!h) return;
+    const h = parseHash(); if (!h) { syncHash(); return; }
+    // A shared link to an event the current filter hides: show everything, as search does.
+    const e = h.id && EVENTS.find(x => x.id === h.id); if (e && !visible(e)) setFilter("all");
     if (h.t !== state.t) { stopPlay(); setMonth(h.t); }
     if (h.id !== (state.selected && state.selected.id)) { setSelected(h.id); syncHash(); }
   });
