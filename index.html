@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="Interaktivt verdenskort til historieundervisning, 1939–2000.">
-<title>Verdenshistorie 1914–2025</title>
+<meta name="description" content="Interaktivt verdenskort til historieundervisning, 1814–2025.">
+<title>Verdenshistorie 1814–2025</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Big+Shoulders+Display:wght@600;800&display=swap">
@@ -33,6 +33,7 @@
 
   --r-uk: #e48aa3; --r-fr: #8b7bc6; --r-pt: #4f9d69; --r-be: #e1b236; --r-nl: #ef8a3a; --r-es: #b06a3b;
   --r-it: #5fb3a6; --r-jp: #d0574e; --r-us: #4b7fc9; --r-dk: #a3363b; --r-au: #9a7a55; --r-za: #7f8c3c; --r-ma: #9b6a96; --r-de: #6b6a7a; --r-nz: #4d8f8b;
+  --r-ru: #7d9a4e; --r-at: #d6a637; --r-ot: #b9895c;
 
   --font-display: "Big Shoulders Display", "Arial Narrow", "Roboto Condensed", sans-serif;
   --font-body: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
@@ -47,6 +48,7 @@
     --arrow-axis: #ece6dc; --arrow-allied: #86b4f2; --arrow-soviet: #f2826f; --eu: #d6a842;
     --r-uk: #c86f88; --r-fr: #7d6db8; --r-pt: #3f8a5a; --r-be: #c49a2a; --r-nl: #d6762c; --r-es: #9a5a30;
     --r-it: #4c9a8e; --r-jp: #b8483f; --r-us: #4a74b4; --r-dk: #b94a50; --r-au: #8a6c49; --r-za: #6f7b33; --r-ma: #8a5c86; --r-de: #8a889c; --r-nz: #3f7a77;
+    --r-ru: #6a8a43; --r-at: #b98f2c; --r-ot: #9a7149;
     color-scheme: dark;
   }
 }
@@ -58,6 +60,7 @@
   --arrow-axis: #ece6dc; --arrow-allied: #86b4f2; --arrow-soviet: #f2826f; --eu: #d6a842;
   --r-uk: #c86f88; --r-fr: #7d6db8; --r-pt: #3f8a5a; --r-be: #c49a2a; --r-nl: #d6762c; --r-es: #9a5a30;
   --r-it: #4c9a8e; --r-jp: #b8483f; --r-us: #4a74b4; --r-dk: #b94a50; --r-au: #8a6c49; --r-za: #6f7b33; --r-ma: #8a5c86; --r-de: #8a889c; --r-nz: #3f7a77;
+    --r-ru: #6a8a43; --r-at: #b98f2c; --r-ot: #9a7149;
   color-scheme: dark;
 }
 
@@ -162,6 +165,7 @@ select.pill.active { background-color: var(--accent); border-color: var(--accent
 
 .tip { position: absolute; pointer-events: none; background: var(--ink); color: var(--surface); padding: 6px 10px; border-radius: 8px; font-size: 13px; max-width: 260px; z-index: 5; }
 .tip b { display: block; font-size: 14px; }
+.tip small { display: block; margin-top: 4px; font-size: 12px; opacity: .8; }
 .tip[hidden] { display: none !important; }
 
 /* Side panel */
@@ -246,12 +250,16 @@ select.pill.active { background-color: var(--accent); border-color: var(--accent
 
 <div class="app">
   <header class="top">
-    <div class="brand"><h1>Verdenshistorie</h1><span>1914–2025 på verdenskortet</span><a href="ukraine/">Ukraine-krigen måned for måned →</a></div>
+    <div class="brand"><h1>Verdenshistorie</h1><span>1814–2025 på verdenskortet</span><a href="ukraine/">Ukraine-krigen måned for måned →</a></div>
     <div class="tools">
     <input class="find" id="find" type="search" list="find-list" placeholder="Find begivenhed…" aria-label="Find begivenhed" autocomplete="off" spellcheck="false">
     <datalist id="find-list"></datalist>
     <select id="filter" class="pill" aria-label="Vis kun"></select>
     <button id="speak" class="pill" type="button" aria-pressed="false" title="Læs begivenhederne op">🔊 Oplæsning</button>
+    <div class="seg" id="periods" role="group" aria-label="Periode">
+      <button type="button" data-p="0" aria-pressed="false">1814–1913</button>
+      <button type="button" data-p="1" aria-pressed="true">1914–2025</button>
+    </div>
     <div class="seg" role="group" aria-label="Kortlag">
       <button id="mode-blocs" type="button" aria-pressed="true">Magtblokke</button>
       <button id="mode-colonies" type="button" aria-pressed="false">Kolonistyre</button>
@@ -306,7 +314,7 @@ select.pill.active { background-color: var(--accent); border-color: var(--accent
     </div>
     <div class="cards" id="cards"></div>
     <div id="ongoing"></div>
-    <p class="credit">Teksterne er faktatjekket mod opslagsværker, men tjek altid tal, før de bruges i undervisningen. Grænser: <a href="https://github.com/aourednik/historical-basemaps" target="_blank" rel="noopener">historical-basemaps</a> (A. Ourednik), forenklet. Kortet bruger otte grænse-snapshots (1914, 1920, 1930, 1938, 1945, 1960, 1994, 2000), så grænser skifter i spring. Efter 2000 findes der ikke nyere grænsedata, så Østtimor, Kosovo, Sydsudan og Krim vises ikke.</p>
+    <p class="credit">Teksterne er faktatjekket mod opslagsværker, men tjek altid tal, før de bruges i undervisningen. Grænser: <a href="https://github.com/aourednik/historical-basemaps" target="_blank" rel="noopener">historical-basemaps</a> (A. Ourednik), forenklet. Kortet bruger elleve grænse-snapshots (1815, 1880, 1900, 1914, 1920, 1930, 1938, 1945, 1960, 1994, 2000), så grænser skifter i spring. Kortet fra 1815 bruges til 1864, så fx USA's erobringer fra Mexico i 1848 først ses fra 1865; Afrika 1885–1913 vises med kolonigrænserne fra 1914. Hvor de gamle kort tegner et område forkert, er det rettet eller nævnt under navnet, når du peger på landet. Efter 2000 findes der ikke nyere grænsedata, så Østtimor, Kosovo, Sydsudan og Krim vises ikke.</p>
   </aside>
 
   <section class="rail" aria-label="Tidslinje">
@@ -327,7 +335,10 @@ select.pill.active { background-color: var(--accent); border-color: var(--accent
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script>
-const Y0 = 1914, Y1 = 2025;
+// Two periods share one rail of the same width, so a single year stays easy to hit on a smartboard.
+const PERIODS = [[1814, 1913], [1914, 2025]];
+const YMIN = PERIODS[0][0], YMAX = PERIODS[PERIODS.length - 1][1];
+let Y0 = 1914, Y1 = 2025;
 
 const CATS = {
   krig:            { icon: "⚔️", label: "Krig og konflikt", color: "#b23a32" },
@@ -366,19 +377,36 @@ const STATUS = {
   natoeu:    { label: "NATO og EU", fill: "url(#hatch-natoeu)" },
   eu:        { label: "EU, men ikke NATO", fill: "var(--eu)" },
   russia:    { label: "Rusland og allierede", fill: "var(--east)" },
+  // 1814–1913: the great powers, each in its own colour (the same as in the colonial layer).
+  gpUk: { label: "Storbritannien", fill: "var(--r-uk)" },
+  gpFr: { label: "Frankrig", fill: "var(--r-fr)" },
+  gpRu: { label: "Rusland", fill: "var(--r-ru)" },
+  gpAt: { label: "Østrig-Ungarn", fill: "var(--r-at)" },
+  gpDe: { label: "Tyskland", fill: "var(--r-de)" },
+  gpIt: { label: "Italien", fill: "var(--r-it)" },
+  gpOt: { label: "Osmannerriget", fill: "var(--r-ot)" },
+  gpUs: { label: "USA", fill: "var(--r-us)" },
+  gpJp: { label: "Japan", fill: "var(--r-jp)" },
 };
 // Legend wording that differs by era.
 const LEGEND_LABELS = {
   ww1: { occupied: "Besat af Centralmagterne" },
   interwar: { neutral: "Demokratier og øvrige lande", communist: "Andre kommunistiske lande (Mongoliet)" },
   modern: { neutral: "Øvrige lande", communist: "Kommunistiske etpartistater", nato: "NATO, men ikke EU" },
+  c19: { central: "Tripelalliancen (Tyskland, Østrig-Ungarn, Italien)", entente: "Tripelententen (Storbritannien, Frankrig, Rusland)", neutral: "Øvrige lande" },
 };
 
 const RULER_VAR = { Germany: "--r-de", "New Zealand": "--r-nz", UK: "--r-uk", France: "--r-fr", Portugal: "--r-pt", Belgium: "--r-be", Netherlands: "--r-nl", Spain: "--r-es",
-  Italy: "--r-it", Japan: "--r-jp", USA: "--r-us", Denmark: "--r-dk", Australia: "--r-au", "South Africa": "--r-za", Morocco: "--r-ma" };
+  Italy: "--r-it", Japan: "--r-jp", USA: "--r-us", Denmark: "--r-dk", Australia: "--r-au", "South Africa": "--r-za", Morocco: "--r-ma", Ottoman: "--r-ot",
+  Leopold: "--r-be" };
+// A value can be a function of the year, for areas that changed hands.
 const METROPOLE = { "New Zealand": "New Zealand", "German Empire": "Germany", "United Kingdom of Great Britain and Ireland": "UK", "Kingdom of Italy": "Italy", "United Kingdom": "UK", "France": "France", "Portugal": "Portugal", "Belgium": "Belgium", "Netherlands": "Netherlands",
   "Spain": "Spain", "Italy": "Italy", "Empire of Japan": "Japan", "United States": "USA", "Denmark": "Denmark", "Australia": "Australia",
-  "South Africa": "South Africa", "Union of South Africa": "South Africa", "Morocco": "Morocco" };
+  "South Africa": "South Africa", "Union of South Africa": "South Africa", "Morocco": "Morocco",
+  "United States of America": "USA", "United States": "USA", "Imperial Japan": "Japan", "Ottoman Empire": "Ottoman", "United Kingdom of the Netherlands": "Netherlands",
+  "Faroe Islands": "Denmark", Guanches: "Spain", Germany: "Germany",
+  Schleswig: y => y <= 1863 ? "Denmark" : "Germany", "North Schleswig": y => y <= 1863 ? "Denmark" : "Germany", Holstein: y => y <= 1863 ? "Denmark" : "Germany",
+  "Alsace-Lorraine": y => y >= 1871 && y <= 1917 ? "Germany" : "France" };
 
 const SIDES = {
   central: { label: "Centralmagternes felttog", color: "var(--arrow-axis)" },
@@ -390,6 +418,22 @@ const SIDES = {
   un:     { label: "FN-styrker og Sydkorea", color: "var(--arrow-allied)" },
   iraq:   { label: "Irak", color: "var(--arrow-axis)" },
   coalition: { label: "Koalitionen (USA m.fl.)", color: "var(--arrow-allied)" },
+  napoleon: { label: "Napoleons Frankrig", color: "var(--arrow-allied)" },
+  coalition1815: { label: "De allierede mod Napoleon", color: "var(--arrow-axis)" },
+  prussia: { label: "Preussen og forbundsfæller", color: "var(--arrow-axis)" },
+  denmark: { label: "Danmark", color: "var(--arrow-soviet)" },
+  france: { label: "Frankrig", color: "var(--arrow-allied)" },
+  britain: { label: "Storbritannien", color: "var(--arrow-allied)" },
+  russia: { label: "Rusland", color: "var(--arrow-soviet)" },
+  ottoman: { label: "Osmannerriget", color: "var(--arrow-axis)" },
+  crimea: { label: "Storbritannien, Frankrig og Osmannerriget", color: "var(--arrow-allied)" },
+  union: { label: "Nordstaterne", color: "var(--arrow-allied)" },
+  confederacy: { label: "Sydstaterne", color: "var(--arrow-axis)" },
+  usa: { label: "USA", color: "var(--arrow-allied)" },
+  japan: { label: "Japan", color: "var(--arrow-axis)" },
+  italy: { label: "Garibaldi og Piemonte", color: "var(--arrow-soviet)" },
+  balkan: { label: "Balkanforbundet", color: "var(--arrow-soviet)" },
+  boers: { label: "Boerne", color: "var(--arrow-soviet)" },
 };
 const REDUCED_MOTION = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
@@ -413,12 +457,30 @@ function displayName(n, y) {
   return r ? r.v : (ST.da[n] || n);
 }
 function colonyOf(n, y) { return range(ST.colonies, n, y); }
-function colonyLabel(c) {
+function colonyLabel(c, y) {
   if (c.v === "Morocco") return "Besat af Marokko";
-  if (c.v === "Japan") return "Besat af Japan";
+  if (c.v === "Japan") return y <= 1913 ? "Japansk koloni" : "Besat af Japan";
+  // Tripolitania and Cyrenaica were ordinary provinces of the empire, not colonies.
+  if (c.v === "Ottoman") return "Osmannisk provins";
   return (ST.rulers[c.v] || c.v) + " koloni";
 }
+// A note that starts with the ruler's adjective replaces the label: "Britisk protektorat fra 1894", not "Britisk koloni. Britisk protektorat fra 1894".
+function colonyText(c, y) {
+  const label = colonyLabel(c, y);
+  if (!c.note) return label;
+  const w = label.split(" ")[0].toLowerCase(), f = c.note.split(/[ ;,]/)[0].toLowerCase();
+  return f === w || f === w + "e" ? c.note : label + ". " + c.note;
+}
+// Legend and tooltip wording: some keys are named by era, and Austria and Prussia change name during the 1800s.
+function statusLabel(key, y) {
+  if (y <= 1913 && key === "gpAt") return y < 1867 ? "Østrig" : "Østrig-Ungarn";
+  if (y <= 1913 && key === "gpDe") return y < 1871 ? "Preussen" : "Tyskland";
+  return (LEGEND_LABELS[eraOf(y).key] || {})[key] || STATUS[key].label;
+}
 function eraOf(y) {
+  if (y <= 1847) return { key: "c19", title: "Efter Napoleon", sub: y <= 1815 ? "Wienerkongressen tegner Europa om" : "Restauration, revolutioner og industri" };
+  if (y <= 1870) return { key: "c19", title: "Revolutioner og nationalstater", sub: y === 1848 ? "Revolutionsåret" : "Krige om nationale samlinger" };
+  if (y <= 1913) return { key: "c19", title: "Imperialismens tid", sub: y <= 1884 ? "Industri, udvandring og nye stormagter" : y <= 1906 ? "Kapløbet om Afrika og Asien" : "Optakten til Første Verdenskrig" };
   if (y <= 1918) return { key: "ww1", title: "Første Verdenskrig", sub: y === 1914 ? "Krigen bryder ud" : "Status ved årets udgang" };
   if (y <= 1938) return { key: "interwar", title: "Mellemkrigstiden", sub: y <= 1923 ? "Fred, revolution og nye grænser" : y <= 1929 ? "De gyldne tyvere" : "Krise og diktaturer" };
   if (y <= 1945) return { key: "ww2", title: "Anden Verdenskrig", sub: y === 1945 ? "Krigen slutter, og verden deles" : "Status ved årets udgang" };
@@ -433,6 +495,13 @@ function monthIndex(s) {
   return best;
 }
 function blocStatus(n, y) {
+  if (y <= 1913) {
+    const r = range(ST.c19, n, y);
+    if (r) return { key: r.v, note: r.note };
+    const c = colonyOf(n, y);
+    if (c) return { key: "colony", note: colonyText(c, y) };
+    return { key: "neutral" };
+  }
   if (y >= 2001) {
     const r = range(ST.modern, n, y);
     if (r) return { key: r.v, note: r.note };
@@ -444,7 +513,7 @@ function blocStatus(n, y) {
     const r = range(ST.interwar, n, y);
     if (r) return { key: r.v, note: r.note };
     const c = colonyOf(n, y);
-    if (c) return { key: "colony", note: colonyLabel(c) + (c.note ? ". " + c.note : "") };
+    if (c) return { key: "colony", note: colonyText(c, y) };
     return { key: "neutral" };
   }
   if (y <= 1944) {
@@ -454,14 +523,14 @@ function blocStatus(n, y) {
     const c = colonyOf(n, y);
     if (c) {
       const a = range(align, c.v, y);
-      return { key: a ? a.v : "neutral", note: colonyLabel(c) + (a && a.note ? ". " + a.note : "") };
+      return { key: a ? a.v : "neutral", note: colonyLabel(c, y) + (a && a.note ? ". " + a.note : "") };
     }
     return { key: "neutral" };
   }
   const r = range(ST.cold, n, y);
   if (r) return { key: r.v === "occupied" ? "westocc" : r.v, note: r.note };
   const c = colonyOf(n, y);
-  if (c) return { key: "colony", note: colonyLabel(c) + (c.note ? ". " + c.note : "") };
+  if (c) return { key: "colony", note: colonyText(c, y) };
   return { key: "neutral" };
 }
 function rulersActive(y, features) {
@@ -471,8 +540,8 @@ function rulersActive(y, features) {
 }
 function colonyFill(n, y, active) {
   const c = colonyOf(n, y);
-  if (c) return { fill: `var(${RULER_VAR[c.v]})`, label: colonyLabel(c) + (c.note ? ". " + c.note : "") };
-  const m = METROPOLE[n];
+  if (c) return { fill: `var(${RULER_VAR[c.v]})`, label: colonyText(c, y) };
+  const m = typeof METROPOLE[n] === "function" ? METROPOLE[n](y) : METROPOLE[n];
   if (m && active[m]) return { fill: `color-mix(in srgb, var(${RULER_VAR[m]}) 55%, var(--ink))`, label: "Kolonimagt" };
   return { fill: "var(--land)", label: "Selvstændig" };
 }
@@ -564,6 +633,8 @@ function colorCountries(features) {
     .style("fill", d => state.mode === "blocs" ? STATUS[blocStatus(d.properties.n, y).key].fill : colonyFill(d.properties.n, y, active).fill)
     .classed("hl", d => hl.has(d.properties.n))
     .filter(d => hl.has(d.properties.n)).raise();
+  // Overlays (areas cut out of the wrong owner in the source map) must stay on top of the feature they cover.
+  gCountries.selectAll("path.country").filter(d => d.properties.o && !hl.has(d.properties.n)).raise();
   renderLegend(features, active);
 }
 
@@ -583,13 +654,15 @@ function highlightNames(e, features) {
 function onCountryHover(ev, d) {
   const y = state.year, n = d.properties.n;
   let line = "";
-  if (state.mode === "blocs") { const s = blocStatus(n, y); line = STATUS[s.key].label + (s.note ? ". " + s.note : ""); }
+  if (state.mode === "blocs") { const s = blocStatus(n, y); line = statusLabel(s.key, y) + (s.note ? ". " + s.note : ""); }
   else line = colonyFill(n, y, rulersActive(y, state.features || [])).label;
-  showTip(ev, displayName(n, y), line);
+  // A names range can carry a note about the map itself, e.g. land the source map gives to the wrong state.
+  const nm = n && range(ST.names, n, y);
+  showTip(ev, displayName(n, y), line, nm && nm.note);
 }
 
-function showTip(ev, title, line) {
-  tip.innerHTML = `<b>${title}</b>${line}`;
+function showTip(ev, title, line, note) {
+  tip.innerHTML = `<b>${title}</b>${line}${note ? `<small>${note}</small>` : ""}`;
   const r = mapEl.getBoundingClientRect();
   let x = ev.clientX - r.left + 14, yy = ev.clientY - r.top + 14;
   tip.hidden = false;
@@ -608,13 +681,12 @@ function renderLegend(features, active) {
     title = eraOf(y).title;
     const counts = {};
     for (const f of features) { const k = blocStatus(f.properties.n, y).key; counts[k] = (counts[k] || 0) + 1; }
-    const order = ["central", "entente", "axis", "occupied", "allied", "soviet", "ussr", "fascist", "authoritarian", "natoeu", "nato", "eu", "russia", "east", "communist", "split", "westocc", "colony", "neutral"];
-    const labels = LEGEND_LABELS[eraOf(y).key] || {};
-    items = order.filter(k => counts[k]).map(k => ({ fill: STATUS[k].fill, label: labels[k] || STATUS[k].label }));
+    const order = ["gpUk", "gpFr", "gpRu", "gpAt", "gpDe", "gpIt", "gpOt", "gpUs", "gpJp", "central", "entente", "axis", "occupied", "allied", "soviet", "ussr", "fascist", "authoritarian", "natoeu", "nato", "eu", "russia", "east", "communist", "split", "westocc", "colony", "neutral"];
+    items = order.filter(k => counts[k]).map(k => ({ fill: STATUS[k].fill, label: statusLabel(k, y) }));
   } else {
     title = "Kolonimagter";
     items = Object.entries(active).sort((a, b) => b[1] - a[1])
-      .map(([r, n]) => ({ fill: `var(${RULER_VAR[r]})`, label: r === "Morocco" ? "Besat af Marokko" : r === "Japan" ? "Japansk besættelse" : ST.rulers[r] + " styre", n }));
+      .map(([r, n]) => ({ fill: `var(${RULER_VAR[r]})`, label: r === "Morocco" ? "Besat af Marokko" : r === "Japan" ? (y <= 1913 ? "Japansk styre" : "Japansk besættelse") : ST.rulers[r] + " styre", n }));
     items.push({ fill: "var(--land)", label: "Selvstændige lande" });
   }
   const sides = [...new Set(arrowsFor(y).map(c => c.side))];
@@ -882,7 +954,7 @@ function syncHash() {
 }
 function parseHash() {
   const m = /^#(\d{4})(?:\/([\w-]+))?$/.exec(location.hash);
-  return m && +m[1] >= Y0 && +m[1] <= Y1 ? { year: +m[1], id: m[2] || null } : null;
+  return m && +m[1] >= YMIN && +m[1] <= YMAX ? { year: +m[1], id: m[2] || null } : null;
 }
 
 /* ---------- speech (recorded clips, browser voice as fallback) ---------- */
@@ -1050,20 +1122,40 @@ function buildDots() {
 function buildRail() {
   document.getElementById("cols").style.gridTemplateColumns = `repeat(${Y1 - Y0 + 1}, minmax(0, 1fr))`;
   buildDots();
-  document.getElementById("labels").innerHTML = [1920, 1930, 1940, 1950, 1960, 1970, 1980, 1990, 2000, 2010, 2020]
+  document.getElementById("labels").innerHTML = d3.range(Math.ceil(Y0 / 10) * 10, Y1 + 1, 10)
     .map((y, i) => `<span class="${i % 2 ? "odd" : ""}" style="left:${colMid(y)}%">${y}</span>`).join("");
-  const eras = [[1914, 1918, "1. verdenskrig", "1. vk"], [1919, 1938, "Mellemkrigstiden", "Mellemkrig"], [1939, 1945, "2. verdenskrig", "2. vk"], [1947, 1991, "Den Kolde Krig", "Kold krig"], [1992, 2025, "Efter Den Kolde Krig", "Efter 1991"]];
+  const eras = RAIL_ERAS.filter(([a, b]) => a >= Y0 && b <= Y1);
   document.getElementById("eras").innerHTML = eras.map(([a, b, l, s]) =>
     `<span style="left:${colLeft(a)}%;width:${colLeft(b + 1) - colLeft(a)}%" title="${l}" data-long="${l}" data-short="${s}">${l}</span>`).join("");
   fitEraLabels();
 }
+const RAIL_ERAS = [[1814, 1847, "Efter Napoleon", "Efter Napoleon"], [1848, 1870, "Revolutioner og nationalstater", "Nationalstater"], [1871, 1913, "Imperialismens tid", "Imperialisme"],
+  [1914, 1918, "1. verdenskrig", "1. vk"], [1919, 1938, "Mellemkrigstiden", "Mellemkrig"], [1939, 1945, "2. verdenskrig", "2. vk"], [1947, 1991, "Den Kolde Krig", "Kold krig"], [1992, 2025, "Efter Den Kolde Krig", "Efter 1991"]];
+// Switch the rail to the period that contains year y; the year itself is set by setYear.
+const periodsEl = document.getElementById("periods"), lastYear = {};
+function setPeriod(i) {
+  [Y0, Y1] = PERIODS[i];
+  periodsEl.querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", +b.dataset.p === i));
+  track.setAttribute("aria-valuemin", Y0); track.setAttribute("aria-valuemax", Y1);
+  buildRail();
+}
+const periodOf = (y) => PERIODS.findIndex(([a, b]) => y >= a && y <= b);
+// Back to where the user was in that period, or its first year.
+periodsEl.addEventListener("click", (ev) => {
+  const b = ev.target.closest("button"); if (!b) return;
+  const i = +b.dataset.p; if (periodOf(state.year) === i) return;
+  stopPlay();
+  setYear(lastYear[i] ?? PERIODS[i][0]);
+});
 // A selected event with a duration is drawn as a bar across its years.
 function updateSpan() {
   const s = state.selected;
   spanEl.hidden = !(s && s.until);
   if (spanEl.hidden) return;
-  spanEl.style.left = colLeft(s.year) + "%";
-  spanEl.style.width = (colLeft(s.until + 1) - colLeft(s.year)) + "%";
+  // An event can run on into the next period (the Mexican Revolution, 1910–1920): draw only the part on this rail.
+  const a = Math.max(s.year, Y0), b = Math.min(s.until, Y1);
+  spanEl.style.left = colLeft(a) + "%";
+  spanEl.style.width = (colLeft(b + 1) - colLeft(a)) + "%";
 }
 // Use the long era name where it fits, else the short one, else only the bracket line (name in the tooltip).
 function fitEraLabels() {
@@ -1098,12 +1190,13 @@ playBtn.onclick = async () => {
   const run = state.playing = { active: true };
   playBtn.textContent = "❚❚ Pause";
   if (TTS.on) unlockSpeech();
-  if (state.year >= Y1) await setYear(Y0);
+  if (state.year >= YMAX) await setYear(Y0);
   while (run.active) {
     // With speech on, each year lasts as long as the reading; otherwise a fixed pause.
     if (TTS.on) { await speakYear(state.year); await sleep(700); } else await sleep(2400);
     if (!run.active) break;
-    if (state.year >= Y1) { stopPlay(); break; }
+    // Playing runs on from 1913 into 1914, switching the rail to the next period.
+    if (state.year >= YMAX) { stopPlay(); break; }
     await setYear(state.year + 1);
   }
 };
@@ -1194,7 +1287,9 @@ findEl.addEventListener("keydown", (ev) => {
 
 /* ---------- year ---------- */
 async function setYear(y) {
-  y = Math.max(Y0, Math.min(Y1, y));
+  y = Math.max(YMIN, Math.min(YMAX, y));
+  if (y < Y0 || y > Y1) setPeriod(periodOf(y));
+  lastYear[periodOf(y)] = y;
   const changed = y !== state.year;
   if (changed && TTS.current) stopSpeech();
   if (changed) tip.hidden = true;
@@ -1244,7 +1339,7 @@ function onResize() {
   // On a phone the panel sits below the map, so don't scroll a linked card into view there: the map should be what opens.
   if (h && h.id) { setSelected(h.id, window.innerWidth <= 860); syncHash(); }
   document.getElementById("loading").remove();
-  ["1920", "1930", "1938", "1945", "1960", "1994", "2000", "1914"].forEach(k => loadSnap(k).catch(() => {}));
+  ["1920", "1930", "1938", "1945", "1960", "1994", "2000", "1914", "1815", "1880", "1900"].forEach(k => loadSnap(k).catch(() => {}));
   window.addEventListener("hashchange", async () => {
     const h = parseHash(); if (!h) { syncHash(); return; }
     // A shared link to an event the current filter hides: show everything, as search does.

@@ -1,5 +1,2108 @@
 [
 {
+"id": "kiel1814",
+"year": 1814,
+"date": "14. januar 1814",
+"title": "Freden i Kiel: Danmark mister Norge",
+"text": "Danmark-Norge har stået på Napoleons side og må efter nederlaget afstå Norge til den svenske konge. Danmark beholder Island, Færøerne og Grønland. Nordmændene vedtager deres egen grundlov på Eidsvoll den 17. maj 1814, men må efter en kort krig gå i union med Sverige.",
+"lat": 54.32,
+"lon": 10.13,
+"cat": "aftale",
+"dk": true,
+"countries": [
+"Denmark",
+"Sweden–Norway"
+]
+},
+{
+"id": "skoleanordning1814",
+"year": 1814,
+"date": "29. juli 1814",
+"title": "Skoleanordningerne: almueskolen for alle",
+"text": "Kong Frederik 6. udsteder skoleanordningerne, som giver alle børn pligt til at blive undervist fra syvårsalderen til konfirmationen. I almueskolen skal de lære religion, læsning, skrivning og regning. Anordningerne regnes for begyndelsen på den danske folkeskole.",
+"lat": 55.68,
+"lon": 12.58,
+"cat": "politik",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "wienerkongres1815",
+"year": 1815,
+"date": "september 1814 – 9. juni 1815",
+"title": "Wienerkongressen tegner Europas nye kort",
+"text": "Sejrherrerne over Napoleon – Østrig, Rusland, Preussen og Storbritannien – fordeler land i Europa og vil sikre en varig magtbalance. Rusland får det meste af Polen, Preussen får store områder ved Rhinen og i Sachsen, og de tyske stater samles i Det Tyske Forbund. Den danske konge bliver medlem af forbundet som hertug af Holsten og Lauenborg.",
+"lat": 48.21,
+"lon": 16.37,
+"cat": "aftale",
+"dk": true,
+"countries": [
+"Austrian Empire",
+"Russian Empire",
+"Prussia",
+"United Kingdom of Great Britain and Ireland",
+"Holstein",
+"Bessarabia"
+]
+},
+{
+"id": "waterloo1815",
+"year": 1815,
+"date": "18. juni 1815",
+"title": "Napoleons nederlag ved Waterloo",
+"text": "Napoleon er flygtet fra sit eksil på øen Elba og har i marts 1815 taget magten i Frankrig igen. Ved Waterloo syd for Bruxelles besejres han af en britisk-ledet hær under hertugen af Wellington og en preussisk hær under Blücher. Napoleon sendes i eksil på øen Sankt Helena i Sydatlanten, hvor han dør i 1821.",
+"lat": 50.68,
+"lon": 4.41,
+"cat": "krig",
+"countries": [
+"France",
+"United Kingdom of Great Britain and Ireland",
+"Prussia",
+"United Kingdom of the Netherlands"
+]
+},
+{
+"id": "aaretudensommer1816",
+"year": 1816,
+"date": "april 1815 – 1816",
+"title": "Året uden sommer",
+"text": "Vulkanen Tambora på øen Sumbawa i det nuværende Indonesien går i udbrud i april 1815 – et af de største udbrud i historisk tid – og titusinder omkommer. Svovlholdige gasser fra udbruddet danner et tyndt slør højt oppe i atmosfæren, som skærmer for sollyset og køler kloden. I 1816 falder der derfor sne om sommeren i dele af Nordamerika, og høsten slår fejl i store dele af Europa. Mange steder følger dyrtid, sult og uro.",
+"lat": -8.25,
+"lon": 117.99,
+"cat": "katastrofe",
+"countries": [
+"United States",
+"Canada",
+"United Kingdom of Great Britain and Ireland",
+"France",
+"Switzerland"
+]
+},
+{
+"id": "sanmartin1817",
+"year": 1817,
+"date": "januar – februar 1817",
+"title": "San Martín krydser Andesbjergene",
+"text": "Året efter at De Forenede Provinser i Río de la Plata – det senere Argentina – har erklæret sig uafhængige af Spanien, fører general José de San Martín en hær på omkring 5.000 mand over Andesbjergene. Ved Chacabuco besejrer han de spanske styrker den 12. februar 1817. I 1818 erklærer Chile sig selvstændigt.",
+"lat": -32.99,
+"lon": -70.68,
+"cat": "selvstaendighed",
+"countries": [
+"United Provinces of the Río de la Plata",
+"Viceroyalty of Peru"
+]
+},
+{
+"id": "nationalbank1818",
+"year": 1818,
+"date": "juli 1818",
+"title": "Nationalbanken oprettes",
+"text": "Efter statsbankerotten i 1813 har danskerne mistet tilliden til pengesedlerne. Kongen overlader derfor retten til at udstede sedler til en ny bank, Nationalbanken i København, som skal være uafhængig af statskassen og gøre pengene stabile igen. Den afløser Rigsbanken, der blev oprettet ved bankerotten.",
+"lat": 55.68,
+"lon": 12.58,
+"cat": "okonomi",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "bolivar1819",
+"year": 1819,
+"date": "7. august – 17. december 1819",
+"title": "Bolívar sejrer ved Boyacá",
+"text": "Simón Bolívar fører sin hær fra Venezuela over Andesbjergene og besejrer de spanske styrker ved Boyacá i det nuværende Colombia. I december udråbes republikken Colombia (ofte kaldet Storcolombia), som skal omfatte det nuværende Colombia, Venezuela, Ecuador og Panama. Bolívar, der allerede i 1813 fik tilnavnet 'El Libertador' (befrieren), bliver republikkens første præsident.",
+"lat": 5.45,
+"lon": -73.36,
+"cat": "selvstaendighed",
+"countries": [
+"Viceroyalty of New Granada"
+]
+},
+{
+"id": "oersted1820",
+"year": 1820,
+"date": "1820",
+"title": "H.C. Ørsted opdager elektromagnetismen",
+"text": "Fysikeren H.C. Ørsted viser i København, at en elektrisk strøm i en ledning får en kompasnål til at dreje. Opdagelsen, som han offentliggør den 21. juli 1820, viser, at elektricitet og magnetisme hænger sammen. Den bliver grundlaget for elektromotoren, generatoren og telegrafen.",
+"lat": 55.68,
+"lon": 12.57,
+"cat": "videnskab",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "graeskfrihedskrig1821",
+"year": 1821,
+"until": 1830,
+"ongoing": "Den græske frihedskrig",
+"date": "marts 1821",
+"title": "Grækerne gør oprør mod Osmannerriget",
+"text": "Grækere på Peloponnes rejser sig mod det osmanniske styre. Krigen er blodig, med massakrer på begge sider, og mange i Europa støtter grækernes sag. I 1830 anerkendes Grækenland som selvstændig stat med støtte fra Storbritannien, Frankrig og Rusland.",
+"lat": 37.04,
+"lon": 22.11,
+"cat": "revolution",
+"countries": [
+"Ottoman Empire"
+]
+},
+{
+"id": "mexico1821",
+"year": 1821,
+"date": "27. september 1821",
+"title": "Mexico bliver selvstændigt",
+"text": "Efter elleve års kamp, der begyndte med præsten Miguel Hidalgos oprør i 1810, marcherer Agustín de Iturbides hær ind i Mexico City. Dagen efter erklæres Mexico uafhængigt af Spanien, og i 1822 bliver Iturbide kejser. Han må dog opgive tronen året efter, og i 1824 bliver Mexico republik.",
+"lat": 19.43,
+"lon": -99.13,
+"cat": "selvstaendighed",
+"countries": [
+"Viceroyalty of New Spain"
+]
+},
+{
+"id": "brasilien1822",
+"year": 1822,
+"date": "7. september 1822",
+"title": "Brasilien bliver selvstændigt",
+"text": "Den portugisiske kongefamilie var flygtet fra Napoleon til Brasilien i 1808. Da kongen i 1821 vender hjem til Portugal, bliver hans søn Pedro tilbage og erklærer Brasilien uafhængigt. Han bliver kejser Pedro 1., og Brasilien er et kejserrige frem til 1889.",
+"lat": -23.59,
+"lon": -46.61,
+"cat": "selvstaendighed",
+"countries": [
+"Viceroyalty of Brazil",
+"Portugal"
+]
+},
+{
+"id": "monroe1823",
+"year": 1823,
+"date": "2. december 1823",
+"title": "Monroe-doktrinen",
+"text": "USA's præsident James Monroe erklærer, at de europæiske stormagter ikke må grundlægge nye kolonier i Amerika eller blande sig i de nye selvstændige stater. Til gengæld vil USA holde sig uden for Europas konflikter. Doktrinen bliver i lang tid grundlaget for USA's politik over for resten af det amerikanske kontinent.",
+"lat": 38.89,
+"lon": -77.01,
+"cat": "politik",
+"countries": [
+"United States"
+]
+},
+{
+"id": "stocktondarlington1825",
+"year": 1825,
+"date": "27. september 1825",
+"title": "Den første offentlige jernbane med damptog",
+"text": "Banen mellem Stockton og Darlington i Nordengland åbner, og George Stephensons lokomotiv 'Locomotion' trækker et tog med kul og passagerer. Storbritannien er i fuld gang med den industrielle revolution, hvor dampmaskiner, kulminer og fabrikker forandrer arbejdsliv og samfund. I løbet af få årtier breder jernbanerne sig over hele verden.",
+"lat": 54.54,
+"lon": -1.45,
+"cat": "videnskab",
+"countries": [
+"United Kingdom of Great Britain and Ireland"
+]
+},
+{
+"id": "navarino1827",
+"year": 1827,
+"date": "20. oktober 1827",
+"title": "Søslaget ved Navarino",
+"text": "En samlet britisk, fransk og russisk flåde ødelægger den osmanniske og egyptiske flåde i bugten ved Navarino i det sydlige Grækenland. Stormagterne er gået ind i den græske frihedskrig for at tvinge en våbenhvile igennem. Nederlaget svækker Osmannerriget og baner vejen for Grækenlands selvstændighed.",
+"lat": 36.93,
+"lon": 21.69,
+"cat": "krig",
+"countries": [
+"Ottoman Empire",
+"Egypt",
+"United Kingdom of Great Britain and Ireland",
+"France",
+"Russian Empire",
+"Bessarabia"
+]
+},
+{
+"id": "shaka1828",
+"year": 1828,
+"date": "september 1828",
+"title": "Zulukongen Shaka dræbes",
+"text": "Siden 1816 har Shaka gjort zuluerne til den stærkeste militærmagt i det sydøstlige Afrika med en ny og disciplineret hær. Han dræbes af sine halvbrødre, og en af dem, Dingane, bliver konge. Shakas tid falder sammen med en periode med krige og flugt i hele regionen, men historikerne er uenige om, hvor stor en rolle han selv spillede.",
+"lat": -29.34,
+"lon": 31.29,
+"cat": "politik",
+"countries": [
+"Zulu"
+]
+},
+{
+"id": "julirevolution1830",
+"year": 1830,
+"date": "27. – 29. juli 1830",
+"title": "Julirevolutionen i Paris",
+"text": "Kong Karl 10. vil indskrænke pressefriheden og stemmeretten, men efter tre dages gadekampe i Paris må han flygte, og den mere liberale Louis-Philippe bliver konge. Revolutionen inspirerer til oprør andre steder: Belgien river sig løs fra Nederlandene og bliver et selvstændigt kongerige, mens et polsk oprør mod Rusland slås ned i 1831.",
+"lat": 48.86,
+"lon": 2.35,
+"cat": "revolution",
+"countries": [
+"France",
+"United Kingdom of the Netherlands"
+]
+},
+{
+"id": "algier1830",
+"year": 1830,
+"until": 1847,
+"ongoing": "Frankrigs erobring af Algeriet",
+"date": "5. juli 1830",
+"title": "Frankrig erobrer Algier",
+"text": "En fransk hær indtager byen Algier i Nordafrika, som formelt hører under Osmannerriget. Det bliver begyndelsen på en lang og hård erobringskrig, hvor emiren Abd al-Qadir leder modstanden, indtil han overgiver sig i 1847. Algeriet bliver Frankrigs vigtigste koloni og er fransk frem til 1962.",
+"lat": 36.75,
+"lon": 3.06,
+"cat": "krig",
+"countries": [
+"Algiers",
+"France"
+]
+},
+{
+"id": "darwin1831",
+"year": 1831,
+"date": "27. december 1831",
+"title": "Darwin sejler ud med Beagle",
+"text": "Den 22-årige naturforsker Charles Darwin forlader England med skibet HMS Beagle på en rejse jorden rundt, der varer næsten fem år. Undervejs indsamler han planter, dyr og fossiler, blandt andet på Galápagosøerne. Iagttagelserne bliver grundlaget for hans teori om arternes udvikling, som han udgiver i 1859.",
+"lat": 50.37,
+"lon": -4.14,
+"cat": "videnskab",
+"countries": [
+"United Kingdom of Great Britain and Ireland"
+]
+},
+{
+"id": "slaveriophaevelse1833",
+"year": 1833,
+"date": "28. august 1833",
+"title": "Storbritannien afskaffer slaveriet",
+"text": "Det britiske parlament vedtager en lov, der afskaffer slaveriet i de fleste britiske kolonier fra den 1. august 1834. Omkring 800.000 slavegjorte mennesker, især i Caribien, bliver frie, men må arbejde videre for deres tidligere ejere som såkaldte 'lærlinge' frem til 1838. Slaveejerne får 20 millioner pund i erstatning, mens de tidligere slaver ingen erstatning får.",
+"lat": 51.5,
+"lon": -0.12,
+"cat": "politik",
+"countries": [
+"United Kingdom of Great Britain and Ireland",
+"United Kingdom",
+"Barbados",
+"Trinidad",
+"Antigua and Barbuda",
+"Saint Kitts and Nevis",
+"Saint Lucia",
+"Saint Vincent and the Grenadines",
+"Grenada",
+"Dominica",
+"Cape Colony"
+]
+},
+{
+"id": "staenderforsamlinger1834",
+"year": 1834,
+"date": "15. maj 1834",
+"title": "De rådgivende stænderforsamlinger",
+"text": "Efter julirevolutionen og krav om en forfatning i hertugdømmerne opretter Frederik 6. fire rådgivende stænderforsamlinger: i Roskilde, Viborg, Slesvig by og Itzehoe. De mødes første gang i 1835–36. Kun en lille del af befolkningen – mænd med jord eller ejendom – har stemmeret, og kongen er stadig enevældig, men forsamlingerne bliver et vigtigt sted for politisk debat.",
+"lat": 55.64,
+"lon": 12.08,
+"cat": "politik",
+"dk": true,
+"countries": [
+"Denmark",
+"Schleswig",
+"Holstein",
+"North Schleswig"
+]
+},
+{
+"id": "hcandersen1835",
+"year": 1835,
+"date": "8. maj 1835",
+"title": "H.C. Andersens første eventyr",
+"text": "Det første hæfte af H.C. Andersens 'Eventyr, fortalte for Børn' udkommer i København med blandt andet 'Fyrtøjet' og 'Prinsessen på ærten'. Andersen, der er søn af en fattig skomager i Odense, skriver i et levende talesprog, som var nyt i litteraturen. Hans eventyr bliver oversat til flere end 100 sprog.",
+"lat": 55.68,
+"lon": 12.58,
+"cat": "kultur",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "storetrek1836",
+"year": 1836,
+"until": 1840,
+"ongoing": "Den Store Trek",
+"date": "1835 – 1840",
+"title": "Boerne drager ud på Den Store Trek",
+"text": "Tusindvis af hollandsktalende boere, de såkaldte voortrekkere, forlader med oksevogne den britiske Kapkoloni, blandt andet fordi de er utilfredse med britisk styre og slaveriets afskaffelse. De trænger ind i områder, hvor ndebele, zulu og andre afrikanske folk bor, og det fører til krige som slaget ved Blood River i 1838. Senere opretter boerne deres egne republikker, Transvaal og Oranjefristaten.",
+"lat": -32.25,
+"lon": 24.53,
+"cat": "politik",
+"countries": [
+"Cape Colony",
+"Zulu"
+]
+},
+{
+"id": "taarernesvej1838",
+"year": 1838,
+"until": 1839,
+"ongoing": "Tårernes vej",
+"date": "maj 1838 – marts 1839",
+"title": "Tårernes vej",
+"text": "En lov fra 1830 åbner for, at USA's regering kan flytte de oprindelige folk i sydøst, blandt andet cherokee, choctaw og creek, vest for Mississippi-floden, og gennem tvungne traktater mister de deres land. I 1838 driver soldater omkring 16.000 cherokeer ud af deres hjem og ind i lejre, selvom kun et lille mindretal af cherokeerne har skrevet under på traktaten om at opgive landet. I lejrene og under den lange march gennem vinteren dør anslået 4.000 af sult, kulde og sygdom.",
+"lat": 34.54,
+"lon": -84.91,
+"cat": "folkedrab",
+"countries": [
+"United States"
+]
+},
+{
+"id": "opiumskrig1839",
+"year": 1839,
+"until": 1842,
+"ongoing": "Opiumskrigen",
+"date": "september 1839 – august 1842",
+"title": "Opiumskrigen",
+"text": "Britiske handlende smugler store mængder opium fra Indien ind i Kina. Da den kinesiske embedsmand Lin Zexu i 1839 beslaglægger og ødelægger over 1.000 tons opium ved Humen nær Kanton, sender Storbritannien krigsskibe. Kina taber og må i Nanjing-traktaten i 1842 afstå øen Hongkong og åbne fem havnebyer for britisk handel.",
+"lat": 22.82,
+"lon": 113.67,
+"cat": "krig",
+"countries": [
+"Manchu Empire",
+"United Kingdom of Great Britain and Ireland",
+"Hong Kong"
+]
+},
+{
+"id": "waitangi1840",
+"year": 1840,
+"date": "6. februar 1840",
+"title": "Waitangi-traktaten",
+"text": "Repræsentanter for den britiske krone og over 40 maorihøvdinge underskriver en traktat ved Waitangi i New Zealand, og i løbet af året skriver over 500 høvdinge under. Ifølge den engelske version afgiver maorierne suveræniteten til Storbritannien, men den maoriske version kan forstås, som om høvdingene beholder deres myndighed. Uenigheden om traktaten præger New Zealand den dag i dag.",
+"lat": -35.27,
+"lon": 174.08,
+"cat": "aftale",
+"countries": [
+"Maori",
+"United Kingdom of Great Britain and Ireland"
+]
+},
+{
+"id": "kabul1842",
+"year": 1842,
+"date": "6. – 13. januar 1842",
+"title": "Britisk katastrofe i Afghanistan",
+"text": "Britisk-indiske tropper har besat Kabul i 1839 for at indsætte en afghansk hersker, der er venligt stemt over for briterne. Et oprør tvinger dem til at trække sig tilbage midt om vinteren, og af omkring 16.000 soldater og ledsagere bliver næsten alle dræbt eller taget til fange i bjergpassene. Nederlaget er et af de værste i det britiske imperiums historie.",
+"lat": 34.53,
+"lon": 69.17,
+"cat": "krig",
+"countries": [
+"Afghanistan",
+"British East India Company"
+]
+},
+{
+"id": "tivoli1843",
+"year": 1843,
+"date": "15. august 1843",
+"title": "Tivoli åbner",
+"text": "Officeren og bladudgiveren Georg Carstensen åbner haven Tivoli & Vauxhall uden for Københavns volde med kong Christian 8.'s tilladelse. Med musik, lys, forlystelser og teater bliver Tivoli et sted, hvor alle samfundslag kan more sig. Den er i dag en af verdens ældste forlystelsesparker, der stadig er i drift.",
+"lat": 55.674,
+"lon": 12.568,
+"cat": "kultur",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "morse1844",
+"year": 1844,
+"date": "24. maj 1844",
+"title": "Morses telegraf",
+"text": "Samuel Morse sender beskeden 'What hath God wrought' (Hvad har Gud udrettet) over en telegraflinje fra Washington til Baltimore. Med hans system af korte og lange signaler, morsekoden, kan nyheder nu sendes over lange afstande på få minutter. Inden for få årtier forbinder telegrafkabler kontinenterne.",
+"lat": 38.89,
+"lon": -77.01,
+"cat": "videnskab",
+"countries": [
+"United States"
+]
+},
+{
+"id": "irskhungersnoed1845",
+"year": 1845,
+"until": 1849,
+"ongoing": "Hungersnøden i Irland",
+"date": "september 1845 – 1849",
+"title": "Den store hungersnød i Irland",
+"text": "En plantesygdom, kartoffelskimmel, ødelægger kartoffelhøsten i Irland flere år i træk, og kartoflen er hovedføden for millioner af fattige. Omkring en million mennesker dør af sult og sygdom, mens eksporten af fødevarer fra Irland fortsætter. Over en million udvandrer, især til USA, og øens befolkning falder med 20–25 procent.",
+"lat": 53.4,
+"lon": -8.0,
+"cat": "katastrofe",
+"countries": [
+"United Kingdom of Great Britain and Ireland"
+]
+},
+{
+"id": "trankebar1845",
+"year": 1845,
+"date": "1845",
+"title": "Danmark sælger Trankebar",
+"text": "Danmark sælger sine handelsbyer i Indien, Trankebar og Frederiksnagore (Serampore), til briterne. Trankebar havde været dansk siden 1620, men kolonierne kostede mere, end de indbragte. Senere sælger Danmark også sine forter på Guldkysten (1850) og Dansk Vestindien (1917).",
+"lat": 11.03,
+"lon": 79.86,
+"cat": "aftale",
+"dk": true,
+"countries": [
+"Denmark",
+"British East India Company"
+]
+},
+{
+"id": "mexicanskamerikanskkrig1846",
+"year": 1846,
+"until": 1848,
+"ongoing": "Den mexicansk-amerikanske krig",
+"date": "april – maj 1846",
+"title": "Krig mellem USA og Mexico",
+"text": "Texas har revet sig løs fra Mexico i 1836 og er i 1845 blevet optaget i USA. En strid om grænsen fører til krig, og i september 1847 indtager amerikanske tropper Mexico City. Ved freden i 1848 må Mexico afstå store områder, blandt andet det nuværende Californien, Nevada, Utah og det meste af Arizona og New Mexico.",
+"lat": 26.02,
+"lon": -97.48,
+"cat": "krig",
+"countries": [
+"United States",
+"Viceroyalty of New Spain"
+]
+},
+{
+"id": "aabentbrev1846",
+"year": 1846,
+"date": "8. juli 1846",
+"title": "Christian 8.'s Åbne Brev",
+"text": "Kronprins Frederik har ingen børn, og det er uklart, om hertugdømmerne fortsat kan arves af den samme konge som Danmark. I Det Åbne Brev erklærer Christian 8., at den danske arvefølge gælder for Slesvig, mens der er tvivl om dele af Holsten. Brevet vækker stor vrede blandt tysksindede i hertugdømmerne og i Tyskland og skærper striden, der i 1848 ender i krig.",
+"lat": 55.68,
+"lon": 12.58,
+"cat": "politik",
+"dk": true,
+"countries": [
+"Denmark",
+"Schleswig",
+"Holstein",
+"North Schleswig"
+]
+},
+{
+"id": "jernbanekbhroskilde1847",
+"year": 1847,
+"date": "26. juni 1847",
+"title": "Danmarks første jernbane",
+"text": "Banen mellem København og Roskilde åbner som den første jernbane i kongeriget Danmark. I hertugdømmet Holsten var en bane mellem Altona og Kiel allerede åbnet i 1844. Jernbanerne gør det hurtigere og billigere at fragte varer og mennesker og bliver vigtige for landbrugets og industriens udvikling.",
+"lat": 55.676,
+"lon": 12.565,
+"cat": "okonomi",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "liberia1847",
+"year": 1847,
+"date": "26. juli 1847",
+"title": "Liberia bliver selvstændigt",
+"text": "Liberia i Vestafrika erklærer sig selvstændigt som Afrikas første moderne republik. Kolonien var grundlagt i 1822 af en amerikansk forening, der ville sende frie sorte amerikanere og tidligere slaver til Afrika. De nye indbyggere og deres efterkommere kommer til at styre landet, ofte i konflikt med de oprindelige folk.",
+"lat": 6.3,
+"lon": -10.8,
+"cat": "selvstaendighed",
+"countries": []
+},
+{
+"id": "martsrev1848",
+"year": 1848,
+"date": "21. marts 1848",
+"title": "Enevælden falder",
+"text": "Efter et borgermøde i Casino aftenen før går tusindvis af københavnere i optog til Christiansborg og kræver en ny regering. Frederik 7. svarer, at han allerede har afskediget sine ministre, og kort efter dannes Martsministeriet med bl.a. de nationalliberale Orla Lehmann og D.G. Monrad. Enevælden er reelt slut, men afskaffes først formelt med Grundloven i 1849.",
+"lat": 55.676,
+"lon": 12.58,
+"cat": "revolution",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "treaarskrig1848",
+"year": 1848,
+"until": 1850,
+"ongoing": "Treårskrigen",
+"date": "24. marts 1848",
+"title": "Treårskrigen begynder",
+"text": "Slesvig-holstenerne danner en oprørsregering i Kiel, fordi de vil have Slesvig med i et samlet Tyskland, mens de nationalliberale i København vil knytte Slesvig tættere til Danmark. Preussen og andre tyske stater sender tropper til støtte for oprørerne. Krigen varer med pauser i tre år, og den 6. juli 1849 bryder den danske hær ud af det belejrede Fredericia og vinder en vigtig sejr.",
+"lat": 54.32,
+"lon": 10.13,
+"cat": "krig",
+"dk": true,
+"countries": [
+"Denmark",
+"Schleswig",
+"Holstein",
+"Prussia",
+"North Schleswig"
+]
+},
+{
+"id": "revolutioner1848",
+"year": 1848,
+"date": "februar – marts 1848",
+"title": "Revolutioner i Europa",
+"text": "Efter gadekampe i Paris må kong Louis-Philippe abdicere den 24. februar 1848, og Frankrig bliver republik. I løbet af få uger bryder der oprør ud i bl.a. Wien, Berlin, Milano og Ungarn, hvor folk kræver forfatninger, ytringsfrihed og nationalt selvstyre. De fleste oprør bliver slået ned igen i 1848–1849, men flere lande, også Danmark, får en fri forfatning.",
+"lat": 48.86,
+"lon": 2.35,
+"cat": "revolution",
+"countries": [
+"France",
+"Austrian Empire",
+"Prussia",
+"Lombardy"
+]
+},
+{
+"id": "vestindien1848",
+"year": 1848,
+"date": "3. juli 1848",
+"title": "Slaveriet afskaffes i Dansk Vestindien",
+"text": "Kongen havde i 1847 bestemt, at slaveriet først skulle ophøre efter 12 år, men de slavegjorte på St. Croix vil ikke vente. Tusindvis gør oprør og samles ved fortet i Frederiksted, og den 3. juli erklærer generalguvernør Peter von Scholten, at alle ufrie i Dansk Vestindien er frie. Han handler uden ordre fra København, men frigivelsen står ved magt.",
+"lat": 17.71,
+"lon": -64.88,
+"cat": "revolution",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "manifest1848",
+"year": 1848,
+"date": "21. februar 1848",
+"title": "Det kommunistiske manifest",
+"text": "Karl Marx og Friedrich Engels udgiver et kort skrift på tysk i London for den lille forening Kommunisternes Forbund. Det beskriver historien som en kamp mellem klasser og ender med opfordringen 'Proletarer i alle lande, foren jer!'. Skriftet får næsten ingen betydning i 1848, men bliver senere et af verdens mest læste politiske skrifter.",
+"lat": 51.52,
+"lon": -0.08,
+"cat": "politik",
+"countries": [
+"United Kingdom of Great Britain and Ireland"
+]
+},
+{
+"id": "grundlov1849",
+"year": 1849,
+"date": "5. juni 1849",
+"title": "Danmarks første grundlov",
+"text": "Frederik 7. underskriver Danmarks Riges Grundlov, og Danmark bliver et konstitutionelt monarki. Magten deles mellem konge, Rigsdag og domstole, og borgerne får bl.a. trykkefrihed, forsamlingsfrihed og religionsfrihed. Valgret får kun mænd over 30 år med egen husstand – omkring 15 procent af befolkningen.",
+"lat": 55.676,
+"lon": 12.58,
+"cat": "politik",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "guldfeber1849",
+"year": 1849,
+"date": "1849",
+"title": "Guldfeber i Californien",
+"text": "Guldfund ved Sutter's Mill i januar 1848 sætter gang i et kapløb mod Californien, som USA netop har erobret fra Mexico. I 1849 strømmer titusinder af lykkejægere til fra hele verden, og San Francisco vokser på få år fra en lille by med under 1.000 indbyggere til en by med over 30.000. For Californiens oprindelige folk bliver guldfeberen en katastrofe, og deres antal falder voldsomt.",
+"lat": 38.8,
+"lon": -120.89,
+"cat": "okonomi",
+"countries": [
+"United States",
+"Viceroyalty of New Spain"
+]
+},
+{
+"id": "isted1850",
+"year": 1850,
+"date": "25. juli 1850",
+"title": "Slaget ved Isted",
+"text": "Over 60.000 soldater kæmper ved Isted nord for byen Slesvig i det største slag i Danmarks historie. Den danske hær vinder over slesvig-holstenerne, men på de to sider bliver tilsammen omkring 1.400 mand dræbt og over 3.000 såret. Preussen har allerede sluttet fred med Danmark, og i begyndelsen af 1851 må den slesvig-holstenske hær opløses, men striden om Slesvig er ikke løst.",
+"lat": 54.57,
+"lon": 9.49,
+"cat": "krig",
+"dk": true,
+"countries": [
+"Denmark",
+"Schleswig",
+"Holstein",
+"North Schleswig"
+]
+},
+{
+"id": "taiping1850",
+"year": 1850,
+"until": 1864,
+"ongoing": "Taipingoprøret",
+"date": "1850",
+"title": "Taipingoprøret i Kina",
+"text": "I provinsen Guangxi i Sydkina samler Hong Xiuquan, der mener at være Jesu yngre bror, tusindvis af fattige bønder og minearbejdere mod Qing-dynastiet. I januar 1851 udråber han Det Himmelske Fredsrige (Taiping), og i 1853 erobrer oprørerne Nanjing. Da oprøret er slået ned i 1864, er anslået 20–30 millioner mennesker døde i krigen og de hungersnøde, den skaber.",
+"lat": 23.5,
+"lon": 110.1,
+"cat": "revolution",
+"countries": [
+"Manchu Empire"
+]
+},
+{
+"id": "guldkysten1850",
+"year": 1850,
+"date": "1850",
+"title": "Danmark sælger Guldkysten",
+"text": "Danmark sælger sine forter på Guldkysten i Vestafrika, bl.a. Christiansborg ved Accra, til Storbritannien for 10.000 pund. Fra kysten her havde danske skibe siden 1600-tallet sejlet anslået 100.000 slavegjorte afrikanere over Atlanten, især til Dansk Vestindien. Christiansborg blev senere i mange år sæde for Ghanas regering.",
+"lat": 5.55,
+"lon": -0.18,
+"cat": "aftale",
+"dk": true,
+"countries": [
+"Denmark",
+"United Kingdom of Great Britain and Ireland",
+"Fante"
+]
+},
+{
+"id": "australien1851",
+"year": 1851,
+"date": "1851",
+"title": "Guldfeber i Australien",
+"text": "Der findes guld i New South Wales og kort efter ved Ballarat og Bendigo i den nye koloni Victoria. Hundredtusinder af indvandrere strømmer til fra Storbritannien, resten af Europa og Kina, og Australiens befolkning bliver mere end fordoblet på ti år. For aboriginerne betyder det, at endnu mere af deres land bliver taget fra dem.",
+"lat": -37.56,
+"lon": 143.85,
+"cat": "okonomi",
+"countries": [
+"New South Wales"
+]
+},
+{
+"id": "onkeltom1852",
+"year": 1852,
+"date": "20. marts 1852",
+"title": "Onkel Toms hytte",
+"text": "Harriet Beecher Stowes roman om slaveriet i Sydstaterne udkommer som bog og sælger omkring 300.000 eksemplarer i USA det første år. Den får mange i Nordstaterne til at tage afstand fra slaveriet, men vækker vrede i Syden. Bogen bliver hurtigt oversat til mange sprog og er en af 1800-tallets mest solgte bøger.",
+"lat": 42.36,
+"lon": -71.06,
+"cat": "kultur",
+"countries": [
+"United States"
+]
+},
+{
+"id": "perry1853",
+"year": 1853,
+"date": "8. juli 1853",
+"title": "USA tvinger Japan til at åbne sig",
+"text": "Den amerikanske kommandør Matthew Perry sejler ind i Edo-bugten med fire krigsskibe, som japanerne kalder 'de sorte skibe'. Japan har i over 200 år næsten lukket sig af for omverdenen. I februar 1854 vender Perry tilbage med flere skibe, og ved Kanagawa-traktaten den 31. marts 1854 må Japan åbne to havne for amerikanske skibe.",
+"lat": 35.24,
+"lon": 139.72,
+"cat": "krise",
+"countries": [
+"Japan",
+"United States"
+]
+},
+{
+"id": "krim1853",
+"year": 1853,
+"until": 1856,
+"ongoing": "Krimkrigen",
+"date": "oktober 1853",
+"title": "Krimkrigen begynder",
+"text": "Osmannerriget erklærer Rusland krig, efter at russiske tropper har besat Moldavien og Valakiet ved Donau. Storbritannien og Frankrig går med på osmannernes side i 1854 for at standse Ruslands fremstød, og hovedkampene står om flådebasen Sevastopol på Krim. Krigen slutter med freden i Paris i marts 1856 efter anslået flere hundrede tusinde døde, de fleste af sygdom.",
+"lat": 44.62,
+"lon": 33.53,
+"cat": "krig",
+"countries": [
+"Ottoman Empire",
+"Russian Empire",
+"France",
+"United Kingdom of Great Britain and Ireland",
+"Bessarabia"
+]
+},
+{
+"id": "kolera1853",
+"year": 1853,
+"date": "juni – oktober 1853",
+"title": "Kolera i København",
+"text": "Kolera spreder sig i det tætbefolkede København inden for voldene, hvor drikkevand, kloakvand og affald blandes i snævre gader og baggårde. Omkring 4.700 mennesker dør på få måneder. Epidemien sætter fart i byggeriet af kloakker, et nyt vandværk og sunde boliger som Brumleby uden for voldene.",
+"lat": 55.68,
+"lon": 12.57,
+"cat": "katastrofe",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "nightingale1854",
+"year": 1854,
+"date": "november 1854",
+"title": "Florence Nightingale i Scutari",
+"text": "Den britiske sygeplejerske Florence Nightingale kommer med 38 sygeplejersker til hærens hospital i Scutari ved Konstantinopel. Langt flere soldater dør af sygdomme som kolera, tyfus og dysenteri end af kampene, og hun kæmper for renlighed, mad og ordentlig pleje. Bagefter bruger hun statistik til at vise, hvad der dræbte soldaterne, og hun regnes som grundlæggeren af det moderne sygeplejefag.",
+"lat": 41.0,
+"lon": 29.02,
+"cat": "videnskab",
+"countries": [
+"United Kingdom of Great Britain and Ireland",
+"Ottoman Empire"
+]
+},
+{
+"id": "xhosa1856",
+"year": 1856,
+"date": "1856 – 1857",
+"title": "Kvægdrabet hos xhosa-folket",
+"text": "Den unge pige Nongqawuse forudsiger, at de døde vil genopstå og de hvide kolonister forsvinde, hvis xhosa-folket slagter deres kvæg og ødelægger kornet. Omkring 400.000 dyr bliver slagtet, og i den hungersnød, der følger, dør anslået 40.000 mennesker. Briterne overtager bagefter store dele af xhosa-folkets land.",
+"lat": -32.6,
+"lon": 28.4,
+"cat": "katastrofe",
+"countries": [
+"Xhosa",
+"Cape Colony"
+]
+},
+{
+"id": "indien1857",
+"year": 1857,
+"until": 1858,
+"ongoing": "Det indiske oprør",
+"date": "10. maj 1857",
+"title": "Oprør mod briterne i Indien",
+"text": "Indiske soldater (sepoyer) i Det Ostindiske Kompagnis hær gør mytteri i Meerut og marcherer mod Delhi, hvor de udråber den gamle mogulkejser som hersker. Oprøret breder sig over Nordindien, og begge sider begår grusomme massakrer. Briterne slår oprøret ned, og i 1858 overtager den britiske stat selv styret af Indien fra kompagniet.",
+"lat": 28.98,
+"lon": 77.71,
+"cat": "revolution",
+"countries": [
+"British East India Company",
+"Oudh"
+]
+},
+{
+"id": "darwin1859",
+"year": 1859,
+"date": "24. november 1859",
+"title": "Darwins 'Arternes oprindelse'",
+"text": "Den britiske naturforsker Charles Darwin udgiver bogen 'Om arternes oprindelse'. Han forklarer, hvordan arter langsomt ændrer sig gennem naturlig udvælgelse, fordi de bedst tilpassede individer overlever og får flest afkom. Teorien vækker stor debat, fordi den udfordrer den kristne skabelsesberetning, og i dag er den grundlaget for biologien.",
+"lat": 51.51,
+"lon": -0.14,
+"cat": "videnskab",
+"countries": [
+"United Kingdom of Great Britain and Ireland"
+]
+},
+{
+"id": "italien1859",
+"year": 1859,
+"until": 1861,
+"ongoing": "Italiens samling",
+"date": "24. juni 1859",
+"title": "Krigen om Italiens samling",
+"text": "Kongeriget Sardinien og Frankrig besejrer Østrig ved Magenta og Solferino, og Sardinien får Lombardiet. I 1860 erobrer Giuseppe Garibaldi og hans 'tusind rødskjorter' Sicilien og Napoli, og flere mellemitalienske stater stemmer sig ind under Sardinien. Den 17. marts 1861 udråbes Kongeriget Italien med Victor Emanuel 2. som konge.",
+"lat": 45.37,
+"lon": 10.57,
+"cat": "krig",
+"countries": [
+"Kingdom of Sardinia",
+"France",
+"Austrian Empire",
+"Lombardy",
+"Kingdom of the Two Sicilies",
+"Tuscany"
+]
+},
+{
+"id": "borgerkrig1861",
+"year": 1861,
+"until": 1865,
+"ongoing": "Den amerikanske borgerkrig",
+"date": "12. april 1861",
+"title": "Den amerikanske borgerkrig begynder",
+"text": "Efter at Abraham Lincoln er valgt til præsident, bryder syv sydstater ud af USA og danner Amerikas Konfødererede Stater for at bevare slaveriet; senere følger fire mere. Krigen begynder, da sydstatstropper beskyder Fort Sumter i havnen ved Charleston den 12. april 1861. Med anslået 620.000–750.000 døde soldater bliver det den blodigste krig i USA's historie.",
+"lat": 32.75,
+"lon": -79.87,
+"cat": "krig",
+"countries": [
+"United States"
+]
+},
+{
+"id": "livegenskab1861",
+"year": 1861,
+"date": "3. marts 1861",
+"title": "Rusland ophæver livegenskabet",
+"text": "Zar Aleksandr 2. underskriver et manifest, der gør omkring 23 millioner livegne bønder personligt frie. Godsejerne må ikke længere eje dem, sælge dem eller bestemme, hvem de gifter sig med. Men bønderne skal betale for den jord, de får, i op til 49 år, og mange forbliver fattige.",
+"lat": 59.94,
+"lon": 30.31,
+"cat": "politik",
+"countries": [
+"Russian Empire",
+"Bessarabia"
+]
+},
+{
+"id": "novemberforfatning1863",
+"year": 1863,
+"date": "18. november 1863",
+"title": "Novemberforfatningen",
+"text": "Den 13. november vedtager Rigsrådet en fælles grundlov for kongeriget og Slesvig, selvom Danmark i 1851–52 havde lovet Preussen og Østrig ikke at knytte Slesvig tættere til kongeriget end Holsten. Frederik 7. dør pludselig den 15. november, og den nye konge, Christian 9., underskriver modvilligt forfatningen tre dage senere. Preussen og Østrig kræver den ophævet, og da Danmark nægter, bliver det til krig.",
+"lat": 55.676,
+"lon": 12.58,
+"cat": "krise",
+"dk": true,
+"countries": [
+"Denmark",
+"Schleswig",
+"North Schleswig"
+]
+},
+{
+"id": "dybbol1864",
+"year": 1864,
+"date": "18. april 1864",
+"title": "Stormen på Dybbøl",
+"text": "Den 1. februar 1864 går preussiske og østrigske tropper over Ejderen, og den danske hær må hurtigt opgive Dannevirke. Hæren graver sig ned i skanserne ved Dybbøl, som preusserne beskyder i ugevis og stormer den 18. april. Nederlaget koster mange danske soldater livet, og Dybbøl bliver siden et af de vigtigste nationale mindesteder i Danmark.",
+"lat": 54.91,
+"lon": 9.75,
+"cat": "krig",
+"dk": true,
+"countries": [
+"Denmark",
+"Schleswig",
+"Holstein",
+"Prussia",
+"Austrian Empire",
+"North Schleswig"
+]
+},
+{
+"id": "wien1864",
+"year": 1864,
+"date": "30. oktober 1864",
+"title": "Freden i Wien",
+"text": "Efter flere nederlag, bl.a. på Als i juni, må Danmark slutte fred. Christian 9. afstår hertugdømmerne Slesvig, Holsten og Lauenborg til Preussen og Østrig. Danmark mister omkring en tredjedel af sit areal og to femtedele af sine indbyggere, heriblandt mange dansksindede i Nordslesvig, og bliver en lille nationalstat.",
+"lat": 48.21,
+"lon": 16.37,
+"cat": "aftale",
+"dk": true,
+"countries": [
+"Denmark",
+"Schleswig",
+"Holstein",
+"Prussia",
+"Austrian Empire",
+"North Schleswig"
+]
+},
+{
+"id": "paraguay1864",
+"year": 1864,
+"until": 1870,
+"ongoing": "Paraguaykrigen",
+"date": "december 1864",
+"title": "Paraguaykrigen begynder",
+"text": "Paraguays diktator Francisco Solano López angriber Brasilien i december 1864 og Argentina i 1865, og de to lande danner sammen med Uruguay Tripelalliancen mod ham. Krigen varer til 1870, hvor López bliver dræbt. Paraguay mister en meget stor del af sin befolkning, især mænd, og det er den blodigste krig mellem stater i Sydamerikas historie.",
+"lat": -25.28,
+"lon": -57.63,
+"cat": "krig",
+"countries": [
+"Paraguay",
+"Viceroyalty of Brazil",
+"United Provinces of the Río de la Plata"
+]
+},
+{
+"id": "slaveri1865",
+"year": 1865,
+"date": "9. april – 6. december 1865",
+"title": "Nordstaterne vinder, og slaveriet afskaffes",
+"text": "Sydstatsgeneralen Robert E. Lee overgiver sig ved Appomattox den 9. april, og borgerkrigen er reelt slut. Fem dage senere bliver præsident Lincoln skudt i et teater i Washington. Med det 13. tillæg til forfatningen bliver slaveriet forbudt i hele USA i december 1865, og omkring 4 millioner slavegjorte er nu frie.",
+"lat": 37.38,
+"lon": -78.8,
+"cat": "politik",
+"countries": [
+"United States of America"
+]
+},
+{
+"id": "koniggratz1866",
+"year": 1866,
+"date": "3. juli 1866",
+"title": "Preussen besejrer Østrig",
+"text": "Efter strid om Slesvig og Holsten og om magten i Tyskland går Preussen og Østrig i krig mod hinanden, og Italien kæmper på Preussens side. Ved Königgrätz i Bøhmen vinder Preussen afgørende. Østrig må opgive sin indflydelse i Tyskland og afstå Venetien, der kommer til Italien, og Preussen samler de nordtyske stater i Det Nordtyske Forbund. I fredsaftalen i Prag lover Preussen en folkeafstemning i Nordslesvig, men løftet bliver ophævet i 1878.",
+"lat": 50.32,
+"lon": 15.72,
+"cat": "krig",
+"dk": true,
+"countries": [
+"Germany",
+"Austria Hungary",
+"Italy",
+"Schleswig"
+]
+},
+{
+"id": "telegraf1866",
+"year": 1866,
+"date": "27. juli 1866",
+"title": "Telegrafkabel over Atlanten",
+"text": "Tidens største skib, Great Eastern, har lagt et telegrafkabel på havbunden fra Irland til Newfoundland. Nu kan et telegram sendes mellem Europa og Amerika på få minutter i stedet for at tage omkring ti dage med dampskib. Et tidligere kabel fra 1858 virkede kun i nogle uger.",
+"lat": 47.88,
+"lon": -53.37,
+"cat": "videnskab",
+"countries": [
+"United Kingdom of Great Britain and Ireland",
+"United States of America"
+]
+},
+{
+"id": "ostrigungarn1867",
+"year": 1867,
+"date": "8. juni 1867",
+"title": "Østrig-Ungarn bliver til",
+"text": "Svækket af nederlaget til Preussen indgår kejser Franz Joseph et forlig med ungarerne. Riget deles i to halvdele, Østrig og Ungarn, med hver sin regering og sit parlament, men med fælles monark, hær og udenrigspolitik. Den 8. juni 1867 bliver Franz Joseph kronet til konge af Ungarn i Buda.",
+"lat": 47.5,
+"lon": 19.03,
+"cat": "politik",
+"countries": [
+"Austria Hungary"
+]
+},
+{
+"id": "canada1867",
+"year": 1867,
+"date": "1. juli 1867",
+"title": "Canada bliver et dominion",
+"text": "Tre britiske kolonier i Nordamerika samles til Dominion of Canada med fire provinser: Ontario, Québec, New Brunswick og Nova Scotia. Canada får sit eget parlament i Ottawa og styrer selv sine indre anliggender. Landet er stadig en del af Det Britiske Imperium med den britiske monark som statsoverhoved.",
+"lat": 45.42,
+"lon": -75.7,
+"cat": "selvstaendighed",
+"countries": [
+"Canada",
+"United Kingdom of Great Britain and Ireland"
+]
+},
+{
+"id": "alaska1867",
+"year": 1867,
+"date": "30. marts 1867",
+"title": "USA køber Alaska",
+"text": "Rusland sælger Alaska til USA for 7,2 millioner dollars, fordi kolonien er dyr at forsvare og giver underskud. Nogle amerikanere gør grin med handlen og kalder den 'Sewards dårskab' efter udenrigsministeren, der stod bag. Senere findes der guld og olie, og i 1959 bliver Alaska USA's 49. delstat.",
+"lat": 57.05,
+"lon": -135.33,
+"cat": "aftale",
+"countries": [
+"United States of America",
+"Russian Empire",
+"Bessarabia"
+]
+},
+{
+"id": "meiji1868",
+"year": 1868,
+"date": "3. januar 1868",
+"title": "Meiji-restaurationen i Japan",
+"text": "Samuraier fra bl.a. Satsuma og Choshu tager magten i kejserbyen Kyoto og erklærer, at den 15-årige kejser Meiji igen skal styre Japan i stedet for shogunen. Under den borgerkrig, der følger (1868–1869), får Edo navnet Tokyo, og kejseren flytter dertil. Japan moderniserer sig nu hurtigt med jernbaner, fabrikker, skoler og en hær efter europæisk forbillede.",
+"lat": 35.02,
+"lon": 135.76,
+"cat": "revolution",
+"countries": [
+"Imperial Japan"
+]
+},
+{
+"id": "suez1869",
+"year": 1869,
+"date": "17. november 1869",
+"title": "Suezkanalen åbner",
+"text": "Kanalen mellem Middelhavet og Det Røde Hav åbner efter ti års arbejde under ledelse af franskmanden Ferdinand de Lesseps. Den er gravet af titusinder af egyptiske arbejdere, mange af dem tvangsudskrevet. Skibe fra Europa til Indien og Østasien slipper nu for at sejle uden om Afrika, og rejsen bliver flere tusinde kilometer kortere.",
+"lat": 31.26,
+"lon": 32.3,
+"cat": "okonomi",
+"countries": [
+"Egypt",
+"France",
+"Alsace-Lorraine"
+]
+},
+{
+"id": "udvandring1869",
+"year": 1869,
+"date": "1869",
+"title": "Udvandringen til Amerika tager fart",
+"text": "Fattigdom, mangel på jord og drømmen om et bedre liv får mange danskere til at udvandre, især til USA, hvor nybyggere kan få jord næsten gratis. Fra Sønderjylland rejser mange unge mænd også for at slippe for at blive indkaldt til den preussiske hær. Udvandringen kommer i bølger, og fra Sverige og Norge rejser endnu flere – også i forhold til befolkningens størrelse.",
+"lat": 55.69,
+"lon": 12.6,
+"cat": "okonomi",
+"dk": true,
+"countries": [
+"Denmark",
+"Sweden–Norway",
+"United States of America"
+]
+},
+{
+"id": "fransktysk1870",
+"year": 1870,
+"until": 1871,
+"ongoing": "Den fransk-tyske krig",
+"date": "19. juli 1870",
+"title": "Den fransk-tyske krig",
+"text": "Frankrig erklærer Preussen krig, men de sydtyske stater slutter op om Preussen, og de tyske hære rykker hurtigt ind i Frankrig. Ved Sedan den 2. september bliver kejser Napoleon 3. taget til fange, og i Paris udråbes republikken. Fra den 19. september belejrer de tyske hære Paris.",
+"lat": 49.7,
+"lon": 4.94,
+"cat": "krig",
+"countries": [
+"France",
+"Germany",
+"Schleswig",
+"Alsace-Lorraine"
+]
+},
+{
+"id": "rom1870",
+"year": 1870,
+"date": "20. september 1870",
+"title": "Rom bliver italiensk",
+"text": "De franske tropper, der har beskyttet paven, bliver kaldt hjem på grund af krigen mod Preussen, og italienske soldater rykker ind i Rom. Pavestaten ophører, og i 1871 bliver Rom hovedstad i Kongeriget Italien. Venetien var allerede blevet italiensk i 1866, og dermed er Italiens samling stort set fuldført.",
+"lat": 41.91,
+"lon": 12.5,
+"cat": "politik",
+"countries": [
+"Italy"
+]
+},
+{
+"id": "kejser1871",
+"year": 1871,
+"date": "18. januar 1871",
+"title": "Det tyske kejserrige udråbes",
+"text": "I Spejlsalen på slottet Versailles udråbes Preussens konge Wilhelm 1. til tysk kejser, mens krigen mod Frankrig stadig er i gang. De tyske stater samles i ét kejserrige med Otto von Bismarck som rigskansler. Ved freden i Frankfurt i maj må Frankrig afstå Elsass-Lothringen og betale fem milliarder francs i krigsskadeserstatning.",
+"lat": 48.805,
+"lon": 2.12,
+"cat": "politik",
+"countries": [
+"Germany",
+"France",
+"Schleswig",
+"Alsace-Lorraine"
+]
+},
+{
+"id": "kommune1871",
+"year": 1871,
+"date": "18. marts – 28. maj 1871",
+"title": "Pariserkommunen",
+"text": "Efter nederlaget til Tyskland gør arbejdere og nationalgarden i Paris oprør og vælger deres eget byråd, Pariserkommunen. Kommunen adskiller kirke og stat og vil forbedre arbejdernes kår. I 'den blodige uge' i slutningen af maj generobrer regeringens hær byen, og tusinder af kommunarder bliver dræbt.",
+"lat": 48.857,
+"lon": 2.352,
+"cat": "revolution",
+"countries": [
+"France"
+]
+},
+{
+"id": "brandes1871",
+"year": 1871,
+"date": "3. november 1871",
+"title": "Georg Brandes og Det moderne gennembrud",
+"text": "Den 29-årige litteraturkritiker Georg Brandes begynder sine forelæsninger om hovedstrømninger i europæisk litteratur på Københavns Universitet. Han kræver, at litteraturen skal 'sætte problemer under debat' – fx religion, ægteskab og kvinders stilling. Forelæsningerne regnes for starten på Det moderne gennembrud i dansk kultur.",
+"lat": 55.679,
+"lon": 12.573,
+"cat": "kultur",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "faelleden1872",
+"year": 1872,
+"date": "5. maj 1872",
+"title": "Slaget på Fælleden",
+"text": "Den danske afdeling af arbejderbevægelsen Internationale indkalder til møde på Nørrefælled til støtte for strejkende murersvende, men politiet forbyder mødet og anholder om natten lederne Louis Pio, Harald Brix og Poul Geleff. Da arbejderne alligevel møder op, spreder politi og husarer mængden, og mange bliver såret. Lederne kommer i fængsel og Internationale forbydes, men arbejderbevægelsen vokser videre og bliver til Socialdemokratiet.",
+"lat": 55.7,
+"lon": 12.565,
+"cat": "politik",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "krak1873",
+"year": 1873,
+"date": "9. maj 1873",
+"title": "Børskrakket i Wien",
+"text": "Efter flere års spekulation krakker børsen i Wien, og i september går den store amerikanske bank Jay Cooke & Co. fallit. Krisen breder sig til Tyskland, USA og store dele af Europa. Den indleder en lang periode med faldende priser, konkurser og arbejdsløshed, som varer langt ind i 1890'erne.",
+"lat": 48.214,
+"lon": 16.364,
+"cat": "okonomi",
+"countries": [
+"Austria Hungary",
+"Germany",
+"United States of America",
+"Schleswig",
+"Alsace-Lorraine"
+]
+},
+{
+"id": "island1874",
+"year": 1874,
+"date": "5. januar 1874",
+"title": "Island får sin egen forfatning",
+"text": "Christian 9. giver Island en forfatning, så Altinget sammen med kongen kan vedtage love og styre økonomien i islandske sager. Om sommeren fejrer islændingene, at det er 1000 år siden, de første nordboer slog sig ned på øen, og Christian 9. bliver den første danske konge, der besøger Island. Øen er dog stadig en del af det danske rige.",
+"lat": 64.147,
+"lon": -21.94,
+"cat": "politik",
+"dk": true,
+"countries": [
+"Iceland",
+"Denmark"
+]
+},
+{
+"id": "telefon1876",
+"year": 1876,
+"date": "10. marts 1876",
+"title": "Telefonen",
+"text": "Få dage efter at Alexander Graham Bell har fået patent på telefonen, taler han i sit værksted i Boston med sin assistent Thomas Watson gennem apparatet. Andre opfindere arbejder på lignende ideer, men det er Bells patent, der vinder. Opfindelsen spreder sig hurtigt, og i 1881 åbner den første telefoncentral i København.",
+"lat": 42.358,
+"lon": -71.06,
+"cat": "videnskab",
+"countries": [
+"United States of America"
+]
+},
+{
+"id": "balkankrig1877",
+"year": 1877,
+"until": 1878,
+"ongoing": "Den russisk-tyrkiske krig",
+"date": "24. april 1877",
+"title": "Den russisk-tyrkiske krig",
+"text": "Rusland erklærer Osmannerriget krig, efter at oprør blandt de kristne folk på Balkan er blevet blodigt slået ned. Russiske og rumænske tropper belejrer i fem måneder byen Plevna i det nuværende Bulgarien, og i begyndelsen af 1878 står russerne tæt på Konstantinopel. Ved freden i San Stefano i marts 1878 må osmannerne opgive store områder.",
+"lat": 43.417,
+"lon": 24.607,
+"cat": "krig",
+"countries": [
+"Russian Empire",
+"Ottoman Empire",
+"Romania",
+"Serbia",
+"Montenegro",
+"Bulgaria",
+"Bessarabia"
+]
+},
+{
+"id": "berlin1878",
+"year": 1878,
+"date": "13. juni – 13. juli 1878",
+"title": "Berlinerkongressen",
+"text": "Europas stormagter mødes i Berlin under ledelse af Bismarck og ændrer Ruslands fredsaftale med Osmannerriget. Serbien, Montenegro og Rumænien bliver selvstændige, mens et mindre Bulgarien får selvstyre under sultanen. Østrig-Ungarn får lov at besætte Bosnien-Hercegovina, og ved en særaftale med sultanen overtager Storbritannien styret af Cypern.",
+"lat": 52.512,
+"lon": 13.382,
+"cat": "aftale",
+"countries": [
+"Germany",
+"Russian Empire",
+"Ottoman Empire",
+"Austria Hungary",
+"United Kingdom of Great Britain and Ireland",
+"Serbia",
+"Montenegro",
+"Romania",
+"Bulgaria",
+"Bosnia-Herzegovina",
+"Bessarabia",
+"Schleswig",
+"Alsace-Lorraine"
+]
+},
+{
+"id": "fireburn1878",
+"year": 1878,
+"date": "1. oktober 1878",
+"title": "Fireburn på St. Croix",
+"text": "På den årlige skiftedag, hvor landarbejderne må skifte arbejdsgiver, gør arbejdere i Dansk Vestindien oprør mod lave lønninger og en arbejdslov fra 1849, der binder dem til plantagerne. Omkring halvdelen af Frederiksted og over 50 plantager brændes af. Danske soldater slår oprøret ned, anslået over 80 arbejdere dræbes, og blandt de dømte ledere er kvinder som 'Queen Mary' Thomas.",
+"lat": 17.713,
+"lon": -64.882,
+"cat": "revolution",
+"dk": true,
+"countries": [
+"United States Virgin Islands",
+"Denmark"
+]
+},
+{
+"id": "isandlwana1879",
+"year": 1879,
+"date": "22. januar 1879",
+"title": "Zulukrigen: slaget ved Isandlwana",
+"text": "Britiske tropper invaderer zulukongeriget i det sydlige Afrika. Ved Isandlwana besejrer zulukrigere en britisk styrke, og over 1.300 soldater på britisk side bliver dræbt. Briterne sender forstærkninger, vinder slaget ved Ulundi i juli og tager kong Cetshwayo til fange.",
+"lat": -28.359,
+"lon": 30.652,
+"cat": "krig",
+"countries": [
+"Zululand",
+"United Kingdom of Great Britain and Ireland"
+]
+},
+{
+"id": "stillehav1879",
+"year": 1879,
+"until": 1884,
+"ongoing": "Stillehavskrigen",
+"date": "14. februar 1879",
+"title": "Stillehavskrigen begynder",
+"text": "Chile besætter den bolivianske havneby Antofagasta i en strid om skat på salpeter, et vigtigt råstof til gødning og krudt. Peru, der er allieret med Bolivia, bliver trukket med i krigen. Chile vinder og får de rige salpeterområder, mens Bolivia mister hele sin kyst.",
+"lat": -23.65,
+"lon": -70.4,
+"cat": "krig",
+"countries": [
+"Chile",
+"Bolivia",
+"Peru"
+]
+},
+{
+"id": "gloedepaere1879",
+"year": 1879,
+"date": "22. oktober 1879",
+"title": "Edisons glødepære",
+"text": "I sit laboratorium i Menlo Park i New Jersey får Thomas Edison en glødepære med en tråd af kul til at lyse i over 13 timer. Englænderen Joseph Swan arbejder samtidig på en lignende pære. I 1882 åbner Edison et af verdens første elværker i New York, og elektrisk lys begynder at afløse gas og petroleum.",
+"lat": 40.557,
+"lon": -74.336,
+"cat": "videnskab",
+"countries": [
+"United States of America"
+]
+},
+{
+"id": "zarmord1881",
+"year": 1881,
+"date": "13. marts 1881",
+"title": "Zar Alexander 2. dræbes",
+"text": "Zar Alexander 2., der i 1861 afskaffede livegenskabet, bliver dræbt af en bombe kastet af den revolutionære gruppe Narodnaja Volja i Sankt Petersborg. Hans søn Alexander 3. strammer styret. I de følgende år rammes jøder i rigets vestlige og sydlige dele af pogromer og nye love, og hundredtusinder udvandrer, især til USA.",
+"lat": 59.94,
+"lon": 30.329,
+"cat": "krise",
+"countries": [
+"Russian Empire",
+"Bessarabia"
+]
+},
+{
+"id": "hjedding1882",
+"year": 1882,
+"date": "10. juni 1882",
+"title": "Det første andelsmejeri",
+"text": "Bønder ved Hjedding nær Ølgod i Vestjylland åbner Danmarks første andelsmejeri. Hver andelshaver har én stemme, uanset hvor mange køer han har – man stemmer 'efter hoveder og ikke efter høveder'. Ideen breder sig hurtigt: i 1890 er der allerede omkring 700 andelsmejerier i hele landet, og dansk smør sælges især til Storbritannien.",
+"lat": 55.79,
+"lon": 8.58,
+"cat": "okonomi",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "tripelalliance1882",
+"year": 1882,
+"date": "20. maj 1882",
+"title": "Tripelalliancen",
+"text": "Tyskland, Østrig-Ungarn og Italien indgår i Wien en hemmelig forsvarsalliance. For Bismarck er målet at holde Frankrig isoleret. Over for alliancen står senere Frankrig, Rusland og Storbritannien, og de to blokke bliver en del af baggrunden for Første Verdenskrig.",
+"lat": 48.208,
+"lon": 16.372,
+"cat": "aftale",
+"countries": [
+"Germany",
+"Austria Hungary",
+"Italy",
+"Schleswig",
+"Alsace-Lorraine"
+]
+},
+{
+"id": "krakatau1883",
+"year": 1883,
+"date": "26. – 27. august 1883",
+"title": "Vulkanudbruddet på Krakatau",
+"text": "Vulkanøen Krakatau mellem Java og Sumatra i Hollandsk Ostindien eksploderer i et af de voldsomste udbrud i nyere tid. Enorme flodbølger skyller ind over kysterne, og officielt omkommer 36.417 mennesker. Asken i atmosfæren giver røde solnedgange over hele verden og et lidt køligere klima året efter.",
+"lat": -6.1,
+"lon": 105.42,
+"cat": "katastrofe",
+"countries": [
+"Netherlands Indies"
+]
+},
+{
+"id": "berlinkonf1884",
+"year": 1884,
+"date": "15. november 1884 – 26. februar 1885",
+"title": "Berlinkonferencen om Afrika",
+"text": "Efter forslag fra Portugal samler den tyske kansler Bismarck 14 stater i Berlin – blandt dem Storbritannien, Frankrig, Portugal, USA og Danmark – for at aftale regler for kolonier i Afrika. Ingen afrikanere er inviteret. Konferencen deler ikke selv kontinentet, men den sætter fart i kapløbet om Afrika, og i 1914 er kun Etiopien og Liberia selvstændige.",
+"lat": 52.512,
+"lon": 13.382,
+"cat": "aftale",
+"countries": [
+"Germany",
+"France",
+"United Kingdom of Great Britain and Ireland",
+"Portugal",
+"Belgium",
+"Indre Afrika",
+"Schleswig",
+"Alsace-Lorraine"
+]
+},
+{
+"id": "kongo1885",
+"year": 1885,
+"date": "1. juli 1885",
+"title": "Congofristaten oprettes",
+"text": "Belgiens konge Leopold 2. får sit eget private rige i Congo, Congofristaten, som er omkring 76 gange større end Belgien. Han besøger det aldrig, men hans styre tvinger befolkningen til at skaffe elfenben og senere gummi, og soldater straffer med drab og lemlæstelse. Et meget stort, men omdiskuteret antal mennesker dør, og efter international kritik overtager den belgiske stat området i 1908.",
+"lat": -5.794,
+"lon": 13.481,
+"cat": "politik",
+"countries": [
+"Belgian Congo",
+"Belgium"
+]
+},
+{
+"id": "provisorier1885",
+"year": 1885,
+"until": 1894,
+"ongoing": "Provisorietiden",
+"date": "April 1885",
+"title": "Estrup og provisorierne",
+"text": "Folketinget med Venstre-flertal og Landstinget kan ikke blive enige om en finanslov, så konseilspræsident J.B.S. Estrup styrer med provisoriske (midlertidige) finanslove, som kongen underskriver – det havde han også gjort i 1877. Mange penge går til Københavns befæstning, og efter et attentatforsøg mod Estrup i oktober 1885 opretter regeringen et gendarmerikorps. Først med et forlig i 1894 får landet igen vedtagne finanslove, og Estrup går af.",
+"lat": 55.676,
+"lon": 12.58,
+"cat": "politik",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "kongres1885",
+"year": 1885,
+"date": "28. december 1885",
+"title": "Den Indiske Nationalkongres stiftes",
+"text": "72 delegerede mødes i Bombay og danner Den Indiske Nationalkongres. I begyndelsen ønsker kongressen blot mere indflydelse til indere i det britiske styre. Senere bliver den, under ledere som Gandhi og Nehru, Indiens vigtigste selvstændighedsbevægelse.",
+"lat": 18.94,
+"lon": 72.83,
+"cat": "politik",
+"countries": [
+"British Raj"
+]
+},
+{
+"id": "benz1886",
+"year": 1886,
+"date": "29. januar 1886",
+"title": "Benz' motorvogn",
+"text": "Ingeniøren Carl Benz i Mannheim søger patent på en trehjulet vogn drevet af en benzinmotor, og senere samme år får han patentet. Den regnes for verdens første egentlige bil. I 1888 kører hans kone, Bertha Benz, over 100 km fra Mannheim til Pforzheim og viser, at bilen kan bruges i praksis.",
+"lat": 49.49,
+"lon": 8.47,
+"cat": "videnskab",
+"countries": [
+"Germany",
+"Schleswig",
+"Alsace-Lorraine"
+]
+},
+{
+"id": "slaveri1888",
+"year": 1888,
+"date": "13. maj 1888",
+"title": "Brasilien afskaffer slaveriet",
+"text": "Prinsesse Isabel underskriver 'den gyldne lov', der giver omkring 700.000 slaver i Brasilien deres frihed uden erstatning til slaveejerne. Brasilien er det sidste land i Amerika, der afskaffer slaveriet. Året efter vælter hæren kejserdømmet, og Brasilien bliver republik.",
+"lat": -22.903,
+"lon": -43.174,
+"cat": "politik",
+"countries": [
+"Kingdom of Brazil"
+]
+},
+{
+"id": "woundedknee1890",
+"year": 1890,
+"date": "29. december 1890",
+"title": "Massakren ved Wounded Knee",
+"text": "Amerikanske soldater fra 7. kavaleriregiment åbner ild mod en gruppe lakota-indianere ved Wounded Knee Creek i South Dakota, mens de er ved at blive afvæbnet. Mellem 250 og 300 lakotaer bliver dræbt, mange af dem kvinder og børn, og 25 soldater dør. Massakren regnes for afslutningen på indianerkrigene, og de oprindelige folk er nu presset ind i reservater.",
+"lat": 43.142,
+"lon": -102.364,
+"cat": "krise",
+"countries": [
+"United States of America"
+]
+},
+{
+"id": "ellisisland1892",
+"year": 1892,
+"date": "1. januar 1892",
+"title": "Udvandringen til Amerika",
+"text": "USA's nye indvandrerstation på Ellis Island ved New York åbner, og i de følgende årtier bliver millioner af europæiske udvandrere registreret her. Fra 1868 til 1914 udvandrer knap 300.000 danskere, og omkring 90 procent af dem rejser til USA; rekordåret er 1882 med over 11.000. Mange søger jord eller arbejde, og der opstår danske kirker, skoler og foreninger i bl.a. Iowa, Nebraska, Wisconsin og Utah.",
+"lat": 40.699,
+"lon": -74.04,
+"cat": "okonomi",
+"dk": true,
+"countries": [
+"United States of America",
+"Denmark"
+]
+},
+{
+"id": "hawaii1893",
+"year": 1893,
+"date": "17. januar 1893",
+"title": "Kup mod Hawaiis dronning",
+"text": "Amerikanske plantageejere og forretningsfolk vælter dronning Liliʻuokalani af Hawaii, støttet af marinesoldater fra et amerikansk krigsskib, der dagen før er gået i land i Honolulu. Kupmagerne vil have øerne ind i USA, som er det vigtigste marked for Hawaiis sukker. USA annekterer Hawaii i 1898.",
+"lat": 21.307,
+"lon": -157.859,
+"cat": "revolution",
+"countries": [
+"Kingdom of Hawaii",
+"United States of America"
+]
+},
+{
+"id": "newzealand1893",
+"year": 1893,
+"date": "19. september 1893",
+"title": "Kvinder får stemmeret i New Zealand",
+"text": "New Zealand bliver det første selvstyrende land, hvor kvinder får stemmeret ved parlamentsvalg – også maori-kvinderne. Bevægelsen med Kate Sheppard i spidsen havde samlet næsten 32.000 underskrifter. I Danmark får kvinder først stemmeret til Folketinget i 1915.",
+"lat": -41.278,
+"lon": 174.776,
+"cat": "politik",
+"countries": [
+"Māori"
+]
+},
+{
+"id": "kinajapan1894",
+"year": 1894,
+"until": 1895,
+"ongoing": "Den første kinesisk-japanske krig",
+"date": "1. august 1894",
+"title": "Den første kinesisk-japanske krig",
+"text": "Japan og Kina (Qing-riget) går i krig om magten over Korea. Japans moderniserede hær og flåde vinder hurtigt, bl.a. ved Pyongyang og ved mundingen af Yalu-floden i september 1894. Krigen viser, at Japan er blevet Østasiens nye stormagt, mens Qing-riget er svækket.",
+"lat": 39.03,
+"lon": 125.75,
+"cat": "krig",
+"countries": [
+"Imperial Japan",
+"Manchu Empire",
+"Korea"
+]
+},
+{
+"id": "dreyfus1894",
+"year": 1894,
+"date": "22. december 1894",
+"title": "Dreyfus-affæren begynder",
+"text": "En fransk krigsret dømmer den jødiske officer Alfred Dreyfus for at have givet militære hemmeligheder til Tyskland og sender ham på livstid til Djævleøen i Fransk Guyana. Han er uskyldig, og antisemitisme spiller en stor rolle i sagen. Affæren splitter Frankrig i årevis, før Dreyfus bliver frikendt i 1906.",
+"lat": 48.85,
+"lon": 2.325,
+"cat": "politik",
+"countries": [
+"France",
+"French Guiana"
+]
+},
+{
+"id": "armenien1894",
+"year": 1894,
+"until": 1896,
+"ongoing": "Massakrerne på armeniere",
+"date": "August 1894",
+"title": "Massakrer på armeniere i Osmannerriget",
+"text": "Efter uroligheder i bjergområdet Sasun dræber osmanniske soldater og kurdiske ryttere mange armenske landsbyboere. I 1895–96 spreder massakrerne sig til byer i hele den østlige del af riget og til Konstantinopel under sultan Abdülhamid 2. Skønnene over antallet af dræbte armeniere spænder fra omkring 80.000 til 300.000.",
+"lat": 38.33,
+"lon": 41.42,
+"cat": "krise",
+"countries": [
+"Ottoman Empire"
+]
+},
+{
+"id": "shimonoseki1895",
+"year": 1895,
+"date": "17. april 1895",
+"title": "Freden i Shimonoseki: Taiwan bliver japansk",
+"text": "Kina (Qing-riget) må anerkende Koreas uafhængighed, betale en stor krigsskadeserstatning og afstå Taiwan og Penghu-øerne til Japan. Japan skulle også have Liaodong-halvøen, men må opgive den efter pres fra Rusland, Tyskland og Frankrig. Taiwan bliver Japans første store koloni og forbliver japansk indtil 1945.",
+"lat": 33.957,
+"lon": 130.941,
+"cat": "aftale",
+"countries": [
+"Imperial Japan",
+"Manchu Empire",
+"Korea"
+]
+},
+{
+"id": "roentgen1895",
+"year": 1895,
+"date": "8. november 1895",
+"title": "Røntgenstrålerne opdages",
+"text": "Fysikeren Wilhelm Conrad Röntgen i Würzburg opdager en ny, usynlig stråling, der kan gå gennem kroppen. Et af de første billeder viser knoglerne i hans kones hånd med vielsesringen på. Inden for få måneder bruger læger strålerne til at finde knoglebrud, og i 1901 får Röntgen den første nobelpris i fysik.",
+"lat": 49.79,
+"lon": 9.93,
+"cat": "videnskab",
+"countries": [
+"Germany",
+"Schleswig",
+"Alsace-Lorraine"
+]
+},
+{
+"id": "ol1896",
+"year": 1896,
+"date": "6. – 15. april 1896",
+"title": "De første moderne olympiske lege",
+"text": "De første olympiske lege i nyere tid holdes i Athen efter idé fra franskmanden Pierre de Coubertin. Omkring 240 deltagere, alle mænd, fra 14 lande dyster blandt andet i atletik, gymnastik, svømning og vægtløftning. Danske Viggo Jensen vinder vægtløftning med to hænder og bliver Danmarks første olympiske mester.",
+"lat": 37.97,
+"lon": 23.74,
+"cat": "kultur",
+"dk": true,
+"countries": [
+"Greece"
+]
+},
+{
+"id": "adwa1896",
+"year": 1896,
+"date": "1. marts 1896",
+"title": "Slaget ved Adwa",
+"text": "Etiopiens kejser Menelik 2. besejrer en italiensk hær, der er rykket ind fra kolonien Eritrea. Italien må i en fredsaftale i oktober anerkende Etiopiens selvstændighed. Sammen med Liberia er Etiopien det eneste afrikanske land, der undgår at blive koloniseret under europæernes kapløb om Afrika.",
+"lat": 14.16,
+"lon": 38.9,
+"cat": "krig",
+"countries": [
+"Abyssinia",
+"Italy",
+"Eritrea"
+]
+},
+{
+"id": "zanzibar1897",
+"year": 1897,
+"date": "6. april 1897",
+"title": "Slaveriet afskaffes på Zanzibar",
+"text": "Under britisk pres ophæver sultanen af Zanzibar slaveriets lovlige status. Zanzibar har i årtier været centrum for slavehandlen i Østafrika, og slaver arbejder på øernes store nellikeplantager. Slaverne skal dog selv søge om frihed ved en særlig domstol, og først i 1909 er slaveriet helt afskaffet.",
+"lat": -6.16,
+"lon": 39.19,
+"cat": "politik",
+"countries": []
+},
+{
+"id": "spanskamerikansk1898",
+"year": 1898,
+"date": "april – august 1898",
+"title": "Den spansk-amerikanske krig",
+"text": "Efter at det amerikanske krigsskib Maine er sprunget i luften i Havanas havn, går USA i krig med Spanien om Cuba. Spanien taber hurtigt og må ved freden i Paris i december afstå Puerto Rico, Guam og Filippinerne til USA, mens Cuba kommer under amerikansk besættelse. Samme sommer annekterer USA også Hawaii og bliver dermed en kolonimagt.",
+"lat": 23.14,
+"lon": -82.36,
+"cat": "krig",
+"countries": [
+"United States of America",
+"Spain",
+"Philippines",
+"Kingdom of Hawaii"
+]
+},
+{
+"id": "fashoda1898",
+"year": 1898,
+"date": "18. september 1898",
+"title": "Fashoda-krisen",
+"text": "En lille fransk ekspedition under Jean-Baptiste Marchand har slået sig ned ved Fashoda ved Nilen, da en britisk-egyptisk styrke under Herbert Kitchener ankommer. Kapløbet om Afrika bringer Storbritannien og Frankrig tæt på krig, men i november beslutter Frankrig at trække sig. Den 2. september har Kitcheners hær knust mahdisternes hær ved Omdurman og indtaget deres hovedstad.",
+"lat": 9.89,
+"lon": 32.11,
+"cat": "krise",
+"countries": [
+"Anglo-Egyptian Sudan",
+"France",
+"United Kingdom of Great Britain and Ireland"
+]
+},
+{
+"id": "septemberforlig1899",
+"year": 1899,
+"date": "5. september 1899",
+"title": "Septemberforliget",
+"text": "Efter en storlockout, der siden maj har ramt omkring 40.000 arbejdere, slutter arbejdsgivernes og fagbevægelsens hovedorganisationer forlig. Arbejdsgiverne anerkender fagforeningerne, og fagbevægelsen anerkender arbejdsgivernes ret til at lede og fordele arbejdet. Aftalen bliver grundlaget for den danske model, hvor parterne selv forhandler løn og arbejdsvilkår.",
+"lat": 55.68,
+"lon": 12.58,
+"cat": "politik",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "boerkrig1899",
+"year": 1899,
+"until": 1902,
+"ongoing": "Boerkrigen",
+"date": "11. oktober 1899",
+"title": "Boerkrigen begynder",
+"text": "Boerrepublikkerne Transvaal og Oranjefristaten går i krig mod Storbritannien efter lang strid om magten i området, hvor der er fundet store guldforekomster. Briterne brænder boernes gårde og spærrer civile inde i koncentrationslejre, hvor omkring 26.000 boere, mest børn, og mindst 14.000 sorte afrikanere dør. Krigen ender med britisk sejr ved freden i Vereeniging i maj 1902.",
+"lat": -25.75,
+"lon": 28.19,
+"cat": "krig",
+"countries": [
+"South Africa",
+"United Kingdom of Great Britain and Ireland"
+]
+},
+{
+"id": "bokser1900",
+"year": 1900,
+"date": "20. juni – 14. august 1900",
+"title": "Bokseropstanden i Kina",
+"text": "Bokserne, en bevægelse mod udlændinge og kristne i Kina (Qing-riget), dræber missionærer og tusindvis af kinesiske kristne og belejrer de udenlandske gesandtskaber i Beijing med støtte fra kejserhoffet. En hær fra otte stormagter, heriblandt Japan, Rusland, Storbritannien og USA, indtager byen i august. Ved Bokserprotokollen i september 1901 må Kina betale en meget stor erstatning til stormagterne.",
+"lat": 39.9,
+"lon": 116.4,
+"cat": "revolution",
+"countries": [
+"Manchu Empire"
+]
+},
+{
+"id": "australien1901",
+"year": 1901,
+"date": "1. januar 1901",
+"title": "Australien bliver en samlet stat",
+"text": "De seks britiske kolonier i Australien slutter sig sammen i Det Australske Statsforbund med egen regering og eget parlament, men stadig under den britiske krone. Samme år vedtager parlamentet en lov, der skal holde ikke-europæiske indvandrere ude ('White Australia'). Aboriginerne får ikke de samme rettigheder som andre borgere.",
+"lat": -33.9,
+"lon": 151.23,
+"cat": "politik",
+"countries": [
+"New South Wales (UK)",
+"Victoria (UK)",
+"Queensland (UK)",
+"South Australia (UK)",
+"Western Australia (UK)",
+"Northern Territory (UK)"
+]
+},
+{
+"id": "systemskifte1901",
+"year": 1901,
+"date": "24. juli 1901",
+"title": "Systemskiftet",
+"text": "Efter årtiers strid mellem Højre og Venstre udnævner Christian 9. den første Venstre-regering, ledet af J.H. Deuntzer. Dermed anerkender kongen i praksis, at en regering ikke må have et flertal i Folketinget imod sig. Princippet, parlamentarismen, bliver først skrevet ind i grundloven i 1953.",
+"lat": 55.68,
+"lon": 12.58,
+"cat": "politik",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "vestindien1902",
+"year": 1902,
+"date": "22. oktober 1902",
+"title": "Salget af Dansk Vestindien mislykkes",
+"text": "I januar underskriver Danmark og USA en aftale om at sælge Sankt Thomas, Sankt Jan og Sankt Croix for 5 millioner dollars. Det amerikanske senat og Folketinget siger ja, men i Landstinget ender afstemningen 32 mod 32, og dermed falder salget. Øerne bliver først solgt til USA i 1917.",
+"lat": 18.34,
+"lon": -64.93,
+"cat": "politik",
+"dk": true,
+"countries": [
+"Denmark",
+"United States Virgin Islands",
+"United States of America"
+]
+},
+{
+"id": "panama1903",
+"year": 1903,
+"date": "3. november 1903",
+"title": "Panama løsriver sig fra Colombia",
+"text": "Med støtte fra amerikanske krigsskibe erklærer Panama sig uafhængigt af Colombia. Få uger senere får USA ret til at bygge en kanal gennem landet og kontrol over en kanalzone. Panamakanalen åbner i august 1914 og forkorter sejlruten mellem Atlanterhavet og Stillehavet med tusindvis af kilometer.",
+"lat": 8.98,
+"lon": -79.52,
+"cat": "selvstaendighed",
+"countries": [
+"Colombia",
+"United States of America"
+]
+},
+{
+"id": "wright1903",
+"year": 1903,
+"date": "17. december 1903",
+"title": "Brødrene Wrights første motorflyvning",
+"text": "Ved Kitty Hawk i North Carolina flyver Orville Wright i 12 sekunder med et motordrevet fly, som han og broderen Wilbur selv har bygget. Dagens fjerde og længste tur, med Wilbur ved roret, varer 59 sekunder. Det er den første styrede flyvning med et motorfly, der er tungere end luft.",
+"lat": 36.01,
+"lon": -75.67,
+"cat": "videnskab",
+"countries": [
+"United States of America"
+]
+},
+{
+"id": "herero1904",
+"year": 1904,
+"until": 1908,
+"ongoing": "Folkedrabet på herero og nama",
+"date": "12. januar 1904",
+"title": "Folkedrabet på herero og nama",
+"text": "Hereroerne i Tysk Sydvestafrika gør oprør mod kolonistyret, der har taget deres land og kvæg. Den tyske general Lothar von Trotha beordrer dem udryddet, og mange drives ud i ørkenen eller dør i fangelejre; fra oktober rammes også namaerne. Anslået 40.000–80.000 herero og omkring 10.000 nama dør, og Tyskland anerkendte i 2021 forbrydelserne som folkedrab.",
+"lat": -20.52,
+"lon": 17.24,
+"cat": "folkedrab",
+"countries": [
+"German South-West Africa",
+"Germany",
+"Schleswig",
+"Alsace-Lorraine"
+]
+},
+{
+"id": "island1904",
+"year": 1904,
+"date": "1. februar 1904",
+"title": "Island får hjemmestyre",
+"text": "Island får sin egen minister, som bor i Reykjavík og står til ansvar over for Altinget. Den første minister er Hannes Hafstein. Island er stadig en del af det danske rige, men styrer nu selv de fleste af sine indre anliggender.",
+"lat": 64.15,
+"lon": -21.94,
+"cat": "politik",
+"dk": true,
+"countries": [
+"Iceland",
+"Denmark"
+]
+},
+{
+"id": "russiskjapansk1904",
+"year": 1904,
+"until": 1905,
+"ongoing": "Den russisk-japanske krig",
+"date": "8. – 9. februar 1904",
+"title": "Den russisk-japanske krig",
+"text": "Japan angriber den russiske flåde ved Port Arthur i Manchuriet uden forudgående krigserklæring. De to lande kæmper om magten over Korea og Manchuriet, og Japan vinder både til lands og til vands. Ved freden i Portsmouth i USA i september 1905 får Japan frie hænder i Korea og overtager Port Arthur.",
+"lat": 38.81,
+"lon": 121.26,
+"cat": "krig",
+"countries": [
+"Russian Empire",
+"Imperial Japan",
+"Manchu Empire",
+"Korea",
+"Bessarabia"
+]
+},
+{
+"id": "rusrevolution1905",
+"year": 1905,
+"date": "22. januar 1905",
+"title": "Revolutionen i Rusland",
+"text": "Soldater skyder mod en fredelig demonstration ved Vinterpaladset i Sankt Petersborg, og 'den blodige søndag' udløser strejker og oprør i hele riget. I oktober må zar Nikolaj 2. love borgerrettigheder og et valgt parlament, Dumaen. Zaren beholder dog det meste af magten.",
+"lat": 59.94,
+"lon": 30.31,
+"cat": "revolution",
+"countries": [
+"Russian Empire",
+"Bessarabia"
+]
+},
+{
+"id": "tsushima1905",
+"year": 1905,
+"date": "27. – 28. maj 1905",
+"title": "Søslaget ved Tsushima",
+"text": "Den russiske Østersøflåde har sejlet i over syv måneder fra Østersøen til Østasien, men i Tsushimastrædet mellem Korea og Japan bliver den næsten fuldstændig tilintetgjort af den japanske flåde under admiral Togo. Nederlaget tvinger Rusland til at slutte fred. Det er første gang i nyere tid, at et asiatisk land besejrer en europæisk stormagt.",
+"lat": 34.57,
+"lon": 129.8,
+"cat": "krig",
+"countries": [
+"Russian Empire",
+"Imperial Japan",
+"Bessarabia"
+]
+},
+{
+"id": "norge1905",
+"year": 1905,
+"date": "7. juni 1905",
+"title": "Norge bliver selvstændigt",
+"text": "Stortinget erklærer unionen med Sverige for opløst. Efter en folkeafstemning i august accepterer Sverige bruddet i oktober, og i november vælges den danske prins Carl til konge under navnet Haakon 7. Han er barnebarn af Christian 9. og regerer Norge til sin død i 1957.",
+"lat": 59.91,
+"lon": 10.74,
+"cat": "selvstaendighed",
+"dk": true,
+"countries": [
+"Sweden–Norway",
+"Denmark"
+]
+},
+{
+"id": "bengalen1905",
+"year": 1905,
+"date": "16. oktober 1905",
+"title": "Bengalen deles",
+"text": "Den britiske vicekonge i Indien, Lord Curzon, deler den store provins Bengalen i to. Mange indere ser delingen som et forsøg på at splitte den voksende nationalbevægelse, og der opstår en boykot af britiske varer (swadeshi). Delingen bliver omgjort i 1911, samtidig med at briterne beslutter at flytte hovedstaden fra Calcutta til Delhi.",
+"lat": 22.57,
+"lon": 88.36,
+"cat": "politik",
+"countries": [
+"British Raj"
+]
+},
+{
+"id": "sanfrancisco1906",
+"year": 1906,
+"date": "18. april 1906",
+"title": "Jordskælvet i San Francisco",
+"text": "Et kraftigt jordskælv ved San Andreas-forkastningen rammer San Francisco tidligt om morgenen. Brande raser i tre dage og ødelægger omkring 80 procent af byen. Omkring 3.000 mennesker omkommer, og over halvdelen af byens indbyggere bliver hjemløse.",
+"lat": 37.77,
+"lon": -122.42,
+"cat": "katastrofe",
+"countries": [
+"United States of America"
+]
+},
+{
+"id": "udvandring1907",
+"year": 1907,
+"date": "1907",
+"title": "Rekordår for indvandringen til USA",
+"text": "Omkring 1,3 millioner indvandrere kommer til USA i løbet af året, de fleste gennem modtagestationen på Ellis Island i New York. Mange kommer nu fra Syd- og Østeuropa og flygter fra fattigdom og forfølgelse. Også fra Danmark udvandrer mange: fra 1868 til 1914 rejser omkring 300.000 danskere ud, de fleste til USA.",
+"lat": 40.7,
+"lon": -74.04,
+"cat": "okonomi",
+"dk": true,
+"countries": [
+"United States of America",
+"Denmark"
+]
+},
+{
+"id": "entente1907",
+"year": 1907,
+"date": "31. august 1907",
+"title": "Tripelententen",
+"text": "Storbritannien og Rusland løser deres stridigheder i Asien og deler blandt andet Persien op i interessesfærer. Sammen med Frankrigs alliance med Rusland og den britisk-franske 'Entente cordiale' fra 1904 danner aftalen Tripelententen. Over for den står Tyskland, Østrig-Ungarn og Italien i Tripelalliancen.",
+"lat": 59.94,
+"lon": 30.31,
+"cat": "aftale",
+"countries": [
+"United Kingdom of Great Britain and Ireland",
+"France",
+"Russian Empire",
+"Persia",
+"Bessarabia"
+]
+},
+{
+"id": "valgret1908",
+"year": 1908,
+"date": "20. april 1908",
+"title": "Kvinder får kommunal valgret",
+"text": "En ny lov giver kvinder over 25 år ret til at stemme og stille op ved kommunalvalg, hvis de betaler skat til kommunen eller er gift med en, der gør. Ved valgene i 1909 bliver de første kvinder valgt til byråd og sogneråd. Valgret til Rigsdagen får kvinderne først med grundloven i 1915.",
+"lat": 55.68,
+"lon": 12.58,
+"cat": "politik",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
+"id": "ungtyrker1908",
+"year": 1908,
+"date": "23. – 24. juli 1908",
+"title": "Ungtyrkernes revolution",
+"text": "Officerer fra den hemmelige bevægelse Ungtyrkerne gør oprør i Makedonien og tvinger sultan Abdülhamid 2. til at genindføre forfatningen fra 1876. Der holdes valg til et parlament, og mange i Osmannerriget håber på frihed og lighed. I 1913 tager en lille gruppe ungtyrkiske ledere dog magten ved et kup.",
+"lat": 40.64,
+"lon": 22.94,
+"cat": "revolution",
+"countries": [
+"Ottoman Empire"
+]
+},
+{
+"id": "fordt1908",
+"year": 1908,
+"date": "1. oktober 1908",
+"title": "Ford lancerer Model T",
+"text": "Henry Ford begynder at sælge Model T, en solid og forholdsvis billig bil til almindelige familier. Fra 1913 bygges bilen på et rullende samlebånd på fabrikken i Highland Park ved Detroit, og prisen falder. Over 15 millioner eksemplarer bliver solgt frem til 1927.",
+"lat": 42.37,
+"lon": -83.07,
+"cat": "okonomi",
+"countries": [
+"United States of America"
+]
+},
+{
+"id": "bosnien1908",
+"year": 1908,
+"date": "6. oktober 1908",
+"title": "Østrig-Ungarn annekterer Bosnien-Hercegovina",
+"text": "Østrig-Ungarn, der har besat Bosnien-Hercegovina siden 1878, indlemmer nu området formelt. Dagen før har Bulgarien erklæret sig helt uafhængigt af Osmannerriget. Serbien og Rusland protesterer kraftigt, og krisen skaber en bitterhed, der spiller en rolle for udbruddet af krigen i 1914.",
+"lat": 43.86,
+"lon": 18.41,
+"cat": "krise",
+"countries": [
+"Austria Hungary",
+"Bosnia-Herzegovina",
+"Serbia",
+"Bulgaria",
+"Ottoman Empire"
+]
+},
+{
+"id": "congo1908",
+"year": 1908,
+"date": "15. november 1908",
+"title": "Belgien overtager Congo",
+"text": "Siden 1885 har kong Leopold 2. af Belgien ejet Congo som sin private koloni, hvor befolkningen tvinges til at samle gummi under brutale straffe som pisk, gidseltagning og afhuggede hænder. Efter international kritik overtager den belgiske stat området, der nu hedder Belgisk Congo. Millioner af mennesker døde under Leopolds styre, men de præcise tal er usikre.",
+"lat": -5.85,
+"lon": 13.05,
+"cat": "politik",
+"countries": [
+"Belgian Congo",
+"Belgium"
+]
+},
+{
+"id": "adana1909",
+"year": 1909,
+"date": "april 1909",
+"title": "Massakrerne i Adana",
+"text": "Samtidig med et mislykket modkup mod ungtyrkerne i Konstantinopel bliver armeniere i og omkring byen Adana i det sydlige Anatolien angrebet af bevæbnede folkemængder og senere også soldater. Anslået 20.000–30.000 armeniere bliver dræbt. Seks år senere bliver armenierne ramt af et langt større folkemord.",
+"lat": 37.0,
+"lon": 35.32,
+"cat": "folkedrab",
+"countries": [
+"Ottoman Empire"
+]
+},
+{
+"id": "korea1910",
+"year": 1910,
+"date": "29. august 1910",
+"title": "Japan annekterer Korea",
+"text": "Japan, der har gjort Korea til protektorat efter sejren over Rusland i 1905, gør nu landet til en japansk koloni. Koreansk sprog og kultur undertrykkes i stigende grad, og mange koreanere tvinges senere til at arbejde for Japan. Kolonistyret varer til Japans nederlag i 1945.",
+"lat": 37.57,
+"lon": 126.98,
+"cat": "politik",
+"countries": [
+"Korea",
+"Imperial Japan"
+]
+},
+{
+"id": "mexico1910",
+"year": 1910,
+"until": 1920,
+"ongoing": "Den mexicanske revolution",
+"date": "20. november 1910",
+"title": "Den mexicanske revolution",
+"text": "Oprøret mod Porfirio Díaz, der har styret Mexico som diktator i over 30 år, begynder på den dag, som Francisco Madero har udpeget i sin opfordring til oprør. Díaz må gå af i maj 1911, men Madero bliver myrdet i 1913, og landet kastes ud i en lang borgerkrig med ledere som Pancho Villa og Emiliano Zapata. Revolutionen varer til omkring 1920 og koster anslået omkring en million mennesker livet, mange af dem på grund af sult og sygdom.",
+"lat": 19.43,
+"lon": -99.13,
+"cat": "revolution",
+"countries": [
+"Mexico"
+]
+},
+{
+"id": "kina1911",
+"year": 1911,
+"until": 1912,
+"ongoing": "Den kinesiske revolution",
+"date": "10. oktober 1911",
+"title": "Revolutionen i Kina",
+"text": "Et militæroprør i Wuchang breder sig hurtigt til store dele af Kina (Qing-riget). Den 1. januar 1912 udråbes Republikken Kina med Sun Yat-sen som foreløbig præsident, og i februar abdicerer den seksårige kejser Puyi. Dermed slutter over 2.000 års kejserstyre i Kina.",
+"lat": 30.55,
+"lon": 114.3,
+"cat": "revolution",
+"countries": [
+"Manchu Empire"
+]
+},
+{
+"id": "amundsen1911",
+"year": 1911,
+"date": "14. december 1911",
+"title": "Amundsen når Sydpolen",
+"text": "Den norske polarforsker Roald Amundsen og fire ledsagere når som de første frem til Sydpolen med hundeslæder. Ekspeditionen sejlede fra Norge med skibet Fram i 1910. Den britiske ekspedition under Robert Scott når frem en måned senere, men Scott og hans fire mænd omkommer på vejen tilbage.",
+"lat": 59.91,
+"lon": 10.75,
+"cat": "videnskab",
+"countries": []
+},
+{
+"id": "titanic1912",
+"year": 1912,
+"date": "15. april 1912",
+"title": "Titanic synker",
+"text": "Verdens største passagerskib, Titanic, rammer et isbjerg på sin første rejse fra Southampton mod New York og synker på under tre timer. Der er redningsbåde til kun omkring halvdelen af de cirka 2.200 om bord, og omkring 1.500 mennesker omkommer. Katastrofen fører til nye internationale regler for sikkerhed til søs.",
+"lat": 41.73,
+"lon": -49.95,
+"cat": "katastrofe",
+"countries": [
+"United Kingdom of Great Britain and Ireland",
+"United States of America"
+]
+},
+{
+"id": "balkan1912",
+"year": 1912,
+"until": 1913,
+"ongoing": "Balkankrigene",
+"date": "8. oktober 1912",
+"title": "Balkankrigene",
+"text": "Montenegro, Serbien, Bulgarien og Grækenland angriber Osmannerriget, der samtidig er i krig med Italien om Libyen. Osmannerne mister næsten alle deres områder i Europa, og Albanien erklærer sig selvstændigt i november. I sommeren 1913 strides sejrherrerne om byttet i Den Anden Balkankrig, som Bulgarien taber.",
+"lat": 42.13,
+"lon": 21.71,
+"cat": "krig",
+"countries": [
+"Ottoman Empire",
+"Montenegro",
+"Serbia",
+"Bulgaria",
+"Greece"
+]
+},
+{
+"id": "bohr1913",
+"year": 1913,
+"date": "juli 1913",
+"title": "Niels Bohrs atommodel",
+"text": "Den 27-årige danske fysiker Niels Bohr offentliggør en ny model af atomet, hvor elektronerne kun kan bevæge sig i bestemte baner omkring kernen. Modellen kan forklare, hvorfor brint kun udsender lys med helt bestemte farver. Bohr får Nobelprisen i fysik i 1922.",
+"lat": 55.68,
+"lon": 12.57,
+"cat": "videnskab",
+"dk": true,
+"countries": [
+"Denmark"
+]
+},
+{
 "id": "sarajevo1914",
 "year": 1914,
 "date": "28. juni 1914",
@@ -31,7 +2134,10 @@
 "France",
 "United Kingdom of Great Britain and Ireland",
 "Serbia",
-"Belgium"
+"Belgium",
+"Bessarabia",
+"Schleswig",
+"Alsace-Lorraine"
 ]
 },
 {
@@ -59,7 +2165,10 @@
 "cat": "krig",
 "countries": [
 "German Empire",
-"Russian Empire"
+"Russian Empire",
+"Bessarabia",
+"Schleswig",
+"Alsace-Lorraine"
 ]
 },
 {
@@ -73,7 +2182,9 @@
 "cat": "krig",
 "countries": [
 "France",
-"German Empire"
+"German Empire",
+"Schleswig",
+"Alsace-Lorraine"
 ]
 },
 {
@@ -117,7 +2228,9 @@
 "cat": "katastrofe",
 "countries": [
 "United Kingdom of Great Britain and Ireland",
-"German Empire"
+"German Empire",
+"Schleswig",
+"Alsace-Lorraine"
 ]
 },
 {
@@ -159,7 +2272,9 @@
 "cat": "krig",
 "countries": [
 "France",
-"German Empire"
+"German Empire",
+"Schleswig",
+"Alsace-Lorraine"
 ]
 },
 {
@@ -188,7 +2303,9 @@
 "countries": [
 "Denmark",
 "United Kingdom of Great Britain and Ireland",
-"German Empire"
+"German Empire",
+"Schleswig",
+"Alsace-Lorraine"
 ]
 },
 {
@@ -203,7 +2320,9 @@
 "countries": [
 "France",
 "United Kingdom of Great Britain and Ireland",
-"German Empire"
+"German Empire",
+"Schleswig",
+"Alsace-Lorraine"
 ]
 },
 {
@@ -216,7 +2335,8 @@
 "lon": 30.33,
 "cat": "revolution",
 "countries": [
-"Russian Empire"
+"Russian Empire",
+"Bessarabia"
 ]
 },
 {
@@ -245,7 +2365,9 @@
 "cat": "krig",
 "countries": [
 "United States",
-"German Empire"
+"German Empire",
+"Schleswig",
+"Alsace-Lorraine"
 ]
 },
 {
@@ -273,7 +2395,8 @@
 "lon": 30.31,
 "cat": "revolution",
 "countries": [
-"Russian Empire"
+"Russian Empire",
+"Bessarabia"
 ]
 },
 {
@@ -287,7 +2410,9 @@
 "cat": "krig",
 "countries": [
 "German Empire",
-"France"
+"France",
+"Schleswig",
+"Alsace-Lorraine"
 ]
 },
 {
@@ -317,7 +2442,9 @@
 "lon": 13.38,
 "cat": "revolution",
 "countries": [
-"German Empire"
+"German Empire",
+"Schleswig",
+"Alsace-Lorraine"
 ]
 },
 {
@@ -332,7 +2459,9 @@
 "countries": [
 "German Empire",
 "France",
-"United Kingdom of Great Britain and Ireland"
+"United Kingdom of Great Britain and Ireland",
+"Schleswig",
+"Alsace-Lorraine"
 ]
 },
 {
@@ -4912,7 +7041,10 @@
 {
 "id": "ukraine22",
 "year": 2022,
-"link": {"href": "ukraine/#2022-02", "text": "Følg krigen måned for måned"},
+"link": {
+"href": "ukraine/#2022-02",
+"text": "Følg krigen måned for måned"
+},
 "until": 2025,
 "ongoing": "Krigen i Ukraine",
 "date": "24. februar 2022",

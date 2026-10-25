@@ -1,6 +1,21 @@
 {
- "_doc": "Year ranges are inclusive and describe the situation at the END of each year. Names match the 'n' property in borders_*.json.",
+ "_doc": "Year ranges are inclusive and describe the situation at the END of each year. Names match the 'n' property in borders_*.json. A names range may have a 4th element: a note about the map itself (e.g. land the source map gives to the wrong state), shown under the name in the tooltip.",
  "snapshots": [
+  [
+   1814,
+   1864,
+   "1815"
+  ],
+  [
+   1865,
+   1884,
+   "1880"
+  ],
+  [
+   1885,
+   1913,
+   "1900"
+  ],
   [
    1914,
    1918,
@@ -1711,6 +1726,42 @@
  "colonies": {
   "British Raj": [
    [
+    1865,
+    1875,
+    "UK",
+    "Under den britiske krone siden 1858; Øvre Burma var stadig et selvstændigt kongerige"
+   ],
+   [
+    1876,
+    1884,
+    "UK",
+    "Dronning Victoria blev kejserinde af Indien i 1876; Øvre Burma var stadig et selvstændigt kongerige"
+   ],
+   [
+    1885,
+    1885,
+    "UK",
+    "Britiske tropper erobrede Øvre Burma i november 1885"
+   ],
+   [
+    1886,
+    1904,
+    "UK",
+    "Styret af en vicekonge under den britiske krone; omfattede også Burma"
+   ],
+   [
+    1905,
+    1910,
+    "UK",
+    "Bengalens deling i 1905 førte til store protester mod det britiske styre"
+   ],
+   [
+    1911,
+    1913,
+    "UK",
+    "Styret af en vicekonge under den britiske krone; hovedstaden blev flyttet fra Calcutta til Delhi i 1911"
+   ],
+   [
     1914,
     1918,
     "UK"
@@ -1755,6 +1806,18 @@
    ]
   ],
   "Ceylon": [
+   [
+    1814,
+    1814,
+    "UK",
+    "Kystområderne var britiske; kongeriget Kandy i højlandet var stadig selvstændigt"
+   ],
+   [
+    1815,
+    1913,
+    "UK",
+    "Hele øen britisk efter erobringen af Kandy i 1815"
+   ],
    [
     1914,
     1918,
@@ -1802,6 +1865,12 @@
   ],
   "Brunei": [
    [
+    1888,
+    1913,
+    "UK",
+    "Britisk protektorat fra 1888"
+   ],
+   [
     1914,
     1918,
     "UK"
@@ -1828,6 +1897,30 @@
    ]
   ],
   "Hong Kong": [
+   [
+    1841,
+    1841,
+    "UK",
+    "Besat af Storbritannien i januar 1841 under Opiumskrigen"
+   ],
+   [
+    1842,
+    1859,
+    "UK",
+    "Afstået af Kina ved Nanjing-traktaten i 1842 efter Opiumskrigen"
+   ],
+   [
+    1860,
+    1897,
+    "UK",
+    "Britisk; Kowloon-halvøen kom med i 1860"
+   ],
+   [
+    1898,
+    1913,
+    "UK",
+    "De Nye Territorier blev lejet af Kina for 99 år i 1898"
+   ],
    [
     1914,
     1918,
@@ -1856,6 +1949,30 @@
   ],
   "Gold Coast": [
    [
+    1885,
+    1895,
+    "UK",
+    "Britisk kronkoloni ved kysten; Ashanti-riget i det indre var selvstændigt"
+   ],
+   [
+    1896,
+    1899,
+    "UK",
+    "Ashanti-riget kom under britisk kontrol i 1896"
+   ],
+   [
+    1900,
+    1900,
+    "UK",
+    "Ashanti gjorde oprør mod briterne i 1900"
+   ],
+   [
+    1901,
+    1913,
+    "UK",
+    "Britisk koloni; Ashanti og de nordlige områder blev indlemmet efter oprøret i 1900"
+   ],
+   [
     1914,
     1918,
     "UK"
@@ -1867,6 +1984,24 @@
    ]
   ],
   "Nigeria": [
+   [
+    1885,
+    1899,
+    "UK",
+    "Britisk protektorat ved kysten og et britisk handelskompagnis område langs Niger-floden; det indre var endnu ikke erobret"
+   ],
+   [
+    1900,
+    1902,
+    "UK",
+    "Britiske protektorater Nord- og Sydnigeria fra 1900; erobringen af nord var i gang"
+   ],
+   [
+    1903,
+    1913,
+    "UK",
+    "Britiske protektorater Nord- og Sydnigeria; Sokoto-kalifatet blev erobret i 1903"
+   ],
    [
     1914,
     1918,
@@ -1892,6 +2027,18 @@
   ],
   "Sierra Leone": [
    [
+    1814,
+    1895,
+    "UK",
+    "Britisk koloni ved Freetown, grundlagt for befriede slaver"
+   ],
+   [
+    1896,
+    1913,
+    "UK",
+    "Britisk koloni og protektorat over det indre fra 1896"
+   ],
+   [
     1914,
     1918,
     "UK"
@@ -1908,6 +2055,11 @@
    ]
   ],
   "Gambia, The": [
+   [
+    1885,
+    1913,
+    "UK"
+   ],
    [
     1914,
     1918,
@@ -1937,6 +2089,12 @@
    ]
   ],
   "Uganda": [
+   [
+    1894,
+    1913,
+    "UK",
+    "Britisk protektorat fra 1894"
+   ],
    [
     1914,
     1918,
@@ -1993,6 +2151,12 @@
   ],
   "Malawi": [
    [
+    1889,
+    1913,
+    "UK",
+    "Britisk protektorat, oprettet 1889–1891"
+   ],
+   [
     1914,
     1918,
     "UK"
@@ -2022,6 +2186,30 @@
   ],
   "Rhodesia": [
    [
+    1890,
+    1892,
+    "UK",
+    "Besat af Cecil Rhodes' British South Africa Company fra 1890"
+   ],
+   [
+    1893,
+    1895,
+    "UK",
+    "Styret af British South Africa Company, som erobrede Ndebele-riget i 1893"
+   ],
+   [
+    1896,
+    1897,
+    "UK",
+    "Ndebele og shona gjorde oprør mod selskabets styre i 1896–1897"
+   ],
+   [
+    1898,
+    1913,
+    "UK",
+    "Styret af Cecil Rhodes' British South Africa Company"
+   ],
+   [
     1914,
     1918,
     "UK"
@@ -2047,6 +2235,12 @@
   ],
   "Botswana": [
    [
+    1885,
+    1913,
+    "UK",
+    "Britisk protektorat (Bechuanaland) fra 1885"
+   ],
+   [
     1914,
     1918,
     "UK"
@@ -2064,6 +2258,12 @@
   ],
   "Lesotho": [
    [
+    1885,
+    1913,
+    "UK",
+    "Britisk kronkoloni (Basutoland)"
+   ],
+   [
     1914,
     1918,
     "UK"
@@ -2080,6 +2280,12 @@
    ]
   ],
   "Swaziland": [
+   [
+    1903,
+    1913,
+    "UK",
+    "Under britisk styre fra 1903"
+   ],
    [
     1914,
     1918,
@@ -2110,6 +2316,18 @@
   ],
   "British Somaliland": [
    [
+    1885,
+    1898,
+    "UK",
+    "Britisk protektorat ved kysten, oprettet 1884–1887"
+   ],
+   [
+    1899,
+    1913,
+    "UK",
+    "Britisk protektorat; dervisherne under Mohammed Abdullah Hassan kæmpede mod briterne fra 1899"
+   ],
+   [
     1914,
     1918,
     "UK"
@@ -2139,6 +2357,18 @@
    ]
   ],
   "Eritrea": [
+   [
+    1885,
+    1889,
+    "Italy",
+    "Italien besatte havnebyen Massawa i 1885"
+   ],
+   [
+    1890,
+    1913,
+    "Italy",
+    "Italiensk koloni fra 1890"
+   ],
    [
     1914,
     1918,
@@ -2231,6 +2461,12 @@
   ],
   "Trucial Oman": [
    [
+    1892,
+    1913,
+    "UK",
+    "Britisk protektorat ifølge en aftale fra 1892"
+   ],
+   [
     1919,
     1938,
     "UK"
@@ -2276,6 +2512,18 @@
   ],
   "Trinidad": [
    [
+    1814,
+    1833,
+    "UK",
+    "Britisk koloni med slaveri på plantagerne"
+   ],
+   [
+    1834,
+    1864,
+    "UK",
+    "Slaveriet blev afskaffet i de britiske kolonier i 1834"
+   ],
+   [
     1919,
     1938,
     "UK"
@@ -2305,6 +2553,12 @@
   ],
   "Belize": [
    [
+    1865,
+    1913,
+    "UK",
+    "Britisk koloni (Britisk Honduras) fra 1862"
+   ],
+   [
     1914,
     1918,
     "UK"
@@ -2329,6 +2583,18 @@
   ],
   "Barbados": [
    [
+    1814,
+    1833,
+    "UK",
+    "Britisk koloni med slaveri på plantagerne"
+   ],
+   [
+    1834,
+    1864,
+    "UK",
+    "Slaveriet blev afskaffet i de britiske kolonier i 1834"
+   ],
+   [
     1914,
     1918,
     "UK"
@@ -2345,6 +2611,12 @@
    ]
   ],
   "Fiji": [
+   [
+    1874,
+    1913,
+    "UK",
+    "Britisk koloni fra 1874"
+   ],
    [
     1914,
     1918,
@@ -2363,6 +2635,24 @@
   ],
   "French West Africa": [
    [
+    1885,
+    1894,
+    "France",
+    "Senegal og flere kystområder var franske; franske tropper var i gang med at erobre det indre"
+   ],
+   [
+    1895,
+    1897,
+    "France",
+    "Samlet som Fransk Vestafrika fra 1895; Samori Turés rige gjorde stadig modstand"
+   ],
+   [
+    1898,
+    1913,
+    "France",
+    "Samlet som Fransk Vestafrika fra 1895; Samori Turé blev taget til fange i 1898"
+   ],
+   [
     1914,
     1918,
     "France"
@@ -2379,6 +2669,24 @@
    ]
   ],
   "French Equatorial Africa": [
+   [
+    1885,
+    1899,
+    "France",
+    "Fransk område nord for Congofloden, udforsket af Pierre de Brazza"
+   ],
+   [
+    1900,
+    1909,
+    "France",
+    "Udvidet til Tchadsøen efter sejren over Rabih az-Zubayr i 1900"
+   ],
+   [
+    1910,
+    1913,
+    "France",
+    "Samlet som Fransk Ækvatorialafrika fra 1910; dele blev afstået til Tysk Kamerun i 1911"
+   ],
    [
     1914,
     1918,
@@ -2416,6 +2724,30 @@
   ],
   "Senegal": [
    [
+    1814,
+    1816,
+    "UK",
+    "Fransk koloni, men britisk besat siden 1809"
+   ],
+   [
+    1817,
+    1847,
+    "France",
+    "Fransk koloni ved Saint-Louis og Gorée; givet tilbage af briterne i 1817"
+   ],
+   [
+    1848,
+    1853,
+    "France",
+    "Slaveriet blev afskaffet i de franske kolonier i 1848"
+   ],
+   [
+    1854,
+    1864,
+    "France",
+    "Udvidet ind i landet under guvernør Faidherbe fra 1854"
+   ],
+   [
     1945,
     1959,
     "France"
@@ -2450,6 +2782,12 @@
    ]
   ],
   "Ivory Coast": [
+   [
+    1865,
+    1884,
+    "France",
+    "Franske handelsstationer ved kysten (Grand-Bassam og Assinie) siden 1843"
+   ],
    [
     1945,
     1959,
@@ -2505,6 +2843,12 @@
   ],
   "Gabon": [
    [
+    1865,
+    1884,
+    "France",
+    "Fransk koloni ved kysten; Libreville blev grundlagt i 1849"
+   ],
+   [
     1945,
     1959,
     "France"
@@ -2518,6 +2862,24 @@
    ]
   ],
   "Madagascar (France)": [
+   [
+    1895,
+    1895,
+    "France",
+    "Erobret af Frankrig i september 1895"
+   ],
+   [
+    1896,
+    1896,
+    "France",
+    "Fransk koloni fra august 1896"
+   ],
+   [
+    1897,
+    1913,
+    "France",
+    "Fransk koloni; dronning Ranavalona 3. blev sendt i eksil i 1897"
+   ],
    [
     1914,
     1918,
@@ -2543,6 +2905,12 @@
   ],
   "Algeria": [
    [
+    1885,
+    1913,
+    "France",
+    "Fransk siden 1830; det nordlige Algeriet var en del af selve Frankrig"
+   ],
+   [
     1914,
     1918,
     "France"
@@ -2567,6 +2935,12 @@
   ],
   "Morocco": [
    [
+    1912,
+    1913,
+    "France",
+    "Fransk protektorat fra marts 1912"
+   ],
+   [
     1914,
     1918,
     "France"
@@ -2583,6 +2957,12 @@
    ]
   ],
   "Tunisia": [
+   [
+    1881,
+    1913,
+    "France",
+    "Fransk protektorat fra 1881"
+   ],
    [
     1914,
     1918,
@@ -2632,6 +3012,12 @@
   ],
   "Cochin China": [
    [
+    1862,
+    1864,
+    "France",
+    "Kun den østlige del omkring My Tho blev fransk i 1862, sammen med Saigon, som kortet viser under Vietnam; resten af Mekongdeltaet blev fransk i 1867"
+   ],
+   [
     1919,
     1938,
     "France"
@@ -2656,6 +3042,12 @@
    ]
   ],
   "Annam": [
+   [
+    1883,
+    1884,
+    "France",
+    "Fransk protektorat fra 1883; krig mellem Frankrig og Kina om Tonkin fra 1884"
+   ],
    [
     1919,
     1938,
@@ -2682,6 +3074,12 @@
   ],
   "Cambodia": [
    [
+    1863,
+    1864,
+    "France",
+    "Fransk protektorat fra 1863"
+   ],
+   [
     1938,
     1952,
     "France"
@@ -2700,6 +3098,18 @@
    ]
   ],
   "Djibouti": [
+   [
+    1885,
+    1895,
+    "France",
+    "Fransk område ved Obock og Djibouti"
+   ],
+   [
+    1896,
+    1913,
+    "France",
+    "Fransk koloni (Fransk Somaliland) fra 1896"
+   ],
    [
     1914,
     1918,
@@ -2720,6 +3130,12 @@
   ],
   "French Guiana": [
    [
+    1865,
+    1913,
+    "France",
+    "Fransk koloni; Frankrig sendte straffefanger hertil fra 1852"
+   ],
+   [
     1914,
     1918,
     "France"
@@ -2737,6 +3153,35 @@
   ],
   "Guadeloupe": [
    [
+    1814,
+    1814,
+    "France",
+    "Fransk koloni med slaveri på plantagerne"
+   ],
+   [
+    1815,
+    1815,
+    "UK",
+    "Britisk besat fra august 1815 til 1816 efter Napoleons nederlag"
+   ],
+   [
+    1816,
+    1847,
+    "France",
+    "Fransk koloni med slaveri på plantagerne"
+   ],
+   [
+    1848,
+    1864,
+    "France",
+    "Slaveriet blev afskaffet i de franske kolonier i 1848"
+   ],
+   [
+    1865,
+    1913,
+    "France"
+   ],
+   [
     1914,
     1918,
     "France"
@@ -2753,6 +3198,18 @@
    ]
   ],
   "Martinique": [
+   [
+    1814,
+    1847,
+    "France",
+    "Fransk koloni med slaveri på plantagerne"
+   ],
+   [
+    1848,
+    1864,
+    "France",
+    "Slaveriet blev afskaffet i de franske kolonier i 1848"
+   ],
    [
     1914,
     1918,
@@ -2778,12 +3235,35 @@
   ],
   "Angola (Portugal)": [
    [
+    1865,
+    1884,
+    "Portugal",
+    "Portugisisk kontrol mest langs kysten"
+   ],
+   [
     1938,
     1959,
     "Portugal"
    ]
   ],
   "Angola": [
+   [
+    1814,
+    1849,
+    "Portugal",
+    "Portugisisk koloni ved kysten; en af de vigtigste udskibningshavne i slavehandelen til Amerika"
+   ],
+   [
+    1850,
+    1864,
+    "Portugal",
+    "Portugisisk koloni ved kysten; slavehandelen til Brasilien ophørte omkring 1850"
+   ],
+   [
+    1885,
+    1913,
+    "Portugal"
+   ],
    [
     1914,
     1918,
@@ -2808,6 +3288,24 @@
    ]
   ],
   "Mozambique": [
+   [
+    1865,
+    1884,
+    "Portugal",
+    "Portugisisk kontrol mest langs kysten og Zambezi-floden"
+   ],
+   [
+    1885,
+    1894,
+    "Portugal",
+    "Portugal kontrollerede kysten; Gaza-riget i syd var selvstændigt"
+   ],
+   [
+    1895,
+    1913,
+    "Portugal",
+    "Gaza-riget blev erobret i 1895; store dele af kolonien blev styret af private kompagnier"
+   ],
    [
     1914,
     1918,
@@ -2849,6 +3347,24 @@
    ]
   ],
   "Belgian Congo": [
+   [
+    1885,
+    1891,
+    "Leopold",
+    "Kongofristaten var kong Leopold 2.s private ejendom, ikke en belgisk koloni"
+   ],
+   [
+    1892,
+    1907,
+    "Leopold",
+    "Kongofristaten var Leopold 2.s private ejendom; tvangsarbejde i gummiindsamlingen kostede et meget stort antal mennesker livet"
+   ],
+   [
+    1908,
+    1913,
+    "Belgium",
+    "Belgisk statskoloni fra november 1908 efter international kritik af overgrebene i Kongofristaten"
+   ],
    [
     1914,
     1918,
@@ -2900,6 +3416,18 @@
   ],
   "Dutch East Indies": [
    [
+    1814,
+    1815,
+    "UK",
+    "Britisk besat siden 1811; blev givet tilbage til Holland i 1816"
+   ],
+   [
+    1816,
+    1864,
+    "Netherlands",
+    "Hollandsk koloni; Java og mange kystbyer var under hollandsk styre, mens store dele af de andre øer endnu var selvstændige riger"
+   ],
+   [
     1919,
     1938,
     "Netherlands"
@@ -2949,6 +3477,12 @@
   ],
   "Spanish Sahara": [
    [
+    1904,
+    1913,
+    "Spain",
+    "Tildelt Spanien ved en aftale med Frankrig i 1904, men endnu ikke besat"
+   ],
+   [
     1914,
     1918,
     "Spain"
@@ -2965,6 +3499,12 @@
    ]
   ],
   "Rio De Oro": [
+   [
+    1885,
+    1913,
+    "Spain",
+    "Spansk protektorat over kysten fra 1884"
+   ],
    [
     1914,
     1918,
@@ -2996,6 +3536,18 @@
   ],
   "Equatorial Guinea": [
    [
+    1885,
+    1899,
+    "Spain",
+    "Spansk krav; grænsen mod det franske område var omstridt"
+   ],
+   [
+    1900,
+    1913,
+    "Spain",
+    "Grænserne blev fastlagt ved en aftale med Frankrig i 1900"
+   ],
+   [
     1914,
     1918,
     "Spain"
@@ -3012,6 +3564,23 @@
    ]
   ],
   "Libya": [
+   [
+    1885,
+    1910,
+    "Ottoman"
+   ],
+   [
+    1911,
+    1911,
+    "Ottoman",
+    "Italien angreb i september 1911 og besatte kystbyerne"
+   ],
+   [
+    1912,
+    1913,
+    "Italy",
+    "Afstået af Osmannerriget i oktober 1912; modstanden inde i landet fortsatte"
+   ],
    [
     1914,
     1918,
@@ -3049,6 +3618,18 @@
   ],
   "Italian Somaliland": [
    [
+    1889,
+    1904,
+    "Italy",
+    "Italienske protektorater langs kysten fra 1889"
+   ],
+   [
+    1905,
+    1913,
+    "Italy",
+    "Italiensk koloni; Italien købte kystbyerne af sultanen af Zanzibar i 1905"
+   ],
+   [
     1914,
     1918,
     "Italy"
@@ -3070,6 +3651,36 @@
    ]
   ],
   "Philippines": [
+   [
+    1814,
+    1895,
+    "Spain",
+    "Spansk koloni styret fra Manila"
+   ],
+   [
+    1896,
+    1897,
+    "Spain",
+    "Filippinsk oprør mod det spanske styre fra 1896"
+   ],
+   [
+    1898,
+    1898,
+    "USA",
+    "Spanien afstod øerne til USA ved fredsaftalen i december 1898; filippinske oprørere havde erklæret landet selvstændigt i juni"
+   ],
+   [
+    1899,
+    1901,
+    "USA",
+    "Krig mellem USA og den filippinske selvstændighedsbevægelse fra 1899"
+   ],
+   [
+    1902,
+    1913,
+    "USA",
+    "Amerikansk koloni; krigen mod den filippinske selvstændighedsbevægelse sluttede officielt i 1902"
+   ],
    [
     1914,
     1938,
@@ -3093,12 +3704,48 @@
   ],
   "Greenland": [
    [
+    1814,
+    1814,
+    "Denmark",
+    "Forblev dansk ved freden i Kiel i januar 1814, da Norge blev afstået til Sverige"
+   ],
+   [
+    1815,
+    1893,
+    "Denmark",
+    "Danske handels- og missionsstationer langs vestkysten"
+   ],
+   [
+    1894,
+    1913,
+    "Denmark",
+    "Danske handels- og missionsstationer; den første på østkysten blev oprettet i 1894"
+   ],
+   [
     1914,
     1952,
     "Denmark"
    ]
   ],
   "Papua New Guinea": [
+   [
+    1884,
+    1884,
+    "UK",
+    "Storbritannien erklærede den sydøstlige del for protektorat i november 1884; den nordøstlige del blev tysk"
+   ],
+   [
+    1885,
+    1905,
+    "UK",
+    "Den sydøstlige del var britisk (Britisk Ny Guinea), den nordøstlige del tysk (Kejser Wilhelms Land)"
+   ],
+   [
+    1906,
+    1913,
+    "Australia",
+    "Australien overtog den sydøstlige del (Papua) i 1906; den nordøstlige del var tysk"
+   ],
    [
     1914,
     1918,
@@ -3125,6 +3772,23 @@
   ],
   "Antigua and Barbuda": [
    [
+    1814,
+    1833,
+    "UK",
+    "Britisk koloni med slaveri på plantagerne"
+   ],
+   [
+    1834,
+    1864,
+    "UK",
+    "Slaveriet blev afskaffet i de britiske kolonier i 1834"
+   ],
+   [
+    1865,
+    1913,
+    "UK"
+   ],
+   [
     1914,
     1918,
     "UK"
@@ -3141,6 +3805,23 @@
    ]
   ],
   "Dominica": [
+   [
+    1814,
+    1833,
+    "UK",
+    "Britisk koloni med slaveri på plantagerne"
+   ],
+   [
+    1834,
+    1864,
+    "UK",
+    "Slaveriet blev afskaffet i de britiske kolonier i 1834"
+   ],
+   [
+    1865,
+    1913,
+    "UK"
+   ],
    [
     1914,
     1918,
@@ -3159,6 +3840,18 @@
   ],
   "Grenada": [
    [
+    1814,
+    1833,
+    "UK",
+    "Britisk koloni med slaveri på plantagerne"
+   ],
+   [
+    1834,
+    1864,
+    "UK",
+    "Slaveriet blev afskaffet i de britiske kolonier i 1834"
+   ],
+   [
     1914,
     1918,
     "UK"
@@ -3175,6 +3868,23 @@
    ]
   ],
   "Saint Kitts and Nevis": [
+   [
+    1814,
+    1833,
+    "UK",
+    "Britisk koloni med slaveri på plantagerne"
+   ],
+   [
+    1834,
+    1864,
+    "UK",
+    "Slaveriet blev afskaffet i de britiske kolonier i 1834"
+   ],
+   [
+    1865,
+    1913,
+    "UK"
+   ],
    [
     1914,
     1918,
@@ -3193,6 +3903,24 @@
   ],
   "Saint Lucia": [
    [
+    1814,
+    1814,
+    "UK",
+    "Afstået af Frankrig til Storbritannien i 1814"
+   ],
+   [
+    1815,
+    1833,
+    "UK",
+    "Britisk koloni med slaveri på plantagerne"
+   ],
+   [
+    1834,
+    1864,
+    "UK",
+    "Slaveriet blev afskaffet i de britiske kolonier i 1834"
+   ],
+   [
     1914,
     1918,
     "UK"
@@ -3209,6 +3937,18 @@
    ]
   ],
   "Saint Vincent and the Grenadines": [
+   [
+    1814,
+    1833,
+    "UK",
+    "Britisk koloni med slaveri på plantagerne"
+   ],
+   [
+    1834,
+    1864,
+    "UK",
+    "Slaveriet blev afskaffet i de britiske kolonier i 1834"
+   ],
    [
     1914,
     1918,
@@ -3253,6 +3993,29 @@
   ],
   "Netherlands Antilles": [
    [
+    1814,
+    1815,
+    "UK",
+    "Hollandsk koloni, men britisk besat siden 1807"
+   ],
+   [
+    1816,
+    1862,
+    "Netherlands",
+    "Hollandsk koloni med slaveri"
+   ],
+   [
+    1863,
+    1864,
+    "Netherlands",
+    "Slaveriet blev afskaffet i de hollandske kolonier i 1863"
+   ],
+   [
+    1865,
+    1913,
+    "Netherlands"
+   ],
+   [
     1914,
     1918,
     "Netherlands"
@@ -3270,12 +4033,42 @@
   ],
   "Anglo-Egyptian Sudan": [
    [
+    1898,
+    1898,
+    "UK",
+    "Erobret af britiske og egyptiske tropper i 1898 efter slaget ved Omdurman"
+   ],
+   [
+    1899,
+    1913,
+    "UK",
+    "Formelt fælles britisk-egyptisk styre fra 1899, men reelt britisk"
+   ],
+   [
     1914,
     1918,
     "UK"
    ]
   ],
   "British East Africa": [
+   [
+    1888,
+    1894,
+    "UK",
+    "Styret af et britisk handelskompagni (Imperial British East Africa Company) fra 1888"
+   ],
+   [
+    1895,
+    1900,
+    "UK",
+    "Britisk protektorat fra 1895"
+   ],
+   [
+    1901,
+    1913,
+    "UK",
+    "Britisk protektorat; jernbanen fra Mombasa nåede Victoriasøen i 1901"
+   ],
    [
     1914,
     1918,
@@ -3291,6 +4084,36 @@
   ],
   "Malaya": [
    [
+    1874,
+    1880,
+    "UK",
+    "Britiske kolonier (Straits Settlements) og britiske residenter i flere malajiske sultanater fra 1874; andre sultanater var selvstændige"
+   ],
+   [
+    1881,
+    1887,
+    "UK",
+    "Britiske kolonier og residenter i flere malajiske sultanater; Nordborneo styret af et britisk kompagni fra 1881"
+   ],
+   [
+    1888,
+    1894,
+    "UK",
+    "Britiske kolonier og protektorater, bl.a. Sarawak og Nordborneo fra 1888"
+   ],
+   [
+    1895,
+    1908,
+    "UK",
+    "Britiske kolonier og protektorater; fire sultanater samlet som De Forenede Malajstater i 1895"
+   ],
+   [
+    1909,
+    1913,
+    "UK",
+    "Britiske kolonier og protektorater; Siam overlod fire nordlige sultanater til Storbritannien i 1909"
+   ],
+   [
     1914,
     1918,
     "UK"
@@ -3298,12 +4121,36 @@
   ],
   "Malta": [
    [
+    1865,
+    1913,
+    "UK",
+    "Britisk siden 1800"
+   ],
+   [
     1914,
     1918,
     "UK"
    ]
   ],
   "Egypt": [
+   [
+    1882,
+    1882,
+    "UK",
+    "Besat af Storbritannien i 1882, men formelt stadig en del af Osmannerriget"
+   ],
+   [
+    1883,
+    1884,
+    "UK",
+    "Besat af Storbritannien fra 1882, men formelt osmannisk; Mahdi-oprøret havde erobret store dele af Sudan"
+   ],
+   [
+    1885,
+    1913,
+    "UK",
+    "Besat og reelt styret af Storbritannien fra 1882, men formelt en del af Osmannerriget"
+   ],
    [
     1914,
     1921,
@@ -3313,12 +4160,53 @@
   ],
   "French Indochina": [
    [
+    1865,
+    1866,
+    "France",
+    "Cambodja var fransk protektorat fra 1863, og den østlige del af Mekongdeltaet fransk koloni fra 1862"
+   ],
+   [
+    1867,
+    1884,
+    "France",
+    "Fransk koloni (Cochinchina) og fransk protektorat (Cambodja)"
+   ],
+   [
+    1885,
+    1886,
+    "France",
+    "Cochinchina var fransk koloni; Cambodja, Annam og Tonkin franske protektorater"
+   ],
+   [
+    1887,
+    1892,
+    "France",
+    "Samlet som Fransk Indokina i 1887"
+   ],
+   [
+    1893,
+    1906,
+    "France",
+    "Fransk Indokina; Laos kom under fransk styre i 1893"
+   ],
+   [
+    1907,
+    1913,
+    "France",
+    "Fransk Indokina; Siam afstod Battambang og Siem Reap (Angkor) i 1907"
+   ],
+   [
     1914,
     1918,
     "France"
    ]
   ],
   "Portuguese Guinea": [
+   [
+    1814,
+    1913,
+    "Portugal"
+   ],
    [
     1914,
     1918,
@@ -3327,6 +4215,23 @@
   ],
   "Netherlands Indies": [
    [
+    1865,
+    1872,
+    "Netherlands"
+   ],
+   [
+    1873,
+    1903,
+    "Netherlands",
+    "Hollandsk koloni; krig mod sultanatet Aceh på Sumatra fra 1873"
+   ],
+   [
+    1904,
+    1913,
+    "Netherlands",
+    "Hollandsk koloni; Aceh på Sumatra var stort set erobret omkring 1904"
+   ],
+   [
     1914,
     1918,
     "Netherlands"
@@ -3334,12 +4239,48 @@
   ],
   "Spanish Morocco": [
    [
+    1912,
+    1913,
+    "Spain",
+    "Spansk protektorat fra november 1912"
+   ],
+   [
     1914,
     1918,
     "Spain"
    ]
   ],
   "German E. Africa (Tanganyika)": [
+   [
+    1885,
+    1889,
+    "Germany",
+    "Styret af Det Tysk-Østafrikanske Kompagni; kyststriben hørte til sultanen af Zanzibar"
+   ],
+   [
+    1890,
+    1890,
+    "Germany",
+    "Tyskland købte kyststriben af sultanen af Zanzibar i 1890"
+   ],
+   [
+    1891,
+    1904,
+    "Germany",
+    "Tysk koloni fra 1891"
+   ],
+   [
+    1905,
+    1906,
+    "Germany",
+    "Maji Maji-oprøret mod det tyske styre fra 1905 blev slået hårdt ned; mange døde af sult"
+   ],
+   [
+    1907,
+    1913,
+    "Germany",
+    "Tysk koloni; Maji Maji-oprøret 1905–1907 kostede anslået 75.000–300.000 mennesker livet"
+   ],
    [
     1914,
     1916,
@@ -3354,6 +4295,24 @@
   ],
   "German South-West Africa": [
    [
+    1885,
+    1903,
+    "Germany",
+    "Tysk koloni fra 1884"
+   ],
+   [
+    1904,
+    1907,
+    "Germany",
+    "Et oprør blandt herero og nama fra 1904 blev slået ned med folkedrab; titusinder døde i ørkenen og i fangelejre"
+   ],
+   [
+    1908,
+    1913,
+    "Germany",
+    "Tysk koloni; herero- og namafolkenes oprør 1904–1908 blev slået ned med folkedrab"
+   ],
+   [
     1914,
     1914,
     "Germany"
@@ -3367,6 +4326,18 @@
   ],
   "Kamerun": [
    [
+    1885,
+    1910,
+    "Germany",
+    "Tysk koloni fra 1884"
+   ],
+   [
+    1911,
+    1913,
+    "Germany",
+    "Tysk koloni; udvidet med områder fra Fransk Ækvatorialafrika i 1911"
+   ],
+   [
     1914,
     1915,
     "Germany"
@@ -3379,6 +4350,12 @@
    ]
   ],
   "Togoland": [
+   [
+    1885,
+    1913,
+    "Germany",
+    "Tysk koloni fra 1884"
+   ],
    [
     1914,
     1918,
@@ -3395,6 +4372,24 @@
   ],
   "United States Virgin Islands": [
    [
+    1865,
+    1866,
+    "Denmark",
+    "Dansk Vestindien: St. Croix, St. Thomas og St. Jan"
+   ],
+   [
+    1867,
+    1901,
+    "Denmark",
+    "Et salg af St. Thomas og St. Jan til USA blev aftalt i 1867, men det amerikanske senat godkendte det aldrig"
+   ],
+   [
+    1902,
+    1913,
+    "Denmark",
+    "Et salg af øerne til USA blev forkastet af Landstinget i 1902"
+   ],
+   [
     1914,
     1916,
     "Denmark",
@@ -3407,6 +4402,36 @@
    ]
   ],
   "Iceland": [
+   [
+    1814,
+    1814,
+    "Denmark",
+    "Del af det danske rige; forblev dansk ved freden i Kiel i januar 1814"
+   ],
+   [
+    1815,
+    1844,
+    "Denmark",
+    "Del af det danske rige"
+   ],
+   [
+    1845,
+    1873,
+    "Denmark",
+    "Del af det danske rige; Altinget blev genoprettet som rådgivende forsamling i 1845"
+   ],
+   [
+    1874,
+    1903,
+    "Denmark",
+    "Del af det danske rige; fik egen forfatning og et lovgivende Alting i 1874"
+   ],
+   [
+    1904,
+    1913,
+    "Denmark",
+    "Del af det danske rige med hjemmestyre fra 1904"
+   ],
    [
     1914,
     1917,
@@ -3460,6 +4485,12 @@
   ],
   "Samoa": [
    [
+    1900,
+    1913,
+    "Germany",
+    "Tysk koloni fra 1900"
+   ],
+   [
     1914,
     1918,
     "New Zealand",
@@ -3474,12 +4505,30 @@
   ],
   "Niue": [
    [
+    1900,
+    1900,
+    "UK",
+    "Britisk protektorat fra 1900"
+   ],
+   [
+    1901,
+    1913,
+    "New Zealand",
+    "Overført til New Zealand i 1901"
+   ],
+   [
     1914,
     2025,
     "New Zealand"
    ]
   ],
   "Tonga": [
+   [
+    1900,
+    1913,
+    "UK",
+    "Britisk protektorat fra 1900"
+   ],
    [
     1914,
     1969,
@@ -3488,6 +4537,12 @@
    ]
   ],
   "American Samoa": [
+   [
+    1900,
+    1913,
+    "USA",
+    "Amerikansk fra 1900"
+   ],
    [
     1914,
     2025,
@@ -3533,6 +4588,756 @@
     "UK",
     "Britisk protektorat"
    ]
+  ],
+  "Canada": [
+   [
+    1814,
+    1866,
+    "UK",
+    "Britiske kolonier samt Hudson's Bay Company's store pelshandelsområder"
+   ]
+  ],
+  "Viceroyalty of New Spain": [
+   [
+    1814,
+    1820,
+    "Spain",
+    "Spansk vicekongedømme, der også omfattede Mellemamerika og det nuværende sydvestlige USA; uafhængighedskrigen havde varet siden 1810"
+   ]
+  ],
+  "Viceroyalty of New Granada": [
+   [
+    1814,
+    1818,
+    "Spain",
+    "Spansk vicekongedømme; frihedskampen mod Spanien havde varet siden 1810"
+   ],
+   [
+    1819,
+    1820,
+    "Spain",
+    "Simón Bolívar udråbte Gran Colombia i 1819, men Spanien holdt stadig Caracas, Quito og Panama"
+   ]
+  ],
+  "Viceroyalty of Peru": [
+   [
+    1814,
+    1816,
+    "Spain",
+    "Spansk vicekongedømme; området på kortet omfatter også Chile og Øvre Peru (Bolivia)"
+   ],
+   [
+    1817,
+    1817,
+    "Spain",
+    "San Martíns hær befriede Santiago i Chile i februar 1817; Peru var stadig spansk"
+   ],
+   [
+    1818,
+    1820,
+    "Spain",
+    "Chile erklærede sig selvstændigt i 1818, men Peru og Øvre Peru (Bolivia) var stadig spanske"
+   ],
+   [
+    1821,
+    1823,
+    "Spain",
+    "Peru erklærede sig selvstændigt i juli 1821, men spanske tropper holdt stadig store dele af højlandet"
+   ]
+  ],
+  "Viceroyalty of Brazil": [
+   [
+    1814,
+    1814,
+    "Portugal",
+    "Den portugisiske kongefamilie havde siden 1808 regeret fra Rio de Janeiro"
+   ],
+   [
+    1815,
+    1821,
+    "Portugal",
+    "Ophøjet fra koloni til kongerige i union med Portugal i 1815; kongefamilien regerede fra Rio de Janeiro indtil 1821"
+   ]
+  ],
+  "United Kingdom": [
+   [
+    1814,
+    1833,
+    "UK",
+    "Britiske kolonier med slaveri (Jamaica, Bahamas og Britisk Honduras); Moskitokysten var under britisk indflydelse"
+   ],
+   [
+    1834,
+    1843,
+    "UK",
+    "Slaveriet blev afskaffet i de britiske kolonier i 1834; Moskitokysten var under britisk indflydelse"
+   ],
+   [
+    1844,
+    1859,
+    "UK",
+    "Slaveriet blev afskaffet i de britiske kolonier i 1834; Moskitokysten var britisk protektorat fra 1844"
+   ],
+   [
+    1860,
+    1864,
+    "UK",
+    "Slaveriet blev afskaffet i de britiske kolonier i 1834"
+   ]
+  ],
+  "Guiana": [
+   [
+    1814,
+    1815,
+    "UK",
+    "Britisk besat siden 1804; ved en aftale i 1814 skulle Surinam gives tilbage til Holland, mens den vestlige del forblev britisk"
+   ],
+   [
+    1816,
+    1862,
+    "Netherlands",
+    "Hollandsk koloni (Surinam) med slaveri på plantagerne; den vestlige tredjedel med Georgetown var britisk"
+   ],
+   [
+    1863,
+    1864,
+    "Netherlands",
+    "Slaveriet blev afskaffet i Surinam i 1863; den vestlige tredjedel med Georgetown var britisk"
+   ]
+  ],
+  "Dutch Guiana": [
+   [
+    1865,
+    1913,
+    "Netherlands"
+   ]
+  ],
+  "British Guiana": [
+   [
+    1865,
+    1913,
+    "UK"
+   ]
+  ],
+  "Kingdom of Hawaii": [
+   [
+    1898,
+    1913,
+    "USA",
+    "Annekteret af USA i 1898"
+   ]
+  ],
+  "Algiers": [
+   [
+    1830,
+    1846,
+    "France",
+    "Frankrig indtog byen Algier i juli 1830; erobringen af landet mødte hård modstand under Abd al-Qadir"
+   ],
+   [
+    1847,
+    1864,
+    "France",
+    "Abd al-Qadir overgav sig i 1847; mange franske bosættere slog sig ned"
+   ]
+  ],
+  "Algeria (FR)": [
+   [
+    1865,
+    1884,
+    "France",
+    "Fransk siden 1830; mange franske bosættere"
+   ]
+  ],
+  "Tripolitania": [
+   [
+    1835,
+    1864,
+    "Ottoman",
+    "Under direkte styre fra Istanbul fra 1835"
+   ]
+  ],
+  "Cyrenaica": [
+   [
+    1835,
+    1864,
+    "Ottoman",
+    "Under direkte styre fra Istanbul fra 1835"
+   ]
+  ],
+  "Senegal (FR)": [
+   [
+    1865,
+    1884,
+    "France"
+   ]
+  ],
+  "Gambia": [
+   [
+    1865,
+    1884,
+    "UK"
+   ]
+  ],
+  "Gold Coast (GB)": [
+   [
+    1865,
+    1871,
+    "UK",
+    "Britiske forter og handelsstationer langs kysten; Danmark havde solgt sine forter til Storbritannien i 1850"
+   ],
+   [
+    1872,
+    1873,
+    "UK",
+    "Holland overdrog sine forter til Storbritannien i 1872"
+   ],
+   [
+    1874,
+    1884,
+    "UK",
+    "Britisk kronkoloni fra 1874"
+   ]
+  ],
+  "Cotonou": [
+   [
+    1883,
+    1884,
+    "France",
+    "Fransk protektorat over kystbyerne Porto-Novo og Cotonou"
+   ]
+  ],
+  "Lagos": [
+   [
+    1865,
+    1884,
+    "UK",
+    "Britisk koloni fra 1861"
+   ]
+  ],
+  "Spanish Guinea": [
+   [
+    1865,
+    1884,
+    "Spain",
+    "Spansk krav ud fra øen Fernando Po; Spanien havde kun få stationer på fastlandet"
+   ]
+  ],
+  "Teke": [
+   [
+    1882,
+    1884,
+    "France",
+    "Fransk protektorat efter en traktat fra 1880 mellem Teke-kongen og Pierre de Brazza, godkendt i Frankrig i 1882"
+   ]
+  ],
+  "Cape Colony": [
+   [
+    1814,
+    1833,
+    "UK",
+    "Britisk besat siden 1806 og formelt afstået af Holland i 1814"
+   ],
+   [
+    1834,
+    1864,
+    "UK",
+    "Slaveriet blev afskaffet i 1834; fra 1835 drog mange boere mod nord i Det Store Trek"
+   ],
+   [
+    1865,
+    1871,
+    "UK"
+   ],
+   [
+    1872,
+    1884,
+    "UK",
+    "Britisk koloni med selvstyre fra 1872"
+   ]
+  ],
+  "Xhosa": [
+   [
+    1847,
+    1864,
+    "UK",
+    "Erobret af briterne efter flere krige mod xhosaerne; Britisk Kaffraria fra 1847"
+   ]
+  ],
+  "Zulu": [
+   [
+    1843,
+    1864,
+    "UK",
+    "Den sydlige del blev den britiske koloni Natal i 1843; zulukongeriget mod nord var selvstændigt"
+   ]
+  ],
+  "Natal": [
+   [
+    1865,
+    1884,
+    "UK",
+    "Britisk koloni fra 1843"
+   ]
+  ],
+  "Basutoland": [
+   [
+    1868,
+    1870,
+    "UK",
+    "Britisk protektorat fra 1868"
+   ],
+   [
+    1871,
+    1883,
+    "UK",
+    "Britisk; styret af Kapkolonien fra 1871"
+   ],
+   [
+    1884,
+    1884,
+    "UK",
+    "Britisk kronkoloni fra 1884"
+   ]
+  ],
+  "Griqualand West": [
+   [
+    1871,
+    1879,
+    "UK",
+    "Britisk fra 1871 efter diamantfundene ved Kimberley"
+   ],
+   [
+    1880,
+    1884,
+    "UK",
+    "Britisk; indlemmet i Kapkolonien i 1880"
+   ]
+  ],
+  "Transvaal": [
+   [
+    1877,
+    1879,
+    "UK",
+    "Boerrepublikken blev annekteret af Storbritannien i 1877"
+   ],
+   [
+    1880,
+    1880,
+    "UK",
+    "Annekteret af Storbritannien i 1877; boerne gjorde oprør i december 1880"
+   ]
+  ],
+  "South Africa": [
+   [
+    1885,
+    1898,
+    "UK",
+    "Kapkolonien og Natal var britiske; boerrepublikkerne Transvaal og Oranjefristaten var selvstændige"
+   ],
+   [
+    1899,
+    1901,
+    "UK",
+    "Boerkrigen fra 1899: Storbritannien kæmpede mod boerrepublikkerne Transvaal og Oranjefristaten"
+   ],
+   [
+    1902,
+    1909,
+    "UK",
+    "Alle fire områder var britiske efter Boerkrigen 1899–1902"
+   ]
+  ],
+  "Portuguese East Africa": [
+   [
+    1814,
+    1864,
+    "Portugal",
+    "Portugisiske handelsbyer langs kysten og Zambezi-floden"
+   ]
+  ],
+  "Delagoa Bay": [
+   [
+    1814,
+    1864,
+    "Portugal",
+    "Portugisisk handelsstation ved Lourenço Marques"
+   ]
+  ],
+  "British East India Company": [
+   [
+    1814,
+    1856,
+    "UK",
+    "Styret af det britiske Ostindiske Kompagni"
+   ],
+   [
+    1857,
+    1857,
+    "UK",
+    "Styret af det britiske Ostindiske Kompagni; stort oprør mod kompagniet fra maj 1857"
+   ],
+   [
+    1858,
+    1864,
+    "UK",
+    "Under den britiske krone fra 1858 efter oprøret i 1857"
+   ]
+  ],
+  "Maratha Confederacy": [
+   [
+    1818,
+    1842,
+    "UK",
+    "Britisk eller fyrstestater under britisk overhøjhed efter krigen mod marathaerne 1817–1818; Punjab og Sindh var stadig selvstændige"
+   ],
+   [
+    1843,
+    1848,
+    "UK",
+    "Britisk eller fyrstestater under britisk overhøjhed; Sindh erobret i 1843, men sikhernes rige i Punjab var endnu ikke erobret"
+   ],
+   [
+    1849,
+    1856,
+    "UK",
+    "Britisk eller fyrstestater under britisk overhøjhed; Punjab erobret i 1849"
+   ],
+   [
+    1857,
+    1857,
+    "UK",
+    "Stort oprør mod Det Ostindiske Kompagni fra maj 1857"
+   ],
+   [
+    1858,
+    1864,
+    "UK",
+    "Under den britiske krone fra 1858; omfattede mange fyrstestater"
+   ]
+  ],
+  "Oudh": [
+   [
+    1814,
+    1855,
+    "UK",
+    "Indisk fyrstestat under britisk overhøjhed"
+   ],
+   [
+    1856,
+    1856,
+    "UK",
+    "Annekteret af Det Ostindiske Kompagni i februar 1856"
+   ],
+   [
+    1857,
+    1857,
+    "UK",
+    "Annekteret i 1856; oprørere kontrollerede det meste af området fra sommeren 1857"
+   ],
+   [
+    1858,
+    1864,
+    "UK",
+    "Under den britiske krone fra 1858"
+   ]
+  ],
+  "Mysore (Indian princely state)": [
+   [
+    1814,
+    1830,
+    "UK",
+    "Indisk fyrstestat under britisk overhøjhed"
+   ],
+   [
+    1831,
+    1864,
+    "UK",
+    "Indisk fyrstestat, men styret direkte af briterne fra 1831"
+   ]
+  ],
+  "Travancore": [
+   [
+    1814,
+    1864,
+    "UK",
+    "Indisk fyrstestat under britisk overhøjhed"
+   ]
+  ],
+  "Sikkim (Indian princely state)": [
+   [
+    1861,
+    1864,
+    "UK",
+    "Under britisk overhøjhed efter en traktat i 1861"
+   ]
+  ],
+  "Goa": [
+   [
+    1814,
+    1864,
+    "Portugal",
+    "Portugisisk koloni siden 1510"
+   ]
+  ],
+  "Arakan": [
+   [
+    1825,
+    1825,
+    "UK",
+    "Erobret af britiske tropper under krigen mod Burma"
+   ],
+   [
+    1826,
+    1864,
+    "UK",
+    "Afstået af Burma til Storbritannien ved freden i Yandabo i 1826"
+   ]
+  ],
+  "Assam": [
+   [
+    1825,
+    1825,
+    "UK",
+    "Erobret af britiske tropper under krigen mod Burma"
+   ],
+   [
+    1826,
+    1864,
+    "UK",
+    "Afstået af Burma til Storbritannien ved freden i Yandabo i 1826"
+   ]
+  ],
+  "Korea": [
+   [
+    1905,
+    1909,
+    "Japan",
+    "Japansk protektorat fra november 1905"
+   ],
+   [
+    1910,
+    1913,
+    "Japan",
+    "Annekteret af Japan i august 1910"
+   ]
+  ],
+  "New South Wales": [
+   [
+    1814,
+    1835,
+    "UK",
+    "Britisk koloni, grundlagt som straffekoloni i 1788"
+   ],
+   [
+    1836,
+    1850,
+    "UK",
+    "Britiske kolonier; den oprindelige befolkning blev fordrevet fra store områder"
+   ],
+   [
+    1851,
+    1864,
+    "UK",
+    "Britiske kolonier; guldfund fra 1851 bragte mange nye bosættere"
+   ]
+  ],
+  "New South Wales (UK)": [
+   [
+    1865,
+    1900,
+    "UK",
+    "Britisk koloni med selvstyre"
+   ]
+  ],
+  "Victoria (UK)": [
+   [
+    1865,
+    1900,
+    "UK",
+    "Britisk koloni med selvstyre"
+   ]
+  ],
+  "Queensland (UK)": [
+   [
+    1865,
+    1900,
+    "UK",
+    "Britisk koloni med selvstyre"
+   ]
+  ],
+  "South Australia (UK)": [
+   [
+    1865,
+    1900,
+    "UK",
+    "Britisk koloni med selvstyre"
+   ]
+  ],
+  "Western Australia (UK)": [
+   [
+    1865,
+    1889,
+    "UK"
+   ],
+   [
+    1890,
+    1900,
+    "UK",
+    "Britisk koloni med selvstyre fra 1890"
+   ]
+  ],
+  "Northern Territory (UK)": [
+   [
+    1865,
+    1900,
+    "UK",
+    "Styret af kolonien Sydaustralien fra 1863"
+   ]
+  ],
+  "Maori": [
+   [
+    1840,
+    1844,
+    "UK",
+    "Britisk koloni efter Waitangi-traktaten med maori-høvdinge i 1840"
+   ],
+   [
+    1845,
+    1864,
+    "UK",
+    "Britisk koloni; krige om jord mellem britiske tropper og maorier fra 1845"
+   ]
+  ],
+  "Māori": [
+   [
+    1865,
+    1872,
+    "UK",
+    "Britisk koloni; krige om jord mellem britiske tropper og maorier"
+   ],
+   [
+    1873,
+    1906,
+    "UK",
+    "Britisk koloni med selvstyre"
+   ]
+  ],
+  "Wajuk": [
+   [
+    1829,
+    1864,
+    "UK",
+    "Kolonien Vestaustralien blev grundlagt i 1829 på noongar-folkenes land"
+   ]
+  ],
+  "Pinjarup": [
+   [
+    1829,
+    1864,
+    "UK",
+    "Kolonien Vestaustralien blev grundlagt i 1829 på noongar-folkenes land"
+   ]
+  ],
+  "Wardandi": [
+   [
+    1829,
+    1864,
+    "UK",
+    "Kolonien Vestaustralien blev grundlagt i 1829 på noongar-folkenes land"
+   ]
+  ],
+  "Bibbulman": [
+   [
+    1829,
+    1864,
+    "UK",
+    "Kolonien Vestaustralien blev grundlagt i 1829 på noongar-folkenes land"
+   ]
+  ],
+  "Minang": [
+   [
+    1829,
+    1864,
+    "UK",
+    "Kolonien Vestaustralien blev grundlagt i 1829 på noongar-folkenes land"
+   ]
+  ],
+  "Ballardong": [
+   [
+    1829,
+    1864,
+    "UK",
+    "Kolonien Vestaustralien blev grundlagt i 1829 på noongar-folkenes land"
+   ]
+  ],
+  "Yuat": [
+   [
+    1829,
+    1864,
+    "UK",
+    "Kolonien Vestaustralien blev grundlagt i 1829 på noongar-folkenes land"
+   ]
+  ],
+  "Kaniyang": [
+   [
+    1829,
+    1864,
+    "UK",
+    "Kolonien Vestaustralien blev grundlagt i 1829 på noongar-folkenes land"
+   ]
+  ],
+  "Wiilman": [
+   [
+    1829,
+    1864,
+    "UK",
+    "Kolonien Vestaustralien blev grundlagt i 1829 på noongar-folkenes land"
+   ]
+  ],
+  "Goreng": [
+   [
+    1829,
+    1864,
+    "UK",
+    "Kolonien Vestaustralien blev grundlagt i 1829 på noongar-folkenes land"
+   ]
+  ],
+  "Amangu": [
+   [
+    1850,
+    1864,
+    "UK",
+    "Kolonien Vestaustralien bredte sig hertil omkring 1850, da byen Geraldton blev grundlagt"
+   ]
+  ],
+  "Tasmania": [
+   [
+    1814,
+    1824,
+    "UK",
+    "Britisk straffekoloni (Van Diemens Land) under New South Wales"
+   ],
+   [
+    1825,
+    1855,
+    "UK",
+    "Britisk straffekoloni, adskilt fra New South Wales i 1825; i 1820'erne og 1830'erne blev øens oprindelige befolkning næsten udryddet"
+   ],
+   [
+    1856,
+    1900,
+    "UK",
+    "Britisk koloni med selvstyre fra 1856"
+   ]
+  ],
+  "Taiwan": [
+   [
+    1895,
+    1913,
+    "Japan",
+    "Afstået af Kina efter krigen 1894–1895"
+   ]
   ]
  },
  "rulers": {
@@ -3550,10 +5355,29 @@
   "South Africa": "Sydafrikansk",
   "Morocco": "Besat af Marokko",
   "Germany": "Tysk",
-  "New Zealand": "Newzealandsk"
+  "New Zealand": "Newzealandsk",
+  "Ottoman": "Osmannisk",
+  "Leopold": "Leopold 2.s"
  },
  "names": {
   "Germany": [
+   [
+    1865,
+    1866,
+    "Preussen og de tyske stater",
+    "Kortet medtager fejlagtigt egnen omkring Strasbourg, som var fransk indtil 1871"
+   ],
+   [
+    1867,
+    1870,
+    "Det Nordtyske Forbund og de sydtyske stater",
+    "Kortet medtager fejlagtigt egnen omkring Strasbourg, som var fransk indtil 1871"
+   ],
+   [
+    1871,
+    1913,
+    "Det Tyske Kejserrige"
+   ],
    [
     1919,
     1932,
@@ -3671,12 +5495,23 @@
   ],
   "British Raj": [
    [
+    1865,
+    1913,
+    "Britisk Indien",
+    "Kortet medtager også de små portugisiske og franske kolonier Goa og Pondicherry"
+   ],
+   [
     1938,
     1944,
     "Britisk Indien"
    ]
   ],
   "India": [
+   [
+    1885,
+    1913,
+    "Baluchistan (grænseområde mellem Persien og Britisk Indien)"
+   ],
    [
     1938,
     1946,
@@ -3863,6 +5698,23 @@
   ],
   "Annam": [
    [
+    1814,
+    1858,
+    "Vietnam (Annam)"
+   ],
+   [
+    1859,
+    1882,
+    "Vietnam (Annam)",
+    "Kortet medtager fejlagtigt Saigon, som Frankrig erobrede i 1859"
+   ],
+   [
+    1883,
+    1884,
+    "Annam og Tonkin (fransk protektorat)",
+    "Kortet medtager også den franske koloni omkring Saigon"
+   ],
+   [
     1919,
     1938,
     "Fransk Indokina"
@@ -3879,6 +5731,16 @@
    ]
   ],
   "Cochin China": [
+   [
+    1814,
+    1861,
+    "Cochinchina (Vietnam)"
+   ],
+   [
+    1862,
+    1864,
+    "Cochinchina (delvis fransk)"
+   ],
    [
     1919,
     1938,
@@ -4010,6 +5872,11 @@
   ],
   "Somalia": [
    [
+    1814,
+    1864,
+    "Somalikysten"
+   ],
+   [
     1945,
     1959,
     "Italiensk Somaliland"
@@ -4021,6 +5888,16 @@
    ]
   ],
   "Eritrea": [
+   [
+    1885,
+    1889,
+    "Massawa (italiensk)"
+   ],
+   [
+    1890,
+    1913,
+    "Eritrea"
+   ],
    [
     1945,
     1951,
@@ -4066,6 +5943,11 @@
   ],
   "Congo": [
    [
+    1814,
+    1884,
+    "Kongeriget Kongo"
+   ],
+   [
     1945,
     2025,
     "Congo (Brazzaville)"
@@ -4084,6 +5966,11 @@
    ]
   ],
   "Benin": [
+   [
+    1865,
+    1884,
+    "Kongeriget Benin"
+   ],
    [
     1945,
     1974,
@@ -4126,6 +6013,16 @@
   ],
   "Rhodesia": [
    [
+    1885,
+    1889,
+    "Ndebele-riget og nabofolk"
+   ],
+   [
+    1890,
+    1894,
+    "Zambezia (British South Africa Company)"
+   ],
+   [
     1914,
     1918,
     "Rhodesia"
@@ -4154,6 +6051,26 @@
    ]
   ],
   "Malawi": [
+   [
+    1885,
+    1888,
+    "Nyasasøens område"
+   ],
+   [
+    1889,
+    1890,
+    "Shire-højlandet (britisk protektorat)"
+   ],
+   [
+    1891,
+    1906,
+    "Britisk Centralafrika"
+   ],
+   [
+    1907,
+    1913,
+    "Nyasaland"
+   ],
    [
     1919,
     1938,
@@ -4302,6 +6219,24 @@
   ],
   "Serbia": [
    [
+    1865,
+    1877,
+    "Serbien",
+    "Kortet medtager fejlagtigt egnen omkring Niš, Novi Pazar og det nordlige Kosovo, som var osmanniske"
+   ],
+   [
+    1878,
+    1911,
+    "Serbien",
+    "Kortet medtager fejlagtigt Novi Pazar og det nordlige Kosovo, som var osmanniske indtil 1912"
+   ],
+   [
+    1912,
+    1913,
+    "Serbien",
+    "Kortet viser kun en lille del af de områder, Serbien erobrede i Balkankrigene 1912–1913"
+   ],
+   [
     1914,
     1918,
     "Serbien"
@@ -4333,6 +6268,24 @@
    ]
   ],
   "Montenegro": [
+   [
+    1865,
+    1877,
+    "Montenegro",
+    "Kortet medtager fejlagtigt store naboområder: Podgorica, Bar og Shkodër, som var osmanniske, og Kotor-bugten, som var østrigsk"
+   ],
+   [
+    1878,
+    1911,
+    "Montenegro",
+    "Kortet medtager fejlagtigt Shkodër og dele af Sandžak, som var osmanniske, og Kotor-bugten, som var østrigsk"
+   ],
+   [
+    1912,
+    1913,
+    "Montenegro",
+    "Kortet medtager fejlagtigt Shkodër, som blev en del af Albanien i 1913, og Kotor-bugten, som var østrigsk"
+   ],
    [
     1914,
     1918,
@@ -4399,6 +6352,34 @@
   ],
   "Russian Empire": [
    [
+    1814,
+    1864,
+    "Det Russiske Kejserrige"
+   ],
+   [
+    1865,
+    1867,
+    "Det Russiske Kejserrige",
+    "Kortet medtager fejlagtigt khanaterne Bukhara, Khiva og Kokand, som endnu var selvstændige"
+   ],
+   [
+    1868,
+    1872,
+    "Det Russiske Kejserrige",
+    "Kortet medtager khanaterne Bukhara og Kokand, som blev russiske lydstater i 1868, og fejlagtigt Khiva, som endnu var selvstændigt"
+   ],
+   [
+    1873,
+    1875,
+    "Det Russiske Kejserrige",
+    "Kortet medtager khanaterne Bukhara, Khiva og Kokand, som var blevet russiske lydstater"
+   ],
+   [
+    1876,
+    1913,
+    "Det Russiske Kejserrige"
+   ],
+   [
     1914,
     1917,
     "Det Russiske Kejserrige"
@@ -4410,6 +6391,30 @@
    ]
   ],
   "Ottoman Empire": [
+   [
+    1830,
+    1864,
+    "Osmannerriget",
+    "Kortet medtager fejlagtigt Grækenland, som var selvstændigt fra 1830"
+   ],
+   [
+    1878,
+    1884,
+    "Osmannerriget",
+    "Kortet medtager fejlagtigt Kars, som var russisk fra 1878, og Cypern, som var britisk styret fra 1878"
+   ],
+   [
+    1885,
+    1911,
+    "Osmannerriget",
+    "Kortet medtager fejlagtigt Kars, som var russisk, Cypern, som var britisk styret, og egnen omkring Kjustendil, som var bulgarsk"
+   ],
+   [
+    1912,
+    1913,
+    "Osmannerriget",
+    "Kortet viser grænserne før Balkankrigene 1912–1913 og medtager fejlagtigt Kars og Cypern"
+   ],
    [
     1914,
     1918,
@@ -4425,6 +6430,17 @@
   ],
   "United Kingdom of Great Britain and Ireland": [
    [
+    1814,
+    1864,
+    "Storbritannien og Irland"
+   ],
+   [
+    1865,
+    1913,
+    "Storbritannien og Irland",
+    "Kortet viser også kolonierne Jamaica, Bahamas, Trinidad og Saint Lucia som en del af Storbritannien"
+   ],
+   [
     1914,
     1921,
     "Storbritannien og Irland"
@@ -4437,12 +6453,51 @@
   ],
   "Manchu Empire": [
    [
+    1814,
+    1864,
+    "Kina (Qing-riget)"
+   ],
+   [
+    1865,
+    1876,
+    "Kina (Qing-riget)",
+    "Kortet medtager Kashgar-området, som var et selvstændigt emirat under Yakub Beg"
+   ],
+   [
+    1877,
+    1911,
+    "Kina (Qing-riget)"
+   ],
+   [
+    1912,
+    1913,
+    "Kina (Republikken Kina fra 1912)"
+   ],
+   [
     1914,
     1918,
     "Kina (Republikken Kina fra 1912)"
    ]
   ],
   "Persia": [
+   [
+    1814,
+    1827,
+    "Persien",
+    "Kortet medtager fejlagtigt det østlige Georgien, Dagestan og det nuværende Aserbajdsjan, som var russiske, samt det østlige Baluchistan, som ikke hørte til Persien"
+   ],
+   [
+    1828,
+    1864,
+    "Persien",
+    "Kortet medtager fejlagtigt det østlige Georgien, Armenien, Dagestan og det nuværende Aserbajdsjan, som var russiske, samt det østlige Baluchistan, som ikke hørte til Persien"
+   ],
+   [
+    1865,
+    1913,
+    "Persien",
+    "Kortet medtager fejlagtigt det østlige Georgien, Armenien, Dagestan og det nuværende Aserbajdsjan, som var russiske"
+   ],
    [
     1914,
     1918,
@@ -4451,12 +6506,22 @@
   ],
   "Abyssinia": [
    [
+    1885,
+    1913,
+    "Etiopien (Abessinien)"
+   ],
+   [
     1914,
     1918,
     "Etiopien (Abessinien)"
    ]
   ],
   "Rattanakosin Kingdom": [
+   [
+    1814,
+    1913,
+    "Siam"
+   ],
    [
     1914,
     1938,
@@ -4472,12 +6537,32 @@
   ],
   "Anglo-Egyptian Sudan": [
    [
+    1885,
+    1897,
+    "Sudan (Mahdi-staten)"
+   ],
+   [
+    1898,
+    1913,
+    "Anglo-egyptisk Sudan"
+   ],
+   [
     1914,
     1918,
     "Anglo-egyptisk Sudan"
    ]
   ],
   "British East Africa": [
+   [
+    1885,
+    1887,
+    "Østafrika (Zanzibar-kysten og indlandet)"
+   ],
+   [
+    1888,
+    1913,
+    "Britisk Østafrika (Kenya)"
+   ],
    [
     1914,
     1918,
@@ -4493,12 +6578,22 @@
   ],
   "German E. Africa (Tanganyika)": [
    [
+    1885,
+    1913,
+    "Tysk Østafrika"
+   ],
+   [
     1914,
     1918,
     "Tysk Østafrika"
    ]
   ],
   "German South-West Africa": [
+   [
+    1885,
+    1913,
+    "Tysk Sydvestafrika"
+   ],
    [
     1914,
     1918,
@@ -4507,12 +6602,22 @@
   ],
   "Kamerun": [
    [
+    1885,
+    1913,
+    "Kamerun (tysk koloni)"
+   ],
+   [
     1914,
     1918,
     "Kamerun (tysk koloni)"
    ]
   ],
   "Togoland": [
+   [
+    1885,
+    1913,
+    "Togoland (tysk koloni)"
+   ],
    [
     1914,
     1918,
@@ -4528,12 +6633,46 @@
   ],
   "French Indochina": [
    [
+    1865,
+    1884,
+    "Cambodja og Cochinchina (fransk)",
+    "Kortet medtager Battambang og Siem Reap (Angkor), som var siamesiske indtil 1907"
+   ],
+   [
+    1885,
+    1886,
+    "Cochinchina, Cambodja, Annam og Tonkin (fransk)",
+    "Kortet medtager Laos, som hørte under Siam indtil 1893, og Battambang og Siem Reap (Angkor), som var siamesiske indtil 1907"
+   ],
+   [
+    1887,
+    1892,
+    "Fransk Indokina",
+    "Kortet medtager Laos, som hørte under Siam indtil 1893, og Battambang og Siem Reap (Angkor), som var siamesiske indtil 1907"
+   ],
+   [
+    1893,
+    1906,
+    "Fransk Indokina",
+    "Kortet medtager Battambang og Siem Reap (Angkor), som var siamesiske indtil 1907"
+   ],
+   [
+    1907,
+    1913,
+    "Fransk Indokina"
+   ],
+   [
     1914,
     1918,
     "Fransk Indokina"
    ]
   ],
   "Malaya": [
+   [
+    1814,
+    1913,
+    "Malaya og Nordborneo"
+   ],
    [
     1914,
     1918,
@@ -4542,12 +6681,27 @@
   ],
   "Portuguese Guinea": [
    [
+    1814,
+    1913,
+    "Portugisisk Guinea"
+   ],
+   [
     1914,
     1918,
     "Portugisisk Guinea"
    ]
   ],
   "Spanish Morocco": [
+   [
+    1885,
+    1911,
+    "Marokko (nordlige del)"
+   ],
+   [
+    1912,
+    1913,
+    "Spansk Marokko"
+   ],
    [
     1914,
     1918,
@@ -4773,12 +6927,32 @@
   ],
   "Egypt": [
    [
+    1865,
+    1882,
+    "Egypten (inkl. Sudan)"
+   ],
+   [
+    1883,
+    1884,
+    "Egypten og Sudan (Mahdi-oprøret)"
+   ],
+   [
+    1885,
+    1913,
+    "Egypten (britisk besat)"
+   ],
+   [
     1914,
     1921,
     "Egypten (britisk protektorat)"
    ]
   ],
   "Iceland": [
+   [
+    1814,
+    1913,
+    "Island (del af det danske rige)"
+   ],
    [
     1914,
     1917,
@@ -4799,6 +6973,11 @@
   ],
   "Dutch East Indies": [
    [
+    1814,
+    1815,
+    "Hollandsk Ostindien (britisk besat)"
+   ],
+   [
     1919,
     1938,
     "Hollandsk Ostindien"
@@ -4818,6 +6997,33 @@
   ],
   "Spain": [
    [
+    1814,
+    1820,
+    "Spanien (med Cuba, Puerto Rico og Santo Domingo)"
+   ],
+   [
+    1821,
+    1860,
+    "Spanien (med Cuba og Puerto Rico)",
+    "Kortet medtager fejlagtigt Santo Domingo"
+   ],
+   [
+    1861,
+    1864,
+    "Spanien (med Cuba, Puerto Rico og Santo Domingo)"
+   ],
+   [
+    1865,
+    1897,
+    "Spanien (med Cuba og Puerto Rico)"
+   ],
+   [
+    1898,
+    1913,
+    "Spanien",
+    "Kortet medtager fejlagtigt Cuba og Puerto Rico, som Spanien mistede i 1898"
+   ],
+   [
     1936,
     1938,
     "Spanien (borgerkrig 1936–39)"
@@ -4825,12 +7031,22 @@
   ],
   "Philippines": [
    [
+    1898,
+    1913,
+    "Filippinerne (amerikansk)"
+   ],
+   [
     1914,
     1938,
     "Filippinerne (amerikansk)"
    ]
   ],
   "United States Virgin Islands": [
+   [
+    1865,
+    1913,
+    "Dansk Vestindien"
+   ],
    [
     1914,
     1916,
@@ -4851,6 +7067,35 @@
   ],
   "Bulgaria": [
    [
+    1865,
+    1877,
+    "Bulgarien, Makedonien, Thrakien og Kreta (osmanniske provinser)"
+   ],
+   [
+    1878,
+    1884,
+    "Fyrstendømmet Bulgarien",
+    "Kortet medtager fejlagtigt Østrumelien, Makedonien, Thrakien og Kreta, som hørte under Osmannerriget"
+   ],
+   [
+    1885,
+    1907,
+    "Fyrstendømmet Bulgarien",
+    "Kortet mangler egnen omkring Kjustendil, som hørte til Bulgarien"
+   ],
+   [
+    1908,
+    1911,
+    "Bulgarien",
+    "Kortet mangler egnen omkring Kjustendil, som hørte til Bulgarien"
+   ],
+   [
+    1912,
+    1913,
+    "Bulgarien",
+    "Kortet viser grænserne før Balkankrigene 1912–1913 og mangler egnen omkring Kjustendil"
+   ],
+   [
     1914,
     1918,
     "Bulgarien (kortet medtager fejlagtigt Østthrakien og Konstantinopel, som var osmanniske)"
@@ -4870,6 +7115,21 @@
   ],
   "Burma": [
    [
+    1814,
+    1825,
+    "Burma"
+   ],
+   [
+    1826,
+    1851,
+    "Burma (Tenasserim-kysten britisk fra 1826)"
+   ],
+   [
+    1852,
+    1864,
+    "Burma (Nedre Burma britisk fra 1852)"
+   ],
+   [
     1914,
     1988,
     "Burma"
@@ -4881,6 +7141,11 @@
    ]
   ],
   "Swaziland": [
+   [
+    1895,
+    1898,
+    "Swaziland (under Transvaals beskyttelse)"
+   ],
    [
     1968,
     2017,
@@ -4918,12 +7183,27 @@
   ],
   "Hong Kong": [
    [
+    1814,
+    1840,
+    "Hongkong (del af Kina)"
+   ],
+   [
     1997,
     2025,
     "Hongkong (Kina)"
    ]
   ],
   "Nordarabien": [
+   [
+    1814,
+    1817,
+    "Nordarabien (stammeområder, delvis under den første saudiske stat)"
+   ],
+   [
+    1818,
+    1864,
+    "Nordarabien (stammeområder)"
+   ],
    [
     1919,
     1931,
@@ -4933,6 +7213,1483 @@
     1932,
     1937,
     "Saudi-Arabien"
+   ]
+  ],
+  "Viceroyalty of New Spain": [
+   [
+    1814,
+    1820,
+    "Ny-Spanien (inkl. Mellemamerika)"
+   ],
+   [
+    1821,
+    1822,
+    "Kejserriget Mexico og Mellemamerika"
+   ],
+   [
+    1823,
+    1835,
+    "Mexico og Mellemamerika"
+   ],
+   [
+    1836,
+    1847,
+    "Mexico, Mellemamerika og Texas"
+   ],
+   [
+    1848,
+    1864,
+    "Mexico, Mellemamerika og det sydvestlige USA"
+   ]
+  ],
+  "Viceroyalty of New Granada": [
+   [
+    1814,
+    1818,
+    "Ny-Granada"
+   ],
+   [
+    1819,
+    1829,
+    "Gran Colombia"
+   ],
+   [
+    1830,
+    1862,
+    "Venezuela, Ny-Granada og Ecuador"
+   ],
+   [
+    1863,
+    1864,
+    "Venezuela, Colombia og Ecuador"
+   ]
+  ],
+  "Viceroyalty of Peru": [
+   [
+    1814,
+    1817,
+    "Vicekongedømmet Peru og Chile"
+   ],
+   [
+    1818,
+    1824,
+    "Peru og Chile"
+   ],
+   [
+    1825,
+    1835,
+    "Peru, Bolivia og Chile"
+   ],
+   [
+    1836,
+    1838,
+    "Den Peruviansk-Bolivianske Konføderation og Chile"
+   ],
+   [
+    1839,
+    1864,
+    "Peru, Bolivia og Chile"
+   ]
+  ],
+  "United Provinces of the Río de la Plata": [
+   [
+    1814,
+    1816,
+    "De Forenede Provinser ved Río de la Plata"
+   ],
+   [
+    1817,
+    1827,
+    "De Forenede Provinser ved Río de la Plata (Uruguay besat af Portugal/Brasilien)"
+   ],
+   [
+    1828,
+    1864,
+    "Argentina og Uruguay"
+   ]
+  ],
+  "Viceroyalty of Brazil": [
+   [
+    1814,
+    1814,
+    "Brasilien",
+    "Kortet medtager Fransk Guyana, som Portugal havde besat"
+   ],
+   [
+    1815,
+    1816,
+    "Kongeriget Brasilien",
+    "Kortet medtager Fransk Guyana, som Portugal havde besat"
+   ],
+   [
+    1817,
+    1821,
+    "Kongeriget Brasilien",
+    "Kortet medtager fejlagtigt Fransk Guyana, som var fransk igen fra 1817"
+   ],
+   [
+    1822,
+    1864,
+    "Kejserriget Brasilien",
+    "Kortet medtager fejlagtigt Fransk Guyana"
+   ]
+  ],
+  "Kingdom of Brazil": [
+   [
+    1865,
+    1888,
+    "Kejserriget Brasilien"
+   ],
+   [
+    1889,
+    1913,
+    "Brasilien"
+   ]
+  ],
+  "Mexico": [
+   [
+    1865,
+    1866,
+    "Kejserriget Mexico (støttet af Frankrig)"
+   ]
+  ],
+  "Colombia": [
+   [
+    1903,
+    1913,
+    "Colombia",
+    "Kortet medtager Panama, som blev selvstændigt i 1903"
+   ]
+  ],
+  "Bolivia": [
+   [
+    1879,
+    1913,
+    "Bolivia",
+    "Kortet medtager kysten, som Chile erobrede i Stillehavskrigen 1879–1884"
+   ]
+  ],
+  "Peru": [
+   [
+    1879,
+    1913,
+    "Peru",
+    "Kortet medtager sydkysten, som Chile erobrede i Stillehavskrigen 1879–1884"
+   ]
+  ],
+  "United States": [
+   [
+    1814,
+    1820,
+    "USA",
+    "Kortet medtager Florida, som var spansk indtil 1821, og Oregon-området, som var omstridt indtil 1846"
+   ],
+   [
+    1821,
+    1844,
+    "USA",
+    "Kortet medtager Oregon-området, som både USA og Storbritannien gjorde krav på indtil 1846"
+   ],
+   [
+    1845,
+    1845,
+    "USA",
+    "Kortet medtager Oregon-området, som var omstridt indtil 1846, og viser ikke Texas, som blev en del af USA i december 1845"
+   ],
+   [
+    1846,
+    1847,
+    "USA",
+    "Kortet viser ikke Texas, som blev en del af USA i 1845"
+   ],
+   [
+    1848,
+    1860,
+    "USA",
+    "Kortet viser ikke Texas og de områder, USA fik fra Mexico i 1848"
+   ],
+   [
+    1861,
+    1864,
+    "USA (borgerkrig 1861–65)",
+    "Kortet viser ikke Texas og de områder, USA fik fra Mexico i 1848"
+   ]
+  ],
+  "Canada": [
+   [
+    1814,
+    1866,
+    "Britisk Nordamerika"
+   ],
+   [
+    1867,
+    1869,
+    "Canada (britisk dominion)",
+    "Kortet medtager Hudson's Bay Company's områder, British Columbia og Newfoundland, som endnu ikke hørte til Canada"
+   ],
+   [
+    1870,
+    1870,
+    "Canada (britisk dominion)",
+    "Kortet medtager British Columbia og Newfoundland, som endnu ikke hørte til Canada"
+   ],
+   [
+    1871,
+    1906,
+    "Canada (britisk dominion)",
+    "Kortet medtager Newfoundland, som var en særskilt britisk koloni"
+   ],
+   [
+    1907,
+    1913,
+    "Canada (britisk dominion)",
+    "Kortet medtager Newfoundland, som var et særskilt britisk dominion"
+   ]
+  ],
+  "United Kingdom": [
+   [
+    1814,
+    1859,
+    "Jamaica, Bahamas, Britisk Honduras og Moskitokysten"
+   ],
+   [
+    1860,
+    1864,
+    "Jamaica, Bahamas og Britisk Honduras",
+    "Kortet medtager Moskitokysten, som blev overladt til Nicaragua i 1860"
+   ]
+  ],
+  "Guiana": [
+   [
+    1814,
+    1815,
+    "Surinam og Demerara–Berbice (britisk besat)"
+   ],
+   [
+    1816,
+    1830,
+    "Surinam (hollandsk) og Demerara–Berbice (britisk)"
+   ],
+   [
+    1831,
+    1864,
+    "Surinam (hollandsk) og en del af Britisk Guyana"
+   ]
+  ],
+  "Netherlands Antilles": [
+   [
+    1814,
+    1913,
+    "Curaçao"
+   ]
+  ],
+  "Trinidad": [
+   [
+    1814,
+    1864,
+    "Trinidad"
+   ]
+  ],
+  "Kingdom of Hawaii": [
+   [
+    1814,
+    1892,
+    "Kongeriget Hawaii"
+   ],
+   [
+    1893,
+    1897,
+    "Hawaii (kongedømmet afsat i 1893)"
+   ],
+   [
+    1898,
+    1913,
+    "Hawaii (amerikansk)"
+   ]
+  ],
+  "Sweden–Norway": [
+   [
+    1814,
+    1904,
+    "Sverige-Norge"
+   ],
+   [
+    1905,
+    1913,
+    "Sverige og Norge (unionen blev opløst i 1905)"
+   ]
+  ],
+  "France": [
+   [
+    1814,
+    1859,
+    "Frankrig",
+    "Kortet medtager fejlagtigt Nice, som hørte til Kongeriget Sardinien indtil 1860"
+   ],
+   [
+    1865,
+    1913,
+    "Frankrig",
+    "Kortet viser også kolonien Martinique som en del af Frankrig"
+   ]
+  ],
+  "Austria Hungary": [
+   [
+    1865,
+    1866,
+    "Østrig"
+   ],
+   [
+    1867,
+    1913,
+    "Østrig-Ungarn"
+   ]
+  ],
+  "Italy": [
+   [
+    1865,
+    1865,
+    "Italien",
+    "Kortet medtager fejlagtigt Venetien, som var østrigsk indtil 1866, Kirkestaten omkring Rom, som først blev italiensk i 1870, og Savoyen, som var fransk fra 1860"
+   ],
+   [
+    1866,
+    1869,
+    "Italien",
+    "Kortet medtager fejlagtigt Kirkestaten omkring Rom, som først blev italiensk i 1870, og Savoyen, som var fransk fra 1860"
+   ],
+   [
+    1870,
+    1913,
+    "Italien",
+    "Kortet medtager fejlagtigt Savoyen, som var fransk fra 1860"
+   ]
+  ],
+  "Kingdom of Sardinia": [
+   [
+    1814,
+    1814,
+    "Kongeriget Sardinien",
+    "Kortet medtager fejlagtigt Chambéry og Annecy i Savoyen, som var franske indtil 1815"
+   ],
+   [
+    1815,
+    1859,
+    "Kongeriget Sardinien"
+   ],
+   [
+    1860,
+    1860,
+    "Kongeriget Sardinien",
+    "Kortet medtager fejlagtigt Savoyen, som blev fransk i 1860"
+   ],
+   [
+    1861,
+    1864,
+    "Italien",
+    "Kortet medtager fejlagtigt Savoyen, som blev fransk i 1860"
+   ]
+  ],
+  "Lombardy": [
+   [
+    1814,
+    1858,
+    "Lombardiet (østrigsk)"
+   ],
+   [
+    1859,
+    1860,
+    "Lombardiet (sardinsk)"
+   ],
+   [
+    1861,
+    1864,
+    "Italien"
+   ]
+  ],
+  "Tuscany": [
+   [
+    1814,
+    1859,
+    "Toscana"
+   ],
+   [
+    1860,
+    1860,
+    "Toscana (indlemmet i Sardinien)"
+   ],
+   [
+    1861,
+    1864,
+    "Italien"
+   ]
+  ],
+  "Parma": [
+   [
+    1814,
+    1859,
+    "Parma"
+   ],
+   [
+    1860,
+    1860,
+    "Parma (indlemmet i Sardinien)"
+   ],
+   [
+    1861,
+    1864,
+    "Italien"
+   ]
+  ],
+  "Modena": [
+   [
+    1814,
+    1859,
+    "Modena"
+   ],
+   [
+    1860,
+    1860,
+    "Modena (indlemmet i Sardinien)"
+   ],
+   [
+    1861,
+    1864,
+    "Italien"
+   ]
+  ],
+  "Lucca": [
+   [
+    1814,
+    1846,
+    "Lucca"
+   ],
+   [
+    1847,
+    1859,
+    "Lucca (del af Toscana)"
+   ],
+   [
+    1860,
+    1860,
+    "Lucca (indlemmet i Sardinien)"
+   ],
+   [
+    1861,
+    1864,
+    "Italien"
+   ]
+  ],
+  "Massa": [
+   [
+    1814,
+    1828,
+    "Massa og Carrara"
+   ],
+   [
+    1829,
+    1859,
+    "Massa og Carrara (del af Modena)"
+   ],
+   [
+    1860,
+    1860,
+    "Massa og Carrara (indlemmet i Sardinien)"
+   ],
+   [
+    1861,
+    1864,
+    "Italien"
+   ]
+  ],
+  "Pontremoli": [
+   [
+    1814,
+    1859,
+    "Pontremoli"
+   ],
+   [
+    1860,
+    1860,
+    "Pontremoli (indlemmet i Sardinien)"
+   ],
+   [
+    1861,
+    1864,
+    "Italien"
+   ]
+  ],
+  "Fivizzano": [
+   [
+    1814,
+    1859,
+    "Fivizzano"
+   ],
+   [
+    1860,
+    1860,
+    "Fivizzano (indlemmet i Sardinien)"
+   ],
+   [
+    1861,
+    1864,
+    "Italien"
+   ]
+  ],
+  "Papal States": [
+   [
+    1814,
+    1858,
+    "Kirkestaten"
+   ],
+   [
+    1859,
+    1859,
+    "Kirkestaten (oprør i Romagna)"
+   ],
+   [
+    1860,
+    1860,
+    "Kirkestaten (det meste indlemmet i Sardinien)"
+   ],
+   [
+    1861,
+    1864,
+    "Italien og Kirkestaten (Rom)"
+   ]
+  ],
+  "Kingdom of the Two Sicilies": [
+   [
+    1814,
+    1815,
+    "Napoli og Sicilien"
+   ],
+   [
+    1816,
+    1859,
+    "Kongeriget Begge Sicilier"
+   ],
+   [
+    1860,
+    1860,
+    "Begge Sicilier (indlemmet i Sardinien)"
+   ],
+   [
+    1861,
+    1864,
+    "Italien"
+   ]
+  ],
+  "Republic of Kraków": [
+   [
+    1814,
+    1814,
+    "Kraków (russisk besat)"
+   ],
+   [
+    1815,
+    1845,
+    "Fristaden Kraków"
+   ],
+   [
+    1846,
+    1864,
+    "Kraków (østrigsk)"
+   ]
+  ],
+  "Schleswig": [
+   [
+    1814,
+    1847,
+    "Slesvig (under den danske konge)"
+   ],
+   [
+    1848,
+    1849,
+    "Slesvig (omstridt under Treårskrigen)"
+   ],
+   [
+    1850,
+    1863,
+    "Slesvig (under den danske konge)"
+   ],
+   [
+    1864,
+    1864,
+    "Slesvig (under Preussen og Østrig)"
+   ],
+   [
+    1865,
+    1866,
+    "Slesvig (under preussisk styre)"
+   ],
+   [
+    1867,
+    1913,
+    "Slesvig (del af den preussiske provins Slesvig-Holsten)"
+   ],
+   [
+    1914,
+    1918,
+    "Nordslesvig (tysk)"
+   ]
+  ],
+  "Holstein": [
+   [
+    1814,
+    1847,
+    "Holsten (under den danske konge)"
+   ],
+   [
+    1848,
+    1850,
+    "Holsten (oprørsregering under Treårskrigen)"
+   ],
+   [
+    1851,
+    1851,
+    "Holsten (styret af Det Tyske Forbund)"
+   ],
+   [
+    1852,
+    1862,
+    "Holsten (under den danske konge)"
+   ],
+   [
+    1863,
+    1863,
+    "Holsten (besat af tyske forbundstropper)"
+   ],
+   [
+    1864,
+    1864,
+    "Holsten (under Preussen og Østrig)"
+   ]
+  ],
+  "Hohenzollern": [
+   [
+    1814,
+    1849,
+    "Hohenzollern"
+   ],
+   [
+    1850,
+    1864,
+    "Hohenzollern (preussisk)"
+   ]
+  ],
+  "Wetzlar": [
+   [
+    1814,
+    1814,
+    "Wetzlar"
+   ],
+   [
+    1815,
+    1864,
+    "Wetzlar (preussisk)"
+   ]
+  ],
+  "Palatinate": [
+   [
+    1814,
+    1815,
+    "Pfalz"
+   ],
+   [
+    1816,
+    1864,
+    "Pfalz (bayersk)"
+   ]
+  ],
+  "Greece": [
+   [
+    1865,
+    1880,
+    "Grækenland",
+    "Kortet medtager fejlagtigt Thessalien, Epirus, Makedonien, Albanien og Kosovo, som var osmanniske"
+   ],
+   [
+    1881,
+    1884,
+    "Grækenland",
+    "Kortet medtager fejlagtigt Epirus, Makedonien, Albanien og Kosovo, som var osmanniske"
+   ],
+   [
+    1885,
+    1911,
+    "Grækenland",
+    "Kortet medtager fejlagtigt dele af Epirus og Makedonien, som var osmanniske indtil 1912–1913"
+   ],
+   [
+    1912,
+    1913,
+    "Grækenland",
+    "Kortet viser kun en del af de områder, Grækenland erobrede i Balkankrigene 1912–1913"
+   ]
+  ],
+  "Bosnia-Herzegovina": [
+   [
+    1865,
+    1877,
+    "Bosnien-Hercegovina (osmannisk)"
+   ],
+   [
+    1878,
+    1907,
+    "Bosnien-Hercegovina (besat af Østrig-Ungarn)"
+   ],
+   [
+    1908,
+    1913,
+    "Bosnien-Hercegovina (østrig-ungarsk)"
+   ]
+  ],
+  "British East India Company": [
+   [
+    1814,
+    1815,
+    "Indien (Det Britiske Ostindiske Kompagnis område)"
+   ],
+   [
+    1816,
+    1857,
+    "Indien (Det Britiske Ostindiske Kompagnis område)",
+    "Kortet medtager også de små franske og portugisiske kolonier, bl.a. Pondicherry"
+   ],
+   [
+    1858,
+    1864,
+    "Britisk Indien",
+    "Kortet medtager også de små franske og portugisiske kolonier, bl.a. Pondicherry"
+   ]
+  ],
+  "Maratha Confederacy": [
+   [
+    1814,
+    1817,
+    "Maratha-forbundet og nabostater"
+   ],
+   [
+    1818,
+    1857,
+    "Indien (kompagniets område og fyrstestater)"
+   ],
+   [
+    1858,
+    1864,
+    "Britisk Indien (inkl. fyrstestater)"
+   ]
+  ],
+  "Assam": [
+   [
+    1814,
+    1816,
+    "Assam (Ahom-riget)"
+   ],
+   [
+    1817,
+    1824,
+    "Assam (domineret af Burma)"
+   ]
+  ],
+  "Arakan": [
+   [
+    1814,
+    1824,
+    "Arakan (burmesisk)"
+   ]
+  ],
+  "Korea": [
+   [
+    1814,
+    1896,
+    "Korea"
+   ],
+   [
+    1897,
+    1909,
+    "Kejserriget Korea"
+   ],
+   [
+    1910,
+    1913,
+    "Korea (japansk koloni)"
+   ]
+  ],
+  "Imperial Japan": [
+   [
+    1865,
+    1913,
+    "Japan"
+   ]
+  ],
+  "Taiwan": [
+   [
+    1814,
+    1894,
+    "Taiwan (Kina)"
+   ],
+   [
+    1895,
+    1913,
+    "Taiwan (japansk koloni)"
+   ]
+  ],
+  "Nejd": [
+   [
+    1814,
+    1817,
+    "Nejd (den første saudiske stat)"
+   ],
+   [
+    1818,
+    1823,
+    "Nejd (erobret af Egypten i 1818)"
+   ],
+   [
+    1824,
+    1837,
+    "Nejd (den anden saudiske stat)"
+   ],
+   [
+    1838,
+    1839,
+    "Nejd (under egyptisk kontrol)"
+   ],
+   [
+    1840,
+    1864,
+    "Nejd (den anden saudiske stat)"
+   ]
+  ],
+  "central Asian khanates": [
+   [
+    1814,
+    1821,
+    "Kasakhernes khanater"
+   ],
+   [
+    1822,
+    1847,
+    "Kasakhsteppen (under russisk erobring)"
+   ],
+   [
+    1848,
+    1864,
+    "Kasakhsteppen (russisk)"
+   ],
+   [
+    1865,
+    1884,
+    "Pamir"
+   ],
+   [
+    1885,
+    1894,
+    "Transkaspien (russisk) og Pamir"
+   ],
+   [
+    1895,
+    1913,
+    "Transkaspien og Pamir (russisk)"
+   ]
+  ],
+  "Bokhara Khanate": [
+   [
+    1865,
+    1880,
+    "Turkmenernes område"
+   ],
+   [
+    1881,
+    1883,
+    "Turkmenernes område (delvis erobret af Rusland)"
+   ],
+   [
+    1884,
+    1884,
+    "Transkaspien (russisk)"
+   ]
+  ],
+  "Papua New Guinea": [
+   [
+    1865,
+    1883,
+    "Østlige Ny Guinea"
+   ],
+   [
+    1884,
+    1884,
+    "Østlige Ny Guinea (britisk og tysk)"
+   ],
+   [
+    1885,
+    1905,
+    "Britisk og Tysk Ny Guinea"
+   ],
+   [
+    1906,
+    1913,
+    "Papua (australsk) og Tysk Ny Guinea"
+   ]
+  ],
+  "New South Wales": [
+   [
+    1814,
+    1835,
+    "New South Wales"
+   ],
+   [
+    1836,
+    1850,
+    "New South Wales og Sydaustralien"
+   ],
+   [
+    1851,
+    1858,
+    "New South Wales, Victoria og Sydaustralien"
+   ],
+   [
+    1859,
+    1864,
+    "New South Wales, Victoria, Queensland og Sydaustralien"
+   ]
+  ],
+  "New South Wales (UK)": [
+   [
+    1865,
+    1900,
+    "New South Wales"
+   ],
+   [
+    1901,
+    1913,
+    "Australien (britisk dominion fra 1901)"
+   ]
+  ],
+  "Victoria (UK)": [
+   [
+    1865,
+    1900,
+    "Victoria"
+   ],
+   [
+    1901,
+    1913,
+    "Australien (britisk dominion fra 1901)"
+   ]
+  ],
+  "Queensland (UK)": [
+   [
+    1865,
+    1900,
+    "Queensland"
+   ],
+   [
+    1901,
+    1913,
+    "Australien (britisk dominion fra 1901)"
+   ]
+  ],
+  "South Australia (UK)": [
+   [
+    1865,
+    1900,
+    "Sydaustralien"
+   ],
+   [
+    1901,
+    1913,
+    "Australien (britisk dominion fra 1901)"
+   ]
+  ],
+  "Western Australia (UK)": [
+   [
+    1865,
+    1900,
+    "Vestaustralien"
+   ],
+   [
+    1901,
+    1913,
+    "Australien (britisk dominion fra 1901)"
+   ]
+  ],
+  "Northern Territory (UK)": [
+   [
+    1865,
+    1900,
+    "Nordterritoriet (under Sydaustralien)"
+   ],
+   [
+    1901,
+    1913,
+    "Australien (britisk dominion fra 1901)"
+   ]
+  ],
+  "Maori": [
+   [
+    1814,
+    1839,
+    "New Zealand (maoriernes land)"
+   ],
+   [
+    1840,
+    1864,
+    "New Zealand"
+   ]
+  ],
+  "Māori": [
+   [
+    1865,
+    1906,
+    "New Zealand"
+   ],
+   [
+    1907,
+    1913,
+    "New Zealand (britisk dominion)"
+   ]
+  ],
+  "American Samoa": [
+   [
+    1865,
+    1899,
+    "Tutuila (Samoa)"
+   ]
+  ],
+  "Samoa": [
+   [
+    1900,
+    1913,
+    "Tysk Samoa"
+   ]
+  ],
+  "Algiers": [
+   [
+    1814,
+    1829,
+    "Algier"
+   ],
+   [
+    1830,
+    1864,
+    "Algeriet"
+   ]
+  ],
+  "Libya": [
+   [
+    1885,
+    1911,
+    "Tripolitanien og Kyrenaika (osmannisk)"
+   ],
+   [
+    1912,
+    1913,
+    "Libyen (italiensk)"
+   ]
+  ],
+  "Rio De Oro": [
+   [
+    1885,
+    1913,
+    "Río de Oro (spansk)"
+   ]
+  ],
+  "Spanish Sahara": [
+   [
+    1885,
+    1903,
+    "Saguia el-Hamra"
+   ]
+  ],
+  "Harer (Egypt)": [
+   [
+    1865,
+    1874,
+    "Harar"
+   ],
+   [
+    1875,
+    1884,
+    "Harar og Somalikysten (besat af Egypten)"
+   ]
+  ],
+  "Italian Somaliland": [
+   [
+    1885,
+    1888,
+    "Somalikysten"
+   ]
+  ],
+  "Zanzibar": [
+   [
+    1814,
+    1839,
+    "Swahilikysten"
+   ],
+   [
+    1840,
+    1855,
+    "Zanzibar og Swahilikysten (under Oman)"
+   ],
+   [
+    1856,
+    1864,
+    "Sultanatet Zanzibar"
+   ]
+  ],
+  "French West Africa": [
+   [
+    1885,
+    1894,
+    "Franske kolonier i Vestafrika",
+    "Kortet medtager også Tchad-området og Ubangi-Shari, som hørte under Fransk Congo eller endnu var selvstændige riger"
+   ],
+   [
+    1895,
+    1899,
+    "Fransk Vestafrika",
+    "Kortet medtager også Tchad-området og Ubangi-Shari, som hørte under Fransk Congo eller endnu var selvstændige riger"
+   ],
+   [
+    1900,
+    1909,
+    "Fransk Vestafrika",
+    "Kortet medtager også Tchad og Ubangi-Shari, som hørte under Fransk Congo"
+   ],
+   [
+    1910,
+    1913,
+    "Fransk Vestafrika",
+    "Kortet medtager også Tchad og Ubangi-Shari, som hørte under Fransk Ækvatorialafrika"
+   ]
+  ],
+  "Nigeria": [
+   [
+    1885,
+    1899,
+    "Nigerområdet"
+   ],
+   [
+    1900,
+    1913,
+    "Nord- og Sydnigeria"
+   ]
+  ],
+  "French Equatorial Africa": [
+   [
+    1885,
+    1909,
+    "Fransk Congo"
+   ],
+   [
+    1910,
+    1913,
+    "Fransk Ækvatorialafrika"
+   ]
+  ],
+  "Belgian Congo": [
+   [
+    1885,
+    1907,
+    "Kongofristaten"
+   ],
+   [
+    1908,
+    1913,
+    "Belgisk Congo"
+   ]
+  ],
+  "Burundi": [
+   [
+    1814,
+    1864,
+    "Folk ved Tanganyikasøen"
+   ],
+   [
+    1865,
+    1884,
+    "Burundi"
+   ]
+  ],
+  "Uganda": [
+   [
+    1885,
+    1893,
+    "Buganda, Bunyoro og nabokongeriger"
+   ]
+  ],
+  "Madagascar (France)": [
+   [
+    1885,
+    1894,
+    "Madagaskar (Merina-riget)"
+   ]
+  ],
+  "South Africa": [
+   [
+    1885,
+    1901,
+    "Kapkolonien, Natal og boerrepublikkerne"
+   ],
+   [
+    1902,
+    1909,
+    "Britisk Sydafrika"
+   ],
+   [
+    1910,
+    1913,
+    "Den Sydafrikanske Union (britisk dominion)"
+   ]
+  ],
+  "Xhosa": [
+   [
+    1814,
+    1846,
+    "Xhosaernes land"
+   ],
+   [
+    1847,
+    1864,
+    "Britisk Kaffraria (xhosaernes land)"
+   ]
+  ],
+  "Zulu": [
+   [
+    1814,
+    1838,
+    "Zululand"
+   ],
+   [
+    1839,
+    1842,
+    "Zululand og boerrepublikken Natalia"
+   ],
+   [
+    1843,
+    1864,
+    "Natal og Zululand"
+   ]
+  ],
+  "Transvaal": [
+   [
+    1865,
+    1876,
+    "Transvaal (Den Sydafrikanske Republik)"
+   ],
+   [
+    1877,
+    1880,
+    "Transvaal (britisk)"
+   ],
+   [
+    1881,
+    1884,
+    "Transvaal (Den Sydafrikanske Republik)"
+   ]
+  ],
+  "Zululand": [
+   [
+    1865,
+    1878,
+    "Zulu-riget"
+   ],
+   [
+    1879,
+    1884,
+    "Zululand (delt efter krigen mod Storbritannien i 1879)"
+   ]
+  ],
+  "United Kingdom of the Netherlands": [
+   [
+    1814,
+    1814,
+    "Nederlandene",
+    "Belgien, som kortet medtager, var under de allieredes styre og blev forenet med Holland i 1815"
+   ],
+   [
+    1815,
+    1829,
+    "Det Forenede Kongerige Nederlandene (Holland og Belgien)"
+   ],
+   [
+    1830,
+    1864,
+    "Nederlandene",
+    "Kortet medtager fejlagtigt Belgien, som blev selvstændigt i 1830"
+   ]
+  ],
+  "Romania": [
+   [
+    1865,
+    1877,
+    "Rumænien",
+    "Kortet medtager fejlagtigt Dobrudsja, som var osmannisk indtil 1878, og mangler det sydlige Bessarabien, som var rumænsk indtil 1878"
+   ]
+  ],
+  "United States of America": [
+   [
+    1865,
+    1866,
+    "USA",
+    "Kortet medtager Alaska, som var russisk indtil 1867"
+   ]
+  ],
+  "Hanover": [
+   [
+    1815,
+    1864,
+    "Hannover",
+    "Kortet medtager fejlagtigt Lauenborg, som hørte under den danske konge 1815–1864"
+   ]
+  ],
+  "Nkore": [
+   [
+    1814,
+    1864,
+    "Rwanda og nabokongeriger"
+   ]
+  ],
+  "Rwanda": [
+   [
+    1814,
+    1864,
+    "Burundi og nabofolk"
+   ]
+  ],
+  "Djibouti": [
+   [
+    1885,
+    1895,
+    "Obock og Djibouti (fransk)"
+   ]
+  ],
+  "Rabih az-Zubayr": [
+   [
+    1865,
+    1878,
+    "Slavehandleren az-Zubayrs område"
+   ],
+   [
+    1879,
+    1884,
+    "Rabih az-Zubayrs rige"
+   ]
+  ],
+  "Fante": [
+   [
+    1814,
+    1849,
+    "Guldkysten (Fante-staterne m.fl.)",
+    "Kortet viser ikke de danske, hollandske og britiske forter ved kysten"
+   ],
+   [
+    1850,
+    1864,
+    "Guldkysten (Fante-staterne m.fl.)",
+    "Kortet viser ikke de hollandske og britiske forter ved kysten"
+   ]
+  ],
+  "Tasmania": [
+   [
+    1814,
+    1855,
+    "Van Diemens Land (Tasmanien)"
+   ],
+   [
+    1856,
+    1900,
+    "Tasmanien"
+   ],
+   [
+    1901,
+    1913,
+    "Australien (britisk dominion fra 1901)"
+   ]
+  ],
+  "North Schleswig": [
+   [
+    1814,
+    1847,
+    "Slesvig (under den danske konge)"
+   ],
+   [
+    1848,
+    1849,
+    "Slesvig (omstridt under Treårskrigen)"
+   ],
+   [
+    1850,
+    1863,
+    "Slesvig (under den danske konge)"
+   ],
+   [
+    1864,
+    1864,
+    "Slesvig (under Preussen og Østrig)"
+   ]
+  ],
+  "Alsace-Lorraine": [
+   [
+    1865,
+    1870,
+    "Elsass og Lothringen (fransk)"
+   ],
+   [
+    1871,
+    1913,
+    "Elsass-Lothringen (tysk)"
+   ],
+   [
+    1914,
+    1917,
+    "Elsass-Lothringen (tysk)"
+   ],
+   [
+    1918,
+    1918,
+    "Elsass-Lothringen"
+   ]
+  ],
+  "Bessarabia": [
+   [
+    1814,
+    1913,
+    "Bessarabien (russisk)"
+   ],
+   [
+    1914,
+    1917,
+    "Bessarabien (russisk)"
+   ],
+   [
+    1918,
+    1918,
+    "Bessarabien (rumænsk)"
+   ]
+  ],
+  "Tunisia": [
+   [
+    1865,
+    1880,
+    "Tunis"
+   ]
+  ],
+  "Sydarabien": [
+   [
+    1814,
+    1864,
+    "Sydarabien (ørken og stammeområder)"
+   ]
+  ],
+  "Madagascar": [
+   [
+    1814,
+    1864,
+    "Madagaskar (selvstændige riger)"
    ]
   ]
  },
@@ -5169,7 +8926,127 @@
   "United States Virgin Islands": "De Amerikanske Jomfruøer",
   "Wallis and Futuna Islands": "Wallis og Futuna",
   "Saint Barthelemy": "Saint-Barthélemy",
-  "Saint Martin": "Saint-Martin"
+  "Saint Martin": "Saint-Martin",
+  "Austrian Empire": "Østrig",
+  "Prussia": "Preussen",
+  "Bavaria": "Bayern",
+  "Saxony": "Sachsen",
+  "Hanover": "Hannover",
+  "Württemberg": "Württemberg",
+  "Baden": "Baden",
+  "Electoral Hesse": "Kurhessen",
+  "Grand Duchy of Hesse": "Hessen-Darmstadt",
+  "Thuringia": "De thüringske stater",
+  "Mecklenburg-Schwerin": "Mecklenburg-Schwerin",
+  "Mecklenburg-Strelitz": "Mecklenburg-Strelitz",
+  "Oldenburg": "Oldenburg",
+  "Nassau": "Nassau",
+  "Anhalt": "Anhalt",
+  "Lippe-Detmold": "Lippe",
+  "Brunswick": "Braunschweig",
+  "Waldeck": "Waldeck",
+  "Schaumburg-Lippe": "Schaumburg-Lippe",
+  "Hamburg": "Hamburg",
+  "Bremen": "Bremen",
+  "Lübeck": "Lübeck",
+  "Venetia": "Venetien",
+  "San Marino": "San Marino",
+  "Kuril Islands": "Kurilerne",
+  "Turan": "Khanaterne Khiva, Bukhara og Kokand",
+  "Oudh": "Awadh (Oudh)",
+  "Mysore (Indian princely state)": "Mysore (indisk fyrstestat)",
+  "Travancore": "Travancore (indisk fyrstestat)",
+  "Sikkim (Indian princely state)": "Sikkim",
+  "Assam": "Assam",
+  "Arakan": "Arakan",
+  "Goa": "Goa",
+  "Yemen": "Yemen",
+  "Arabia": "Arabien",
+  "Netherlands Indies": "Hollandsk Ostindien",
+  "United States of America": "USA",
+  "Papuans": "Ny Guinea (papuanske folk)",
+  "Tuʻi Tonga Empire": "Samoa og Fiji",
+  "Polynesians": "Påskeøen (Rapa Nui)",
+  "Australian aboriginal hunter-gatherers": "Aboriginske jæger-samlere",
+  "Guanches": "De Kanariske Øer",
+  "Shuar": "Shuar-folket",
+  "Pampas cultures": "Pampasfolkene",
+  "Patagonian shellfish and marine mammal hunters": "Patagoniens kystfolk",
+  "Dutch Guiana": "Hollandsk Guyana",
+  "British Guiana": "Britisk Guyana",
+  "Cape Colony": "Kapkolonien",
+  "Natal": "Natal",
+  "Orange Free State": "Oranjefristaten",
+  "Griqualand West": "Griqualand West",
+  "Basutoland": "Basutoland",
+  "Tunis": "Tunis",
+  "Tripolitania": "Tripolitanien",
+  "Cyrenaica": "Kyrenaika",
+  "Algeria (FR)": "Algeriet",
+  "Senegal (FR)": "Senegal",
+  "Gambia": "Gambia",
+  "Gold Coast (GB)": "Guldkysten",
+  "Gold Coast": "Guldkysten",
+  "Lagos": "Lagos",
+  "Cotonou": "Porto-Novo og Cotonou",
+  "Calabar": "Calabar",
+  "Opobo": "Opobo",
+  "Ato trading confederacy": "Aro-forbundet",
+  "Ibadan": "Ibadan",
+  "Dahomey": "Kongeriget Dahomey",
+  "Borgu States": "Borgu-staterne",
+  "Dendi Kingdom": "Dendi-riget",
+  "Sultanate of Damagaram": "Sultanatet Damagaram",
+  "Tukular Caliphate": "Toucouleur-riget",
+  "Wassoulou Empire": "Wassoulou (Samori Turés rige)",
+  "Kong Empire": "Kong-riget",
+  "Futa Toro": "Futa Toro",
+  "Futa Jalon": "Futa Jallon",
+  "Wadai Empire": "Wadai-riget",
+  "Rabih az-Zubayr": "Rabih az-Zubayrs rige",
+  "Fulani Empire": "Sokoto-kalifatet",
+  "Sokoto Caliphate": "Sokoto-kalifatet",
+  "Kaarta": "Kaarta",
+  "Mossi States": "Mossi-rigerne",
+  "Asante": "Ashanti-riget",
+  "Fante": "Fante-staterne",
+  "Oyo": "Oyo-riget",
+  "Sotho": "Kongeriget Benin",
+  "Kanem-Bornu": "Kanem-Bornu",
+  "Spanish Guinea": "Spansk Guinea",
+  "Teke": "Teke-riget",
+  "Yaka": "Yaka-riget",
+  "Kuba": "Kuba-riget",
+  "Luba": "Luba-riget",
+  "Lunda": "Lunda-riget",
+  "Yeke": "Yeke-riget (Msiris rige)",
+  "Kazembe": "Kazembe-riget",
+  "Imbangala": "Kasanje (imbangala-riget)",
+  "Sultanate of Utetera": "Utetera (Tippu Tips rige)",
+  "Mirambo Unyanyembe Ukimbu": "Mirambos rige (Unyamwezi)",
+  "Nguni": "Ngoni-folk",
+  "Sultanate of Zanzibar": "Sultanatet Zanzibar",
+  "Bunyoro": "Bunyoro",
+  "Buganda": "Buganda",
+  "Nkore": "Ankole",
+  "Mbailundu": "Mbailundu (ovimbundu-rige)",
+  "Ovimbundu": "Ovimbundu-rigerne",
+  "Lozi": "Lozi-riget",
+  "Barotse": "Barotse (Lozi-riget)",
+  "Shona": "Shona-folk",
+  "Ndebele": "Ndebele-riget",
+  "Ngwato": "Ngwato (bamangwato)",
+  "Merina Kingdom": "Merina-riget (Madagaskar)",
+  "Imerina": "Merina-riget (Madagaskar)",
+  "Portuguese East Africa": "Portugisisk Østafrika",
+  "Delagoa Bay": "Delagoa-bugten",
+  "United Kingdom of the Netherlands": "Nederlandene",
+  "Faroe Islands": "Færøerne",
+  "Tasmania": "Tasmanien",
+  "North Schleswig": "Nordslesvig",
+  "Schleswig": "Slesvig",
+  "Alsace-Lorraine": "Elsass-Lothringen",
+  "Bessarabia": "Bessarabien"
  },
  "ww1": {
   "German Empire": [
@@ -5758,6 +9635,48 @@
     1918,
     "entente",
     "Erklærede Tyskland krig i 1918"
+   ]
+  ],
+  "Schleswig": [
+   [
+    1914,
+    1918,
+    "central",
+    "Del af Tyskland; tusindvis af dansksindede sønderjyder måtte kæmpe i den tyske hær"
+   ]
+  ],
+  "Alsace-Lorraine": [
+   [
+    1914,
+    1917,
+    "central",
+    "Tysk rigsland siden 1871; Frankrig ville have området tilbage"
+   ],
+   [
+    1918,
+    1918,
+    "entente",
+    "Franske tropper rykkede ind efter våbenstilstanden i november 1918; området blev formelt fransk igen ved Versailles-freden i 1919"
+   ]
+  ],
+  "Bessarabia": [
+   [
+    1914,
+    1916,
+    "entente",
+    "Del af Det Russiske Kejserrige"
+   ],
+   [
+    1917,
+    1917,
+    "entente",
+    "Del af Det Russiske Kejserrige; udråbt som selvstyrende moldavisk republik i december 1917"
+   ],
+   [
+    1918,
+    1918,
+    "entente",
+    "Forenet med Rumænien i 1918"
    ]
   ]
  },
@@ -6772,7 +10691,8 @@
    "Saar Protectorate",
    "West Germany",
    "East Germany",
-   "East Prussia"
+   "East Prussia",
+   "Prussia"
   ],
   [
    "Russian Empire",
@@ -6799,17 +10719,21 @@
   ],
   [
    "Kingdom of Italy",
-   "Italy"
+   "Italy",
+   "Kingdom of Sardinia"
   ],
   [
    "Austro-Hungarian Empire",
    "Austria",
-   "Hungary"
+   "Hungary",
+   "Austria Hungary",
+   "Austrian Empire"
   ],
   [
    "Empire of Japan",
    "Japan",
-   "Japan (USA)"
+   "Japan (USA)",
+   "Imperial Japan"
   ],
   [
    "Korea (USA)",
@@ -6845,11 +10769,17 @@
   ],
   [
    "Union of South Africa",
-   "South Africa"
+   "South Africa",
+   "Cape Colony",
+   "Natal",
+   "Transvaal",
+   "Orange Free State",
+   "Griqualand West"
   ],
   [
    "Gold Coast",
-   "Ghana"
+   "Ghana",
+   "Gold Coast (GB)"
   ],
   [
    "Belgian Congo",
@@ -6877,11 +10807,14 @@
    "Libya (IT)",
    "Cyraneica (UK Lybia)",
    "Tripolitana (UK Lybia)",
-   "Fezzan (Frech Lybia)"
+   "Fezzan (Frech Lybia)",
+   "Tripolitania",
+   "Cyrenaica"
   ],
   [
    "British Raj",
-   "India"
+   "India",
+   "British East India Company"
   ],
   [
    "Ceylon",
@@ -6907,6 +10840,1309 @@
   [
    "Byelarus",
    "White Russia"
+  ],
+  [
+   "United States",
+   "United States of America"
+  ],
+  [
+   "Sweden–Norway",
+   "Sweden",
+   "Norway"
+  ],
+  [
+   "Viceroyalty of Brazil",
+   "Kingdom of Brazil",
+   "Brazil"
+  ],
+  [
+   "Viceroyalty of New Spain",
+   "Mexico"
+  ],
+  [
+   "Viceroyalty of New Granada",
+   "Colombia",
+   "Venezuela",
+   "Ecuador"
+  ],
+  [
+   "Viceroyalty of Peru",
+   "Peru",
+   "Bolivia",
+   "Chile"
+  ],
+  [
+   "United Provinces of the Río de la Plata",
+   "Argentina",
+   "Uruguay"
+  ],
+  [
+   "Guiana",
+   "Dutch Guiana",
+   "Suriname"
+  ],
+  [
+   "British Guiana",
+   "Guyana"
+  ],
+  [
+   "New South Wales",
+   "New South Wales (UK)",
+   "Victoria (UK)",
+   "Queensland (UK)",
+   "South Australia (UK)",
+   "Western Australia (UK)",
+   "Northern Territory (UK)",
+   "Australia"
+  ],
+  [
+   "Maori",
+   "Māori",
+   "New Zealand"
+  ],
+  [
+   "Nejd",
+   "Arabia",
+   "Arabia (Nejd)",
+   "Saudi Arabia"
+  ],
+  [
+   "Algiers",
+   "Algeria (FR)",
+   "Algeria",
+   "Algeria (France)"
+  ],
+  [
+   "Tunis",
+   "Tunisia"
+  ],
+  [
+   "Fulani Empire",
+   "Sokoto Caliphate"
+  ],
+  [
+   "Zanzibar",
+   "Sultanate of Zanzibar"
+  ],
+  [
+   "Zulu",
+   "Zululand"
+  ],
+  [
+   "Basutoland",
+   "Lesotho"
+  ],
+  [
+   "Gambia",
+   "Gambia, The"
+  ],
+  [
+   "Spanish Guinea",
+   "Equatorial Guinea"
+  ],
+  [
+   "Senegal",
+   "Senegal (FR)"
+  ],
+  [
+   "Angola",
+   "Angola (Portugal)"
+  ],
+  [
+   "Portuguese East Africa",
+   "Delagoa Bay",
+   "Mozambique",
+   "Mozambique (Portugal)"
+  ],
+  [
+   "Merina Kingdom",
+   "Imerina",
+   "Madagascar",
+   "Madagascar (France)"
+  ],
+  [
+   "Bosnia-Herzegovina",
+   "Bosnia and Herzegovina"
+  ],
+  [
+   "United Kingdom of the Netherlands",
+   "Netherlands",
+   "Belgium"
   ]
- ]
+ ],
+ "c19": {
+  "United Kingdom of Great Britain and Ireland": [
+   [
+    1814,
+    1836,
+    "gpUk",
+    "Verdens største sømagt og det første industrialiserede land"
+   ],
+   [
+    1837,
+    1853,
+    "gpUk",
+    "Dronning Victoria fra 1837; verdens største sømagt og det første industrialiserede land"
+   ],
+   [
+    1854,
+    1855,
+    "gpUk",
+    "I Krimkrigen mod Rusland 1854–1856 sammen med Frankrig og Osmannerriget"
+   ],
+   [
+    1856,
+    1898,
+    "gpUk",
+    "Verdens største imperium og sømagt"
+   ],
+   [
+    1899,
+    1901,
+    "gpUk",
+    "Boerkrigen i Sydafrika 1899–1902"
+   ],
+   [
+    1902,
+    1903,
+    "gpUk",
+    "Alliance med Japan fra 1902"
+   ],
+   [
+    1904,
+    1906,
+    "gpUk",
+    "Alliance med Japan (1902) og Entente cordiale med Frankrig (1904)"
+   ],
+   [
+    1907,
+    1913,
+    "entente",
+    "Tripelententen: aftaler med Frankrig (1904) og Rusland (1907)"
+   ]
+  ],
+  "France": [
+   [
+    1814,
+    1829,
+    "gpFr",
+    "Kongedømme under Bourbon-slægten efter Napoleons fald"
+   ],
+   [
+    1830,
+    1847,
+    "gpFr",
+    "Julimonarkiet under kong Louis-Philippe fra 1830"
+   ],
+   [
+    1848,
+    1851,
+    "gpFr",
+    "Republik efter revolutionen i februar 1848"
+   ],
+   [
+    1852,
+    1853,
+    "gpFr",
+    "Kejserdømme under Napoleon 3. fra 1852"
+   ],
+   [
+    1854,
+    1855,
+    "gpFr",
+    "I Krimkrigen mod Rusland 1854–1856 sammen med Storbritannien og Osmannerriget"
+   ],
+   [
+    1856,
+    1859,
+    "gpFr",
+    "Kejserdømme under Napoleon 3. fra 1852"
+   ],
+   [
+    1860,
+    1864,
+    "gpFr",
+    "Kejserdømme under Napoleon 3.; fik Savoyen og Nice fra Sardinien i 1860"
+   ],
+   [
+    1865,
+    1869,
+    "gpFr",
+    "Kejserdømme under Napoleon 3.; Elsass-Lothringen var fransk indtil 1871"
+   ],
+   [
+    1870,
+    1870,
+    "gpFr",
+    "Kejseren blev taget til fange ved Sedan; republik udråbt 4. september 1870"
+   ],
+   [
+    1871,
+    1893,
+    "gpFr",
+    "Republik; måtte afstå Elsass-Lothringen til Tyskland i 1871"
+   ],
+   [
+    1894,
+    1903,
+    "gpFr",
+    "Alliance med Rusland fra 1894"
+   ],
+   [
+    1904,
+    1906,
+    "gpFr",
+    "Alliance med Rusland og Entente cordiale med Storbritannien (1904)"
+   ],
+   [
+    1907,
+    1913,
+    "entente",
+    "Tripelententen med Storbritannien og Rusland"
+   ]
+  ],
+  "Russian Empire": [
+   [
+    1814,
+    1829,
+    "gpRu",
+    "Omfattede også Finland, Kongrespolen (fra 1815) og Alaska"
+   ],
+   [
+    1830,
+    1831,
+    "gpRu",
+    "Polsk oprør 1830–1831 slået ned"
+   ],
+   [
+    1832,
+    1852,
+    "gpRu",
+    "Omfattede også Finland, Kongrespolen og Alaska"
+   ],
+   [
+    1853,
+    1855,
+    "gpRu",
+    "Krimkrigen 1853–1856 mod Osmannerriget, Storbritannien og Frankrig"
+   ],
+   [
+    1856,
+    1860,
+    "gpRu",
+    "Tabte Krimkrigen i 1856"
+   ],
+   [
+    1861,
+    1864,
+    "gpRu",
+    "Livegenskabet afskaffet i 1861; polsk oprør 1863–1864 slået ned"
+   ],
+   [
+    1865,
+    1866,
+    "gpRu",
+    "Alaska var russisk indtil 1867; erobringen af Centralasien var i gang"
+   ],
+   [
+    1867,
+    1876,
+    "gpRu",
+    "Erobrede store dele af Centralasien"
+   ],
+   [
+    1877,
+    1877,
+    "gpRu",
+    "Krig mod Osmannerriget 1877–1878"
+   ],
+   [
+    1878,
+    1880,
+    "gpRu",
+    "Sejrede over Osmannerriget i 1878"
+   ],
+   [
+    1881,
+    1886,
+    "gpRu",
+    "Trekejserforbundet med Tyskland og Østrig-Ungarn (første gang 1873) blev fornyet i 1881"
+   ],
+   [
+    1887,
+    1893,
+    "gpRu"
+   ],
+   [
+    1894,
+    1903,
+    "gpRu",
+    "Alliance med Frankrig fra 1894"
+   ],
+   [
+    1904,
+    1905,
+    "gpRu",
+    "Tabte krigen mod Japan 1904–1905 og måtte afstå Sydsakhalin; revolution i 1905"
+   ],
+   [
+    1906,
+    1906,
+    "gpRu",
+    "Alliance med Frankrig fra 1894"
+   ],
+   [
+    1907,
+    1913,
+    "entente",
+    "Tripelententen: alliance med Frankrig (1894) og aftale med Storbritannien (1907)"
+   ]
+  ],
+  "Kuril Islands": [
+   [
+    1814,
+    1864,
+    "gpRu",
+    "De nordlige Kuriler; russiske, indtil Japan fik hele øgruppen i 1875"
+   ]
+  ],
+  "Austrian Empire": [
+   [
+    1814,
+    1847,
+    "gpAt",
+    "Kejserriget Østrig; ledede Det Tyske Forbund fra 1815"
+   ],
+   [
+    1848,
+    1849,
+    "gpAt",
+    "Revolutioner i 1848; det ungarske oprør blev slået ned i 1849 med russisk hjælp"
+   ],
+   [
+    1850,
+    1858,
+    "gpAt",
+    "Kejserriget Østrig; ledede Det Tyske Forbund"
+   ],
+   [
+    1859,
+    1863,
+    "gpAt",
+    "Tabte Lombardiet efter krigen mod Frankrig og Sardinien i 1859"
+   ],
+   [
+    1864,
+    1864,
+    "gpAt",
+    "Førte krig mod Danmark sammen med Preussen i 1864"
+   ]
+  ],
+  "Austria Hungary": [
+   [
+    1865,
+    1865,
+    "gpAt",
+    "Kejserriget Østrig; Venetien var østrigsk indtil 1866"
+   ],
+   [
+    1866,
+    1866,
+    "gpAt",
+    "Tabte krigen mod Preussen og Italien i 1866 og måtte afstå Venetien"
+   ],
+   [
+    1867,
+    1878,
+    "gpAt",
+    "Østrig-Ungarn blev dannet ved forliget med Ungarn i 1867"
+   ],
+   [
+    1879,
+    1881,
+    "gpAt",
+    "Forsvarsalliance med Tyskland fra 1879"
+   ],
+   [
+    1882,
+    1907,
+    "central",
+    "Tripelalliancen med Tyskland og Italien fra 1882"
+   ],
+   [
+    1908,
+    1913,
+    "central",
+    "Tripelalliancen; annekterede Bosnien-Hercegovina i 1908"
+   ]
+  ],
+  "Lombardy": [
+   [
+    1814,
+    1814,
+    "gpAt",
+    "Under østrigsk styre; Kongeriget Lombardiet-Venetien blev oprettet i 1815"
+   ],
+   [
+    1815,
+    1847,
+    "gpAt",
+    "Del af Kongeriget Lombardiet-Venetien under Østrig"
+   ],
+   [
+    1848,
+    1848,
+    "gpAt",
+    "Milano gjorde oprør i marts 1848 og drev østrigerne ud, men Østrig generobrede byen i august 1848 efter sejren over Sardinien ved Custoza"
+   ],
+   [
+    1849,
+    1858,
+    "gpAt",
+    "Del af Kongeriget Lombardiet-Venetien under Østrig"
+   ],
+   [
+    1859,
+    1860,
+    "neutral",
+    "Afstået til Kongeriget Sardinien efter krigen i 1859 (undtagen Mantova)"
+   ],
+   [
+    1861,
+    1864,
+    "gpIt",
+    "Del af Kongeriget Italien fra 1861; Mantova forblev østrigsk indtil 1866"
+   ]
+  ],
+  "Venetia": [
+   [
+    1814,
+    1814,
+    "gpAt",
+    "Under østrigsk styre; Kongeriget Lombardiet-Venetien blev oprettet i 1815"
+   ],
+   [
+    1815,
+    1847,
+    "gpAt",
+    "Del af Kongeriget Lombardiet-Venetien under Østrig"
+   ],
+   [
+    1848,
+    1848,
+    "gpAt",
+    "Venedig var en selvstændig republik fra marts 1848 til august 1849"
+   ],
+   [
+    1849,
+    1864,
+    "gpAt",
+    "Del af Kongeriget Lombardiet-Venetien under Østrig; blev italiensk i 1866"
+   ]
+  ],
+  "Republic of Kraków": [
+   [
+    1815,
+    1845,
+    "neutral",
+    "Fristad under beskyttelse af Østrig, Preussen og Rusland"
+   ],
+   [
+    1846,
+    1864,
+    "gpAt",
+    "Indlemmet i Østrig i november 1846"
+   ]
+  ],
+  "Prussia": [
+   [
+    1814,
+    1833,
+    "gpDe",
+    "Kongeriget Preussen; medlem af Det Tyske Forbund fra 1815"
+   ],
+   [
+    1834,
+    1847,
+    "gpDe",
+    "Ledede den tyske toldunion (Zollverein) fra 1834"
+   ],
+   [
+    1848,
+    1850,
+    "gpDe",
+    "Revolution i 1848; preussiske tropper kæmpede mod Danmark i Treårskrigen 1848–1849, og Preussen sluttede fred med Danmark i juli 1850"
+   ],
+   [
+    1851,
+    1861,
+    "gpDe",
+    "Medlem af Det Tyske Forbund og leder af den tyske toldunion"
+   ],
+   [
+    1862,
+    1863,
+    "gpDe",
+    "Bismarck blev ministerpræsident i 1862"
+   ],
+   [
+    1864,
+    1864,
+    "gpDe",
+    "Besejrede Danmark sammen med Østrig i 1864"
+   ]
+  ],
+  "Wetzlar": [
+   [
+    1815,
+    1864,
+    "gpDe",
+    "Preussisk fra 1815"
+   ]
+  ],
+  "Hohenzollern": [
+   [
+    1850,
+    1864,
+    "gpDe",
+    "Preussisk fra 1850"
+   ]
+  ],
+  "Schleswig": [
+   [
+    1864,
+    1864,
+    "gpDe",
+    "Afstået af Danmark ved freden i Wien 30. oktober 1864; styret af Preussen og Østrig i fællesskab"
+   ],
+   [
+    1865,
+    1866,
+    "gpDe",
+    "Styret af Preussen fra 1865 og indlemmet i Preussen efter krigen mod Østrig i 1866"
+   ],
+   [
+    1867,
+    1881,
+    "gpDe",
+    "Del af Preussen og fra 1871 af Det Tyske Kejserrige; fredsaftalen i Prag 1866 lovede en folkeafstemning i Nordslesvig, som aldrig blev holdt"
+   ],
+   [
+    1882,
+    1913,
+    "central",
+    "Del af Det Tyske Kejserrige; Nordslesvig blev dansk efter en folkeafstemning i 1920"
+   ]
+  ],
+  "Holstein": [
+   [
+    1864,
+    1864,
+    "gpDe",
+    "Afstået af Danmark ved freden i Wien 30. oktober 1864; styret af Preussen og Østrig i fællesskab"
+   ]
+  ],
+  "Hanover": [
+   [
+    1814,
+    1836,
+    "neutral",
+    "Kongen af Storbritannien var også konge af Hannover indtil 1837"
+   ]
+  ],
+  "Germany": [
+   [
+    1865,
+    1865,
+    "gpDe",
+    "Delt i mange stater: Preussen var stormagt, mens Bayern, Sachsen, Hannover og de øvrige tyske stater var selvstændige medlemmer af Det Tyske Forbund"
+   ],
+   [
+    1866,
+    1866,
+    "gpDe",
+    "Preussen besejrede Østrig og dets tyske forbundsfæller i 1866 og fik bl.a. Hannover, Slesvig og Holsten; de sydtyske stater forblev selvstændige"
+   ],
+   [
+    1867,
+    1869,
+    "gpDe",
+    "Det Nordtyske Forbund under Preussens ledelse fra 1867; de sydtyske stater var allieret med Preussen"
+   ],
+   [
+    1870,
+    1870,
+    "gpDe",
+    "Den fransk-tyske krig begyndte i juli 1870; de sydtyske stater kæmpede på Preussens side"
+   ],
+   [
+    1871,
+    1878,
+    "gpDe",
+    "Det Tyske Kejserrige udråbt 18. januar 1871; fik Elsass-Lothringen fra Frankrig"
+   ],
+   [
+    1879,
+    1881,
+    "gpDe",
+    "Forsvarsalliance med Østrig-Ungarn fra 1879"
+   ],
+   [
+    1882,
+    1897,
+    "central",
+    "Tripelalliancen med Østrig-Ungarn og Italien fra 1882"
+   ],
+   [
+    1898,
+    1913,
+    "central",
+    "Tripelalliancen; flådeoprustning fra 1898 skabte rivalisering med Storbritannien"
+   ]
+  ],
+  "Kingdom of Sardinia": [
+   [
+    1814,
+    1854,
+    "neutral",
+    "Kongeriget Sardinien-Piemonte med Torino som hovedstad"
+   ],
+   [
+    1855,
+    1858,
+    "neutral",
+    "Deltog i Krimkrigen på britisk og fransk side fra 1855"
+   ],
+   [
+    1859,
+    1859,
+    "neutral",
+    "Fik Lombardiet efter krigen mod Østrig i 1859, som det vandt med fransk hjælp"
+   ],
+   [
+    1860,
+    1860,
+    "neutral",
+    "Indlemmede det meste af Mellem- og Syditalien i 1860, men ikke Rom; afstod Savoyen og Nice til Frankrig"
+   ],
+   [
+    1861,
+    1864,
+    "gpIt",
+    "Kongeriget Italien udråbt 17. marts 1861 med Torino som hovedstad; Savoyen var fransk fra 1860"
+   ]
+  ],
+  "Tuscany": [
+   [
+    1814,
+    1858,
+    "neutral",
+    "Storhertugdømme styret af en gren af Habsburg-slægten"
+   ],
+   [
+    1859,
+    1860,
+    "neutral",
+    "Storhertugen flygtede i 1859; indlemmet i Kongeriget Sardinien efter folkeafstemning i marts 1860"
+   ],
+   [
+    1861,
+    1864,
+    "gpIt",
+    "Del af Kongeriget Italien fra 1861"
+   ]
+  ],
+  "Parma": [
+   [
+    1814,
+    1858,
+    "neutral",
+    "Hertugdømme under østrigsk indflydelse"
+   ],
+   [
+    1859,
+    1860,
+    "neutral",
+    "Fyrstehuset blev fordrevet i 1859; indlemmet i Kongeriget Sardinien efter folkeafstemning i marts 1860"
+   ],
+   [
+    1861,
+    1864,
+    "gpIt",
+    "Del af Kongeriget Italien fra 1861"
+   ]
+  ],
+  "Modena": [
+   [
+    1814,
+    1858,
+    "neutral",
+    "Hertugdømme styret af en gren af Habsburg-slægten"
+   ],
+   [
+    1859,
+    1860,
+    "neutral",
+    "Fyrstehuset blev fordrevet i 1859; indlemmet i Kongeriget Sardinien efter folkeafstemning i marts 1860"
+   ],
+   [
+    1861,
+    1864,
+    "gpIt",
+    "Del af Kongeriget Italien fra 1861"
+   ]
+  ],
+  "Lucca": [
+   [
+    1815,
+    1846,
+    "neutral",
+    "Hertugdømmet Lucca; blev en del af Toscana i 1847"
+   ],
+   [
+    1847,
+    1860,
+    "neutral",
+    "Del af Toscana fra 1847; indlemmet i Kongeriget Sardinien i 1860"
+   ],
+   [
+    1861,
+    1864,
+    "gpIt",
+    "Del af Kongeriget Italien fra 1861"
+   ]
+  ],
+  "Massa": [
+   [
+    1861,
+    1864,
+    "gpIt",
+    "Del af Kongeriget Italien fra 1861"
+   ]
+  ],
+  "Pontremoli": [
+   [
+    1861,
+    1864,
+    "gpIt",
+    "Del af Kongeriget Italien fra 1861"
+   ]
+  ],
+  "Fivizzano": [
+   [
+    1861,
+    1864,
+    "gpIt",
+    "Del af Kongeriget Italien fra 1861"
+   ]
+  ],
+  "Papal States": [
+   [
+    1814,
+    1858,
+    "neutral",
+    "Kirkestaten, styret af paven"
+   ],
+   [
+    1859,
+    1859,
+    "neutral",
+    "Romagna gjorde oprør mod paven i 1859"
+   ],
+   [
+    1860,
+    1860,
+    "neutral",
+    "Romagna, Marche og Umbrien blev indlemmet i Kongeriget Sardinien i 1860; Rom forblev under paven"
+   ],
+   [
+    1861,
+    1864,
+    "gpIt",
+    "Det meste hørte til Italien fra 1861, men Rom og omegn forblev under paven, beskyttet af franske tropper, indtil 1870"
+   ]
+  ],
+  "Kingdom of the Two Sicilies": [
+   [
+    1860,
+    1860,
+    "neutral",
+    "Erobret af Garibaldis frivillige og den sardinske hær i 1860 og indlemmet i Kongeriget Sardinien efter folkeafstemning i oktober; fæstningen Gaeta overgav sig først i februar 1861"
+   ],
+   [
+    1861,
+    1864,
+    "gpIt",
+    "Del af Kongeriget Italien fra 1861"
+   ]
+  ],
+  "Italy": [
+   [
+    1865,
+    1865,
+    "gpIt",
+    "Venetien var østrigsk indtil 1866, og Rom tilhørte paven indtil 1870"
+   ],
+   [
+    1866,
+    1869,
+    "gpIt",
+    "Fik Venetien i 1866; Rom tilhørte paven indtil 1870"
+   ],
+   [
+    1870,
+    1881,
+    "gpIt",
+    "Rom indtaget 20. september 1870 og hovedstad fra 1871"
+   ],
+   [
+    1882,
+    1901,
+    "central",
+    "Tripelalliancen med Tyskland og Østrig-Ungarn fra 1882"
+   ],
+   [
+    1902,
+    1910,
+    "central",
+    "Tripelalliancen, men lovede i en hemmelig aftale med Frankrig i 1902 at holde sig neutral, hvis Frankrig blev angrebet"
+   ],
+   [
+    1911,
+    1912,
+    "central",
+    "Krig mod Osmannerriget 1911–1912 og erobrede Libyen"
+   ],
+   [
+    1913,
+    1913,
+    "central",
+    "Tripelalliancen, men lovede i en hemmelig aftale med Frankrig i 1902 at holde sig neutral, hvis Frankrig blev angrebet"
+   ]
+  ],
+  "Ottoman Empire": [
+   [
+    1814,
+    1820,
+    "gpOt",
+    "Omfattede også Grækenland, Serbien, Valakiet og Moldavien"
+   ],
+   [
+    1821,
+    1829,
+    "gpOt",
+    "Den græske frihedskrig begyndte i 1821"
+   ],
+   [
+    1830,
+    1852,
+    "gpOt",
+    "Grækenland selvstændigt fra 1830; Serbien, Valakiet og Moldavien var selvstyrende"
+   ],
+   [
+    1853,
+    1855,
+    "gpOt",
+    "Krimkrigen mod Rusland 1853–1856 med Storbritannien og Frankrig som allierede"
+   ],
+   [
+    1856,
+    1858,
+    "gpOt",
+    "Sejrede i Krimkrigen med britisk og fransk hjælp (freden i Paris 1856)"
+   ],
+   [
+    1859,
+    1864,
+    "gpOt",
+    "Valakiet og Moldavien forenet til Rumænien 1859–1862; Grækenland selvstændigt fra 1830"
+   ],
+   [
+    1865,
+    1874,
+    "gpOt",
+    "Omfattede stadig store dele af Balkan, Mellemøsten og Nordafrika"
+   ],
+   [
+    1875,
+    1876,
+    "gpOt",
+    "Oprør i Bosnien og Bulgarien 1875–1876; statsbankerot i 1875"
+   ],
+   [
+    1877,
+    1877,
+    "gpOt",
+    "Krig mod Rusland 1877–1878"
+   ],
+   [
+    1878,
+    1880,
+    "gpOt",
+    "Mistede store områder på Balkan ved Berlinkongressen 1878; Cypern kom under britisk styre"
+   ],
+   [
+    1881,
+    1884,
+    "gpOt",
+    "Tunesien blev fransk protektorat i 1881; Cypern under britisk styre fra 1878"
+   ],
+   [
+    1885,
+    1907,
+    "gpOt",
+    "Svækket, men omfattede stadig Makedonien, Albanien og store dele af Mellemøsten"
+   ],
+   [
+    1908,
+    1910,
+    "gpOt",
+    "Ungtyrkernes revolution i 1908; Bulgarien blev selvstændigt, og Østrig-Ungarn annekterede Bosnien"
+   ],
+   [
+    1911,
+    1911,
+    "gpOt",
+    "Krig mod Italien om Libyen 1911–1912"
+   ],
+   [
+    1912,
+    1913,
+    "gpOt",
+    "Tabte Libyen i 1912 og næsten alle europæiske områder i Balkankrigene 1912–1913"
+   ]
+  ],
+  "Egypt": [
+   [
+    1814,
+    1830,
+    "gpOt",
+    "Osmannisk provins, men reelt selvstyrende under Muhammad Ali"
+   ],
+   [
+    1831,
+    1840,
+    "neutral",
+    "Reelt selvstændigt: Muhammad Ali førte krig mod sultanen 1831–1833 og 1839–1840 og holdt Syrien indtil 1840; formelt stadig osmannisk"
+   ],
+   [
+    1841,
+    1864,
+    "gpOt",
+    "Osmannisk provins, hvor Muhammad Alis slægt fik arveligt selvstyre i 1841"
+   ],
+   [
+    1865,
+    1868,
+    "gpOt",
+    "Formelt osmannisk, men reelt selvstyrende under sin egen fyrste, der fra 1867 havde titlen khediv; omfattede også Sudan"
+   ],
+   [
+    1869,
+    1881,
+    "gpOt",
+    "Formelt osmannisk, men reelt selvstyrende; Suezkanalen åbnede i 1869"
+   ],
+   [
+    1882,
+    1882,
+    "gpUk",
+    "Besat af Storbritannien i 1882, men formelt stadig osmannisk; Mahdi-oprør i Sudan fra 1881"
+   ],
+   [
+    1883,
+    1884,
+    "gpUk",
+    "Besat af Storbritannien fra 1882, men formelt stadig osmannisk; Mahdi-oprøret havde erobret store dele af Sudan"
+   ],
+   [
+    1885,
+    1906,
+    "gpUk",
+    "Formelt osmannisk, men besat og reelt styret af Storbritannien fra 1882"
+   ],
+   [
+    1907,
+    1913,
+    "entente",
+    "Formelt osmannisk, men besat og reelt styret af Storbritannien fra 1882"
+   ]
+  ],
+  "Tripolitania": [
+   [
+    1814,
+    1834,
+    "neutral",
+    "Selvstyrende under Karamanli-slægten med formel osmannisk overhøjhed"
+   ],
+   [
+    1835,
+    1864,
+    "gpOt",
+    "Under direkte osmannisk styre fra 1835"
+   ]
+  ],
+  "Cyrenaica": [
+   [
+    1814,
+    1834,
+    "neutral",
+    "Selvstyrende under Karamanli-slægten med formel osmannisk overhøjhed"
+   ],
+   [
+    1835,
+    1864,
+    "gpOt",
+    "Under direkte osmannisk styre fra 1835"
+   ]
+  ],
+  "Tunis": [
+   [
+    1814,
+    1864,
+    "neutral",
+    "Selvstyrende under formel osmannisk overhøjhed"
+   ]
+  ],
+  "Algiers": [
+   [
+    1814,
+    1829,
+    "neutral",
+    "Selvstyrende under formel osmannisk overhøjhed; erobret af Frankrig fra 1830"
+   ]
+  ],
+  "Libya": [
+   [
+    1885,
+    1910,
+    "gpOt",
+    "Osmannisk provins"
+   ],
+   [
+    1911,
+    1911,
+    "gpOt",
+    "Italien angreb i september 1911 og besatte kystbyerne; afstået til Italien i oktober 1912"
+   ]
+  ],
+  "Bosnia-Herzegovina": [
+   [
+    1865,
+    1874,
+    "gpOt",
+    "Osmannisk provins"
+   ],
+   [
+    1875,
+    1877,
+    "gpOt",
+    "Oprør mod osmannerne fra 1875"
+   ],
+   [
+    1878,
+    1881,
+    "gpAt",
+    "Besat og styret af Østrig-Ungarn fra 1878; formelt stadig osmannisk"
+   ],
+   [
+    1882,
+    1907,
+    "central",
+    "Besat og styret af Østrig-Ungarn fra 1878; formelt stadig osmannisk"
+   ],
+   [
+    1908,
+    1913,
+    "central",
+    "Annekteret af Østrig-Ungarn i oktober 1908"
+   ]
+  ],
+  "Bulgaria": [
+   [
+    1865,
+    1877,
+    "gpOt",
+    "Osmannisk provins indtil 1878"
+   ],
+   [
+    1878,
+    1884,
+    "neutral",
+    "Fyrstendømme under osmannisk overhøjhed fra 1878; Berlinkongressen gjorde det meget mindre end aftalt i San Stefano"
+   ],
+   [
+    1885,
+    1907,
+    "neutral",
+    "Forenet med Østrumelien i 1885; formelt under osmannisk overhøjhed indtil 1908"
+   ]
+  ],
+  "Romania": [
+   [
+    1865,
+    1876,
+    "neutral",
+    "Selvstyrende fyrstendømme under formel osmannisk overhøjhed; erklærede sig selvstændigt i 1877, anerkendt i 1878"
+   ]
+  ],
+  "Serbia": [
+   [
+    1865,
+    1877,
+    "neutral",
+    "Selvstyrende fyrstendømme under formel osmannisk overhøjhed; selvstændigt fra 1878"
+   ]
+  ],
+  "Harer (Egypt)": [
+   [
+    1875,
+    1881,
+    "gpOt",
+    "Besat af Egypten 1875–1885; Egypten hørte formelt under Osmannerriget"
+   ],
+   [
+    1882,
+    1884,
+    "gpUk",
+    "Besat af Egypten 1875–1885; Egypten var selv besat af Storbritannien fra 1882"
+   ]
+  ],
+  "Imperial Japan": [
+   [
+    1868,
+    1894,
+    "neutral",
+    "Moderniseret hurtigt efter Meiji-restaurationen i 1868"
+   ],
+   [
+    1895,
+    1901,
+    "gpJp",
+    "Stormagt efter sejren over Kina 1894–1895; fik Taiwan"
+   ],
+   [
+    1902,
+    1903,
+    "gpJp",
+    "Alliance med Storbritannien fra 1902"
+   ],
+   [
+    1904,
+    1905,
+    "gpJp",
+    "Besejrede Rusland i krigen 1904–1905 og fik Sydsakhalin"
+   ],
+   [
+    1906,
+    1909,
+    "gpJp",
+    "Alliance med Storbritannien; Korea japansk protektorat fra 1905"
+   ],
+   [
+    1910,
+    1913,
+    "gpJp",
+    "Annekterede Korea i 1910; alliance med Storbritannien"
+   ]
+  ],
+  "United States of America": [
+   [
+    1865,
+    1866,
+    "neutral",
+    "Borgerkrigen sluttede i 1865; Alaska var russisk indtil 1867"
+   ],
+   [
+    1898,
+    1913,
+    "gpUs",
+    "Stormagt efter sejren over Spanien i 1898; fik bl.a. Filippinerne og Puerto Rico"
+   ]
+  ],
+  "North Schleswig": [
+   [
+    1864,
+    1864,
+    "gpDe",
+    "Afstået af Danmark ved freden i Wien 30. oktober 1864; styret af Preussen og Østrig i fællesskab"
+   ]
+  ],
+  "Alsace-Lorraine": [
+   [
+    1865,
+    1869,
+    "gpFr",
+    "Fransk indtil 1871"
+   ],
+   [
+    1870,
+    1870,
+    "gpFr",
+    "Besat af tyske tropper under krigen i 1870; afstået til Tyskland ved freden i Frankfurt i maj 1871"
+   ],
+   [
+    1871,
+    1881,
+    "gpDe",
+    "Afstået af Frankrig ved freden i Frankfurt i maj 1871 og styret som tysk rigsland"
+   ],
+   [
+    1882,
+    1913,
+    "central",
+    "Tysk rigsland siden 1871; blev fransk igen efter Første Verdenskrig"
+   ]
+  ],
+  "Bessarabia": [
+   [
+    1814,
+    1855,
+    "gpRu",
+    "Russisk siden 1812"
+   ],
+   [
+    1856,
+    1877,
+    "gpRu",
+    "Russisk siden 1812; den sydlige del ved Donau hørte dog til Moldavien (fra 1859 Rumænien) 1856–1878"
+   ],
+   [
+    1878,
+    1906,
+    "gpRu",
+    "Russisk; fik den sydlige del tilbage fra Rumænien ved Berlinkongressen i 1878"
+   ],
+   [
+    1907,
+    1913,
+    "entente",
+    "Del af Det Russiske Kejserrige"
+   ]
+  ],
+  "Tunisia": [
+   [
+    1865,
+    1880,
+    "neutral",
+    "Selvstyrende under sin egen bey med formel osmannisk overhøjhed"
+   ]
+  ],
+  "United Provinces of the Río de la Plata": [
+   [
+    1814,
+    1815,
+    "neutral",
+    "Styret af en selvstændig regering i Buenos Aires siden 1810; selvstændigheden blev erklæret i 1816"
+   ]
+  ],
+  "Sakhalin": [
+   [
+    1814,
+    1864,
+    "neutral",
+    "Beboet af ainuer og nivkher; både Rusland og Japan gjorde krav på øen"
+   ]
+  ]
+ }
 }

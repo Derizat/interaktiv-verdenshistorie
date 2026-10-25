@@ -1,5 +1,1245 @@
 [
 {
+"id": "napoleon-belgien-1815",
+"year": 1815,
+"side": "napoleon",
+"label": "Napoleon angriber i det nuværende Belgien: Ligny, Quatre-Bras og Waterloo (15.–18. juni)",
+"paths": [
+[
+[
+4.24,
+50.25
+],
+[
+4.445,
+50.41
+],
+[
+4.455,
+50.57
+],
+[
+4.412,
+50.674
+]
+],
+[
+[
+4.445,
+50.41
+],
+[
+4.55,
+50.48
+],
+[
+4.58,
+50.51
+],
+[
+4.69,
+50.56
+],
+[
+4.605,
+50.705
+]
+]
+]
+},
+{
+"id": "bluecher-waterloo-1815",
+"year": 1815,
+"side": "coalition1815",
+"label": "Blücher trækker sig tilbage fra Ligny til Wavre og når frem til Waterloo 18. juni",
+"paths": [
+[
+[
+4.565,
+50.535
+],
+[
+4.61,
+50.635
+],
+[
+4.607,
+50.712
+],
+[
+4.49,
+50.7
+],
+[
+4.43,
+50.664
+]
+]
+]
+},
+{
+"id": "scott-mexico-1847",
+"year": 1847,
+"side": "usa",
+"label": "Scott går i land ved Veracruz (9. marts) og indtager Mexico City (14. sept.)",
+"paths": [
+[
+[
+-96.13,
+19.17
+],
+[
+-96.7,
+19.43
+],
+[
+-96.92,
+19.53
+],
+[
+-97.24,
+19.56
+],
+[
+-98.2,
+19.04
+]
+],
+[
+[
+-98.2,
+19.04
+],
+[
+-98.67,
+19.34
+],
+[
+-98.89,
+19.26
+],
+[
+-99.16,
+19.29
+],
+[
+-99.135,
+19.43
+]
+]
+]
+},
+{
+"id": "fredericia-udfald-1849",
+"year": 1849,
+"side": "denmark",
+"label": "Tropper fra Fyn gør udfald fra Fredericia og bryder belejringen (6. juli)",
+"paths": [
+[
+[
+9.78,
+55.535
+],
+[
+9.755,
+55.56
+],
+[
+9.735,
+55.575
+],
+[
+9.71,
+55.59
+]
+]
+]
+},
+{
+"id": "isted-1850",
+"year": 1850,
+"side": "denmark",
+"label": "Hæren rykker sydpå fra Flensborg og sejrer ved Isted (25. juli)",
+"paths": [
+[
+[
+9.44,
+54.785
+],
+[
+9.43,
+54.7
+],
+[
+9.51,
+54.585
+],
+[
+9.565,
+54.525
+]
+]
+]
+},
+{
+"id": "krim-sevastopol-1854",
+"year": 1854,
+"side": "crimea",
+"label": "Landgang på Krim (14. sept.), sejr ved Alma og belejring af Sevastopol",
+"paths": [
+[
+[
+27.95,
+43.19
+],
+[
+30.5,
+44.3
+],
+[
+32.5,
+45.0
+],
+[
+33.6,
+45.02
+]
+],
+[
+[
+33.62,
+45.01
+],
+[
+33.66,
+44.83
+],
+[
+33.68,
+44.64
+],
+[
+33.6,
+44.5
+],
+[
+33.535,
+44.575
+]
+]
+]
+},
+{
+"id": "tusinde-sicilien-1860",
+"year": 1860,
+"side": "italy",
+"label": "De Tusinde sejler fra Genova til Marsala (11. maj) og indtager Palermo",
+"paths": [
+[
+[
+9.0,
+44.385
+],
+[
+9.95,
+43.35
+],
+[
+11.12,
+42.53
+],
+[
+11.4,
+39.6
+],
+[
+12.42,
+37.8
+]
+],
+[
+[
+12.44,
+37.8
+],
+[
+12.86,
+37.92
+],
+[
+13.28,
+37.99
+],
+[
+13.43,
+38.06
+],
+[
+13.37,
+38.115
+]
+]
+]
+},
+{
+"id": "garibaldi-napoli-1860",
+"year": 1860,
+"side": "italy",
+"label": "Garibaldi erobrer Sicilien, går over Messinastrædet og når Napoli (7. sept.)",
+"paths": [
+[
+[
+13.37,
+38.12
+],
+[
+14.02,
+38.03
+],
+[
+15.24,
+38.22
+],
+[
+15.55,
+38.19
+]
+],
+[
+[
+15.78,
+37.93
+],
+[
+15.65,
+38.11
+],
+[
+15.85,
+38.36
+],
+[
+16.1,
+38.68
+],
+[
+16.36,
+38.86
+],
+[
+16.38,
+39.08
+],
+[
+16.25,
+39.3
+],
+[
+15.76,
+40.12
+],
+[
+14.77,
+40.68
+],
+[
+14.25,
+40.85
+]
+]
+]
+},
+{
+"id": "lee-gettysburg-1863",
+"year": 1863,
+"side": "confederacy",
+"label": "Lee rykker nordpå til Pennsylvania og stoppes ved Gettysburg (1.–3. juli)",
+"paths": [
+[
+[
+-77.46,
+38.3
+],
+[
+-78.0,
+38.47
+],
+[
+-78.16,
+39.19
+],
+[
+-77.66,
+39.94
+],
+[
+-77.245,
+39.835
+]
+]
+]
+},
+{
+"id": "grant-vicksburg-1863",
+"year": 1863,
+"side": "union",
+"label": "Grant krydser Mississippi syd for Vicksburg; byen overgiver sig 4. juli",
+"paths": [
+[
+[
+-91.07,
+32.45
+],
+[
+-91.2,
+32.15
+],
+[
+-91.14,
+31.97
+],
+[
+-90.98,
+31.96
+],
+[
+-90.2,
+32.3
+]
+],
+[
+[
+-90.2,
+32.3
+],
+[
+-90.55,
+32.32
+],
+[
+-90.85,
+32.345
+]
+]
+]
+},
+{
+"id": "sherman-savannah-1864",
+"year": 1864,
+"side": "union",
+"label": "Sherman indtager Atlanta (2. sept.) og marcherer til havet ved Savannah (nov.–dec.)",
+"paths": [
+[
+[
+-85.31,
+35.05
+],
+[
+-84.97,
+34.77
+],
+[
+-84.6,
+33.98
+],
+[
+-84.39,
+33.76
+]
+],
+[
+[
+-84.39,
+33.75
+],
+[
+-83.23,
+33.08
+],
+[
+-81.95,
+32.8
+],
+[
+-81.1,
+32.08
+]
+]
+]
+},
+{
+"id": "ejderen-dannevirke-1864",
+"year": 1864,
+"side": "prussia",
+"label": "Preussen og Østrig over Ejderen (1. feb.): angreb ved Mysunde og Dannevirke",
+"paths": [
+[
+[
+9.67,
+54.31
+],
+[
+9.6,
+54.39
+],
+[
+9.555,
+54.455
+]
+],
+[
+[
+10.13,
+54.33
+],
+[
+9.84,
+54.47
+],
+[
+9.725,
+54.52
+]
+]
+]
+},
+{
+"id": "dannevirke-tilbagetog-1864",
+"year": 1864,
+"side": "denmark",
+"label": "Dannevirke rømmes: hæren trækker sig tilbage til Dybbøl (natten 5.–6. feb.)",
+"paths": [
+[
+[
+9.54,
+54.495
+],
+[
+9.43,
+54.7
+],
+[
+9.405,
+54.845
+],
+[
+9.595,
+54.925
+],
+[
+9.755,
+54.912
+]
+]
+]
+},
+{
+"id": "arnaes-dybboel-1864",
+"year": 1864,
+"side": "prussia",
+"label": "Preusserne over Slien ved Arnæs (6. feb.) og mod Flensborg; Dybbøl stormes 18. april",
+"paths": [
+[
+[
+9.9,
+54.6
+],
+[
+9.93,
+54.635
+],
+[
+9.72,
+54.715
+],
+[
+9.46,
+54.78
+]
+],
+[
+[
+9.655,
+54.925
+],
+[
+9.7,
+54.912
+],
+[
+9.74,
+54.907
+]
+]
+]
+},
+{
+"id": "als-overgang-1864",
+"year": 1864,
+"side": "prussia",
+"label": "Preusserne sætter over Als Sund i både og erobrer Als (29. juni)",
+"paths": [
+[
+[
+9.715,
+54.957
+],
+[
+9.77,
+54.962
+],
+[
+9.8,
+54.935
+],
+[
+9.875,
+54.905
+]
+]
+]
+},
+{
+"id": "jylland-besaettes-1864",
+"year": 1864,
+"side": "prussia",
+"label": "Preussiske og østrigske tropper besætter hele Jylland (feb.–juli)",
+"paths": [
+[
+[
+9.49,
+55.25
+],
+[
+9.47,
+55.49
+],
+[
+9.53,
+55.71
+],
+[
+10.04,
+56.46
+],
+[
+9.97,
+57.22
+]
+]
+]
+},
+{
+"id": "koeniggraetz-1866",
+"year": 1866,
+"side": "prussia",
+"label": "Tre preussiske hære rykker ind i Bøhmen og sejrer ved Königgrätz (3. juli)",
+"paths": [
+[
+[
+13.74,
+51.05
+],
+[
+14.55,
+50.95
+],
+[
+14.97,
+50.53
+],
+[
+15.655,
+50.255
+]
+],
+[
+[
+14.99,
+51.15
+],
+[
+15.06,
+50.77
+],
+[
+15.16,
+50.59
+],
+[
+15.35,
+50.44
+],
+[
+15.665,
+50.305
+]
+],
+[
+[
+16.03,
+50.78
+],
+[
+15.91,
+50.56
+],
+[
+15.81,
+50.43
+],
+[
+15.745,
+50.315
+]
+]
+]
+},
+{
+"id": "sedan-1870",
+"year": 1870,
+"side": "prussia",
+"label": "To tyske hære omringer en fransk hær med kejser Napoleon 3. ved Sedan (1. sept.)",
+"paths": [
+[
+[
+7.94,
+49.04
+],
+[
+6.18,
+48.69
+],
+[
+5.16,
+48.77
+],
+[
+4.72,
+49.4
+],
+[
+4.87,
+49.69
+]
+],
+[
+[
+6.04,
+49.17
+],
+[
+5.64,
+49.21
+],
+[
+5.18,
+49.38
+],
+[
+5.06,
+49.53
+],
+[
+5.0,
+49.71
+]
+]
+]
+},
+{
+"id": "paris-belejring-1870",
+"year": 1870,
+"side": "prussia",
+"label": "Tyske hære rykker videre og omringer Paris (fra 19. sept.)",
+"paths": [
+[
+[
+4.94,
+49.69
+],
+[
+4.03,
+49.26
+],
+[
+3.3,
+49.2
+],
+[
+2.68,
+49.04
+],
+[
+2.43,
+48.97
+]
+],
+[
+[
+4.9,
+49.66
+],
+[
+3.95,
+49.04
+],
+[
+3.08,
+48.81
+],
+[
+2.45,
+48.73
+],
+[
+2.13,
+48.8
+]
+]
+]
+},
+{
+"id": "donau-plevna-1877",
+"year": 1877,
+"side": "russia",
+"label": "Russerne over Donau (27. juni): Shipka-passet besættes, Plevna belejres og falder 10. dec.",
+"paths": [
+[
+[
+25.33,
+43.97
+],
+[
+25.35,
+43.62
+],
+[
+25.63,
+43.08
+],
+[
+25.32,
+42.87
+],
+[
+25.32,
+42.75
+]
+],
+[
+[
+25.35,
+43.62
+],
+[
+24.9,
+43.7
+],
+[
+24.66,
+43.44
+]
+]
+]
+},
+{
+"id": "korea-manchuriet-1894",
+"year": 1894,
+"side": "japan",
+"label": "Japan driver kineserne ud af Korea og indtager Port Arthur (21. nov.)",
+"paths": [
+[
+[
+126.98,
+37.57
+],
+[
+125.75,
+39.03
+],
+[
+124.53,
+40.2
+],
+[
+124.07,
+40.45
+],
+[
+122.75,
+40.85
+]
+],
+[
+[
+123.3,
+39.25
+],
+[
+122.58,
+39.57
+],
+[
+121.72,
+39.1
+],
+[
+121.25,
+38.82
+]
+]
+]
+},
+{
+"id": "boer-natal-1899",
+"year": 1899,
+"side": "boers",
+"label": "Boerne rykker ind i Natal og belejrer Ladysmith (fra 2. nov.)",
+"paths": [
+[
+[
+29.87,
+-27.38
+],
+[
+29.93,
+-27.76
+],
+[
+30.23,
+-28.16
+],
+[
+29.81,
+-28.53
+]
+],
+[
+[
+29.13,
+-28.27
+],
+[
+29.38,
+-28.37
+],
+[
+29.745,
+-28.555
+]
+]
+]
+},
+{
+"id": "boer-kimberley-mafeking-1899",
+"year": 1899,
+"side": "boers",
+"label": "Boerne belejrer Kimberley og Mafeking (fra oktober)",
+"paths": [
+[
+[
+25.7,
+-28.62
+],
+[
+25.24,
+-28.54
+],
+[
+24.83,
+-28.72
+]
+],
+[
+[
+26.08,
+-25.55
+],
+[
+25.95,
+-25.75
+],
+[
+25.685,
+-25.84
+]
+]
+]
+},
+{
+"id": "roberts-pretoria-1900",
+"year": 1900,
+"side": "britain",
+"label": "Briterne undsætter Kimberley og Ladysmith og indtager Pretoria (5. juni)",
+"paths": [
+[
+[
+24.78,
+-29.13
+],
+[
+25.12,
+-29.0
+],
+[
+26.21,
+-29.12
+],
+[
+27.23,
+-27.65
+],
+[
+28.19,
+-25.76
+]
+],
+[
+[
+24.86,
+-29.33
+],
+[
+24.97,
+-29.02
+],
+[
+24.79,
+-28.76
+]
+],
+[
+[
+29.78,
+-28.9
+],
+[
+29.83,
+-28.74
+],
+[
+29.79,
+-28.58
+]
+]
+]
+},
+{
+"id": "port-arthur-1904",
+"year": 1904,
+"side": "japan",
+"label": "Landgang på Liaodong-halvøen; Port Arthur belejres (falder 2. jan. 1905)",
+"paths": [
+[
+[
+122.9,
+39.15
+],
+[
+122.37,
+39.43
+],
+[
+121.72,
+39.1
+],
+[
+121.27,
+38.86
+]
+]
+]
+},
+{
+"id": "yalu-liaoyang-1904",
+"year": 1904,
+"side": "japan",
+"label": "Japanske hære går over Yalu-floden (1. maj) og sejrer ved Liaoyang (sept.)",
+"paths": [
+[
+[
+126.62,
+37.47
+],
+[
+125.75,
+39.03
+],
+[
+124.53,
+40.2
+],
+[
+124.07,
+40.45
+],
+[
+123.25,
+41.25
+]
+],
+[
+[
+121.72,
+39.12
+],
+[
+122.0,
+39.63
+],
+[
+122.35,
+40.4
+],
+[
+122.75,
+40.85
+],
+[
+123.12,
+41.22
+]
+]
+]
+},
+{
+"id": "mukden-1905",
+"year": 1905,
+"side": "japan",
+"label": "Japan erobrer Mukden (10. marts); russerne trækker sig mod nord",
+"paths": [
+[
+[
+123.35,
+41.5
+],
+[
+123.42,
+41.65
+],
+[
+123.43,
+41.785
+]
+],
+[
+[
+122.95,
+41.45
+],
+[
+122.8,
+41.72
+],
+[
+123.05,
+41.98
+],
+[
+123.33,
+41.9
+]
+]
+]
+},
+{
+"id": "bulgarien-catalca-1912",
+"year": 1912,
+"side": "balkan",
+"label": "Bulgarerne belejrer Adrianopel og når Çatalca foran Konstantinopel (okt.–nov.)",
+"paths": [
+[
+[
+26.51,
+42.48
+],
+[
+26.57,
+42.17
+],
+[
+27.22,
+41.74
+],
+[
+27.36,
+41.4
+],
+[
+28.4,
+41.16
+]
+],
+[
+[
+25.9,
+41.93
+],
+[
+26.2,
+41.77
+],
+[
+26.5,
+41.7
+]
+]
+]
+},
+{
+"id": "serbien-skopje-1912",
+"year": 1912,
+"side": "balkan",
+"label": "Serbien sejrer ved Kumanovo, indtager Skopje og Bitola og når Adriaterhavet",
+"paths": [
+[
+[
+21.92,
+42.63
+],
+[
+21.71,
+42.13
+],
+[
+21.43,
+42.0
+],
+[
+21.55,
+41.35
+],
+[
+21.36,
+41.05
+]
+],
+[
+[
+21.22,
+42.95
+],
+[
+21.17,
+42.66
+],
+[
+20.74,
+42.21
+],
+[
+19.65,
+41.78
+],
+[
+19.47,
+41.33
+]
+]
+]
+},
+{
 "id": "schlieffen",
 "year": 1914,
 "side": "central",

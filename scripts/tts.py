@@ -36,7 +36,7 @@ def manifest_voice():
 
 # TTS_VOICE switches voice; after that the voice in data/audio.json is kept.
 VOICE = os.environ.get("TTS_VOICE") or manifest_voice() or DEFAULT_VOICE
-YEARS = range(1914, 2026)  # Y0..Y1 in index.html
+YEARS = range(1814, 2026)  # YMIN..YMAX in index.html
 API = "https://texttospeech.googleapis.com/v1/text:synthesize"
 
 
