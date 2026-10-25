@@ -3349,12 +3349,12 @@
   "Belgian Congo": [
    [
     1885,
-    1891,
+    1894,
     "Leopold",
     "Kongofristaten var kong Leopold 2.s private ejendom, ikke en belgisk koloni"
    ],
    [
-    1892,
+    1895,
     1907,
     "Leopold",
     "Kongofristaten var Leopold 2.s private ejendom; tvangsarbejde i gummiindsamlingen kostede et meget stort antal mennesker livet"
@@ -3659,9 +3659,15 @@
    ],
    [
     1896,
-    1897,
+    1896,
     "Spain",
     "Filippinsk oprør mod det spanske styre fra 1896"
+   ],
+   [
+    1897,
+    1897,
+    "Spain",
+    "Filippinsk oprør mod det spanske styre fra 1896; ved en våbenhvile i december 1897 gik oprørslederne i eksil i Hongkong"
    ],
    [
     1898,
@@ -4137,19 +4143,19 @@
     1882,
     1882,
     "UK",
-    "Besat af Storbritannien i 1882, men formelt stadig en del af Osmannerriget"
+    "Britisk besat i 1882, men formelt stadig en del af Osmannerriget"
    ],
    [
     1883,
     1884,
     "UK",
-    "Besat af Storbritannien fra 1882, men formelt osmannisk; Mahdi-oprøret havde erobret store dele af Sudan"
+    "Britisk besat fra 1882, men formelt osmannisk; Mahdi-oprøret havde erobret store dele af Sudan"
    ],
    [
     1885,
     1913,
     "UK",
-    "Besat og reelt styret af Storbritannien fra 1882, men formelt en del af Osmannerriget"
+    "Britisk besat fra 1882 og reelt styret af Storbritannien, men formelt en del af Osmannerriget"
    ],
    [
     1914,
@@ -4304,7 +4310,7 @@
     1904,
     1907,
     "Germany",
-    "Et oprør blandt herero og nama fra 1904 blev slået ned med folkedrab; titusinder døde i ørkenen og i fangelejre"
+    "Herero og nama gjorde oprør i 1904 og blev mødt med folkedrab; titusinder døde i ørkenen og i fangelejre"
    ],
    [
     1908,
@@ -4656,7 +4662,7 @@
     1815,
     1821,
     "Portugal",
-    "Ophøjet fra koloni til kongerige i union med Portugal i 1815; kongefamilien regerede fra Rio de Janeiro indtil 1821"
+    "Portugisisk styre, men fra 1815 et kongerige i union med Portugal og ikke længere en koloni; kongefamilien regerede fra Rio de Janeiro indtil 1821"
    ]
   ],
   "United Kingdom": [
@@ -4664,7 +4670,7 @@
     1814,
     1833,
     "UK",
-    "Britiske kolonier med slaveri (Jamaica, Bahamas og Britisk Honduras); Moskitokysten var under britisk indflydelse"
+    "Britiske kolonier og bosættelser med slaveri (Jamaica, Bahamas og Belize); Moskitokysten var under britisk indflydelse"
    ],
    [
     1834,
@@ -4690,7 +4696,7 @@
     1814,
     1815,
     "UK",
-    "Britisk besat siden 1804; ved en aftale i 1814 skulle Surinam gives tilbage til Holland, mens den vestlige del forblev britisk"
+    "Britisk besat siden 1803 (Demerara–Berbice) og 1804 (Surinam); ved en aftale i 1814 skulle Surinam gives tilbage til Holland, mens den vestlige del forblev britisk"
    ],
    [
     1816,
@@ -5021,7 +5027,7 @@
     1814,
     1855,
     "UK",
-    "Indisk fyrstestat under britisk overhøjhed"
+    "Britisk lydstat (indisk fyrstestat)"
    ],
    [
     1856,
@@ -5047,13 +5053,13 @@
     1814,
     1830,
     "UK",
-    "Indisk fyrstestat under britisk overhøjhed"
+    "Britisk lydstat (indisk fyrstestat)"
    ],
    [
     1831,
     1864,
     "UK",
-    "Indisk fyrstestat, men styret direkte af briterne fra 1831"
+    "Britisk styret fra 1831, men formelt en indisk fyrstestat"
    ]
   ],
   "Travancore": [
@@ -5061,7 +5067,7 @@
     1814,
     1864,
     "UK",
-    "Indisk fyrstestat under britisk overhøjhed"
+    "Britisk lydstat (indisk fyrstestat)"
    ]
   ],
   "Sikkim (Indian princely state)": [
@@ -5257,7 +5263,13 @@
   ],
   "Minang": [
    [
-    1829,
+    1826,
+    1830,
+    "UK",
+    "Britisk militærstation ved King George Sound (senere Albany), oprettet i 1826 under New South Wales"
+   ],
+   [
+    1831,
     1864,
     "UK",
     "Kolonien Vestaustralien blev grundlagt i 1829 på noongar-folkenes land"
@@ -5320,6 +5332,12 @@
    ],
    [
     1825,
+    1831,
+    "UK",
+    "Britisk straffekoloni, adskilt fra New South Wales i 1825; kolonisterne førte en blodig krig mod øens oprindelige befolkning"
+   ],
+   [
+    1832,
     1855,
     "UK",
     "Britisk straffekoloni, adskilt fra New South Wales i 1825; i 1820'erne og 1830'erne blev øens oprindelige befolkning næsten udryddet"
@@ -5496,6 +5514,12 @@
   "British Raj": [
    [
     1865,
+    1884,
+    "Britisk Indien",
+    "Kortet medtager også Øvre Burma, som var et selvstændigt kongerige indtil 1885, og de små portugisiske og franske kolonier Goa og Pondicherry"
+   ],
+   [
+    1885,
     1913,
     "Britisk Indien",
     "Kortet medtager også de små portugisiske og franske kolonier Goa og Pondicherry"
@@ -6272,7 +6296,7 @@
     1865,
     1877,
     "Montenegro",
-    "Kortet medtager fejlagtigt store naboområder: Podgorica, Bar og Shkodër, som var osmanniske, og Kotor-bugten, som var østrigsk"
+    "Kortet medtager fejlagtigt store naboområder: Podgorica, Bar, Shkodër og dele af Sandžak, som var osmanniske, og Kotor-bugten, som var østrigsk"
    ],
    [
     1878,
@@ -6339,8 +6363,14 @@
   "German Empire": [
    [
     1914,
-    1918,
+    1917,
     "Det Tyske Kejserrige"
+   ],
+   [
+    1918,
+    1918,
+    "Tyskland (republik fra november 1918)",
+    "Kortet medtager det meste af Elsass-Lothringen, som franske tropper besatte i november 1918"
    ]
   ],
   "Austro-Hungarian Empire": [
@@ -6353,36 +6383,72 @@
   "Russian Empire": [
    [
     1814,
+    1857,
+    "Det Russiske Kejserrige",
+    "Kortet medtager fejlagtigt Ydre Manchuriet nord for Amur-floden og øst for Ussuri-floden, som var kinesisk indtil 1858–1860, og egnen omkring Batumi, som var osmannisk indtil 1878"
+   ],
+   [
+    1858,
+    1859,
+    "Det Russiske Kejserrige",
+    "Kortet medtager fejlagtigt området øst for Ussuri-floden, som var kinesisk indtil 1860, og egnen omkring Batumi, som var osmannisk indtil 1878"
+   ],
+   [
+    1860,
     1864,
-    "Det Russiske Kejserrige"
+    "Det Russiske Kejserrige",
+    "Kortet medtager fejlagtigt egnen omkring Batumi, som var osmannisk indtil 1878"
    ],
    [
     1865,
     1867,
     "Det Russiske Kejserrige",
-    "Kortet medtager fejlagtigt khanaterne Bukhara, Khiva og Kokand, som endnu var selvstændige"
+    "Kortet medtager fejlagtigt khanaterne Bukhara, Khiva og Kokand, som endnu var selvstændige, hele Sakhalin, som Rusland og Japan havde i fællesskab indtil 1875, og egnen omkring Batumi, som var osmannisk indtil 1878"
    ],
    [
     1868,
     1872,
     "Det Russiske Kejserrige",
-    "Kortet medtager khanaterne Bukhara og Kokand, som blev russiske lydstater i 1868, og fejlagtigt Khiva, som endnu var selvstændigt"
+    "Kortet medtager khanaterne Bukhara og Kokand, som blev russiske lydstater i 1868, og fejlagtigt Khiva, som endnu var selvstændigt, hele Sakhalin, som Rusland og Japan havde i fællesskab indtil 1875, og egnen omkring Batumi, som var osmannisk indtil 1878"
    ],
    [
     1873,
+    1874,
+    "Det Russiske Kejserrige",
+    "Kortet medtager khanaterne Bukhara, Khiva og Kokand, som var blevet russiske lydstater, og fejlagtigt hele Sakhalin, som Rusland og Japan havde i fællesskab indtil 1875, og egnen omkring Batumi, som var osmannisk indtil 1878"
+   ],
+   [
+    1875,
     1875,
     "Det Russiske Kejserrige",
-    "Kortet medtager khanaterne Bukhara, Khiva og Kokand, som var blevet russiske lydstater"
+    "Kortet medtager khanaterne Bukhara, Khiva og Kokand, som var blevet russiske lydstater, og fejlagtigt egnen omkring Batumi, som var osmannisk indtil 1878"
    ],
    [
     1876,
-    1913,
+    1877,
+    "Det Russiske Kejserrige",
+    "Kortet medtager fejlagtigt egnen omkring Batumi, som var osmannisk indtil 1878"
+   ],
+   [
+    1878,
+    1904,
     "Det Russiske Kejserrige"
    ],
    [
+    1905,
+    1913,
+    "Det Russiske Kejserrige",
+    "Kortet medtager fejlagtigt den sydlige del af Sakhalin, som Japan fik i 1905"
+   ],
+   [
     1914,
-    1917,
+    1916,
     "Det Russiske Kejserrige"
+   ],
+   [
+    1917,
+    1917,
+    "Rusland (revolutioner i 1917)"
    ],
    [
     1918,
@@ -6392,10 +6458,16 @@
   ],
   "Ottoman Empire": [
    [
+    1814,
+    1829,
+    "Osmannerriget",
+    "Kortet medtager fejlagtigt Montenegro, som reelt var selvstændigt, og Kotor-bugten, som var østrigsk"
+   ],
+   [
     1830,
     1864,
     "Osmannerriget",
-    "Kortet medtager fejlagtigt Grækenland, som var selvstændigt fra 1830"
+    "Kortet medtager fejlagtigt Grækenland, som var selvstændigt fra 1830, Montenegro, som reelt var selvstændigt, og Kotor-bugten, som var østrigsk"
    ],
    [
     1878,
@@ -6413,7 +6485,7 @@
     1912,
     1913,
     "Osmannerriget",
-    "Kortet viser grænserne før Balkankrigene 1912–1913 og medtager fejlagtigt Kars og Cypern"
+    "Kortet viser grænserne før Balkankrigene 1912–1913 og medtager fejlagtigt Kars, som var russisk, Cypern, som var britisk styret, og egnen omkring Kjustendil, som var bulgarsk"
    ],
    [
     1914,
@@ -6459,19 +6531,38 @@
    ],
    [
     1865,
-    1876,
+    1870,
     "Kina (Qing-riget)",
     "Kortet medtager Kashgar-området, som var et selvstændigt emirat under Yakub Beg"
    ],
    [
+    1871,
+    1876,
+    "Kina (Qing-riget)",
+    "Kortet medtager Kashgar-området, som var et selvstændigt emirat under Yakub Beg, og Ili-området ved Kulja, som Rusland havde besat i 1871"
+   ],
+   [
     1877,
-    1911,
+    1881,
+    "Kina (Qing-riget)",
+    "Kortet medtager Ili-området ved Kulja, som Rusland havde besat i 1871"
+   ],
+   [
+    1882,
+    1910,
     "Kina (Qing-riget)"
+   ],
+   [
+    1911,
+    1911,
+    "Kina (Qing-riget)",
+    "Kortet medtager Ydre Mongoliet, som erklærede sig selvstændigt i december 1911"
    ],
    [
     1912,
     1913,
-    "Kina (Republikken Kina fra 1912)"
+    "Kina (Republikken Kina fra 1912)",
+    "Kortet medtager Ydre Mongoliet og Tibet, som i praksis havde løsrevet sig fra Kina"
    ],
    [
     1914,
@@ -6634,6 +6725,12 @@
   "French Indochina": [
    [
     1865,
+    1866,
+    "Cambodja og Cochinchina (fransk)",
+    "Kortet medtager Battambang og Siem Reap (Angkor), som var siamesiske indtil 1907, og den vestlige del af Mekongdeltaet, som først blev fransk i 1867"
+   ],
+   [
+    1867,
     1884,
     "Cambodja og Cochinchina (fransk)",
     "Kortet medtager Battambang og Siem Reap (Angkor), som var siamesiske indtil 1907"
@@ -6652,6 +6749,12 @@
    ],
    [
     1893,
+    1903,
+    "Fransk Indokina",
+    "Kortet medtager områderne vest for Mekong (Sayaboury og en del af Champasak), som var siamesiske indtil 1904, og Battambang og Siem Reap (Angkor), som var siamesiske indtil 1907"
+   ],
+   [
+    1904,
     1906,
     "Fransk Indokina",
     "Kortet medtager Battambang og Siem Reap (Angkor), som var siamesiske indtil 1907"
@@ -6975,7 +7078,14 @@
    [
     1814,
     1815,
-    "Hollandsk Ostindien (britisk besat)"
+    "Hollandsk Ostindien (britisk besat)",
+    "Kortet medtager også den portugisiske østlige del af Timor"
+   ],
+   [
+    1816,
+    1864,
+    "Hollandsk Ostindien",
+    "Kortet medtager også den portugisiske østlige del af Timor"
    ],
    [
     1919,
@@ -7246,22 +7356,26 @@
    [
     1814,
     1818,
-    "Ny-Granada"
+    "Ny-Granada",
+    "Kortet medtager fejlagtigt øen Marajó ved Amazonflodens munding, som hørte til Brasilien, og landet vest for Essequibo-floden, som var britisk"
    ],
    [
     1819,
     1829,
-    "Gran Colombia"
+    "Gran Colombia",
+    "Kortet medtager fejlagtigt øen Marajó ved Amazonflodens munding, som hørte til Brasilien, og landet vest for Essequibo-floden, som var britisk"
    ],
    [
     1830,
     1862,
-    "Venezuela, Ny-Granada og Ecuador"
+    "Venezuela, Ny-Granada og Ecuador",
+    "Kortet medtager fejlagtigt øen Marajó ved Amazonflodens munding, som hørte til Brasilien, og landet vest for Essequibo-floden, som var britisk"
    ],
    [
     1863,
     1864,
-    "Venezuela, Colombia og Ecuador"
+    "Venezuela, Colombia og Ecuador",
+    "Kortet medtager fejlagtigt øen Marajó ved Amazonflodens munding, som hørte til Brasilien, og landet vest for Essequibo-floden, som var britisk"
    ]
   ],
   "Viceroyalty of Peru": [
@@ -7299,8 +7413,13 @@
    ],
    [
     1817,
-    1827,
+    1824,
     "De Forenede Provinser ved Río de la Plata (Uruguay besat af Portugal/Brasilien)"
+   ],
+   [
+    1825,
+    1827,
+    "De Forenede Provinser ved Río de la Plata (i krig med Brasilien om Uruguay)"
    ],
    [
     1828,
@@ -7364,14 +7483,26 @@
   "Bolivia": [
    [
     1879,
-    1913,
+    1902,
     "Bolivia",
     "Kortet medtager kysten, som Chile erobrede i Stillehavskrigen 1879–1884"
+   ],
+   [
+    1903,
+    1913,
+    "Bolivia",
+    "Kortet medtager kysten, som Chile erobrede i Stillehavskrigen 1879–1884, og Acre, som Bolivia afstod til Brasilien i 1903"
    ]
   ],
   "Peru": [
    [
     1879,
+    1879,
+    "Peru",
+    "Kortet medtager provinsen Tarapacá, som Chile erobrede i november 1879"
+   ],
+   [
+    1880,
     1913,
     "Peru",
     "Kortet medtager sydkysten, som Chile erobrede i Stillehavskrigen 1879–1884"
@@ -7382,37 +7513,43 @@
     1814,
     1820,
     "USA",
-    "Kortet medtager Florida, som var spansk indtil 1821, og Oregon-området, som var omstridt indtil 1846"
+    "Kortet medtager Florida, som var spansk indtil 1821, et spansk område i det nuværende Colorado og Utah og Oregon-området, som var omstridt indtil 1846"
    ],
    [
     1821,
     1844,
     "USA",
-    "Kortet medtager Oregon-området, som både USA og Storbritannien gjorde krav på indtil 1846"
+    "Kortet medtager Oregon-området, som både USA og Storbritannien gjorde krav på indtil 1846, og et område i det nuværende Colorado og Utah, som var mexicansk indtil 1848"
    ],
    [
     1845,
     1845,
     "USA",
-    "Kortet medtager Oregon-området, som var omstridt indtil 1846, og viser ikke Texas, som blev en del af USA i december 1845"
+    "Kortet medtager Oregon-området, som var omstridt indtil 1846, og et mexicansk område i det nuværende Colorado og Utah, men viser ikke Texas, som blev en del af USA i december 1845"
    ],
    [
     1846,
     1847,
     "USA",
-    "Kortet viser ikke Texas, som blev en del af USA i 1845"
+    "Kortet medtager et område i det nuværende Colorado og Utah, som var mexicansk indtil 1848, men viser ikke Texas, som blev en del af USA i 1845"
    ],
    [
     1848,
+    1853,
+    "USA",
+    "Kortet viser ikke Texas og størstedelen af de områder, USA fik fra Mexico i 1848"
+   ],
+   [
+    1854,
     1860,
     "USA",
-    "Kortet viser ikke Texas og de områder, USA fik fra Mexico i 1848"
+    "Kortet viser ikke Texas og størstedelen af de områder, USA fik fra Mexico i 1848 og 1854"
    ],
    [
     1861,
     1864,
     "USA (borgerkrig 1861–65)",
-    "Kortet viser ikke Texas og de områder, USA fik fra Mexico i 1848"
+    "Kortet viser ikke Texas og størstedelen af de områder, USA fik fra Mexico i 1848 og 1854"
    ]
   ],
   "Canada": [
@@ -7450,10 +7587,16 @@
    [
     1814,
     1859,
-    "Jamaica, Bahamas, Britisk Honduras og Moskitokysten"
+    "Jamaica, Bahamas, Belize og Moskitokysten"
    ],
    [
     1860,
+    1861,
+    "Jamaica, Bahamas og Belize",
+    "Kortet medtager Moskitokysten, som blev overladt til Nicaragua i 1860"
+   ],
+   [
+    1862,
     1864,
     "Jamaica, Bahamas og Britisk Honduras",
     "Kortet medtager Moskitokysten, som blev overladt til Nicaragua i 1860"
@@ -7570,7 +7713,7 @@
     1814,
     1814,
     "Kongeriget Sardinien",
-    "Kortet medtager fejlagtigt Chambéry og Annecy i Savoyen, som var franske indtil 1815"
+    "Kortet medtager fejlagtigt Chambéry og Annecy i Savoyen, som var franske indtil 1815, og Genova, som først kom under Sardinien i januar 1815"
    ],
    [
     1815,
@@ -7831,7 +7974,8 @@
    [
     1914,
     1918,
-    "Nordslesvig (tysk)"
+    "Nordslesvig (tysk)",
+    "Kortet mangler øen Als med Sønderborg"
    ]
   ],
   "Holstein": [
@@ -7948,20 +8092,32 @@
   "British East India Company": [
    [
     1814,
-    1815,
+    1814,
     "Indien (Det Britiske Ostindiske Kompagnis område)"
    ],
    [
+    1815,
+    1815,
+    "Indien (Det Britiske Ostindiske Kompagnis område)",
+    "Kortet medtager også den danske koloni Serampore"
+   ],
+   [
     1816,
+    1844,
+    "Indien (Det Britiske Ostindiske Kompagnis område)",
+    "Kortet medtager også de små franske og danske kolonier, bl.a. Pondicherry og Serampore"
+   ],
+   [
+    1845,
     1857,
     "Indien (Det Britiske Ostindiske Kompagnis område)",
-    "Kortet medtager også de små franske og portugisiske kolonier, bl.a. Pondicherry"
+    "Kortet medtager også de små franske kolonier, bl.a. Pondicherry"
    ],
    [
     1858,
     1864,
     "Britisk Indien",
-    "Kortet medtager også de små franske og portugisiske kolonier, bl.a. Pondicherry"
+    "Kortet medtager også de små franske kolonier, bl.a. Pondicherry"
    ]
   ],
   "Maratha Confederacy": [
@@ -8355,6 +8511,12 @@
    ],
    [
     1900,
+    1908,
+    "Fransk Vestafrika",
+    "Kortet medtager også Tchad og Ubangi-Shari, som hørte under Fransk Congo; sultanatet Wadai i det østlige Tchad var dog endnu selvstændigt"
+   ],
+   [
+    1909,
     1909,
     "Fransk Vestafrika",
     "Kortet medtager også Tchad og Ubangi-Shari, som hørte under Fransk Congo"
@@ -8543,7 +8705,7 @@
     1815,
     1864,
     "Hannover",
-    "Kortet medtager fejlagtigt Lauenborg, som hørte under den danske konge 1815–1864"
+    "Kortet medtager fejlagtigt Lauenborg, som hørte under den danske konge 1815–1864, og byen Braunschweig, som var hovedstad i det selvstændige hertugdømme Braunschweig"
    ]
   ],
   "Nkore": [
@@ -8682,7 +8844,8 @@
    [
     1814,
     1864,
-    "Sydarabien (ørken og stammeområder)"
+    "Sydarabien (ørken og stammeområder)",
+    "Kortet medtager fejlagtigt Sanaa og Yemens nordlige højland, som hørte under imamerne i Sanaa"
    ]
   ],
   "Madagascar": [
@@ -9670,7 +9833,7 @@
     1917,
     1917,
     "entente",
-    "Del af Det Russiske Kejserrige; udråbt som selvstyrende moldavisk republik i december 1917"
+    "Del af Rusland; udråbt som selvstyrende moldavisk republik i december 1917"
    ],
    [
     1918,
@@ -12133,15 +12296,27 @@
     1814,
     1815,
     "neutral",
-    "Styret af en selvstændig regering i Buenos Aires siden 1810; selvstændigheden blev erklæret i 1816"
+    "Styret af en selvstyrende regering i Buenos Aires siden 1810, men José Artigas, som havde støtte i Uruguay og flere provinser mod nord, kæmpede mod Buenos Aires; selvstændigheden blev erklæret i 1816"
    ]
   ],
   "Sakhalin": [
    [
     1814,
+    1852,
+    "neutral",
+    "Beboet af ainuer og nivkher; Japan gjorde krav på øen og havde handelsstationer i syd"
+   ],
+   [
+    1853,
+    1854,
+    "neutral",
+    "Beboet af ainuer og nivkher; både Japan og Rusland gjorde krav på øen"
+   ],
+   [
+    1855,
     1864,
     "neutral",
-    "Beboet af ainuer og nivkher; både Rusland og Japan gjorde krav på øen"
+    "Beboet af ainuer og nivkher; både Japan og Rusland gjorde krav på øen, som de ifølge en aftale fra 1855 delte uden fast grænse"
    ]
   ]
  }
