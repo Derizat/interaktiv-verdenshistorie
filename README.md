@@ -84,7 +84,7 @@ Run this after adding or editing events. It needs a Google Cloud API key with th
 python3 scripts/tts.py --prune
 ```
 
-Only clips whose text changed are generated again. `--prune` deletes the clips that no longer match any text, but only when every clip was generated. A full run is about 130,000 characters, which costs at most a few dollars. Set `TTS_VOICE` once to switch voice; that regenerates every clip, and later runs keep the voice stored in `data/audio.json`.
+The clips cover the main page and the Roman page (its events, and the year announcements for years that have events; "f.Kr." and "e.Kr." are read as "før/efter Kristus"). The Ukraine page uses the browser voice. Only clips whose text changed are generated again. `--prune` deletes the clips that no longer match any text, but only when every clip was generated. A full run is about 175,000 characters, which costs at most a few dollars. Set `TTS_VOICE` once to switch voice; that regenerates every clip, and later runs keep the voice stored in `data/audio.json`.
 
 ## Accuracy
 

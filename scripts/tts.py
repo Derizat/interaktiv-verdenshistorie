@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """Generate read-aloud MP3s for every event and every year with Google Cloud Text-to-Speech.
 
+Covers the main page (data/events.json, the years 1814–2025) and the Roman page (rom/data/events.json, and the year
+announcements for the years that have events; the page reads them before each year's events while playing).
+
 Usage:
     python3 scripts/tts.py            # generate missing clips, update data/audio.json
     python3 scripts/tts.py --prune    # also delete clips no longer referenced
@@ -15,6 +18,7 @@ import base64
 import http.client
 import json
 import os
+import re
 import sys
 import time
 import urllib.error
@@ -38,6 +42,10 @@ def manifest_voice():
 VOICE = os.environ.get("TTS_VOICE") or manifest_voice() or DEFAULT_VOICE
 YEARS = range(1814, 2026)  # YMIN..YMAX in index.html
 API = "https://texttospeech.googleapis.com/v1/text:synthesize"
+# Abbreviations the voice would spell out, written in full: (pattern, words, can end a sentence). Where "f.Kr." ends a
+# sentence its period is also the full stop, so that one is kept.
+SPOKEN = [(r"\bf\.\s?Kr\.", "før Kristus", True), (r"\be\.\s?Kr\.", "efter Kristus", True),
+          (r"\bca\.", "cirka", False), (r"\bCa\.", "Cirka", False), (r"\bbl\.a\.", "blandt andet", False)]
 
 
 def fnv1a(s):
@@ -56,11 +64,29 @@ def sentence(s):
     return s if s.endswith((".", "!", "?")) else s + "."
 
 
+def spoken(s):
+    for pattern, full, ends in SPOKEN:
+        if ends:
+            s = re.sub(pattern + r"(?=\s+[A-ZÆØÅ]|\s*$)", full + ".", s)
+        s = re.sub(pattern, full, s)
+    return s
+
+
+def event_text(e):
+    return " ".join(sentence(spoken(x)) for x in (e["title"], e["date"], e["text"]))
+
+
 def clips():
     events = json.load(open(os.path.join(ROOT, "data", "events.json"), encoding="utf-8"))
     out = {clip_id("year", y): f"{y}." for y in YEARS}
     for e in events:
-        out[clip_id(e["title"], e["date"], e["text"])] = " ".join(sentence(x) for x in (e["title"], e["date"], e["text"]))
+        out[clip_id(e["title"], e["date"], e["text"])] = event_text(e)
+    # The Roman page: years are negative before Christ (clipId("rome-year", y) in rom/index.html).
+    rome = json.load(open(os.path.join(ROOT, "rom", "data", "events.json"), encoding="utf-8"))
+    for y in sorted({e["year"] for e in rome}):
+        out[clip_id("rome-year", y)] = f"{-y} før Kristus." if y < 0 else f"{y} efter Kristus."
+    for e in rome:
+        out[clip_id(e["title"], e["date"], e["text"])] = event_text(e)
     return out
 
 
