@@ -27,7 +27,8 @@ Then open http://localhost:8000. Append `#1962` to jump to a year, or `#1962/cub
 | `data/audio.json` | Voice name and the list of recorded clips in `audio/`. Written by `scripts/tts.py`. |
 | `audio/` | One MP3 per event and per year, named by a hash of the voice and the text. |
 | `data/borders_*.json` | Simplified border snapshots (1815, 1880, 1900, 1914, 1920, 1930, 1938, 1945, 1960, 1994, 2000). The 1815 map is used until 1864 (so the US conquests from Mexico in 1848 only show from 1865, but Schleswig and Holstein stay separate until the war of 1864), and the 1900 map takes its Africa from the 1914 map, because the source has no colonial partition of Africa. The 2000 map is used for 2000–2025, so East Timor, Kosovo, South Sudan and Crimea are not shown. |
-| `scripts/` | Python scripts used to build the border files, the read-aloud clips and the Ukraine data. |
+| `scripts/` | Python scripts used to build the border files, the read-aloud clips, the Ukraine data and the Roman map data. |
+| `rom/` | A separate page for the Roman state year by year, 509 BC–AD 476: a map of the Mediterranean world where the territory grows and shrinks each year, with the period's own events and campaign arrows. See [The Roman page](#the-roman-page). |
 | `ukraine/` | A separate page for the Russia–Ukraine war, month by month from February 2022: a regional map with Russian-held and contested areas, the war's own events and campaign arrows. See [ukraine/data/README.md](ukraine/data/README.md). |
 
 Country keys in `status.json` and `events.json` must match the `n` property in the border file used for that year (see `snapshots` in `status.json`).
@@ -46,6 +47,20 @@ done
 `simplify.py` applies Douglas-Peucker simplification, rounds coordinates and fixes winding order for D3. `split.py` separates Greenland, Iceland and East Pakistan into their own features, so they can be coloured separately, and patches known source-data errors (the 1930 USSR label, the unnamed Switzerland in 1994/2000, the unnamed Netherlands in 1815). In the 19th-century maps it names the big unnamed inner-Africa polygon and other unnamed areas, draws large areas first so the kingdoms inside them stay visible, and replaces Africa in the 1900 map with the 1914 one.
 
 Where a source map gives land to the wrong state, `split.py` copies that part into an overlay feature drawn on top, so it can be coloured and named on its own: Schleswig (1815–1914 maps), Alsace-Lorraine and Bessarabia, Tunisia in 1880, the Plovdiv region in 1900 and northern Alsace in 1815. It also swaps the mixed-up British and Italian Somaliland labels in the 1914 map. Errors it does not fix are named in the tooltip through a note in `names` (for example Belgium inside the Netherlands 1830–1864).
+
+## The Roman page
+
+`rom/index.html` is another cut-down copy of the main page. The rail runs from 509 BC to AD 476 (985 years, one column per decade, no year 0) and the map shows who held each part of the Mediterranean world at the end of each year.
+
+The territory is not taken from snapshot maps. `scripts/rome_regions.py` divides the map into about 130 regions, each with a timeline of who held it, and a set of anchor points. The page draws the Voronoi cells of all anchors (d3-delaunay), colours each cell by its region's ruler that year and draws the sea from Natural Earth on top, so the coasts are exact and the borders between regions run halfway between neighbouring anchors. Anchor pairs along the Rhine, the Danube, the limes and Hadrian's Wall make those frontiers follow the line. Borders are therefore approximate; the timelines are what was fact-checked.
+
+After editing the regions, rebuild the data (a second or two; Natural Earth is cached in `.cache/ne/`):
+
+```bash
+python3 scripts/rome.py
+```
+
+The events and arrows in `rom/data/events.json` and `campaigns.json` are written by hand. Years are integers, negative before Christ.
 
 ## The Ukraine war page
 
@@ -83,6 +98,8 @@ Known limitations:
 ## Credits
 
 Border data: [historical-basemaps](https://github.com/aourednik/historical-basemaps) by A. Ourednik, licensed GPL-3.0. The simplified files in `data/borders_*.json` are derived from it.
+
+Roman page: coasts, rivers and lakes from [Natural Earth](https://www.naturalearthdata.com) (public domain); the regions and their timelines are this project's own.
 
 Ukraine page: territorial control from VIINA (Zhukov and Ayers 2023, ODbL); basemap from [Natural Earth](https://www.naturalearthdata.com) (public domain).
 
