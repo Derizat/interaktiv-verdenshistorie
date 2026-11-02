@@ -73,6 +73,7 @@
 "lon": 117.99,
 "cat": "katastrofe",
 "countries": [
+"Dutch East Indies",
 "United States",
 "Canada",
 "United Kingdom of Great Britain and Ireland",
@@ -375,6 +376,7 @@
 "cat": "krig",
 "countries": [
 "Manchu Empire",
+"Taiwan",
 "United Kingdom of Great Britain and Ireland",
 "Hong Kong"
 ]
@@ -656,7 +658,8 @@
 "lon": 110.1,
 "cat": "revolution",
 "countries": [
-"Manchu Empire"
+"Manchu Empire",
+"Taiwan"
 ]
 },
 {
@@ -789,7 +792,8 @@
 "cat": "revolution",
 "countries": [
 "British East India Company",
-"Oudh"
+"Oudh",
+"Maratha Confederacy"
 ]
 },
 {
@@ -822,7 +826,8 @@
 "Austrian Empire",
 "Lombardy",
 "Kingdom of the Two Sicilies",
-"Tuscany"
+"Tuscany",
+"Lucca"
 ]
 },
 {
@@ -966,6 +971,7 @@
 "cat": "videnskab",
 "countries": [
 "United Kingdom of Great Britain and Ireland",
+"Canada",
 "United States of America"
 ]
 },
@@ -1390,7 +1396,7 @@
 "year": 1885,
 "until": 1894,
 "ongoing": "Provisorietiden",
-"date": "April 1885",
+"date": "april 1885",
 "title": "Estrup og provisorierne",
 "text": "Folketinget med Venstre-flertal og Landstinget kan ikke blive enige om en finanslov, så konseilspræsident J.B.S. Estrup styrer med provisoriske (midlertidige) finanslove, som kongen underskriver – det havde han også gjort i 1877. Mange penge går til Københavns befæstning, og efter et attentatforsøg mod Estrup i oktober 1885 opretter regeringen et gendarmerikorps. Først med et forlig i 1894 får landet igen vedtagne finanslove, og Estrup går af.",
 "lat": 55.676,
@@ -1475,7 +1481,7 @@
 "year": 1893,
 "date": "17. januar 1893",
 "title": "Kup mod Hawaiis dronning",
-"text": "Amerikanske plantageejere og forretningsfolk vælter dronning Liliʻuokalani af Hawaii, støttet af marinesoldater fra et amerikansk krigsskib, der dagen før er gået i land i Honolulu. Kupmagerne vil have øerne ind i USA, som er det vigtigste marked for Hawaiis sukker. USA annekterer Hawaii i 1898.",
+"text": "Amerikanske plantageejere og forretningsfolk vælter dronning Liliʻuokalani af Hawaii, støttet af amerikanske marinesoldater, der dagen før er gået i land i Honolulu fra krigsskibet USS Boston. Kupmagerne vil have øerne ind i USA, som er det vigtigste marked for Hawaiis sukker. USA annekterer Hawaii i 1898.",
 "lat": 21.307,
 "lon": -157.859,
 "cat": "revolution",
@@ -1511,6 +1517,7 @@
 "countries": [
 "Imperial Japan",
 "Manchu Empire",
+"Taiwan",
 "Korea"
 ]
 },
@@ -1533,12 +1540,12 @@
 "year": 1894,
 "until": 1896,
 "ongoing": "Massakrerne på armeniere",
-"date": "August 1894",
+"date": "august 1894",
 "title": "Massakrer på armeniere i Osmannerriget",
 "text": "Efter uroligheder i bjergområdet Sasun dræber osmanniske soldater og kurdiske ryttere mange armenske landsbyboere. I 1895–96 spreder massakrerne sig til byer i hele den østlige del af riget og til Konstantinopel under sultan Abdülhamid 2. Skønnene over antallet af dræbte armeniere spænder fra omkring 80.000 til 300.000.",
 "lat": 38.33,
 "lon": 41.42,
-"cat": "krise",
+"cat": "folkedrab",
 "countries": [
 "Ottoman Empire"
 ]
@@ -1555,7 +1562,8 @@
 "countries": [
 "Imperial Japan",
 "Manchu Empire",
-"Korea"
+"Korea",
+"Taiwan"
 ]
 },
 {
@@ -1702,7 +1710,8 @@
 "Queensland (UK)",
 "South Australia (UK)",
 "Western Australia (UK)",
-"Northern Territory (UK)"
+"Northern Territory (UK)",
+"Tasmania"
 ]
 },
 {
@@ -2131,6 +2140,10 @@
 "German Empire",
 "Austro-Hungarian Empire",
 "Russian Empire",
+"Finland",
+"Georgia",
+"Armenia",
+"Azerbaijan",
 "France",
 "United Kingdom of Great Britain and Ireland",
 "Serbia",
@@ -2194,7 +2207,7 @@
 "ongoing": "Folkemordet på armenierne",
 "date": "24. april 1915",
 "title": "Folkemordet på armenierne",
-"text": "Det osmanniske styre arresterer armenske ledere i Konstantinopel og deporterer derefter den armenske befolkning mod den syriske ørken. Op mod 1,5 millioner armeniere dør (de fleste forskere anslår 1–1,5 millioner). Tyrkiet anerkender ikke begivenhederne som folkemord.",
+"text": "Det osmanniske styre arresterer armenske ledere i Konstantinopel og deporterer derefter den armenske befolkning mod den syriske ørken. Anslået 600.000–1,5 millioner armeniere dør; mange forskere regner med omkring en million. Tyrkiet anerkender ikke begivenhederne som folkemord.",
 "lat": 41.01,
 "lon": 28.98,
 "cat": "folkedrab",
@@ -2214,7 +2227,9 @@
 "countries": [
 "Ottoman Empire",
 "United Kingdom of Great Britain and Ireland",
-"France"
+"France",
+"Australia",
+"New Zealand"
 ]
 },
 {
@@ -2336,7 +2351,11 @@
 "cat": "revolution",
 "countries": [
 "Russian Empire",
-"Bessarabia"
+"Bessarabia",
+"Finland",
+"Georgia",
+"Armenia",
+"Azerbaijan"
 ]
 },
 {
@@ -2589,7 +2608,9 @@
 "cat": "krig",
 "countries": [
 "Poland",
-"USSR"
+"USSR",
+"Ukraine",
+"White Russia"
 ]
 },
 {
@@ -2615,7 +2636,12 @@
 "lon": 37.62,
 "cat": "okonomi",
 "countries": [
-"USSR"
+"USSR",
+"Ukraine",
+"White Russia",
+"South Russia",
+"Georgia",
+"Azerbaijan"
 ]
 },
 {
@@ -2696,8 +2722,9 @@
 "USSR",
 "Ukraine",
 "White Russia",
+"South Russia",
+"Far Eastern SSR",
 "Georgia",
-"Armenia",
 "Azerbaijan"
 ]
 },
@@ -2765,7 +2792,13 @@
 "lon": 37.62,
 "cat": "politik",
 "countries": [
-"USSR"
+"USSR",
+"Ukraine",
+"White Russia",
+"South Russia",
+"Far Eastern SSR",
+"Georgia",
+"Azerbaijan"
 ]
 },
 {
@@ -2876,7 +2909,9 @@
 "lon": 121.47,
 "cat": "krise",
 "countries": [
-"Chinese Warlords"
+"Chinese Warlords",
+"Manchuria",
+"Xinjiang"
 ]
 },
 {
@@ -2946,7 +2981,13 @@
 "lon": 37.62,
 "cat": "okonomi",
 "countries": [
-"USSR"
+"USSR",
+"Ukraine",
+"White Russia",
+"South Russia",
+"Far Eastern SSR",
+"Georgia",
+"Azerbaijan"
 ]
 },
 {
@@ -2972,7 +3013,13 @@
 "lon": 37.62,
 "cat": "politik",
 "countries": [
-"USSR"
+"USSR",
+"Ukraine",
+"White Russia",
+"South Russia",
+"Far Eastern SSR",
+"Georgia",
+"Azerbaijan"
 ]
 },
 {
@@ -2982,7 +3029,7 @@
 "ongoing": "Den store depression",
 "date": "24. – 29. oktober 1929",
 "title": "Børskrakket på Wall Street",
-"text": "Aktiekurserne i New York styrtdykker. Krakket udløser Den Store Depression: Banker krakker, verdenshandelen halveres i værdi, og arbejdsløsheden når 25 procent i USA og over 30 procent i Tyskland i 1932.",
+"text": "Aktiekurserne i New York styrtdykker. Krakket udløser Den Store Depression: Banker krakker, verdenshandelen mere end halveres i værdi, og arbejdsløsheden når over 30 procent i Tyskland i 1932 og omkring 25 procent i USA i 1933.",
 "lat": 40.71,
 "lon": -74.01,
 "cat": "okonomi",
@@ -3194,7 +3241,8 @@
 "lon": 109.2,
 "cat": "revolution",
 "countries": [
-"Chinese Warlords"
+"Chinese Warlords",
+"Xinjiang"
 ]
 },
 {
@@ -3207,7 +3255,10 @@
 "lon": 30.32,
 "cat": "krise",
 "countries": [
-"USSR"
+"USSR",
+"Georgia",
+"Azerbaijan",
+"Far Eastern SSR"
 ]
 },
 {
@@ -3307,7 +3358,10 @@
 "lon": 37.62,
 "cat": "folkedrab",
 "countries": [
-"USSR"
+"USSR",
+"Georgia",
+"Azerbaijan",
+"Far Eastern SSR"
 ]
 },
 {
@@ -3349,6 +3403,7 @@
 "cat": "krig",
 "countries": [
 "Chinese Warlords",
+"Xinjiang",
 "Empire of Japan"
 ]
 },
@@ -3530,12 +3585,12 @@
 },
 {
 "id": "holocaust",
-"year": 1942,
+"year": 1941,
 "until": 1945,
 "ongoing": "Holocaust",
-"date": "1941 – 1945 (Wannsee-konferencen 20. januar 1942)",
+"date": "1941 – 1945",
 "title": "Holocaust",
-"text": "På Wannsee-konferencen i Berlin koordinerer ledende nazister den 'endelige løsning': folkemordet på Europas jøder. Omkring seks millioner jøder blev myrdet under Holocaust – i udryddelseslejre som Auschwitz-Birkenau, ved massenedskydninger og i ghettoer.",
+"text": "Efter angrebet på Sovjetunionen i juni 1941 skyder tyske specialenheder (Einsatzgruppen) hundredtusinder af jøder, og i december 1941 begynder gasdrabene i Chełmno. På Wannsee-konferencen i Berlin den 20. januar 1942 koordinerer ledende nazister den 'endelige løsning': folkemordet på Europas jøder. Omkring seks millioner jøder blev myrdet under Holocaust – i udryddelseslejre som Auschwitz-Birkenau, ved massenedskydninger og i ghettoer.",
 "lat": 50.03,
 "lon": 19.18,
 "cat": "folkedrab",
@@ -3663,7 +3718,7 @@
 "year": 1944,
 "date": "6. juni 1944",
 "title": "D-dag: landgangen i Normandiet",
-"text": "Omkring 156.000 allierede soldater går i land i Normandiet på første dag. Det er den største landgangsoperation fra søen i historien og åbner en ny front mod Tyskland i vest.",
+"text": "Omkring 156.000 allierede soldater lander i Normandiet på første dag, heraf omkring 24.000 med faldskærm og svævefly. Det er den største landgangsoperation fra søen i historien og åbner en ny front mod Tyskland i vest.",
 "lat": 49.37,
 "lon": -0.87,
 "cat": "krig",
@@ -3715,7 +3770,8 @@
 "Germany (Soviet)",
 "Germany (UK)",
 "Germany (USA)",
-"Germany (France)"
+"Germany (France)",
+"Saar Protectorate"
 ]
 },
 {
@@ -3723,7 +3779,7 @@
 "year": 1945,
 "date": "6. og 9. august 1945",
 "title": "Atombomberne over Hiroshima og Nagasaki",
-"text": "USA kaster to atombomber over japanske byer. Over 100.000 mennesker dræbes med det samme, og mange flere dør senere af skader og stråling. Japan meddeler sin kapitulation den 15. august og underskriver den formelt den 2. september 1945.",
+"text": "USA kaster to atombomber over japanske byer. Omkring 100.000 mennesker dræbes med det samme, og ved årets udgang er det anslåede dødstal 150.000–246.000, fordi mange dør af forbrændinger, skader og stråling. Japan meddeler sin kapitulation den 15. august og underskriver den formelt den 2. september 1945.",
 "lat": 34.39,
 "lon": 132.45,
 "cat": "atom",
@@ -3742,7 +3798,8 @@
 "cat": "aftale",
 "countries": [
 "United States"
-]
+],
+"dk": true
 },
 {
 "id": "jerntaeppe",
@@ -3814,7 +3871,8 @@
 "cat": "okonomi",
 "countries": [
 "United States"
-]
+],
+"dk": true
 },
 {
 "id": "israel",
@@ -3928,7 +3986,8 @@
 "cat": "revolution",
 "countries": [
 "China",
-"Manchuria"
+"Manchuria",
+"Xinjiang"
 ]
 },
 {
@@ -4128,6 +4187,9 @@
 "Indonesia",
 "India",
 "China",
+"Manchuria",
+"Xinjiang",
+"Tibet",
 "Egypt"
 ]
 },
@@ -4201,6 +4263,7 @@
 "Germany (UK)",
 "Germany (USA)",
 "Germany (France)",
+"Saar Protectorate",
 "Italy",
 "Belgium",
 "Netherlands",
@@ -4232,7 +4295,9 @@
 "lon": 112.0,
 "cat": "katastrofe",
 "countries": [
-"China"
+"China",
+"Manchuria",
+"Xinjiang"
 ]
 },
 {
@@ -4259,7 +4324,9 @@
 "cat": "revolution",
 "countries": [
 "Tibet",
-"China"
+"China",
+"Manchuria",
+"Xinjiang"
 ]
 },
 {
@@ -4352,7 +4419,7 @@
 "year": 1962,
 "date": "16. – 28. oktober 1962",
 "title": "Cubakrisen",
-"text": "USA opdager sovjetiske atomraketter på Cuba. I 13 dage er verden tættere på atomkrig end nogensinde før. Krisen løses, da Sovjetunionen fjerner raketterne, og USA i hemmelighed lover at fjerne sine raketter fra Tyrkiet.",
+"text": "USA opdager sovjetiske atomraketter på Cuba. I 13 dage er verden tættere på atomkrig end nogensinde før. Krisen løses, da Sovjetunionen fjerner raketterne. Til gengæld lover USA offentligt ikke at invadere Cuba og i hemmelighed at fjerne sine egne raketter fra Tyrkiet.",
 "lat": 22.0,
 "lon": -79.5,
 "cat": "atom",
@@ -4394,8 +4461,8 @@
 "date": "12. juni 1964",
 "title": "Nelson Mandela idømmes livsvarigt fængsel",
 "text": "ANC-lederen dømmes i Rivonia-retssagen for sabotage mod apartheidstyret. Han sidder i alt fængslet i 27 år (1962–1990), heraf 18 år på Robben Island.",
-"lat": -33.81,
-"lon": 18.37,
+"lat": -25.75,
+"lon": 28.19,
 "cat": "politik",
 "countries": [
 "South Africa"
@@ -4428,7 +4495,8 @@
 "lon": 116.4,
 "cat": "revolution",
 "countries": [
-"China"
+"China",
+"Tibet"
 ]
 },
 {
@@ -4553,6 +4621,7 @@
 "lon": 90.41,
 "cat": "selvstaendighed",
 "countries": [
+"East Pakistan",
 "Pakistan",
 "India"
 ]
@@ -4582,6 +4651,7 @@
 "cat": "fred",
 "countries": [
 "China",
+"Tibet",
 "United States"
 ]
 },
@@ -4610,6 +4680,7 @@
 "dk": true,
 "countries": [
 "Denmark",
+"Greenland",
 "United Kingdom",
 "Ireland"
 ]
@@ -4633,8 +4704,8 @@
 "date": "oktober 1973",
 "title": "Yom Kippur-krigen og oliekrisen",
 "text": "Egypten og Syrien angriber Israel. Arabiske olielande indfører en olieboykot mod Israels støtter, og olieprisen firdobles. I Danmark indføres bilfri søndage.",
-"lat": 29.0,
-"lon": 33.0,
+"lat": 30.6,
+"lon": 32.33,
 "cat": "okonomi",
 "dk": true,
 "countries": [
@@ -4649,7 +4720,7 @@
 "year": 1974,
 "date": "25. april 1974",
 "title": "Nellikerevolutionen i Portugal",
-"text": "Officerer vælter Vesteuropas længstlevende diktatur næsten uden blodsudgydelser. Portugal giver nu sine afrikanske kolonier fri: Guinea-Bissau i 1974 og Mozambique og Angola i 1975.",
+"text": "Officerer vælter Vesteuropas længstlevende diktatur næsten uden blodsudgydelser. Portugal giver nu sine afrikanske kolonier fri: Guinea-Bissau i 1974 og Mozambique, Kap Verde, Angola samt São Tomé og Príncipe i 1975.",
 "lat": 38.72,
 "lon": -9.14,
 "cat": "revolution",
@@ -4750,7 +4821,8 @@
 "lon": 116.4,
 "cat": "politik",
 "countries": [
-"China"
+"China",
+"Tibet"
 ]
 },
 {
@@ -4896,8 +4968,8 @@
 "id": "aids",
 "year": 1981,
 "date": "5. juni 1981",
-"title": "De første tilfælde af aids",
-"text": "Amerikanske sundhedsmyndigheder beskriver en mystisk sygdom hos unge mænd i Los Angeles. Det bliver begyndelsen på en global hiv/aids-epidemi, som har kostet over 40 millioner mennesker livet.",
+"title": "Aids bliver beskrevet for første gang",
+"text": "Amerikanske sundhedsmyndigheder beskriver en mystisk sygdom hos unge mænd i Los Angeles. Det er første gang, aids bliver beskrevet, men hiv havde allerede spredt sig i årtier. Ifølge FN's aidsprogram UNAIDS har hiv/aids siden kostet omkring 44 millioner mennesker livet.",
 "lat": 34.05,
 "lon": -118.24,
 "cat": "katastrofe",
@@ -4963,12 +5035,13 @@
 "year": 1983,
 "date": "1983 – 1985",
 "title": "Hungersnøden i Etiopien",
-"text": "Tørke, borgerkrig og regeringens politik fører til hungersnød, hvor mellem 300.000 og 1 million mennesker dør (skønnene varierer). Tv-billederne fører til indsamlinger som Band Aid i 1984 og koncerten Live Aid i 1985.",
+"text": "Tørke, borgerkrig og regeringens politik fører til hungersnød, hvor mellem 300.000 og 1,2 millioner mennesker dør (skønnene varierer). Tv-billederne fører til indsamlinger som Band Aid i 1984 og koncerten Live Aid i 1985.",
 "lat": 13.5,
 "lon": 39.5,
 "cat": "katastrofe",
 "countries": [
-"Ethiopia"
+"Ethiopia",
+"Eritrea"
 ],
 "until": 1985,
 "ongoing": "Hungersnøden i Etiopien"
@@ -5064,7 +5137,8 @@
 "lon": 116.39,
 "cat": "krise",
 "countries": [
-"China"
+"China",
+"Tibet"
 ]
 },
 {
@@ -5269,8 +5343,8 @@
 "date": "1. januar 1993",
 "title": "Fløjlsskilsmissen",
 "text": "Tjekkoslovakiet deles fredeligt i to selvstændige stater: Tjekkiet og Slovakiet.",
-"lat": 48.15,
-"lon": 17.11,
+"lat": 48.16,
+"lon": 17.15,
 "cat": "politik",
 "countries": [
 "Czech Republic",
@@ -5357,7 +5431,8 @@
 "countries": [
 "Bosnia and Herzegovina",
 "Croatia",
-"Serbia"
+"Serbia",
+"Montenegro"
 ]
 },
 {
@@ -5394,7 +5469,7 @@
 "text": "Efter 156 år som britisk koloni bliver Hongkong en del af Kina under princippet 'ét land, to systemer'.",
 "lat": 22.28,
 "lon": 114.16,
-"cat": "selvstaendighed",
+"cat": "politik",
 "countries": [
 "Hong Kong",
 "China"
@@ -5609,7 +5684,7 @@
 "year": 2002,
 "date": "1. januar 2002",
 "title": "Euro-sedler og -mønter",
-"text": "Euroen bliver fysisk valuta i 12 lande. Danmark beholder kronen efter nej'et i 2000, men kronen er bundet til euroen.",
+"text": "Euroen bliver fysisk valuta i 12 lande. Danmark beholder kronen efter nejet i 2000, men kronen er bundet til euroen.",
 "lat": 50.11,
 "lon": 8.68,
 "cat": "okonomi",
@@ -5674,7 +5749,7 @@
 "ongoing": "Irakkrigen",
 "date": "20. marts 2003",
 "title": "Irakkrigen begynder",
-"text": "USA og Storbritannien invaderer med støtte fra blandt andre Australien og Polen Irak med påstanden om, at Saddam Hussein har masseødelæggelsesvåben. Bagdad falder den 9. april, men våbnene findes aldrig, og landet synker ned i borgerkrig. Danmark deltager med ubåden Sælen og korvetten Olfert Fischer og sender senere en bataljon til Basra.",
+"text": "USA og Storbritannien invaderer Irak med støtte fra blandt andre Australien og Polen. Begrundelsen er, at Saddam Hussein angiveligt har masseødelæggelsesvåben. Bagdad falder den 9. april, men våbnene findes aldrig, og landet synker ned i borgerkrig. Danmark deltager med ubåden Sælen og korvetten Olfert Fischer og sender senere en bataljon til Basra.",
 "lat": 33.3,
 "lon": 44.4,
 "cat": "krig",
@@ -5851,7 +5926,7 @@
 "id": "ambassader06",
 "year": 2006,
 "date": "4. – 5. februar 2006",
-"title": "Danske ambassader i brand",
+"title": "Dansk ambassade og konsulat i brand",
 "text": "Under Muhammedkrisen sættes den danske ambassade i Damaskus og konsulatet i Beirut i brand, og danske varer boykottes i Mellemøsten. Statsminister Fogh afviser at undskylde på vegne af en fri presse.",
 "lat": 33.51,
 "lon": 36.29,
@@ -5868,7 +5943,7 @@
 "year": 2006,
 "date": "3. juni 2006",
 "title": "Montenegro bliver selvstændigt",
-"text": "Efter en folkeafstemning forlader Montenegro unionen med Serbien. Jugoslaviens opløsning er fuldendt, indtil Kosovo løsriver sig i 2008.",
+"text": "Efter en folkeafstemning forlader Montenegro unionen med Serbien. Dermed er det sidste levn af Jugoslavien opløst. I 2008 erklærer Kosovo sig selvstændigt fra Serbien.",
 "lat": 42.44,
 "lon": 19.26,
 "cat": "selvstaendighed",
@@ -6044,7 +6119,7 @@
 "year": 2009,
 "date": "18. – 19. maj 2009",
 "title": "Borgerkrigen på Sri Lanka slutter",
-"text": "Regeringshæren knuser De Tamilske Tigre efter 26 års krig. Titusinder af civile dør i krigens sidste måneder.",
+"text": "Regeringshæren knuser De Tamilske Tigre efter 26 års krig. Ifølge et FN-panel kan op mod 40.000 civile være dræbt i krigens sidste måneder.",
 "lat": 9.0,
 "lon": 80.5,
 "cat": "krig",
@@ -6120,7 +6195,8 @@
 "Greece",
 "Ireland",
 "Portugal",
-"Spain"
+"Spain",
+"Cyprus"
 ]
 },
 {
@@ -6189,7 +6265,7 @@
 "ongoing": "Borgerkrigen i Syrien",
 "date": "15. marts 2011",
 "title": "Borgerkrigen i Syrien begynder",
-"text": "Protester mod Bashar al-Assad besvares med vold, og landet glider ind i en borgerkrig, der koster over 500.000 livet og driver halvdelen af befolkningen på flugt. Assad falder først i december 2024.",
+"text": "Protester mod Bashar al-Assad besvares med vold, og landet glider ind i en borgerkrig, der ifølge skøn koster over 500.000 livet og driver halvdelen af befolkningen på flugt. Assad falder først i december 2024.",
 "lat": 33.51,
 "lon": 36.29,
 "cat": "krig",
@@ -6408,7 +6484,7 @@
 "ongoing": "Krigen i Østukraine",
 "date": "april 2014",
 "title": "Krigen i Donbas",
-"text": "Russisk støttede separatister udråber folkerepublikker i Donetsk og Luhansk. Krigen koster omkring 14.000 livet frem til 2022, hvor Rusland invaderer hele landet.",
+"text": "Russisk støttede separatister udråber folkerepublikker i Donetsk og Luhansk. Krigen koster omkring 14.000 livet frem til 2022, hvor Rusland indleder en fuldskalainvasion af Ukraine.",
 "lat": 48.0,
 "lon": 37.8,
 "cat": "krig",
@@ -6566,7 +6642,7 @@
 "year": 2016,
 "date": "23. juni 2016",
 "title": "Brexit-afstemningen",
-"text": "52 procent af briterne stemmer for at forlade EU. Premierminister Cameron går af, og det tager over tre år at forhandle udtrædelsen.",
+"text": "52 procent af vælgerne stemmer for at forlade EU. Premierminister Cameron går af, og det tager over tre år at forhandle udtrædelsen.",
 "lat": 51.5,
 "lon": -0.12,
 "cat": "politik",
@@ -6605,7 +6681,7 @@
 "year": 2016,
 "date": "24. november 2016",
 "title": "Fred i Colombia",
-"text": "Regeringen og FARC-guerillaen underskriver en fredsaftale efter 52 års krig med over 220.000 dræbte. Præsident Santos får Nobels fredspris.",
+"text": "Regeringen og FARC-guerillaen underskriver en fredsaftale efter 52 års krig. Ifølge Colombias sandhedskommission kostede konflikten omkring 450.000 livet alene i årene 1985–2018. Præsident Santos får Nobels fredspris.",
 "lat": 4.71,
 "lon": -74.07,
 "cat": "fred",
@@ -7149,7 +7225,7 @@
 "year": 2023,
 "date": "4. april 2023",
 "title": "Finland bliver medlem af NATO",
-"text": "Efter 75 års alliancefrihed bliver Finland NATO's 31. medlem som direkte følge af Ruslands angreb på Ukraine. Sverige følger i marts 2024.",
+"text": "Efter årtiers alliancefrihed bliver Finland NATO's 31. medlem som direkte følge af Ruslands angreb på Ukraine. Sverige følger i marts 2024.",
 "lat": 60.17,
 "lon": 24.94,
 "cat": "aftale",
@@ -7219,7 +7295,7 @@
 "year": 2024,
 "date": "14. januar 2024",
 "title": "Frederik 10. bliver konge",
-"text": "Dronning Margrethe 2. abdicerer efter 52 år, det første danske tronskifte uden et dødsfald i næsten 900 år. Frederik 10. udråbes fra Christiansborgs balkon foran et menneskehav på Slotspladsen, og omkring 300.000 fejrer dagen i København.",
+"text": "Dronning Margrethe 2. abdicerer efter 52 år på tronen. Det er første gang siden Erik Lam i 1146, at en dansk monark frivilligt abdicerer. Frederik 10. udråbes fra Christiansborgs balkon foran et menneskehav på Slotspladsen, og omkring 300.000 fejrer dagen i København.",
 "lat": 55.68,
 "lon": 12.58,
 "cat": "politik",

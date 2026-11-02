@@ -174,16 +174,22 @@
    [
     1944,
     1944,
-    "neutral",
-    "Våbenstilstand med Sovjetunionen i september 1944; kæmpede derefter mod Tyskland i Laplandskrigen"
+    "allied",
+    "Våbenstilstand med de allierede i september 1944; kæmpede derefter mod Tyskland i Laplandskrigen"
    ]
   ],
   "USSR": [
    [
     1939,
+    1939,
+    "soviet",
+    "Ikke-angrebspagt med Tyskland. Besatte Østpolen i september og angreb Finland i november 1939"
+   ],
+   [
+    1940,
     1940,
     "soviet",
-    "Ikke-angrebspagt med Tyskland. Besatte Østpolen og annekterede de baltiske lande"
+    "Ikke-angrebspagt med Tyskland. Besatte Østpolen i 1939 og annekterede de baltiske lande i 1940"
    ],
    [
     1941,
@@ -194,9 +200,15 @@
   "Mongolia": [
    [
     1939,
+    1939,
+    "neutral",
+    "Sovjetisk satellitstat; kæmpede sammen med Sovjetunionen mod Japan ved Khalkhin Gol i 1939, men erklærede først Japan krig i august 1945"
+   ],
+   [
+    1940,
     1944,
     "neutral",
-    "Sovjetisk satellitstat; gik først i krig (mod Japan) i august 1945"
+    "Sovjetisk satellitstat; erklærede først Japan krig i august 1945"
    ]
   ],
   "Estonia": [
@@ -274,9 +286,15 @@
   "Poland": [
    [
     1939,
-    1944,
+    1943,
     "occupied",
     "Delt mellem Tyskland og Sovjetunionen 1939–41, derefter tysk besat"
+   ],
+   [
+    1944,
+    1944,
+    "occupied",
+    "Den Røde Hær indtog den østlige del af landet i 1944; Warszawa og landet vest for Weichsel var stadig tysk besat"
    ]
   ],
   "Czechoslovakia": [
@@ -1160,6 +1178,14 @@
     "allied",
     "Tilsluttede sig De Frie Franske i 1940"
    ]
+  ],
+  "Faroe Islands": [
+   [
+    1940,
+    1944,
+    "allied",
+    "Besat af Storbritannien fra april 1940"
+   ]
   ]
  },
  "ww2RulerAlign": {
@@ -1173,7 +1199,7 @@
     1940,
     1941,
     "neutral",
-    "Fransk koloni styret af Vichy-regimet"
+    "Styret af Vichy-regimet"
    ],
    [
     1942,
@@ -1191,7 +1217,7 @@
     1940,
     1944,
     "allied",
-    "Belgisk koloni, loyal over for eksilregeringen"
+    "Loyal over for eksilregeringen i London"
    ]
   ],
   "Netherlands": [
@@ -1204,7 +1230,7 @@
     1940,
     1944,
     "allied",
-    "Hollandsk koloni, loyal over for eksilregeringen"
+    "Loyal over for eksilregeringen i London"
    ]
   ],
   "Italy": [
@@ -1253,6 +1279,13 @@
    ]
   ],
   "New Zealand": [
+   [
+    1939,
+    1944,
+    "allied"
+   ]
+  ],
+  "South Africa": [
    [
     1939,
     1944,
@@ -1540,9 +1573,15 @@
   "Saar Protectorate": [
    [
     1945,
+    1945,
+    "occupied",
+    "Del af den franske besættelseszone"
+   ],
+   [
+    1946,
     1956,
     "occupied",
-    "Fransk protektorat"
+    "Under fransk styre; udskilt fra de allierede besættelseszoner i 1946, protektorat fra 1947"
    ],
    [
     1957,
@@ -1720,6 +1759,54 @@
     1990,
     "communist",
     "Siad Barres styre erklærede 'videnskabelig socialisme' i 1970"
+   ]
+  ],
+  "Faroe Islands": [
+   [
+    1949,
+    2000,
+    "nato",
+    "Del af det danske rige"
+   ]
+  ],
+  "Kuwait": [
+   [
+    1990,
+    1990,
+    "neutral",
+    "Besat og annekteret af Irak fra august 1990; befriet i februar 1991"
+   ]
+  ],
+  "French Guiana": [
+   [
+    1946,
+    2000,
+    "neutral",
+    "Fransk oversøisk departement fra 1946; ligger uden for NATO-traktatens område"
+   ]
+  ],
+  "Guadeloupe": [
+   [
+    1946,
+    2000,
+    "neutral",
+    "Fransk oversøisk departement fra 1946; ligger uden for NATO-traktatens område"
+   ]
+  ],
+  "Martinique": [
+   [
+    1946,
+    2000,
+    "neutral",
+    "Fransk oversøisk departement fra 1946; ligger uden for NATO-traktatens område"
+   ]
+  ],
+  "Martinique (France)": [
+   [
+    1946,
+    2000,
+    "neutral",
+    "Fransk oversøisk departement fra 1946; ligger uden for NATO-traktatens område"
    ]
   ]
  },
@@ -2228,6 +2315,11 @@
    ],
    [
     1960,
+    1964,
+    "UK"
+   ],
+   [
+    1965,
     1979,
     "UK",
     "Erklærede ensidig selvstændighed i 1965 under et hvidt mindretalsstyre, som ikke blev anerkendt internationalt"
@@ -4289,11 +4381,11 @@
    ],
    [
     1914,
-    1916,
+    1915,
     "Germany"
    ],
    [
-    1917,
+    1916,
     1918,
     "UK",
     "Erobret af de allierede i 1916–17; tysk guerillakrig til november 1918"
@@ -4351,8 +4443,8 @@
    [
     1916,
     1918,
-    "UK",
-    "Erobret af briter og franskmænd i februar 1916"
+    "France",
+    "Erobret af briter og franskmænd i februar 1916; Frankrig fik omkring fire femtedele"
    ]
   ],
   "Togoland": [
@@ -4504,9 +4596,15 @@
    ],
    [
     1919,
-    1961,
+    1945,
     "New Zealand",
     "Mandat under Folkeforbundet"
+   ],
+   [
+    1946,
+    1961,
+    "New Zealand",
+    "FN-formynderskabsområde"
    ]
   ],
   "Niue": [
@@ -5356,6 +5454,22 @@
     "Japan",
     "Afstået af Kina efter krigen 1894–1895"
    ]
+  ],
+  "Yemen": [
+   [
+    1919,
+    1944,
+    "UK",
+    "Britisk protektorat omkring Aden"
+   ]
+  ],
+  "Solomon Islands": [
+   [
+    1938,
+    1944,
+    "UK",
+    "Britisk protektorat"
+   ]
   ]
  },
  "rulers": {
@@ -5427,11 +5541,11 @@
   "Hail": [
    [
     1919,
-    1921,
+    1920,
     "Jabal Shammar (Rashidi-emiratet)"
    ],
    [
-    1922,
+    1921,
     1931,
     "Nejd"
    ],
@@ -5445,17 +5559,20 @@
    [
     1919,
     1925,
-    "Hejaz"
+    "Hejaz",
+    "Kortet medtager fejlagtigt Asir og Kongeriget Yemen med Sanaa"
    ],
    [
     1926,
     1931,
-    "Kongeriget Hejaz og Nejd"
+    "Kongeriget Hejaz og Nejd",
+    "Kortet medtager fejlagtigt Kongeriget Yemen med Sanaa, som var selvstændigt under imam Yahya"
    ],
    [
     1932,
     1944,
-    "Saudi-Arabien"
+    "Saudi-Arabien",
+    "Kortet medtager fejlagtigt Kongeriget Yemen med Sanaa, som var selvstændigt under imam Yahya"
    ]
   ],
   "Emirate of Bin Shal'an": [
@@ -5474,17 +5591,14 @@
    [
     1919,
     1931,
-    "Irak (britisk mandat)"
+    "Irak (britisk mandat)",
+    "Kortet medtager fejlagtigt Transjordanien og Kuwait, som var særskilte britiske områder"
    ],
    [
     1932,
-    1938,
-    "Irak"
-   ],
-   [
-    1939,
     1944,
-    "Irak"
+    "Irak",
+    "Kortet medtager fejlagtigt Transjordanien og Kuwait, som var særskilte britiske områder"
    ]
   ],
   "Israel": [
@@ -5495,8 +5609,15 @@
    ],
    [
     1948,
+    1966,
+    "Israel",
+    "Kortet medtager fejlagtigt Vestbredden med Østjerusalem, som Jordan kontrollerede, og Gazastriben, som Egypten kontrollerede"
+   ],
+   [
+    1967,
     2025,
-    "Israel"
+    "Israel",
+    "Kortet medtager de palæstinensiske områder Vestbredden med Østjerusalem og Gazastriben, som Israel besatte i 1967"
    ]
   ],
   "Mandatory Palestine (GB)": [
@@ -5526,8 +5647,15 @@
    ],
    [
     1938,
+    1941,
+    "Britisk Indien",
+    "Kortet medtager også Burma, som var en særskilt britisk koloni fra 1937"
+   ],
+   [
+    1942,
     1944,
-    "Britisk Indien"
+    "Britisk Indien",
+    "Kortet medtager også Burma, som var en særskilt britisk koloni fra 1937 og var besat af Japan fra 1942"
    ]
   ],
   "India": [
@@ -5596,8 +5724,32 @@
   "Empire of Japan": [
    [
     1914,
-    1944,
+    1918,
     "Japan (inkl. Korea og Taiwan)"
+   ],
+   [
+    1919,
+    1919,
+    "Japan (inkl. Korea og Taiwan)",
+    "Kortet medtager fejlagtigt det nordlige Sakhalin, som Japan først besatte i 1920"
+   ],
+   [
+    1920,
+    1924,
+    "Japan (inkl. Korea og Taiwan)",
+    "Kortet viser også det nordlige Sakhalin, som Japan besatte 1920–25"
+   ],
+   [
+    1925,
+    1937,
+    "Japan (inkl. Korea og Taiwan)",
+    "Kortet medtager fejlagtigt det nordlige Sakhalin, som var sovjetisk fra 1925"
+   ],
+   [
+    1938,
+    1944,
+    "Japan (inkl. Korea, Taiwan og Manchukuo)",
+    "Kortet tegner Manchukuo, Japans lydstat i Manchuriet, som en del af Japan"
    ]
   ],
   "Japan (USA)": [
@@ -5609,7 +5761,8 @@
    [
     1952,
     1959,
-    "Japan"
+    "Japan",
+    "Kortet viser også Okinawa, som var under amerikansk styre indtil 1972"
    ]
   ],
   "Korea (USA)": [
@@ -5849,11 +6002,11 @@
   "Jordan": [
    [
     1938,
-    1945,
+    1948,
     "Transjordanien"
    ],
    [
-    1946,
+    1949,
     2025,
     "Jordan"
    ]
@@ -5951,8 +6104,13 @@
    ],
    [
     1960,
-    1970,
+    1965,
     "Congo (Léopoldville)"
+   ],
+   [
+    1966,
+    1970,
+    "Congo (Kinshasa)"
    ],
    [
     1971,
@@ -6026,6 +6184,11 @@
    ],
    [
     1960,
+    1963,
+    "Sydrhodesia"
+   ],
+   [
+    1964,
     1979,
     "Rhodesia"
    ],
@@ -6093,6 +6256,11 @@
    [
     1907,
     1913,
+    "Nyasaland"
+   ],
+   [
+    1914,
+    1918,
     "Nyasaland"
    ],
    [
@@ -6207,9 +6375,22 @@
   ],
   "Yemen": [
    [
+    1919,
+    1944,
+    "Aden (britisk)",
+    "Selve Kongeriget Yemen med Sanaa er på kortet tegnet som en del af Hejaz"
+   ],
+   [
     1945,
+    1966,
+    "Yemen og Aden (britisk)",
+    "Kortet viser Kongeriget Yemen og den britiske koloni og protektorat Aden som ét område"
+   ],
+   [
+    1967,
     1989,
-    "Yemen (Nord og Syd)"
+    "Yemen (Nord og Syd)",
+    "Kortet viser Nordyemen og det kommunistiske Sydyemen som ét område"
    ],
    [
     1990,
@@ -6385,75 +6566,79 @@
     1814,
     1857,
     "Det Russiske Kejserrige",
-    "Kortet medtager fejlagtigt Ydre Manchuriet nord for Amur-floden og øst for Ussuri-floden, som var kinesisk indtil 1858–1860, og egnen omkring Batumi, som var osmannisk indtil 1878"
+    "Kortet medtager fejlagtigt Ydre Manchuriet nord for Amur-floden og øst for Ussuri-floden, som var kinesisk indtil 1858–1860, og egnen omkring Batumi, som var osmannisk indtil 1878. Kortet medtager desuden fejlagtigt egnen omkring Kattowitz og Beuthen i Øvre Schlesien, som hørte til Preussen"
    ],
    [
     1858,
     1859,
     "Det Russiske Kejserrige",
-    "Kortet medtager fejlagtigt området øst for Ussuri-floden, som var kinesisk indtil 1860, og egnen omkring Batumi, som var osmannisk indtil 1878"
+    "Kortet medtager fejlagtigt området øst for Ussuri-floden, som var kinesisk indtil 1860, og egnen omkring Batumi, som var osmannisk indtil 1878. Kortet medtager desuden fejlagtigt egnen omkring Kattowitz og Beuthen i Øvre Schlesien, som hørte til Preussen"
    ],
    [
     1860,
     1864,
     "Det Russiske Kejserrige",
-    "Kortet medtager fejlagtigt egnen omkring Batumi, som var osmannisk indtil 1878"
+    "Kortet medtager fejlagtigt egnen omkring Batumi, som var osmannisk indtil 1878. Kortet medtager desuden fejlagtigt egnen omkring Kattowitz og Beuthen i Øvre Schlesien, som hørte til Preussen"
    ],
    [
     1865,
     1867,
     "Det Russiske Kejserrige",
-    "Kortet medtager fejlagtigt khanaterne Bukhara, Khiva og Kokand, som endnu var selvstændige, hele Sakhalin, som Rusland og Japan havde i fællesskab indtil 1875, og egnen omkring Batumi, som var osmannisk indtil 1878"
+    "Kortet medtager fejlagtigt khanaterne Bukhara, Khiva og Kokand, som endnu var selvstændige, hele Sakhalin, som Rusland og Japan havde i fællesskab indtil 1875, og egnen omkring Batumi, som var osmannisk indtil 1878. Kortet medtager desuden fejlagtigt egnen omkring Kattowitz og Beuthen i Øvre Schlesien, som hørte til Preussen"
    ],
    [
     1868,
     1872,
     "Det Russiske Kejserrige",
-    "Kortet medtager khanaterne Bukhara og Kokand, som blev russiske lydstater i 1868, og fejlagtigt Khiva, som endnu var selvstændigt, hele Sakhalin, som Rusland og Japan havde i fællesskab indtil 1875, og egnen omkring Batumi, som var osmannisk indtil 1878"
+    "Kortet medtager khanaterne Bukhara og Kokand, som blev russiske lydstater i 1868, og fejlagtigt Khiva, som endnu var selvstændigt, hele Sakhalin, som Rusland og Japan havde i fællesskab indtil 1875, og egnen omkring Batumi, som var osmannisk indtil 1878. Kortet medtager desuden fejlagtigt egnen omkring Kattowitz og Beuthen i Øvre Schlesien, som hørte til Preussen"
    ],
    [
     1873,
     1874,
     "Det Russiske Kejserrige",
-    "Kortet medtager khanaterne Bukhara, Khiva og Kokand, som var blevet russiske lydstater, og fejlagtigt hele Sakhalin, som Rusland og Japan havde i fællesskab indtil 1875, og egnen omkring Batumi, som var osmannisk indtil 1878"
+    "Kortet medtager khanaterne Bukhara, Khiva og Kokand, som var blevet russiske lydstater, og fejlagtigt hele Sakhalin, som Rusland og Japan havde i fællesskab indtil 1875, og egnen omkring Batumi, som var osmannisk indtil 1878. Kortet medtager desuden fejlagtigt egnen omkring Kattowitz og Beuthen i Øvre Schlesien, som hørte til Preussen"
    ],
    [
     1875,
     1875,
     "Det Russiske Kejserrige",
-    "Kortet medtager khanaterne Bukhara, Khiva og Kokand, som var blevet russiske lydstater, og fejlagtigt egnen omkring Batumi, som var osmannisk indtil 1878"
+    "Kortet medtager khanaterne Bukhara, Khiva og Kokand, som var blevet russiske lydstater, og fejlagtigt egnen omkring Batumi, som var osmannisk indtil 1878. Kortet medtager desuden fejlagtigt egnen omkring Kattowitz og Beuthen i Øvre Schlesien, som hørte til Preussen"
    ],
    [
     1876,
     1877,
     "Det Russiske Kejserrige",
-    "Kortet medtager fejlagtigt egnen omkring Batumi, som var osmannisk indtil 1878"
+    "Kortet medtager fejlagtigt egnen omkring Batumi, som var osmannisk indtil 1878. Kortet medtager desuden fejlagtigt egnen omkring Kattowitz og Beuthen i Øvre Schlesien, som hørte til Preussen"
    ],
    [
     1878,
     1904,
-    "Det Russiske Kejserrige"
+    "Det Russiske Kejserrige",
+    "Kortet medtager fejlagtigt egnen omkring Kattowitz og Beuthen i Øvre Schlesien, som hørte til Preussen"
    ],
    [
     1905,
     1913,
     "Det Russiske Kejserrige",
-    "Kortet medtager fejlagtigt den sydlige del af Sakhalin, som Japan fik i 1905"
+    "Kortet medtager fejlagtigt den sydlige del af Sakhalin, som Japan fik i 1905. Kortet medtager desuden fejlagtigt egnen omkring Kattowitz og Beuthen i Øvre Schlesien, som hørte til Preussen"
    ],
    [
     1914,
     1916,
-    "Det Russiske Kejserrige"
+    "Det Russiske Kejserrige",
+    "Kortet medtager fejlagtigt egnen omkring Kattowitz og Beuthen i Øvre Schlesien, som hørte til Preussen"
    ],
    [
     1917,
     1917,
-    "Rusland (revolutioner i 1917)"
+    "Rusland (revolutioner i 1917)",
+    "Kortet medtager fejlagtigt egnen omkring Kattowitz og Beuthen i Øvre Schlesien, som hørte til Preussen"
    ],
    [
     1918,
     1918,
-    "Sovjetrusland"
+    "Sovjetrusland",
+    "Kortet medtager fejlagtigt egnen omkring Kattowitz og Beuthen i Øvre Schlesien, som hørte til Preussen, og viser ikke, at Polen og de baltiske lande havde erklæret sig selvstændige i 1918"
    ]
   ],
   "Ottoman Empire": [
@@ -6470,25 +6655,37 @@
     "Kortet medtager fejlagtigt Grækenland, som var selvstændigt fra 1830, Montenegro, som reelt var selvstændigt, og Kotor-bugten, som var østrigsk"
    ],
    [
+    1865,
+    1877,
+    "Osmannerriget",
+    "Kortet medtager fejlagtigt Aden, som var britisk fra 1839"
+   ],
+   [
     1878,
     1884,
     "Osmannerriget",
-    "Kortet medtager fejlagtigt Kars, som var russisk fra 1878, og Cypern, som var britisk styret fra 1878"
+    "Kortet medtager fejlagtigt Kars, som var russisk fra 1878, Cypern, som var britisk styret fra 1878, og Aden, som var britisk fra 1839"
    ],
    [
     1885,
     1911,
     "Osmannerriget",
-    "Kortet medtager fejlagtigt Kars, som var russisk, Cypern, som var britisk styret, og egnen omkring Kjustendil, som var bulgarsk"
+    "Kortet medtager fejlagtigt Kars, som var russisk, Cypern, som var britisk styret, Aden med opland, som var britisk, og egnen omkring Kjustendil, som var bulgarsk"
    ],
    [
     1912,
     1913,
     "Osmannerriget",
-    "Kortet viser grænserne før Balkankrigene 1912–1913 og medtager fejlagtigt Kars, som var russisk, Cypern, som var britisk styret, og egnen omkring Kjustendil, som var bulgarsk"
+    "Kortet viser grænserne før Balkankrigene 1912–1913 og medtager fejlagtigt Kars, som var russisk, Cypern, som var britisk styret, Aden med opland, som var britisk, og egnen omkring Kjustendil, som var bulgarsk"
    ],
    [
     1914,
+    1917,
+    "Det Osmanniske Rige",
+    "Kortet medtager fejlagtigt Kars, Ardahan, Artvin og Iğdır, som var russiske indtil 1918"
+   ],
+   [
+    1918,
     1918,
     "Det Osmanniske Rige"
    ]
@@ -6496,6 +6693,12 @@
   "Kingdom of Italy": [
    [
     1914,
+    1917,
+    "Italien",
+    "Kortet medtager fejlagtigt Trieste, som var østrig-ungarsk indtil november 1918"
+   ],
+   [
+    1918,
     1918,
     "Italien"
    ]
@@ -6515,12 +6718,14 @@
    [
     1914,
     1921,
-    "Storbritannien og Irland"
+    "Storbritannien og Irland",
+    "Kortet viser også den britiske besiddelse Cypern som en del af Storbritannien"
    ],
    [
     1922,
     1937,
-    "Storbritannien (Irland er en fristat fra 1922; kortet viser den ikke)"
+    "Storbritannien (Irland er en fristat fra 1922; kortet viser den ikke)",
+    "Kortet viser også den britiske besiddelse Cypern som en del af Storbritannien"
    ]
   ],
   "Manchu Empire": [
@@ -6694,6 +6899,12 @@
   "Kamerun": [
    [
     1885,
+    1910,
+    "Kamerun (tysk koloni)",
+    "Kortet medtager fejlagtigt det nordlige Gabon og egnene ved Sangha-floden, som Tyskland først fik fra Frankrig i 1911"
+   ],
+   [
+    1911,
     1913,
     "Kamerun (tysk koloni)"
    ],
@@ -6717,9 +6928,10 @@
   ],
   "Netherlands Indies": [
    [
-    1914,
+    1865,
     1918,
-    "Hollandsk Ostindien"
+    "Hollandsk Ostindien",
+    "Kortet medtager også den portugisiske østlige del af Timor"
    ]
   ],
   "French Indochina": [
@@ -6779,7 +6991,8 @@
    [
     1914,
     1918,
-    "Malaya"
+    "Malaya",
+    "Kortet medtager også Sarawak og Nordborneo, som var særskilte britiske protektorater"
    ]
   ],
   "Portuguese Guinea": [
@@ -6831,6 +7044,11 @@
    ],
    [
     1921,
+    1921,
+    "Georgiske SSR (sovjetisk)"
+   ],
+   [
+    1922,
     1938,
     "Sovjetunionen (Georgiske SSR)"
    ]
@@ -6843,13 +7061,8 @@
    ],
    [
     1918,
-    1919,
+    1918,
     "Armenien"
-   ],
-   [
-    1920,
-    1938,
-    "Sovjetunionen (Armenske SSR)"
    ]
   ],
   "Azerbaijan": [
@@ -6860,23 +7073,36 @@
    ],
    [
     1918,
-    1919,
+    1918,
     "Aserbajdsjan"
    ],
    [
+    1919,
+    1919,
+    "Aserbajdsjan",
+    "Kortet medtager fejlagtigt Armenien med Jerevan"
+   ],
+   [
     1920,
+    1921,
+    "Aserbajdsjanske SSR (sovjetisk)",
+    "Kortet medtager fejlagtigt Sovjetarmenien med Jerevan"
+   ],
+   [
+    1922,
     1938,
-    "Sovjetunionen (Aserbajdsjanske SSR)"
+    "Sovjetunionen (Aserbajdsjanske SSR)",
+    "Kortet medtager fejlagtigt Sovjetarmenien med Jerevan"
    ]
   ],
   "Ukraine": [
    [
     1919,
-    1922,
+    1921,
     "Sovjetrusland (Ukrainske SSR)"
    ],
    [
-    1923,
+    1922,
     1938,
     "Sovjetunionen (Ukrainske SSR)"
    ],
@@ -6889,11 +7115,11 @@
   "White Russia": [
    [
     1919,
-    1922,
+    1921,
     "Sovjetrusland (Hviderussiske SSR)"
    ],
    [
-    1923,
+    1922,
     1938,
     "Sovjetunionen (Hviderussiske SSR)"
    ]
@@ -6906,11 +7132,11 @@
    ],
    [
     1920,
-    1922,
+    1921,
     "Sovjetrusland"
    ],
    [
-    1923,
+    1922,
     1929,
     "Sovjetunionen"
    ]
@@ -6918,6 +7144,11 @@
   "Far Eastern SSR": [
    [
     1919,
+    1919,
+    "Russisk Fjernøsten (de hvide)"
+   ],
+   [
+    1920,
     1921,
     "Den Fjernøstlige Republik"
    ],
@@ -6930,15 +7161,33 @@
   "USSR": [
    [
     1919,
-    1922,
+    1921,
     "Sovjetrusland"
    ]
   ],
   "Ottoman Sultanate": [
    [
     1919,
+    1919,
+    "Det Osmanniske Rige",
+    "Kortet viser ikke, at Grækenland, Italien og Frankrig havde besat egnen omkring Izmir, egnen omkring Antalya og Kilikien"
+   ],
+   [
+    1920,
+    1920,
+    "Det Osmanniske Rige",
+    "Kortet viser ikke, at Grækenland havde besat egnen omkring Izmir og Østthrakien, Italien egnen omkring Antalya og Frankrig Kilikien"
+   ],
+   [
+    1921,
+    1921,
+    "Det Osmanniske Rige",
+    "Kortet viser ikke, at Grækenland havde besat egnen omkring Izmir og Østthrakien"
+   ],
+   [
     1922,
-    "Det Osmanniske Rige"
+    1922,
+    "Tyrkiet (regeringen i Ankara)"
    ],
    [
     1923,
@@ -6958,13 +7207,6 @@
     1930,
     1938,
     "Tyrkiet"
-   ]
-  ],
-  "East Prussia": [
-   [
-    1919,
-    1938,
-    "Østpreussen (Tyskland)"
    ]
   ],
   "Danzig": [
@@ -6993,6 +7235,12 @@
     1919,
     1938,
     "Syrien og Libanon (fransk mandat)"
+   ],
+   [
+    1939,
+    1944,
+    "Syrien og Libanon (fransk mandat)",
+    "Kortet medtager fejlagtigt Hatay (Alexandrette), som blev tyrkisk i 1939"
    ]
   ],
   "Libya (IT)": [
@@ -7048,6 +7296,12 @@
     1914,
     1921,
     "Egypten (britisk protektorat)"
+   ],
+   [
+    1967,
+    1981,
+    "Egypten",
+    "Kortet viser ikke, at Israel besatte Sinaihalvøen fra 1967 til 1982"
    ]
   ],
   "Iceland": [
@@ -7089,8 +7343,9 @@
    ],
    [
     1919,
-    1938,
-    "Hollandsk Ostindien"
+    1944,
+    "Hollandsk Ostindien",
+    "Kortet medtager også den portugisiske østlige del af Timor"
    ]
   ],
   "Yugoslavia": [
@@ -7280,6 +7535,30 @@
    ]
   ],
   "Indonesia": [
+   [
+    1945,
+    1959,
+    "Indonesien",
+    "Kortet medtager fejlagtigt Østtimor, som var en portugisisk koloni"
+   ],
+   [
+    1960,
+    1962,
+    "Indonesien",
+    "Kortet medtager fejlagtigt den vestlige del af Ny Guinea, som var hollandsk indtil oktober 1962, og Østtimor, som var en portugisisk koloni"
+   ],
+   [
+    1963,
+    1975,
+    "Indonesien",
+    "Kortet medtager fejlagtigt Østtimor, som var en portugisisk koloni indtil 1975"
+   ],
+   [
+    1976,
+    1998,
+    "Indonesien",
+    "Kortet medtager Østtimor, som Indonesien besatte i 1975; annekteringen blev ikke anerkendt af FN"
+   ],
    [
     1999,
     2001,
@@ -7562,16 +7841,22 @@
     1867,
     1869,
     "Canada (britisk dominion)",
-    "Kortet medtager Hudson's Bay Company's områder, British Columbia og Newfoundland, som endnu ikke hørte til Canada"
+    "Kortet medtager Hudson's Bay Company's områder, British Columbia, Newfoundland og de arktiske øer, som endnu ikke hørte til Canada"
    ],
    [
     1870,
     1870,
     "Canada (britisk dominion)",
-    "Kortet medtager British Columbia og Newfoundland, som endnu ikke hørte til Canada"
+    "Kortet medtager British Columbia, Newfoundland og de arktiske øer, som endnu ikke hørte til Canada"
    ],
    [
     1871,
+    1879,
+    "Canada (britisk dominion)",
+    "Kortet medtager Newfoundland, som var en særskilt britisk koloni, og de arktiske øer, som Storbritannien først overdrog til Canada i 1880"
+   ],
+   [
+    1880,
     1906,
     "Canada (britisk dominion)",
     "Kortet medtager Newfoundland, som var en særskilt britisk koloni"
@@ -7600,6 +7885,12 @@
     1864,
     "Jamaica, Bahamas og Britisk Honduras",
     "Kortet medtager Moskitokysten, som blev overladt til Nicaragua i 1860"
+   ],
+   [
+    1938,
+    1959,
+    "Storbritannien",
+    "Kortet viser også den britiske besiddelse Cypern som en del af Storbritannien"
    ]
   ],
   "Guiana": [
@@ -7623,6 +7914,16 @@
    [
     1814,
     1913,
+    "Curaçao"
+   ],
+   [
+    1914,
+    1947,
+    "Curaçao"
+   ],
+   [
+    2010,
+    2025,
     "Curaçao"
    ]
   ],
@@ -7654,12 +7955,14 @@
    [
     1814,
     1904,
-    "Sverige-Norge"
+    "Sverige-Norge",
+    "Kortet medtager fejlagtigt Svalbard, som ikke hørte til noget land og først blev norsk i 1925"
    ],
    [
     1905,
     1913,
-    "Sverige og Norge (unionen blev opløst i 1905)"
+    "Sverige og Norge (unionen blev opløst i 1905)",
+    "Kortet medtager fejlagtigt Svalbard, som ikke hørte til noget land og først blev norsk i 1925"
    ]
   ],
   "France": [
@@ -7674,6 +7977,12 @@
     1913,
     "Frankrig",
     "Kortet viser også kolonien Martinique som en del af Frankrig"
+   ],
+   [
+    1930,
+    1937,
+    "Frankrig",
+    "Kortet medtager fejlagtigt det meste af Saarområdet, som Folkeforbundet styrede 1920–35, og som blev tysk igen i marts 1935"
    ]
   ],
   "Austria Hungary": [
@@ -7706,6 +8015,12 @@
     1913,
     "Italien",
     "Kortet medtager fejlagtigt Savoyen, som var fransk fra 1860"
+   ],
+   [
+    1947,
+    1959,
+    "Italien",
+    "Kortet medtager fejlagtigt Istrien, som blev jugoslavisk i 1947"
    ]
   ],
   "Kingdom of Sardinia": [
@@ -8176,6 +8491,12 @@
   "Imperial Japan": [
    [
     1865,
+    1874,
+    "Japan",
+    "Kortet medtager fejlagtigt de nordlige Kuriler fra Urup og nordpå, som var russiske indtil 1875"
+   ],
+   [
+    1875,
     1913,
     "Japan"
    ]
@@ -8272,12 +8593,12 @@
    [
     1865,
     1883,
-    "Østlige Ny Guinea"
+    "Det østlige Ny Guinea"
    ],
    [
     1884,
     1884,
-    "Østlige Ny Guinea (britisk og tysk)"
+    "Det østlige Ny Guinea (britisk og tysk)"
    ],
    [
     1885,
@@ -8477,6 +8798,12 @@
     1885,
     1888,
     "Somalikysten"
+   ],
+   [
+    1889,
+    1913,
+    "Italiensk Somaliland",
+    "Kortet medtager fejlagtigt Jubaland vest for Juba-floden med Kismayo, som hørte til Britisk Østafrika, indtil det blev afstået til Italien i 1924"
    ]
   ],
   "Zanzibar": [
@@ -8574,6 +8901,11 @@
     1865,
     1884,
     "Burundi"
+   ],
+   [
+    1962,
+    2025,
+    "Burundi"
    ]
   ],
   "Uganda": [
@@ -8611,12 +8943,14 @@
    [
     1814,
     1846,
-    "Xhosaernes land"
+    "Xhosaernes land",
+    "Kortet medtager fejlagtigt egnen omkring Grahamstown, som hørte til Kapkolonien"
    ],
    [
     1847,
     1864,
-    "Britisk Kaffraria (xhosaernes land)"
+    "Britisk Kaffraria (xhosaernes land)",
+    "Kortet medtager fejlagtigt egnen omkring Grahamstown, som hørte til Kapkolonien"
    ]
   ],
   "Zulu": [
@@ -8690,6 +9024,12 @@
     1877,
     "Rumænien",
     "Kortet medtager fejlagtigt Dobrudsja, som var osmannisk indtil 1878, og mangler det sydlige Bessarabien, som var rumænsk indtil 1878"
+   ],
+   [
+    1914,
+    1917,
+    "Rumænien",
+    "Kortet medtager fejlagtigt det sydlige Transsylvanien omkring Kronstadt (Brașov) og Hermannstadt (Sibiu), som var østrig-ungarsk indtil 1918"
    ]
   ],
   "United States of America": [
@@ -8727,6 +9067,16 @@
     1885,
     1895,
     "Obock og Djibouti (fransk)"
+   ],
+   [
+    1967,
+    1976,
+    "Afar- og Issa-territoriet (fransk)"
+   ],
+   [
+    1977,
+    2025,
+    "Djibouti"
    ]
   ],
   "Rabih az-Zubayr": [
@@ -8853,6 +9203,186 @@
     1814,
     1864,
     "Madagaskar (selvstændige riger)"
+   ]
+  ],
+  "Venezuela": [
+   [
+    1865,
+    1913,
+    "Venezuela",
+    "Kortet medtager fejlagtigt øen Marajó ved Amazonflodens munding, som hørte til Brasilien"
+   ]
+  ],
+  "Cambodia": [
+   [
+    1814,
+    1864,
+    "Cambodja",
+    "Kortet medtager Battambang og Siem Reap (Angkor), som var siamesiske fra 1795 til 1907"
+   ]
+  ],
+  "Cape Colony": [
+   [
+    1814,
+    1864,
+    "Kapkolonien",
+    "Kortet mangler koloniens nordøstlige del med bl.a. Graaff-Reinet og Cradock"
+   ]
+  ],
+  "Morocco": [
+   [
+    1919,
+    1937,
+    "Marokko (fransk protektorat)",
+    "Kortet medtager fejlagtigt Spansk Marokko i nord (Rif-bjergene og Tetouan) og Tanger"
+   ]
+  ],
+  "Morocco (France)": [
+   [
+    1938,
+    1944,
+    "Marokko (fransk protektorat)",
+    "Kortet medtager fejlagtigt Spansk Marokko i nord (Rif-bjergene og Tetouan) og Tanger"
+   ]
+  ],
+  "Lithuania": [
+   [
+    1919,
+    1919,
+    "Litauen",
+    "Kortet medtager fejlagtigt Vilnius, som Polen erobrede i april 1919"
+   ],
+   [
+    1920,
+    1929,
+    "Litauen",
+    "Kortet medtager fejlagtigt Vilnius-området, som Polen tog i oktober 1920 og annekterede i 1922"
+   ]
+  ],
+  "Poland": [
+   [
+    1919,
+    1921,
+    "Polen",
+    "Kortet medtager fejlagtigt Øvre Schlesiens industriområde, som var tysk indtil delingen i 1922"
+   ],
+   [
+    1922,
+    1944,
+    "Polen",
+    "Kortet medtager fejlagtigt Gleiwitz, Beuthen og Hindenburg i Øvre Schlesien, som forblev tyske"
+   ]
+  ],
+  "Malaysia": [
+   [
+    1919,
+    1962,
+    "Malaya",
+    "Kortet medtager også Sarawak og Nordborneo, som var særskilte britiske områder og først blev en del af Malaysia i 1963"
+   ],
+   [
+    1963,
+    2025,
+    "Malaysia"
+   ]
+  ],
+  "Ethiopia (Italy)": [
+   [
+    1941,
+    1944,
+    "Etiopien"
+   ]
+  ],
+  "Dutch Guinea": [
+   [
+    1945,
+    1959,
+    "Hollandsk Ny Guinea"
+   ]
+  ],
+  "United Arab Emirates": [
+   [
+    1945,
+    1970,
+    "Traktatkysten"
+   ]
+  ],
+  "Mali": [
+   [
+    1945,
+    1957,
+    "Fransk Sudan"
+   ],
+   [
+    1958,
+    1959,
+    "Den Sudanesiske Republik (fransk)"
+   ]
+  ],
+  "Central African Republic": [
+   [
+    1945,
+    1957,
+    "Ubangi-Shari"
+   ]
+  ],
+  "Western Sahara": [
+   [
+    1945,
+    1975,
+    "Spansk Sahara"
+   ]
+  ],
+  "Cyprus": [
+   [
+    1974,
+    1990,
+    "Cypern",
+    "Kortet viser ikke, at Tyrkiet har besat den nordlige del af øen siden 1974"
+   ]
+  ],
+  "Syria": [
+   [
+    1967,
+    2025,
+    "Syrien",
+    "Kortet viser ikke, at Israel har besat Golanhøjderne siden 1967"
+   ]
+  ],
+  "Japan": [
+   [
+    1960,
+    1971,
+    "Japan",
+    "Kortet viser også Okinawa, som var under amerikansk styre indtil 1972"
+   ]
+  ],
+  "Guinea-Bissau": [
+   [
+    1974,
+    2025,
+    "Guinea-Bissau"
+   ]
+  ],
+  "Belize": [
+   [
+    1973,
+    2025,
+    "Belize"
+   ]
+  ],
+  "Equatorial Guinea": [
+   [
+    1968,
+    2025,
+    "Ækvatorialguinea"
+   ]
+  ],
+  "Suriname": [
+   [
+    1975,
+    2025,
+    "Surinam"
    ]
   ]
  },
@@ -9209,7 +9739,9 @@
   "North Schleswig": "Nordslesvig",
   "Schleswig": "Slesvig",
   "Alsace-Lorraine": "Elsass-Lothringen",
-  "Bessarabia": "Bessarabien"
+  "Bessarabia": "Bessarabien",
+  "Ryukyu": "Ryukyu-kongeriget",
+  "Solomon Islands": "Salomonøerne"
  },
  "ww1": {
   "German Empire": [
@@ -9265,8 +9797,14 @@
   "Russian Empire": [
    [
     1914,
-    1917,
+    1916,
     "entente"
+   ],
+   [
+    1917,
+    1917,
+    "entente",
+    "Zaren abdicerede i marts; bolsjevikkerne tog magten i november og sluttede våbenstilstand med Centralmagterne i december 1917"
    ],
    [
     1918,
@@ -9292,9 +9830,15 @@
   "Georgia": [
    [
     1914,
-    1917,
+    1916,
     "entente",
     "Del af Det Russiske Kejserrige"
+   ],
+   [
+    1917,
+    1917,
+    "entente",
+    "Del af Rusland; styret af Det Transkaukasiske Kommissariat fra november 1917"
    ],
    [
     1918,
@@ -9306,9 +9850,15 @@
   "Armenia": [
    [
     1914,
-    1917,
+    1916,
     "entente",
     "Del af Det Russiske Kejserrige"
+   ],
+   [
+    1917,
+    1917,
+    "entente",
+    "Del af Rusland; styret af Det Transkaukasiske Kommissariat fra november 1917"
    ],
    [
     1918,
@@ -9320,9 +9870,15 @@
   "Azerbaijan": [
    [
     1914,
-    1917,
+    1916,
     "entente",
     "Del af Det Russiske Kejserrige"
+   ],
+   [
+    1917,
+    1917,
+    "entente",
+    "Del af Rusland; styret af Det Transkaukasiske Kommissariat fra november 1917"
    ],
    [
     1918,
@@ -9432,9 +9988,14 @@
   "Greece": [
    [
     1914,
+    1914,
+    "neutral"
+   ],
+   [
+    1915,
     1916,
     "neutral",
-    "Delt mellem kongen og Venizelos; allierede tropper i Saloniki"
+    "Delt mellem kongen og Venizelos; allierede tropper i Saloniki fra oktober 1915"
    ],
    [
     1917,
@@ -9448,7 +10009,7 @@
     1914,
     1918,
     "entente",
-    "Erklærede Tyskland krig i august 1914 og erobrede de tyske besiddelser i Stillehavet og Kina"
+    "Erklærede Tyskland krig i august 1914 og erobrede Tsingtao i Kina og de tyske øer i Stillehavet nord for ækvator"
    ]
   ],
   "United States": [
@@ -9657,9 +10218,15 @@
   "Iceland": [
    [
     1914,
-    1918,
+    1917,
     "neutral",
     "Del af det danske rige"
+   ],
+   [
+    1918,
+    1918,
+    "neutral",
+    "Selvstændigt kongerige i personalunion med Danmark fra 1. december 1918"
    ]
   ],
   "Greenland": [
@@ -9708,15 +10275,21 @@
   "German E. Africa (Tanganyika)": [
    [
     1914,
-    1916,
+    1915,
     "central",
-    "Tysk koloni; Lettow-Vorbeck førte guerillakrig til november 1918"
+    "Tysk koloni"
+   ],
+   [
+    1916,
+    1916,
+    "entente",
+    "Det meste erobret af britiske, sydafrikanske og belgiske styrker i 1916; tyskerne holdt kun den sydøstlige del"
    ],
    [
     1917,
     1918,
     "entente",
-    "Det meste erobret af de allierede i 1917"
+    "Hele kolonien erobret i 1917; Lettow-Vorbeck førte guerillakrig, mest i Mozambique, til november 1918"
    ]
   ],
   "Samoa": [
@@ -9841,6 +10414,20 @@
     "entente",
     "Forenet med Rumænien i 1918"
    ]
+  ],
+  "Sakhalin (RU)": [
+   [
+    1914,
+    1917,
+    "entente",
+    "Del af Rusland"
+   ],
+   [
+    1918,
+    1918,
+    "neutral",
+    "Del af Rusland; fred med Tyskland i Brest-Litovsk marts 1918"
+   ]
   ]
  },
  "ww1RulerAlign": {
@@ -9862,8 +10449,7 @@
    [
     1914,
     1918,
-    "entente",
-    "Belgisk koloni"
+    "entente"
    ]
   ],
   "Portugal": [
@@ -10005,9 +10591,15 @@
   "Far Eastern SSR": [
    [
     1919,
+    1919,
+    "neutral",
+    "De hvides område med japanske interventionstropper"
+   ],
+   [
+    1920,
     1921,
     "neutral",
-    "Den Fjernøstlige Republik, sovjetisk bufferstat"
+    "Den Fjernøstlige Republik (fra april 1920), sovjetisk bufferstat"
    ],
    [
     1922,
@@ -10027,19 +10619,6 @@
     1938,
     "ussr",
     "Erobret af Den Røde Hær i 1921"
-   ]
-  ],
-  "Armenia": [
-   [
-    1919,
-    1919,
-    "neutral",
-    "Selvstændig republik 1918–1920"
-   ],
-   [
-    1920,
-    1938,
-    "ussr"
    ]
   ],
   "Azerbaijan": [
@@ -10181,9 +10760,15 @@
    ],
    [
     1929,
-    1938,
+    1933,
     "authoritarian",
     "Kong Alexanders diktatur fra januar 1929"
+   ],
+   [
+    1934,
+    1938,
+    "authoritarian",
+    "Kong Alexander blev myrdet i oktober 1934; autoritært styre under prinsregent Paul"
    ]
   ],
   "Lithuania": [
@@ -10345,9 +10930,15 @@
   "Manchuria": [
    [
     1919,
-    1931,
+    1930,
     "neutral",
     "Under kinesiske krigsherrer"
+   ],
+   [
+    1931,
+    1931,
+    "neutral",
+    "Det meste besat af Japans Kwantung-hær efter Mukden-hændelsen i september 1931"
    ],
    [
     1932,
@@ -10365,9 +10956,15 @@
    ],
    [
     1928,
-    1938,
+    1936,
     "authoritarian",
     "Kuomintangs etpartistyre under Chiang Kai-shek fra 1928; borgerkrig med kommunisterne"
+   ],
+   [
+    1937,
+    1938,
+    "authoritarian",
+    "Kuomintangs etpartistyre under Chiang Kai-shek; i krig med Japan fra juli 1937"
    ]
   ],
   "Hejaz": [
@@ -10425,6 +11022,12 @@
   ],
   "Guatemala": [
    [
+    1919,
+    1919,
+    "authoritarian",
+    "Manuel Estrada Cabreras diktatur 1898–1920"
+   ],
+   [
     1931,
     1938,
     "authoritarian",
@@ -10458,9 +11061,15 @@
   "Cuba": [
    [
     1925,
-    1933,
+    1932,
     "authoritarian",
     "Machados diktatur 1925–33"
+   ],
+   [
+    1933,
+    1938,
+    "authoritarian",
+    "Machado blev styrtet i august 1933; hærchefen Fulgencio Batista var den reelle magthaver bag skiftende præsidenter"
    ]
   ],
   "Peru": [
@@ -10477,6 +11086,30 @@
     1931,
     "authoritarian",
     "Militærkup i september 1930"
+   ]
+  ],
+  "Danzig": [
+   [
+    1933,
+    1938,
+    "fascist",
+    "Nazisterne vandt valget i maj 1933 og overtog fristadens regering; oppositionspartierne blev forbudt i 1936–37"
+   ]
+  ],
+  "Chile": [
+   [
+    1927,
+    1930,
+    "authoritarian",
+    "Carlos Ibáñez' diktatur 1927–31"
+   ]
+  ],
+  "Uruguay": [
+   [
+    1933,
+    1937,
+    "authoritarian",
+    "Gabriel Terras diktatur efter selvkuppet i marts 1933"
    ]
   ]
  },
@@ -10816,8 +11449,7 @@
    [
     2001,
     2025,
-    "russia",
-    "Rusland"
+    "russia"
    ]
   ],
   "Byelarus": [
@@ -10840,6 +11472,38 @@
     2025,
     "neutral",
     "I krig med Rusland siden februar 2022; Krim og dele af øst og syd besat"
+   ]
+  ],
+  "Faroe Islands": [
+   [
+    2001,
+    2025,
+    "nato",
+    "Del af rigsfællesskabet og NATO via Danmark, men ikke medlem af EU"
+   ]
+  ],
+  "French Guiana": [
+   [
+    2001,
+    2025,
+    "eu",
+    "Fransk oversøisk departement og dermed en del af EU; ligger uden for NATO-traktatens område"
+   ]
+  ],
+  "Guadeloupe": [
+   [
+    2001,
+    2025,
+    "eu",
+    "Fransk oversøisk departement og dermed en del af EU; ligger uden for NATO-traktatens område"
+   ]
+  ],
+  "Martinique": [
+   [
+    2001,
+    2025,
+    "eu",
+    "Fransk oversøisk departement og dermed en del af EU; ligger uden for NATO-traktatens område"
    ]
   ]
  },
@@ -11273,6 +11937,12 @@
    ],
    [
     1830,
+    1830,
+    "gpRu",
+    "Polsk oprør mod det russiske styre fra november 1830"
+   ],
+   [
+    1831,
     1831,
     "gpRu",
     "Polsk oprør 1830–1831 slået ned"
@@ -11297,6 +11967,18 @@
    ],
    [
     1861,
+    1862,
+    "gpRu",
+    "Livegenskabet blev afskaffet i 1861"
+   ],
+   [
+    1863,
+    1863,
+    "gpRu",
+    "Livegenskabet blev afskaffet i 1861; polsk oprør mod det russiske styre fra januar 1863"
+   ],
+   [
+    1864,
     1864,
     "gpRu",
     "Livegenskabet afskaffet i 1861; polsk oprør 1863–1864 slået ned"
@@ -11344,6 +12026,12 @@
    ],
    [
     1904,
+    1904,
+    "gpRu",
+    "Krig mod Japan fra februar 1904"
+   ],
+   [
+    1905,
     1905,
     "gpRu",
     "Tabte krigen mod Japan 1904–1905 og måtte afstå Sydsakhalin; revolution i 1905"
@@ -11378,9 +12066,15 @@
    ],
    [
     1848,
+    1848,
+    "gpAt",
+    "Revolutioner i 1848; Wien blev generobret i oktober, men Ungarn gjorde stadig oprør ved årets udgang"
+   ],
+   [
+    1849,
     1849,
     "gpAt",
-    "Revolutioner i 1848; det ungarske oprør blev slået ned i 1849 med russisk hjælp"
+    "Det ungarske oprør blev slået ned i 1849 med russisk hjælp"
    ],
    [
     1850,
@@ -11505,6 +12199,12 @@
   ],
   "Republic of Kraków": [
    [
+    1814,
+    1814,
+    "gpRu",
+    "Del af Hertugdømmet Warszawa, som var besat af Rusland; blev fristad i 1815"
+   ],
+   [
     1815,
     1845,
     "neutral",
@@ -11532,9 +12232,15 @@
    ],
    [
     1848,
+    1849,
+    "gpDe",
+    "Revolution i 1848; preussiske tropper kæmpede mod Danmark i Treårskrigen"
+   ],
+   [
+    1850,
     1850,
     "gpDe",
-    "Revolution i 1848; preussiske tropper kæmpede mod Danmark i Treårskrigen 1848–1849, og Preussen sluttede fred med Danmark i juli 1850"
+    "Preussiske tropper kæmpede mod Danmark i Treårskrigen 1848–1849; Preussen sluttede fred med Danmark i juli 1850"
    ],
    [
     1851,
@@ -11580,9 +12286,15 @@
    ],
    [
     1865,
+    1865,
+    "gpDe",
+    "Styret af Preussen fra 1865, mens Østrig styrede Holsten"
+   ],
+   [
+    1866,
     1866,
     "gpDe",
-    "Styret af Preussen fra 1865 og indlemmet i Preussen efter krigen mod Østrig i 1866"
+    "Indlemmet i Preussen efter krigen mod Østrig i 1866"
    ],
    [
     1867,
@@ -11630,7 +12342,7 @@
     1867,
     1869,
     "gpDe",
-    "Det Nordtyske Forbund under Preussens ledelse fra 1867; de sydtyske stater var allieret med Preussen"
+    "Det Nordtyske Forbund under Preussens ledelse fra 1867; de sydtyske stater var allierede med Preussen"
    ],
    [
     1870,
@@ -12192,6 +12904,12 @@
    ],
    [
     1904,
+    1904,
+    "gpJp",
+    "Krig mod Rusland fra februar 1904"
+   ],
+   [
+    1905,
     1905,
     "gpJp",
     "Besejrede Rusland i krigen 1904–1905 og fik Sydsakhalin"
@@ -12317,6 +13035,40 @@
     1864,
     "neutral",
     "Beboet af ainuer og nivkher; både Japan og Rusland gjorde krav på øen, som de ifølge en aftale fra 1855 delte uden fast grænse"
+   ]
+  ],
+  "central Asian khanates": [
+   [
+    1848,
+    1864,
+    "gpRu",
+    "Rusland afskaffede kasakhernes khanater i 1820'erne og havde i 1840'erne underlagt sig det meste af steppen"
+   ],
+   [
+    1885,
+    1894,
+    "gpRu",
+    "Turkmenernes land (Transkaspien) blev erobret af Rusland 1881–1885; Pamir var omstridt mellem Rusland, Afghanistan og Kina"
+   ],
+   [
+    1895,
+    1906,
+    "gpRu",
+    "Pamir blev delt mellem Rusland og Afghanistan ved en aftale mellem Rusland og Storbritannien i 1895"
+   ],
+   [
+    1907,
+    1913,
+    "entente",
+    "Del af Det Russiske Kejserrige"
+   ]
+  ],
+  "Bokhara Khanate": [
+   [
+    1884,
+    1884,
+    "gpRu",
+    "Rusland erobrede Geok Tepe i 1881 og Merv i 1884"
    ]
   ]
  }

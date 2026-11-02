@@ -1853,7 +1853,7 @@
 "id": "faustschlag",
 "year": 1918,
 "side": "central",
-"label": "Operation Faustschlag: Tyskland rykker ind i Ukraine (feb.–maj 1918)",
+"label": "Tyskland rykker ind i Ukraine: Operation Faustschlag (feb.–marts 1918) og besættelsen frem til maj",
 "paths": [
 [
 [
@@ -2143,7 +2143,7 @@
 "id": "vinterkrig-40",
 "year": 1940,
 "side": "soviet",
-"label": "Vinterkrigen: gennembrud til Viborg (marts)",
+"label": "Vinterkrigen: Mannerheimlinjen brydes (feb.), Den Røde Hær når Viborgs forstæder (marts)",
 "paths": [
 [
 [
@@ -2261,7 +2261,7 @@
 "id": "frankrig-syd",
 "year": 1940,
 "side": "axis",
-"label": "Frankrig erobres",
+"label": "Frankrig besejres",
 "paths": [
 [
 [
@@ -2453,12 +2453,12 @@
 30.8
 ],
 [
-23.5,
-31.0
+24.0,
+31.9
 ],
 [
-21.0,
-30.9
+21.02,
+31.58
 ],
 [
 19.2,
@@ -2483,12 +2483,16 @@
 32.1
 ],
 [
-22.0,
-32.6
+22.28,
+32.16
 ],
 [
-20.1,
-31.9
+21.02,
+31.58
+],
+[
+20.31,
+31.24
 ]
 ]
 ]
@@ -2849,7 +2853,7 @@
 "id": "uranus-nord",
 "year": 1942,
 "side": "soviet",
-"label": "Operation Uranus: Stalingrad omringes",
+"label": "Operation Uranus: den tyske 6. armé omringes ved Stalingrad",
 "paths": [
 [
 [
@@ -3607,16 +3611,16 @@
 "id": "wien",
 "year": 1945,
 "side": "soviet",
-"label": "Budapest og Wien",
+"label": "Budapest falder (feb.), Wien indtages (april)",
 "paths": [
 [
 [
-20.3,
-47.3
+19.04,
+47.5
 ],
 [
-18.5,
-47.6
+18.0,
+47.75
 ],
 [
 16.5,
@@ -3715,8 +3719,8 @@
 15.0
 ],
 [
-140.0,
-25.0
+141.32,
+24.78
 ],
 [
 132.45,

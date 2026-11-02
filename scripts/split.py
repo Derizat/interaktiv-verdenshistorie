@@ -3,10 +3,16 @@ import json, sys
 
 RULES = {
     "1938": [("Denmark", "Greenland", lambda x, y: x < -11 and x > -75 and y > 58 and not (-25.5 < x < -12)),
-             ("Denmark", "Iceland", lambda x, y: -25.5 < x < -12 and 62.5 < y < 67.5)],
+             ("Denmark", "Iceland", lambda x, y: -25.5 < x < -12 and 62.5 < y < 67.5),
+             # The source still draws the Greek Smyrna zone of 1919–22 around Izmir.
+             ("Greece", "Turkey", lambda x, y: 26.6 < x < 29 and 37.9 < y < 39.6)],
     "1945": [("Denmark", "Greenland", lambda x, y: x < -11 and x > -75 and y > 58 and not (-25.5 < x < -12))],
     "1914": [("Denmark", "Greenland", lambda x, y: x < -11 and x > -75 and y > 58 and not (-25.5 < x < -12))],
-    "1920": [("Denmark", "Greenland", lambda x, y: x < -11 and x > -75 and y > 58 and not (-25.5 < x < -12))],
+    "1920": [("Denmark", "Greenland", lambda x, y: x < -11 and x > -75 and y > 58 and not (-25.5 < x < -12)),
+             # The source draws the Sèvres partition of Anatolia, which never came about: the Italian zone (the Dodecanese
+             # stay Italian) and the Greek Smyrna zone go back to Turkey.
+             ("Italy", "Ottoman Sultanate", lambda x, y: 29 < x < 37 and 36.5 < y < 40.5),
+             ("Greece", "Ottoman Sultanate", lambda x, y: 26.6 < x < 29 and 37.9 < y < 39.6)],
     "1930": [("Denmark", "Greenland", lambda x, y: x < -11 and x > -75 and y > 58 and not (-25.5 < x < -12))],
     "1960": [("Pakistan", "East Pakistan", lambda x, y: x > 85)],
     "1815": [("Denmark", "Greenland", lambda x, y: x < -11 and x > -75 and y > 58 and not (-25.5 < x < -12)),
@@ -21,8 +27,13 @@ RULES = {
     "1900": [("Ottoman Empire", None, lambda x, y: 9 < x < 25.5 and 19 < y < 33.5)],
 }
 
-# Source-data fixes: the 1930 basemap labels the whole USSR "White Russia".
-RENAMES = {"1930": {"White Russia": "USSR"}}
+# Source-data fixes: the 1930 basemap labels the whole USSR "White Russia". The 1920 and 1930 basemaps draw East
+# Prussia as a country of its own, so it is named Germany to be coloured and outlined with the rest of the country.
+# The 1920, 1930 and 1938 basemaps draw the Armenia promised by the Treaty of Sèvres in 1920 (eastern Anatolia with
+# Erzurum, Kars and Van), which never came about; the land stayed Turkish.
+RENAMES = {"1920": {"East Prussia": "Germany", "Armenia": "Ottoman Sultanate"},
+           "1930": {"White Russia": "USSR", "East Prussia": "Germany", "Armenia": "Republic of Turkey"},
+           "1938": {"Armenia": "Turkey"}}
 # The 1914 basemap swaps British and Italian Somaliland (Mogadishu lies in "British Somaliland"); the 1900 map takes
 # its Africa from the 1914 file, so it is fixed too.
 SWAPS = {"1914": [("British Somaliland", "Italian Somaliland")]}
@@ -31,8 +42,8 @@ SWAPS = {"1914": [("British Somaliland", "Italian Somaliland")]}
 NAME_BY_POINT = {"1994": {"Switzerland": (7.45, 46.95)}, "2000": {"Switzerland": (7.45, 46.95)},
                  # Unnamed northern Arabian desert in the 1920 and 1930 basemaps.
                  "1920": {"Nordarabien": (40.9, 29.4)}, "1930": {"Nordarabien": (40.9, 29.4)}}
-# Unnamed leftovers drawn on top of a named country: drop them.
-DROP_UNNAMED_AT = {"1938": [(40.9, 29.4)], "1994": [(121.0, 23.7)]}
+# Unnamed leftovers drawn on top of a named country: drop them (in 1900 Lake Constance and Lake Geneva).
+DROP_UNNAMED_AT = {"1938": [(40.9, 29.4)], "1994": [(121.0, 23.7)], "1900": [(9.35, 47.62), (6.52, 46.42)]}
 # The 19th-century basemaps cover inner Africa with one big unnamed polygon. Name it, and draw the largest
 # features first in these maps, so that it (and other large areas) lies under the kingdoms drawn inside it.
 NAME_BY_POINT.update({"1815": {"Indre Afrika": (22.0, -2.0), "United Kingdom of the Netherlands": (5.3, 52.1)},
@@ -50,7 +61,36 @@ NAME_UNNAMED_AT = {
              ("Russian Empire", (48.26, 68.88))],
     "1900": [("Faroe Islands", (-6.95, 62.05)), ("Tasmania", (146.6, -42.0)), ("Taiwan", (120.95, 23.7))],
     "1914": [("Faroe Islands", (-6.95, 62.05))],
+    # The Straits zone of the Sèvres treaty around the Sea of Marmara (Tekirdağ, Bursa).
+    "1920": [("Ottoman Sultanate", (27.51, 40.98)), ("Ottoman Sultanate", (29.06, 40.19))],
+    "1938": [("Solomon Islands", p) for p in [(160.17, -9.63), (160.96, -8.92), (159.25, -8.07), (161.85, -10.55),
+                                              (156.95, -7.03), (157.58, -8.29), (156.67, -7.73)]],
 }
+NAME_UNNAMED_AT["1815"] += [("Ryukyu", (127.92, 26.48)), ("Ryukyu", (129.43, 28.3))]
+for _snap in ("1920", "1930", "1938", "1945", "1960", "1994", "2000"):
+    NAME_UNNAMED_AT.setdefault(_snap, []).append(("Faroe Islands", (-7.0, 62.13)))
+# Unnamed islands: each gets the name of the state that holds the given point on the nearby mainland on the same map
+# (all maps, or only the listed ones).
+BRITAIN, SWEDEN, ESTONIA, FINLAND, POMERANIA, GREECE = (-1.5, 52.5), (15.0, 60.0), (25.5, 58.8), (25.0, 61.5), (13.4, 53.9), (22.5, 38.6)
+NORWAY, CROATIA, ITALY, ANATOLIA, JAPAN, ALASKA = (9.0, 61.0), (15.98, 45.81), (12.5, 42.5), (32.0, 39.0), (138.5, 36.0), (-150.0, 62.0)
+ISLANDS = [(p, BRITAIN, None) for p in [(-6.67, 58.12), (-6.24, 55.75), (-5.24, 55.56), (-4.35, 53.29), (-4.51, 54.25),
+                                        (-3.11, 59.0), (-1.33, 60.3)]]  # Hebrides, Islay, Arran, Anglesey, Isle of Man, Orkney, Shetland
+ISLANDS += [((18.52, 57.5), SWEDEN, None), ((22.49, 58.39), ESTONIA, None), ((22.64, 58.89), ESTONIA, None),  # Gotland, Saaremaa, Hiiumaa
+            ((19.933, 60.232), FINLAND, None), ((22.63, 60.12), FINLAND, None), ((13.4, 54.44), POMERANIA, None),  # Åland, Turku islands, Rügen
+            ((15.854, 68.575), NORWAY, None), ((17.48, 69.32), NORWAY, None), ((23.26, 70.43), NORWAY, None),   # Lofoten, Senja, Sørøya
+            ((14.61, 45.08), CROATIA, None),  # Krk
+            ((14.4, 44.91), CROATIA, {"1815", "1880", "1900", "1914", "1945", "1960", "1994", "2000"}),  # Cres, Italian 1920–47
+            ((14.4, 44.91), ITALY, {"1920", "1930", "1938"})]
+ISLANDS += [(p, GREECE, None) for p in [(23.81, 38.55), (25.05, 37.69), (25.17, 37.07), (24.9, 35.22), (26.22, 39.18),
+                                       (26.03, 38.38), (20.57, 38.23), (19.82, 39.63)]]  # Euboea, Cyclades, Crete, Lesbos, Chios, Kefalonia, Corfu
+# Rhodes: Ottoman until 1912, Italian until 1947, then Greek. Okinawa and Amami: Japanese from 1879. The Aleutians.
+ISLANDS += [((27.95, 36.18), ANATOLIA, {"1815", "1880", "1900"}), ((27.95, 36.18), ITALY, {"1914"}),
+            ((27.95, 36.18), GREECE, {"1945", "1960", "1994", "2000"}),
+            ((127.92, 26.48), JAPAN, None), ((129.43, 28.3), JAPAN, None)]
+ISLANDS += [(p, ALASKA, {"1815"}) for p in [(-166.84, 53.65), (-168.32, 53.28), (-174.44, 52.17), (-176.69, 51.78),
+                                            (-177.97, 51.79), (-173.62, 52.08), (-172.73, 60.42)]]
+# Bougainville belonged to the Australian mandate of New Guinea.
+ISLANDS += [((155.32, -6.24), (145.0, -6.0), {"1938"})]
 # Unnamed features whose source lists their ruler (SUBJECTO) as one of these: use that as the name.
 NAME_FROM_SOURCE = {"1815": {"Dutch East Indies"}}
 # The 1815 map draws Goa about 60 km too far south-east.
@@ -76,7 +116,33 @@ WEST_OF_RHINE = [[(5.5, 47.5), (7.57, 47.5), (7.58, 48.03), (5.5, 48.03)], [(5.5
                  [(5.5, 48.57), (7.80, 48.57), (8.23, 48.98), (5.5, 48.98)]]
 TUNISIA = [[(7.4, 30.5), (11.55, 30.5), (11.55, 37.6), (7.4, 37.6)]]
 PLOVDIV = [[(23.9, 41.8), (26.3, 41.8), (26.3, 42.65), (23.9, 42.65)]]
+def _north_of(line):
+    """A region north of a west-to-east border line, cut as one piece (convex bands would leave seams): shearing the map
+    by the line turns the region into a half-plane."""
+    xs = [x for x, _ in line]
+    def f(x):
+        k = min(len(line) - 2, sum(1 for v in xs[1:-1] if v <= x))
+        (x1, y1), (x2, y2) = line[k], line[k + 1]
+        return y1 + (y2 - y1) * (x - x1) / (x2 - x1)
+    def split_at_breaks(r):
+        out = []
+        for (ax, ay), (bx, by) in zip(r, r[1:]):
+            out.append([ax, ay])
+            for x in sorted((v for v in xs if min(ax, bx) < v < max(ax, bx)), reverse=bx < ax):
+                out.append([x, ay + (by - ay) * (x - ax) / (bx - ax)])
+        return out + [out[0]]
+    def clip(ring):
+        piece = clip_convex([[x, y - f(x)] for x, y in split_at_breaks(ring)], [(-180, 0), (180, 0), (180, 90), (-180, 90)])
+        return piece and [[round(x, 2), round(y + f(x), 2)] for x, y in split_at_breaks(piece)]
+    return [clip]
+# South-eastern Anatolia (Gaziantep, Urfa, Mardin, Diyarbakır, Malatya), which the 1920, 1930 and 1938 maps give to French
+# Syria: north of the Turkish-Syrian border of 1921 (from Payas, Hatay stays Syrian) and the Turkish-Iraqi border of 1926.
+SE_ANATOLIA = _north_of([(34.9, 36.8), (36.3, 36.8), (36.85, 36.82), (37.3, 36.65), (38.0, 36.82), (38.9, 36.68), (40.05, 36.84),
+                         (41.2, 37.06), (42.38, 37.1), (43.4, 37.25), (44.25, 37.3), (44.9, 37.2)])
 OVERLAYS = {
+    "1920": [("Syria (France)", "Ottoman Sultanate", SE_ANATOLIA)],
+    "1930": [("Syria (France)", "Republic of Turkey", SE_ANATOLIA)],
+    "1938": [("Syria (France)", "Turkey", SE_ANATOLIA)],
     "1815": [("Denmark", "North Schleswig", SCHLESWIG), ("Ottoman Empire", "Bessarabia", BESSARABIA), ("Baden", "France", WEST_OF_RHINE)],
     "1880": [("Denmark", "Schleswig", SCHLESWIG), ("France", "Alsace-Lorraine", ALSACE_LORRAINE), ("Romania", "Bessarabia", BESSARABIA),
              ("Ottoman Empire", "Tunisia", TUNISIA)],
@@ -85,6 +151,12 @@ OVERLAYS = {
     "1914": [("Denmark", "Schleswig", SCHLESWIG), ("France", "Alsace-Lorraine", ALSACE_LORRAINE), ("Romania", "Bessarabia", BESSARABIA)],
 }
 MIN_PIECE = 0.004
+# Whole features copied from another map and drawn on top, where a map gets a large area wrong: the 1920 map draws
+# the Sèvres partition of Anatolia, and the 1920 and 1938 maps give southern East Prussia (Allenstein, Elbing,
+# Marienwerder) to Poland. The 1930 map has the borders of the interwar years. Each entry copies the feature
+# containing the point.
+COPY_FROM = {"1920": [("1930", (32.85, 39.93), "Ottoman Sultanate"), ("1930", (20.49, 53.78), "Germany")],
+             "1938": [("1930", (20.49, 53.78), "Germany")]}
 
 def clip_convex(ring, clip):
     """Sutherland-Hodgman: the part of a closed ring inside a convex, counter-clockwise polygon, or None."""
@@ -180,6 +252,15 @@ def main(path, snap):
             if f["properties"]["n"] is None and any(contains(p[0], x, y) for p in f["geometry"]["coordinates"]):
                 f["properties"]["n"] = name
                 print(snap, f"named unnamed feature at {x},{y} -> {name}")
+    for (x, y), (mx, my), maps in ISLANDS:
+        if maps and snap not in maps:
+            continue
+        owner = next((f["properties"]["n"] for f in reversed(g["features"]) if f["properties"]["n"]
+                      and any(contains(p[0], mx, my) for p in f["geometry"]["coordinates"])), None)
+        for f in g["features"]:
+            if owner and f["properties"]["n"] is None and any(contains(p[0], x, y) for p in f["geometry"]["coordinates"]):
+                f["properties"]["n"] = owner
+                print(snap, f"named unnamed island at {x},{y} -> {owner}")
     for f in g["features"]:
         if f["properties"]["n"] is None and f["properties"].get("s") in NAME_FROM_SOURCE.get(snap, ()):
             f["properties"]["n"] = f["properties"]["s"]
@@ -214,13 +295,22 @@ def main(path, snap):
     for src, new, regions in OVERLAYS.get(snap, []):
         pieces = [piece for f in g["features"] if f["properties"]["n"] == src
                   for poly in f["geometry"]["coordinates"] for region in regions
-                  for piece in [clip_convex(poly[0], region)] if piece]
+                  for piece in [region(poly[0]) if callable(region) else clip_convex(poly[0], region)] if piece]
         if pieces:
             g["features"].append({"type": "Feature", "properties": {"n": new, "s": src, "o": 1},
                                   "geometry": {"type": "MultiPolygon", "coordinates": [[pc] for pc in pieces]}})
             print(snap, f"overlay {new}: {len(pieces)} pieces cut from {src}")
         else:
             print(snap, f"WARNING overlay {new}: nothing inside the region of {src}")
+    for other, (x, y), new in COPY_FROM.get(snap, []):
+        donor = json.load(open(path.replace(f"borders_{snap}", f"borders_{other}")))
+        src = next((f for f in donor["features"] if any(contains(p[0], x, y) for p in f["geometry"]["coordinates"])), None)
+        if src:
+            g["features"].append({"type": "Feature", "properties": {"n": new, "s": src["properties"]["n"], "o": 1},
+                                  "geometry": src["geometry"]})
+            print(snap, f"overlay {new}: copied the feature at {x},{y} from {other}")
+        else:
+            print(snap, f"WARNING copy {new}: nothing at {x},{y} in {other}")
     json.dump(g, open(path, "w"), separators=(",", ":"))
 
 if __name__ == "__main__":

@@ -36,17 +36,17 @@ Country keys in `status.json` and `events.json` must match the `n` property in t
 ## Rebuilding the border data
 
 ```bash
-# 1914 before 1900: the 1900 map takes its Africa from the 1914 file.
-for y in 1914 1920 1930 1938 1945 1960 1994 2000 1815 1880 1900; do
+# 1914 before 1900 and 1930 before 1920 and 1938: those maps take parts of the other file.
+for y in 1914 1930 1920 1938 1945 1960 1994 2000 1815 1880 1900; do
   curl -sSL -o /tmp/world_$y.geojson "https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson/world_$y.geojson"
   MIN_AREA=0.03 python3 scripts/simplify.py /tmp/world_$y.geojson data/borders_$y.json
   python3 scripts/split.py data/borders_$y.json $y
 done
 ```
 
-`simplify.py` applies Douglas-Peucker simplification, rounds coordinates and fixes winding order for D3. `split.py` separates Greenland, Iceland and East Pakistan into their own features, so they can be coloured separately, and patches known source-data errors (the 1930 USSR label, the unnamed Switzerland in 1994/2000, the unnamed Netherlands in 1815). In the 19th-century maps it names the big unnamed inner-Africa polygon and other unnamed areas, draws large areas first so the kingdoms inside them stay visible, and replaces Africa in the 1900 map with the 1914 one.
+`simplify.py` applies Douglas-Peucker simplification, rounds coordinates and fixes winding order for D3. `split.py` separates Greenland, Iceland and East Pakistan into their own features, so they can be coloured separately, and patches known source-data errors (the 1930 USSR label, the unnamed Switzerland in 1994/2000, the unnamed Netherlands in 1815, East Prussia drawn as a country of its own in 1920/1930, and the Armenia of the Treaty of Sèvres in eastern Anatolia on the 1920–1938 maps, which stayed Turkish). It names unnamed islands (the Hebrides, Orkney, Shetland, the Faroes, Gotland, Rhodes, Okinawa and others) after the state that held them on each map, and drops the unnamed lakes in the 1900 map. In the 19th-century maps it names the big unnamed inner-Africa polygon and other unnamed areas, draws large areas first so the kingdoms inside them stay visible, and replaces Africa in the 1900 map with the 1914 one.
 
-Where a source map gives land to the wrong state, `split.py` copies that part into an overlay feature drawn on top, so it can be coloured and named on its own: Schleswig (1815–1914 maps), Alsace-Lorraine and Bessarabia, Tunisia in 1880, the Plovdiv region in 1900 and northern Alsace in 1815. It also swaps the mixed-up British and Italian Somaliland labels in the 1914 map. Errors it does not fix are named in the tooltip through a note in `names` (for example Belgium inside the Netherlands 1830–1864).
+Where a source map gives land to the wrong state, `split.py` copies that part into an overlay feature drawn on top, so it can be coloured and named on its own: Schleswig (1815–1914 maps), Alsace-Lorraine and Bessarabia, Tunisia in 1880, the Plovdiv region in 1900, northern Alsace in 1815 and south-eastern Anatolia, which the 1920–1938 maps give to French Syria. The 1920 map draws the Sèvres partition of Anatolia, and the 1920 and 1938 maps give southern East Prussia to Poland; there the Turkish and East Prussian features of the 1930 map are copied in on top, and the Italian and Greek zones in Anatolia (in 1938 the Greek Smyrna zone) are given back to Turkey. It also swaps the mixed-up British and Italian Somaliland labels in the 1914 map. Errors it does not fix are named in the tooltip through a note in `names` (for example Belgium inside the Netherlands 1830–1864).
 
 ## The Roman page
 
