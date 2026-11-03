@@ -88,7 +88,7 @@ The clips cover the main page and the Roman page (its events, and the year annou
 
 ## Accuracy
 
-Event texts and colouring rules were fact-checked in October 2026 (about 40 corrections applied). The 1814–1913 content (140 events, 29 arrows and the colouring tables) was fact-checked separately in the same month. Numbers such as casualty figures are estimates, so double-check them before using them in class.
+Event texts and colouring rules were fact-checked in October 2026 (about 40 corrections applied). The 1814–1913 content (140 events, 29 arrows and the colouring tables) was fact-checked separately in the same month. In November 2026 the whole main map was checked again, border maps included, which led to about 200 corrections. Among them, the 1920–1938 maps drew the Sèvres partition of Turkey and gave southern East Prussia to Poland; `split.py` now fixes both. Numbers such as casualty figures are estimates, so double-check them before using them in class.
 
 Known limitations:
 - Borders change in jumps between the snapshots. For example, Vietnam is one polygon from 1960 to 1975, and the 1880 map is used for 1865–1884.
