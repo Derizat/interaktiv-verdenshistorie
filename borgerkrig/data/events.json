@@ -1,0 +1,356 @@
+[
+{
+"id": "lincoln-valg",
+"m": "1860-11",
+"date": "6. november 1860",
+"title": "Lincoln vælges til præsident",
+"text": "Republikaneren Abraham Lincoln vinder præsidentvalget uden en eneste valgmandsstemme fra sydstaterne. Han vil forhindre, at slaveriet breder sig til de nye territorier i vest. Mange i sydstaterne ser det som begyndelsen på enden for slaveriet.",
+"lat": 39.8,
+"lon": -89.65,
+"cat": "politik"
+},
+{
+"id": "south-carolina",
+"m": "1860-12",
+"date": "20. december 1860",
+"title": "South Carolina løsriver sig",
+"text": "Som den første stat erklærer South Carolina, at den ikke længere er en del af USA. Begrundelsen er truslen mod slaveriet. Senest 1. februar 1861 har Mississippi, Florida, Alabama, Georgia, Louisiana og Texas fulgt efter.",
+"lat": 32.78,
+"lon": -79.93,
+"cat": "politik"
+},
+{
+"id": "konfoederationen",
+"m": "1861-02",
+"date": "4.–9. februar 1861",
+"title": "Sydstaterne danner Konføderationen",
+"text": "I Montgomery i Alabama danner seks af de løsrevne stater Amerikas Konfødererede Stater og vælger Jefferson Davis som præsident. Deres forfatning beskytter udtrykkeligt slaveriet. Texas, den syvende løsrevne stat, slutter sig til 2. marts.",
+"lat": 32.38,
+"lon": -86.3,
+"cat": "politik"
+},
+{
+"id": "fort-sumter",
+"m": "1861-04",
+"date": "12.–13. april 1861",
+"title": "Krigen begynder ved Fort Sumter",
+"text": "Sydstaternes kanoner beskyder unionsfortet Fort Sumter i havnen ved Charleston, og fortet overgiver sig efter 34 timer. Lincoln kalder 75.000 frivillige til våben, og derefter slutter Virginia, Arkansas, North Carolina og Tennessee sig til Konføderationen.",
+"lat": 32.75,
+"lon": -79.87,
+"cat": "front"
+},
+{
+"id": "blokade",
+"m": "1861-04",
+"date": "19. april 1861",
+"title": "Unionen blokerer sydstaternes havne",
+"text": "Lincoln erklærer blokade af sydstaternes kyst. Planen er at kvæle sydstaterne økonomisk: Bomulden skal ikke kunne sælges til Europa, og våben og varer skal ikke kunne komme ind. I begyndelsen slipper de fleste skibe igennem, men blokaden bliver strammere år for år.",
+"lat": 36.95,
+"lon": -76.1,
+"cat": "hav"
+},
+{
+"id": "bull-run",
+"m": "1861-07",
+"date": "21. juli 1861",
+"title": "Første slag ved Bull Run",
+"text": "Ved Manassas i Virginia, godt 40 km fra Washington, besejrer sydstaterne unionshæren, der flygter tilbage mod hovedstaden. Begge sider må indse, at krigen ikke bliver kort.",
+"lat": 38.81,
+"lon": -77.52,
+"cat": "front"
+},
+{
+"id": "donelson",
+"m": "1862-02",
+"date": "6.–16. februar 1862",
+"title": "Grant tager Fort Henry og Fort Donelson",
+"text": "Unionsgeneralen Ulysses S. Grant erobrer to forter ved floderne Tennessee og Cumberland og tager omkring 12.000 fanger. Hans krav om betingelsesløs overgivelse gør ham berømt. Nordstaterne kan nu rykke ind i Tennessee, og Nashville falder 25. februar.",
+"lat": 36.49,
+"lon": -87.86,
+"cat": "front"
+},
+{
+"id": "panserskibe",
+"m": "1862-03",
+"date": "9. marts 1862",
+"title": "Panserskibene mødes ved Hampton Roads",
+"text": "For første gang kæmper to panserskibe mod hinanden: Unionens Monitor og sydstaternes Virginia, et ombygget krigsskib, der før hed Merrimack. Slaget ender uafgjort, men viser, at tidens træskibe er forældede.",
+"lat": 36.98,
+"lon": -76.33,
+"cat": "hav"
+},
+{
+"id": "glorieta",
+"m": "1862-03",
+"date": "26.–28. marts 1862",
+"title": "Slaget ved Glorieta Pass",
+"text": "En sydstatshær fra Texas er rykket op ad Rio Grande og har taget Albuquerque og Santa Fe. Ved Glorieta Pass mister den sit forsyningstog og må trække sig tilbage til Texas. Sydstaternes forsøg på at erobre det amerikanske sydvest slår fejl.",
+"lat": 35.58,
+"lon": -105.77,
+"cat": "front"
+},
+{
+"id": "shiloh",
+"m": "1862-04",
+"date": "6.–7. april 1862",
+"title": "Slaget ved Shiloh",
+"text": "Sydstaterne overrasker Grants hær ved Pittsburg Landing i Tennessee, men Unionen vinder på andendagen. Med omkring 23.000 dræbte, sårede og savnede er det det blodigste slag i USA's historie indtil da.",
+"lat": 35.15,
+"lon": -88.32,
+"cat": "front"
+},
+{
+"id": "new-orleans",
+"m": "1862-04",
+"date": "24.–29. april 1862",
+"title": "Unionen erobrer New Orleans",
+"text": "Flådechefen David Farragut sejler unionsflåden forbi forterne ved Mississippis munding og tager New Orleans, sydstaternes største by og vigtigste havn.",
+"lat": 29.95,
+"lon": -90.07,
+"cat": "hav"
+},
+{
+"id": "syv-dage",
+"m": "1862-06",
+"date": "25. juni – 1. juli 1862",
+"title": "Syvdagesslaget ved Richmond",
+"text": "Robert E. Lee, der netop har overtaget kommandoen, driver George McClellans unionshær væk fra Richmond. Unionens forsøg på at erobre sydstaternes hovedstad fra halvøen ved Virginias kyst er slået fejl.",
+"lat": 37.45,
+"lon": -77.27,
+"cat": "front"
+},
+{
+"id": "antietam",
+"m": "1862-09",
+"date": "17. september 1862",
+"title": "Slaget ved Antietam",
+"text": "Lees første invasion af Nordstaterne standses ved Antietam Creek i Maryland. Med omkring 23.000 dræbte, sårede og savnede er det den blodigste enkeltdag i USA's historie. Fem dage senere offentliggør Lincoln, at han vil frigive slaverne i de oprørske stater.",
+"lat": 39.47,
+"lon": -77.74,
+"cat": "front"
+},
+{
+"id": "fredericksburg",
+"m": "1862-12",
+"date": "13. december 1862",
+"title": "Slaget ved Fredericksburg",
+"text": "Unionshæren angriber igen og igen Lees forskansede stillinger på højderne bag Fredericksburg i Virginia og lider et blodigt nederlag.",
+"lat": 38.3,
+"lon": -77.47,
+"cat": "front"
+},
+{
+"id": "frigoerelse",
+"m": "1863-01",
+"date": "1. januar 1863",
+"title": "Frigørelsesproklamationen",
+"text": "Lincolns proklamation erklærer slaverne i de oprørske stater for frie, men ikke i de slavestater, der er blevet i Unionen. Krigen bliver nu også en krig mod slaveriet, og Unionen begynder for alvor at hverve sorte soldater. Omkring 180.000 sorte soldater kommer til at kæmpe i unionshæren.",
+"lat": 38.9,
+"lon": -77.04,
+"cat": "slaveri"
+},
+{
+"id": "chancellorsville",
+"m": "1863-05",
+"date": "30. april – 6. maj 1863",
+"title": "Slaget ved Chancellorsville",
+"text": "Lee besejrer en unionshær, der er dobbelt så stor som hans egen. Men hans dygtigste general, Thomas 'Stonewall' Jackson, bliver ved en fejl skudt af sine egne soldater og dør af sårene.",
+"lat": 38.31,
+"lon": -77.64,
+"cat": "front"
+},
+{
+"id": "gettysburg",
+"m": "1863-07",
+"date": "1.–3. juli 1863",
+"title": "Slaget ved Gettysburg",
+"text": "Lees anden invasion af Nordstaterne ender med nederlag ved Gettysburg i Pennsylvania. Krigens største slag koster anslået omkring 50.000 dræbte, sårede, savnede og tilfangetagne. Lee leder aldrig igen selv en invasion af Nordstaterne.",
+"lat": 39.82,
+"lon": -77.23,
+"cat": "front"
+},
+{
+"id": "vicksburg",
+"m": "1863-07",
+"date": "4. juli 1863",
+"title": "Vicksburg overgiver sig",
+"text": "Efter 47 dages belejring overgiver byen sig til Grant. Da Port Hudson falder fem dage senere, kontrollerer Unionen hele Mississippifloden, og Konføderationen er skåret over i to.",
+"lat": 32.35,
+"lon": -90.88,
+"cat": "front"
+},
+{
+"id": "fort-wagner",
+"m": "1863-07",
+"date": "18. juli 1863",
+"title": "Sorte soldater stormer Fort Wagner",
+"text": "Det sorte 54. Massachusetts-regiment fører an i et angreb på et af fæstningsværkerne ved Charleston. Angrebet mislykkes, og regimentet mister næsten halvdelen af sine folk, men modet gør indtryk i Nordstaterne.",
+"lat": 32.71,
+"lon": -79.88,
+"cat": "slaveri"
+},
+{
+"id": "chickamauga",
+"m": "1863-09",
+"date": "18.–20. september 1863",
+"title": "Slaget ved Chickamauga",
+"text": "Sydstaterne vinder deres største sejr i vest. Unionshæren må trække sig tilbage til Chattanooga i Tennessee og bliver belejret der.",
+"lat": 34.94,
+"lon": -85.26,
+"cat": "front"
+},
+{
+"id": "gettysburg-tale",
+"m": "1863-11",
+"date": "19. november 1863",
+"title": "Gettysburg-talen",
+"text": "Ved indvielsen af soldaterkirkegården i Gettysburg holder Lincoln en tale på godt to minutter om, at nationen skal få en ny fødsel af frihed, og at en regering af folket, ved folket og for folket ikke må forsvinde fra jorden.",
+"lat": 39.82,
+"lon": -77.23,
+"cat": "politik"
+},
+{
+"id": "chattanooga",
+"m": "1863-11",
+"date": "23.–25. november 1863",
+"title": "Unionen bryder belejringen af Chattanooga",
+"text": "Grant driver sydstaterne væk fra Lookout Mountain og Missionary Ridge. Vejen ind i Georgia ligger nu åben.",
+"lat": 35.0,
+"lon": -85.27,
+"cat": "front"
+},
+{
+"id": "overland",
+"m": "1864-05",
+"date": "5. maj – 12. juni 1864",
+"title": "Grants felttog i Virginia",
+"text": "Grant, der nu har kommandoen over alle Unionens hære, angriber Lee i Wilderness, ved Spotsylvania og ved Cold Harbor. Begge hære lider enorme tab, men Grant trækker sig ikke tilbage som sine forgængere og rykker hele tiden længere sydpå.",
+"lat": 38.3,
+"lon": -77.75,
+"cat": "front"
+},
+{
+"id": "petersburg",
+"m": "1864-06",
+"until": "1865-03",
+"ongoing": "Belejringen af Petersburg",
+"date": "juni 1864 – april 1865",
+"title": "Belejringen af Petersburg",
+"text": "Grant belejrer Petersburg, jernbaneknudepunktet syd for Richmond. Skyttegravskrigen varer i over ni måneder og minder om Første Verdenskrigs.",
+"lat": 37.23,
+"lon": -77.4,
+"cat": "front"
+},
+{
+"id": "mobile-bay",
+"m": "1864-08",
+"date": "5. august 1864",
+"title": "Slaget ved Mobile Bay",
+"text": "Admiral Farragut sejler unionsflåden ind i Mobile Bay trods sydstaternes søminer, som dengang kaldtes torpedoer. Dermed er havnen i Mobile lukket for blokadebrydere.",
+"lat": 30.23,
+"lon": -88.02,
+"cat": "hav"
+},
+{
+"id": "atlanta",
+"m": "1864-09",
+"date": "2. september 1864",
+"title": "Sherman erobrer Atlanta",
+"text": "Efter et felttog på fire måneder indtager William T. Sherman jernbanebyen Atlanta i Georgia. Sejren er en stor hjælp for Lincoln, der stiller op til genvalg i november.",
+"lat": 33.75,
+"lon": -84.39,
+"cat": "front"
+},
+{
+"id": "genvalg",
+"m": "1864-11",
+"date": "8. november 1864",
+"title": "Lincoln genvælges",
+"text": "Lincoln vinder præsidentvalget over sin tidligere general George McClellan, hvis parti ville slutte fred med sydstaterne. Langt de fleste soldater stemmer på Lincoln.",
+"lat": 38.9,
+"lon": -77.04,
+"cat": "politik"
+},
+{
+"id": "march-to-the-sea",
+"m": "1864-11",
+"until": "1864-12",
+"ongoing": "Shermans march mod havet",
+"date": "15. november – 21. december 1864",
+"title": "Shermans march mod havet",
+"text": "Sherman forlader det brændende Atlanta og marcherer med omkring 60.000 mand gennem Georgia mod kysten. Hæren lever af landet og ødelægger jernbaner, gårde og forsyninger i et op til 100 km bredt bælte. Savannah falder 21. december.",
+"lat": 33.08,
+"lon": -83.23,
+"cat": "front"
+},
+{
+"id": "nashville",
+"m": "1864-12",
+"date": "15.–16. december 1864",
+"title": "Slaget ved Nashville",
+"text": "Unionsgeneralen George Thomas knuser John Hoods sydstatshær uden for Nashville. Sydstaternes hær i Tennessee er derefter næsten opløst.",
+"lat": 36.13,
+"lon": -86.78,
+"cat": "front"
+},
+{
+"id": "13-tillaeg",
+"m": "1865-01",
+"date": "31. januar 1865",
+"title": "Kongressen vedtager forbud mod slaveri",
+"text": "Kongressen vedtager det 13. tillæg til forfatningen, der forbyder slaveri i hele USA. Det træder i kraft i december 1865, da tre fjerdedele af staterne har godkendt det.",
+"lat": 38.89,
+"lon": -77.01,
+"cat": "slaveri"
+},
+{
+"id": "columbia",
+"m": "1865-02",
+"date": "17.–18. februar 1865",
+"title": "Sherman i South Carolina",
+"text": "Shermans hær marcherer gennem South Carolina, den stat, hvor løsrivelsen begyndte. Hovedstaden Columbia brænder, og sydstaterne opgiver Charleston.",
+"lat": 34.0,
+"lon": -81.03,
+"cat": "front"
+},
+{
+"id": "richmond",
+"m": "1865-04",
+"date": "3. april 1865",
+"title": "Richmond falder",
+"text": "Lees linjer ved Petersburg bryder sammen, og Konføderationens regering flygter fra hovedstaden Richmond. Unionstropper, blandt dem sorte regimenter, rykker ind i den brændende by, og Lincoln besøger den dagen efter.",
+"lat": 37.54,
+"lon": -77.43,
+"cat": "front"
+},
+{
+"id": "appomattox",
+"m": "1865-04",
+"date": "9. april 1865",
+"title": "Lee overgiver sig ved Appomattox",
+"text": "Omringet og uden forsyninger overgiver Lee sin hær til Grant ved Appomattox Court House. Soldaterne må tage hjem på æresord. Sydstaternes andre hære overgiver sig i løbet af de næste uger.",
+"lat": 37.38,
+"lon": -78.8,
+"cat": "front"
+},
+{
+"id": "lincoln-mord",
+"m": "1865-04",
+"date": "14. april 1865",
+"title": "Lincoln myrdes",
+"text": "Skuespilleren John Wilkes Booth, der støtter sydstaterne, skyder Lincoln under en forestilling i Ford's Theatre i Washington. Lincoln dør næste morgen, og vicepræsident Andrew Johnson bliver præsident.",
+"lat": 38.9,
+"lon": -77.03,
+"cat": "politik"
+},
+{
+"id": "juneteenth",
+"m": "1865-06",
+"date": "19. juni 1865",
+"title": "Slaveriet ophører i Texas",
+"text": "Unionsgeneralen Gordon Granger bekendtgør i Galveston, at alle slaver i Texas er frie. Dagen fejres stadig som Juneteenth. Med de sidste overgivelser i juni er krigen forbi. Omkring 620.000 soldater er døde, flere end i nogen anden amerikansk krig, og nyere skøn lyder på op mod 750.000.",
+"lat": 29.3,
+"lon": -94.8,
+"cat": "slaveri"
+}
+]

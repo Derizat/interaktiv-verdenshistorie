@@ -4,7 +4,7 @@ Claude Code reads this file through `CLAUDE.md`; Codex reads it directly. The [R
 
 ## The project
 
-- A Danish world-history atlas for pupils aged 13–16. It has three pages: `index.html` (the world 1814–2025), `rom/` (the Roman state, 509 BC–AD 476) and `ukraine/` (the Russia–Ukraine war by month).
+- A Danish world-history atlas for pupils aged 13–16. It has four pages: `index.html` (the world 1814–2025), `rom/` (the Roman state, 509 BC–AD 476), `borgerkrig/` (the American Civil War by month) and `ukraine/` (the Russia–Ukraine war by month).
 - The pages are static and load D3 v7 from cdnjs. There is no build step and no package manager.
 - GitHub Pages serves `main`, so a push to `main` is live at https://derizat.github.io/interaktiv-verdenshistorie/ within a minute or two.
 - Two people work on the repo in parallel, one with Claude Code and one with Codex. Fetch and check `origin/main` before committing, and never rewrite pushed history.
@@ -40,9 +40,10 @@ Claude Code reads this file through `CLAUDE.md`; Codex reads it directly. The [R
 - Fix large errors in the source maps in `scripts/split.py` with renames, overlays or copies from another snapshot (see the README). Name smaller ones in a `names` note.
 - `split.py` patches the built border files in place and is not idempotent. Rebuild a border file from its source as the README shows, rather than running the script twice.
 
-## Roman and Ukraine pages
+## Roman, Civil War and Ukraine pages
 
 - The Roman territory comes from `scripts/rome_regions.py`; rebuild it with `python3 scripts/rome.py`. Years are integers, negative before Christ, and there is no year 0.
+- The Civil War areas are drawn from the secession months and the zones in `scripts/borgerkrig.py`; rebuild them with `python3 scripts/borgerkrig.py`.
 - For the Ukraine page, see `ukraine/data/README.md`.
 
 ## Read-aloud clips

@@ -29,6 +29,7 @@ Then open http://localhost:8000. Append `#1962` to jump to a year, or `#1962/cub
 | `data/borders_*.json` | Simplified border snapshots (1815, 1880, 1900, 1914, 1920, 1930, 1938, 1945, 1960, 1994, 2000). The 1815 map is used until 1864 (so the US conquests from Mexico in 1848 only show from 1865, but Schleswig and Holstein stay separate until the war of 1864), and the 1900 map takes its Africa from the 1914 map, because the source has no colonial partition of Africa. The 2000 map is used for 2000–2025, so East Timor, Kosovo, South Sudan and Crimea are not shown. |
 | `scripts/` | Python scripts used to build the border files, the read-aloud clips, the Ukraine data and the Roman map data. |
 | `rom/` | A separate page for the Roman state year by year, 509 BC–AD 476: a map of the Mediterranean world where the territory grows and shrinks each year, with the period's own events and campaign arrows. See [The Roman page](#the-roman-page). |
+| `borgerkrig/` | A separate page for the American Civil War, month by month from November 1860 to June 1865: a map of the United States with the area the Confederacy held, the war's own events and campaign arrows. See [The Civil War page](#the-civil-war-page). |
 | `ukraine/` | A separate page for the Russia–Ukraine war, month by month from February 2022: a regional map with Russian-held and contested areas, the war's own events and campaign arrows. See [ukraine/data/README.md](ukraine/data/README.md). |
 
 Country keys in `status.json` and `events.json` must match the `n` property in the border file used for that year (see `snapshots` in `status.json`).
@@ -61,6 +62,18 @@ python3 scripts/rome.py
 ```
 
 The events and arrows in `rom/data/events.json` and `campaigns.json` are written by hand. Years are integers, negative before Christ.
+
+## The Civil War page
+
+`borgerkrig/index.html` is a copy of the Ukraine page for the American Civil War, from Lincoln's election in November 1860 to the last surrenders in June 1865. The map shows today's state borders, the slave states that stayed in the Union, and the area the Confederacy held at the end of each month.
+
+There is no dataset of front lines for this war, so `scripts/borgerkrig.py` draws the areas from the month each state seceded and a list of zones with the months they were held: Union-held parts of the South are cut out of the Confederate area, Confederate-held land outside it is added, and contested zones are hatched. The areas are approximate. After editing the zones, rebuild the data (it uses the Natural Earth files in `.cache/ne/`):
+
+```bash
+python3 scripts/borgerkrig.py
+```
+
+The events, arrows and places in `borgerkrig/data/` are written by hand. Like the Ukraine page, the page reads aloud with the browser's own voice.
 
 ## The Ukraine war page
 
